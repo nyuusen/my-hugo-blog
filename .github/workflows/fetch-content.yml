@@ -3,6 +3,9 @@ name: Fetch Content
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch-and-process:
     runs-on: ubuntu-latest
