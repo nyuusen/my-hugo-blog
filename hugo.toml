@@ -11,3 +11,7 @@ env = "production"
 author = "nyuusen"
 ShowShareButtons = true
 ShowReadingTime = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
