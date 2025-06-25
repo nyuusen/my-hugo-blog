@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.147.8"><script src="/my-hugo-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-hugo-blog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -10,17 +10,17 @@
 
 <meta name="description" content="">
 <meta name="author" content="nyuusen">
-<link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/my-hugo-blog/">
+<link crossorigin="anonymous" href="/my-hugo-blog/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/my-hugo-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/my-hugo-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/my-hugo-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/my-hugo-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/my-hugo-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/my-hugo-blog/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/my-hugo-blog/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,7 +57,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/">
+</noscript><meta property="og:url" content="http://localhost:1313/my-hugo-blog/">
   <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="nyuusen blog">
   <meta property="og:locale" content="en-us">
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "nyuusen blog",
-  "url": "http://localhost:1313/",
+  "url": "http://localhost:1313/my-hugo-blog/",
   "description": "",
-  "logo": "http://localhost:1313/favicon.ico",
+  "logo": "http://localhost:1313/my-hugo-blog/favicon.ico",
   "sameAs": [
       
   ]
@@ -96,7 +96,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
+            <a href="http://localhost:1313/my-hugo-blog/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -141,7 +141,7 @@
     <p>コネクションやコネクションプールについて アプリケーション側で接続先のDB情報とともにコネクションIDを保持し、データベース側ではコネクションIDとそれに対応したプロセスIDを保持する 上記をメモリ上に保持しておくことで、接続情報を使い回すことができる（コネクションプール） 再利用しない場合は、アプリケーション側でコネクションクローズ処理を忘れずに 基本的にはDBサーバー側には最大接続数があるので、アプリケーション側ではそれを超えないようにコネクションプールを実装する必要がある 実装する必要があると言っても、基本的にはライブラリがよしなにやってくれるので、DBインスタンス初期化時に最大接続数の設定をするくらいで良いと思われる Amazon Aurora MySQL のパフォーマンスとスケーリングの管理 - Amazon Aurora アプリケーション側でのコネクション管理の詳細 最大接続数 少なすぎると処理待ちが多くなるし、多すぎるとDB側に負荷がかかる DB側の最大接続数を超えないようにする 例えばRDSだと、インスタンスタイプによって異なるので注意 最大アイドル時間 アクティブでないコネクションをどれくらいの時間維持するか 長すぎると不要なコネクションが増えてリソースが無駄になるし、短すぎるとコネクションの再作成が頻発してオーバーヘッドが増える 最大生存期間 1つのコネクションが使われ続ける最大時間 DBの設定によっては、一定の時間でコネクションが強制的に切られることがあるので、アプリケーション側で事前に適切なタイミングで切ることで予期せぬエラーを防ぐ RDS Proxyというアプローチ コネクションの管理を良い感じにマネージド管理してくれるのがRDS Proxyである 詳細はここに色々まとめている RDS Proxy自身は、VPC内のENIを使って、RDSに接続する Proxyのスケールに応じて、ENIが多く使用される＝IP枯渇問題が発生する可能性がある点に注意 サブネットのCIDR範囲はあらかじめ広めにしておくとかの対策 </p>
   </div>
   <footer class="entry-footer"><span title='2025-03-27 22:12:34 +0900 JST'>March 27, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to コネクション" href="http://localhost:1313/posts/connection/"></a>
+  <a class="entry-link" aria-label="post link to コネクション" href="http://localhost:1313/my-hugo-blog/posts/connection/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -161,7 +161,7 @@
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-03-19 22:10:29 +0900 JST'>March 19, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to CloudFront" href="http://localhost:1313/posts/cloudfront/"></a>
+  <a class="entry-link" aria-label="post link to CloudFront" href="http://localhost:1313/my-hugo-blog/posts/cloudfront/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -180,7 +180,7 @@
 Chapter9 セキュリティ統制 WAF SGでは4層のトランスポート層レベルの脅威から守ることができるが、通信内容(パケット)まではチェックすることはできない 例にすると、監視カメラで宅配業者を通過させることができるが、荷物の中身までは見えない WAFでは、CloudFront, ALB, API Gateway, AppSyncにWeb Access Control List(Web ACL)を関連づけることで動作する Web ACLとは、WAFが通信内容を検査する際に適用するルールのことで、1つのWeb ACLに複数の検査ルールを定義することが可能 1つのAWSリソースに対して、1つのWeb ACLのみ関連づけが可能である Web ACLで定義するルールは、JSON形式のStatementとして、そのStatementに「合致あるいは不一致の場合に検査した通信を許可するのか拒否するのか」をActionとして定義する ルールで定義する条件には、IPアドレス・HTTPヘッダー・HTTP本文・URL文字列・SQLインジェクション・XSSがある 定義可能なルールとして、AWSが提供するマネージドルールとユーザーが独自に作成可能なカスタムルールの2つがある 適用可能なルール数はAWS WAF Web ACL capacity units(WCU)によって制限される WCUは、検査にかかるコストを表現したもので、5000WCUsが上限である サーバー側の暗号化 電子データにおける暗号化には「通信の暗号化」と「データの暗号化」がある 変換方法を「アルゴリズム」、変換ルールを「キー（鍵）」という 例：シーザー暗号（アルファベットを辞書順に3文字ずらして暗号文を作る」 この時の「アルファベットを辞書順にずらす」というのをアルゴリズム、「3文字」がキーとなる 現在普及しているアルゴリズムは仕様が全て公開されている（外部の専門家から弱点を指摘してもらい、より強固なアルゴリズムを構築するため） なので、暗号化においては「キーの取り扱い」がセキュリティを担保する上で重要となる 「アルゴリズム」は公開されているので、「キー」の方を大事に取り扱いましょうという話 AWS KMS KMSは、データ保護に使用される暗号鍵の作成・管理・運用基盤を提供するサービス 保管データの暗号化だけでなく、「キー」自体も暗号化することでセキュリティを高めている 保管データを暗号化する暗号鍵をCustomer Data Key(CDK)、CDKを暗号化するための暗号鍵をCustomer Master Key(CMK) 暗号化時にKMSはCDKを都度生成するので、ユーザー側ではCDKは管理することができない よってユーザーはCMKの作成・管理・運用を行うことになる CMKの運用・管理を「ライフサイクル」と「アクセス」という2つの観点から考える CMKのライフサイクル管理 キーローテーションと削除スケジュールの2つがある 1年に1回、自動でローテーションされる ローテーションの前後で作成されたCMKは世代管理されている 注意点として、削除されたCMKで暗号化されたデータは復号できなくなる そこで登場するのが削除スケジュールであり、削除までの一定の期間を待機状態とさせることができる CMKのアクセス管理 誰がどのような権限で利用できるかをキーポリシーで定義する キーポリシーは「リソースベースポリシー」に該当するため、IAMポリシーよりも優先度が高い Principalには街頭のリソースへのアクセスを許可・拒否するエンティティを指定する 誰が・どのような人がにあたる部分で、AWSアカウント全体、IAMユーザーやロールを指定する、特定のサービス（Lambdaとか）が指定可能 </p>
   </div>
   <footer class="entry-footer"><span title='2025-03-18 21:43:29 +0900 JST'>March 18, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to AWS運用入門" href="http://localhost:1313/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/"></a>
+  <a class="entry-link" aria-label="post link to AWS運用入門" href="http://localhost:1313/my-hugo-blog/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -200,7 +200,7 @@ WAF CloudFront Functions それぞれを比較してみる（Lambda@Edgeも可�
 WAF WebACLのルールグループにヘッダに関するStatementを記述する形で実装する Block時のカスタムレスポンスとして、ヘッダにWWW-Authenticateを返すことも可能 CloudFront Functions https://iret.media/95931 みたいな感じで手軽に実装可能 どっちが良いか？ 手軽さと「CloudFront Functions」だと思う ただし、既にCFのViewer RequestにCFFを割り当てている場合やWAFを既に利用している環境ではWAFの利用もアリなのではと思った 実際、私が業務で対応した際は、IP制限を既にWAFを利用しており、IP制限外からでもBasic認証情報が検証できればリクエストを通したいといった要件だったので、WAFを採用した（したい） </p>
   </div>
   <footer class="entry-footer"><span title='2025-03-16 22:15:01 +0900 JST'>March 16, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to ## AWSで実装する場合" href="http://localhost:1313/posts/basic-auth-on-aws/"></a>
+  <a class="entry-link" aria-label="post link to ## AWSで実装する場合" href="http://localhost:1313/my-hugo-blog/posts/basic-auth-on-aws/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -218,7 +218,7 @@ WAF WebACLのルールグループにヘッダに関するStatementを記述す�
     <p> username:passwordをBase64エンコードしてAuthorizationヘッダにセットする なぜbase64エンコードするのか？ base64は暗号化ではなくデコードが容易 base64エンコードすることでASCII文字で表現できるため(ヘッダはASCII文字で構成される) サーバー側の認証(照合)処理では単純な文字列比較ではなく、タイミング攻撃を考え、以下のような実装にするのが推奨される https://zenn.dev/foxtail88/articles/constant-time-compare WWW-Authenticateで認証チャレンジを定義可能 例えば、WWW-Authenticate: Basic とした場合は、Basic認証情報を入力させるダイアログを表示させて、ユーザーに入力をリクエストすることが可能 https://developer.mozilla.org/ja/docs/Web/HTTP/Reference/Headers/WWW-Authenticate </p>
   </div>
   <footer class="entry-footer"><span title='2025-03-16 22:15:01 +0900 JST'>March 16, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Basic認証" href="http://localhost:1313/posts/basic-auth/"></a>
+  <a class="entry-link" aria-label="post link to Basic認証" href="http://localhost:1313/my-hugo-blog/posts/basic-auth/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -244,7 +244,7 @@ init: 設定ファイル生成 deploy: サービス更新 多分これが一番�
 設定ファイル生成 タスク定義ファイルのimageフィールドの値を{{ must_env IMAGE_TAG }}のような形にする IMAGE_TAG=stable ecspresso deploy --config ecspresso.ymlのように環境変数IMAGE_TAGにイメージタグをセットし、ecspresso deployコマンドを実行する terraformとの共存 terraformで先にECS Service/Taskを作成する lifecycle ignore_changes=allを設定することで、以降は変更検知せずにterraformではスルーさせることができる その後はecspresso設定ファイルを編集することで、タスク定義の変更等を行い、ecspressoでアプリケーションデプロイができるようになる こうすることで、本来あるべきインフラとアプリのライフサイクルに沿った運用が可能になりそう 参考リンク Amazon ECS デプロイツール ecspresso 開発5年の歩み - Speaker Deck ecspresso handbook v2対応版 </p>
   </div>
   <footer class="entry-footer"><span title='2025-03-12 23:29:34 +0900 JST'>March 12, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to ecspresso" href="http://localhost:1313/posts/ecspresso/"></a>
+  <a class="entry-link" aria-label="post link to ecspresso" href="http://localhost:1313/my-hugo-blog/posts/ecspresso/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -263,7 +263,7 @@ init: 設定ファイル生成 deploy: サービス更新 多分これが一番�
 コマンド群 init 実行するディレクトリにおける準備を行う 以下が生成される .terraform/ : providerの実体が置かれる これはコマンドを実行するディレクトリごとに作成されるので、離任したプロジェクトのもの等を放置しているとそれなりに容量を食ってしまう点に注意 .terraform.lock.hcl : providerの同じバージョンを使うためのファイル これはinitの度に作成されるので、CI上でterraform init -&gt; plan -&gt; applyと実行すると、結局バージョン固定されないので、どういう運用が良いかは別途考えたい(そもそもこのファイルの存在意義…) plan 構築するインフラの計画を行う stateファイルとterraformコードを比較し、差分計算する apply 実際にリソースの作成等を行う destroy インフラの削除を行う 正式にはapply -destroyである Tips Standard Module Structure 公式による基本構成に関する説明 https://developer.hashicorp.com/terraform/language/modules/develop/structure 変数定義 Terraformではvariables.tfを用いて変数を定義し、その変数をvar.の形で参照することができる variable &#34;allow_ssh&#34; { type = bool default = false } 値を何もセットしなかった場合はterraform planやapplyコマンド実行時にCLIで聞かれる(対話形式でコマンド実行が進むイメージ) 値をセットする方法としては、Assigning Values to Root Module Variablesに記載されている通りいくつかある (恐らく業務では扱う変数の数は一定あると思うので).tfvarsに変数の値を代入していく形が多くなりそう 毎回、terraform plan --var-file=&#34;ecs/dev/ecs.tfvars&#34;みたいに指定するのはとても面倒なので、各リソースのディレクトリ構成を統一させて、Makeコマンドなりで各リソース名や環境名を引数としてもらい、Makefileの中でterraformコマンドを組み立てるのが良さそう(実際に自分が今担当しているプロジェクトではこの作りになっている) 状態管理(tfstate) これはapplyした後の状態を管理するためのファイル このファイルがあること、一度applyした後にもう一度applyを実行すると前回との差分だけが適用される 複数人で運用する場合は、共有ストレージ(S3等)に管理すべきである そうでないと、人によってインフラの実態とtfstateの中身とで乖離ができてしまい、正しく運用できなくなってしまう このtfstateをどのように管理するかを指定することをbackendという ディレクトリ構成 大きく分けて2つのディレクトリに分けるのが良い 1.リソースの共通情報定義用(ex: modules/) 2.環境毎の情報定義用(ex: env/) 2のmain.tfを以下のようにすることでmodules配下の共通情報を読み取ることができる module &#34;ec2&#34; { source = &#34;../../modules/ec2&#34; allow_ssh = false } .terraform/や.terraform.lock.hclの管理方法 複数人で運用する際に気をつけること stateファイルはS3などの共有ストレージで管理する 厳密に競合を避けたい場合はDynamo DBを利用する </p>
   </div>
   <footer class="entry-footer"><span title='2025-03-09 22:36:07 +0900 JST'>March 9, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Terraform" href="http://localhost:1313/posts/terraform/"></a>
+  <a class="entry-link" aria-label="post link to Terraform" href="http://localhost:1313/my-hugo-blog/posts/terraform/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -282,7 +282,7 @@ init: 設定ファイル生成 deploy: サービス更新 多分これが一番�
 HTTPとRESTどっちを選べば良いか問題 Choose between REST APIs and HTTP APIs - Amazon API Gateway RESTは機能が豊富、HTTPがシンプル(その分低価格) API GatewayのパスやスキーマはOpenAPIで管理が可能 OpenAPI定義ファイルをインポートすることで、API Gatewayのパスやスキーマの管理が可能 API Gateway で OpenAPI を使用して REST API を開発する - Amazon API Gateway リクエストのバリデーションも設定可能 x-amazon-apigateway-request-validator プロパティ - Amazon API Gateway Lambda関数の更新方法 S3バケットにコードを配置する場合、source_code_hashで変更有無と更新が可能 つまり、S3バケットに更新後のコード(zip)を配置した後、terraformを流せば、Lambda関数の更新が行われる アクセス許可について https://techblog.kayac.com/aws-lambda-iam 参考 Amazon API Gateway エンドポイントを使用した Lambda 関数の呼び出し - AWS Lambda </p>
   </div>
   <footer class="entry-footer"><span title='2025-02-28 23:13:29 +0900 JST'>February 28, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to API Gateway &#43; Lambda" href="http://localhost:1313/posts/apigateway-lambda/"></a>
+  <a class="entry-link" aria-label="post link to API Gateway &#43; Lambda" href="http://localhost:1313/my-hugo-blog/posts/apigateway-lambda/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -300,7 +300,7 @@ HTTPとRESTどっちを選べば良いか問題 Choose between REST APIs and HTT
     <p> エバンジェリストの知識と経験を1冊にまとめた AWS開発を《成功》させる技術 | SBクリエイティブ 3章 クラウドならではのアーキテクチャ AutoScalingを使うかどうか リソースを厳密に行わなくて良いというメリットがある一方、以下のようなデメリットがある メトリクスによるスケーリング設定が難しい アプリケーション側が対応していないケースに向いていない（サーバー内にセッションを持っているなど） EDoS攻撃を受けた時に料金が無限にリソースが増えてしまい、多額の請求が発生する 対策として以下を考慮しておくとよい 早い段階でAutoScaling設定を活用するかどうかを決めておく スケールアウトした時の上限値（台数）を設定しておく CDNを利用してサーバー負荷を低減する VPC同士の繋ぎ方 VPCピアリングとTransitGatewayがある VPCピアリング VPCをまたがって通信ができない なので接続する先のVPCが増えれば増えるほど、VPCピアリングが増えていく その時に登場するのがTransitGatewayとなる </p>
   </div>
   <footer class="entry-footer"><span title='2025-02-27 21:38:10 +0900 JST'>February 27, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to AWS開発を成功させる技術" href="http://localhost:1313/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/"></a>
+  <a class="entry-link" aria-label="post link to AWS開発を成功させる技術" href="http://localhost:1313/my-hugo-blog/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -321,7 +321,7 @@ HTTPとRESTどっちを選べば良いか問題 Choose between REST APIs and HTT
 STEP1: S3(オリジンサーバー)からAccess-Control-Allow-Originヘッダを返す バケットにCORS設定を作成する 詳細: CORS 設定の要素 - Amazon Simple Storage Service STEP2: CloudFrontディストリビューションからOrigin等のヘッダをオリジンサーバに転送するように設定する CloudFrontディストリビューションに、以下のヘッダをS3に転送するように設定する Access-Control-Request-Headers Access-Control-Request-Method Origin 上記の設定は、マネージドポリシー「CORS-S3Origin」もしくは「CORS-CustomOrigin」に含まれているので、どちらかを選択すると良い STEP3: CloudFrontディストリビューションのキャッシュ動作を、HTTPリクエストのOPTIONSメソッドを許可する設定にする プリフライトリクエストが使用される場合は、OPTIONSメソッドを明示的に許可する必要がある デフォルトでは、GETとHEADリクエストのみ許可されている STEP4: CloudFrontディストリビューションでレスポンスヘッダーポリシーを設定する CloudFrontディストリビューションのCORSを有効にするレスポンスヘッダーポリシーを追加する 参考 CloudFront からの「アクセス制御-オリジン許可ヘッダなし」エラーを解決する | AWS re:Post </p>
   </div>
   <footer class="entry-footer"><span title='2025-02-19 22:26:30 +0900 JST'>February 19, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to CloudFront &#43; S3構成でCORSを設定する" href="http://localhost:1313/posts/cors-cloudfront-s3/"></a>
+  <a class="entry-link" aria-label="post link to CloudFront &#43; S3構成でCORSを設定する" href="http://localhost:1313/my-hugo-blog/posts/cors-cloudfront-s3/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -341,7 +341,7 @@ STEP1: S3(オリジンサーバー)からAccess-Control-Allow-Originヘッダを
 </p>
   </div>
   <footer class="entry-footer"><span title='2025-02-15 22:03:42 +0900 JST'>February 15, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to GitHubActionsでジョブ実行の条件に指定できるステータスの動作検証" href="http://localhost:1313/posts/condition-status/"></a>
+  <a class="entry-link" aria-label="post link to GitHubActionsでジョブ実行の条件に指定できるステータスの動作検証" href="http://localhost:1313/my-hugo-blog/posts/condition-status/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -370,7 +370,7 @@ Debianは、100％フリーソフトであり続ける宣言をしており、�
 </p>
   </div>
   <footer class="entry-footer"><span title='2025-02-15 21:58:13 +0900 JST'>February 15, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Linuxディストリビューション" href="http://localhost:1313/posts/linux-distribution/"></a>
+  <a class="entry-link" aria-label="post link to Linuxディストリビューション" href="http://localhost:1313/my-hugo-blog/posts/linux-distribution/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -389,7 +389,7 @@ Debianは、100％フリーソフトであり続ける宣言をしており、�
 参考 レイヤーによる Lambda 依存関係の管理 - AWS Lambda </p>
   </div>
   <footer class="entry-footer"><span title='2025-01-20 21:16:52 +0900 JST'>January 20, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Lambdaレイヤー" href="http://localhost:1313/posts/lambda-layer/"></a>
+  <a class="entry-link" aria-label="post link to Lambdaレイヤー" href="http://localhost:1313/my-hugo-blog/posts/lambda-layer/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -408,7 +408,7 @@ Debianは、100％フリーソフトであり続ける宣言をしており、�
 Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設定からVPCを選択し、サブネットを選択する 注意ポイント Lambda関数からインターネット接続したい場合はNATゲートウェイを経由する必要がある これはサブネットがパブリックであっても同じ 公式で記載されている情報を見ると、Lambda関数にはプライベートIPしか割り振られないためだと思われる NATゲートウェイは高いので、代替案を考察している記事 VPC内のLambdaからインターネット接続する方法 - Briswell Tech Blog 結論、VPC Lambda-&gt;VPC外 Lambdaでインターネットにアクセスする(VPCエンドポイント設定が必要)と行けるみたい。面白い。 参考 Lambda 関数に Amazon VPC 内のリソースへのアクセスを許可する - AWS Lambda インターネットアクセス可能な VPC Lambda を作成してみた | DevelopersIO VPC の Lambda 関数へのインターネットアクセスを許可する | AWS re:Post </p>
   </div>
   <footer class="entry-footer"><span title='2025-01-20 21:16:52 +0900 JST'>January 20, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to VPC Lambda" href="http://localhost:1313/posts/vpc-lambda/"></a>
+  <a class="entry-link" aria-label="post link to VPC Lambda" href="http://localhost:1313/my-hugo-blog/posts/vpc-lambda/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -427,7 +427,7 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
 2.クラウドのインフラ設計 クラウドで考えるセキュリティ 万が一の事故や障害が発生したときに「責任分界点」を定義しておくことで、責任の所在を明らかにできる AWSでの「責任共有モデル」では、それぞれの責任について以下のように定義されている AWS: サービスを提供するためのインフラストラクチャ 利用者: 選択したAWSサービスごとの適切なセキュリティを実装し、システムを保護する AWS SecurityHubを使用することで、横断的にセキュリティの問題を検知することができる 3.システムの構成 AWSでシステムを構築する時にまず考えるべきは「アカウントをどの単位で発行するか」 AWSアカウントの運用例 単一のアカウントで運用するケース 注意ポイント VPCをプロジェクトや環境ごとに分離する プロジェクトや環境がわかるようにタグを活用する VPCに関連のないサービスを使用する場合、IAMで権限を設定する 管理する請求先が1つになるメリットはあるが、誤操作等によるミスや事故リスクが上がるので、できればアカウントは分けて運用するのが良い 複数のアカウントで運用するケース アカウントの統制を考慮する AWS ControlTowerで一元管理 Organizationで多数のAWSアカウントを管理 ログインIDの統合を検討する(1つのユーザーアカウントで各AWSアカウントにログインできるようにする) 各環境のIAMロールで行う方法 AWS IAM Identity Center (SSO)を活用する方法 サードパーティIDaaSを活用する方法 (追記) AWS ControlTowerを利用すると、マルチアカウント環境を一元的に整備してくれる 参考: スタートアップにおけるマルチアカウントの考え方と AWS Control Tower のすゝめ | AWS Startup ブログ IAM 認証はIAMユーザー、認可はIAMポリシーで設定する 通常、ポリシーはグループもしくはロールに付与する なぜなら、ユーザーにポリシーをアタッチすると、運用工数がかかる IAMポリシー設計 デフォルトはすべて拒否なので、明示的に許可していく どのリソース(Resource)に対して、どんな条件で(Conditions)、どんな動作(Action)を、許可/拒否する(Effect)かをJSONもしくはGUIで記述(選択)する ポリシーはいくつか種類がある(使用頻度が高いものを抜粋) アイデンティティベースのポリシー アイデンティティ(ユーザー、グループ、ロール)にアタッチする この中にも再利用可能な管理ポリシーとインラインポリシーが存在(管理ポリシー推奨) リソースベースのポリシー S3などのリソースにアタッチする セッションポリシー 一時的にセッション単位でアクセスを許可するポリシー AssumeRoleなどのAPIを利用する ポリシー評価について 以下の順番で評価される 画像引用元: 【入門編】AWSにおけるアクセスポリシーの評価ロジックを整理してみる 明示的な拒否があれば、その拒否設定が適用される 拒否設定の後に、明示的な許可設定があったとしても、拒否設定が優先的に適用される 明示的な許可があれば許可となるが、なかった場合は暗黙的に拒否される 4.ネットワーク設計 オンプレミスとの比較 オンプレミスと比較すると、AWSにおけるネットワーク設計はある程度ざっくりでOK 名前解決 オンプレミス: 内部DNSを立てるか各サーバーのhostsファイルを利用して名前解決を行う AWS: 自動でパブリックのDNS名が割り当てられ、マネージドのDNSで名前解決を行う 時刻同期 オンプレミス: システム内の時刻が同期するように同一のNTPサーバーを割り当てる AWS: AmazonTimeSyncServiceで同期する(インターネット接続不要) マネージドNTP VPCで実行されているすべてのインスタンスの 169.254.169.123 IPアドレスで NTP を介して利用できる 最新バージョンのAmazonLinux2とAmazonLinuxAMIはデフォルトでAmazonTimeSyncServiceと同期してくれている LambdaやECS on Fargate等のマネージドサービスではAWS側で時刻同期されているはずとのこと AWSマネージドサービスの時刻同期はAWS側で行われているのか | AWS re:Post VPCとサブネット VPCはリージョンごとのサービスなので、リージョンを跨ぐことはできない サブネットではいくつかのIPアドレスがAWSの予約枠として確保されている ネットワークアドレス (最初のIPアドレス) 例: 10.0.0.0/24サブネットの場合、10.0.0.0がこのアドレスです。 役割: ネットワーク自体を表すためのアドレスであり、ルーティングやネットワーク構成で使用されます。 VPCルーター (2番目のIPアドレス) 例: 10.0.0.1がこのアドレスとなります（サブネットによって異なる場合もあり）。 役割: サブネット内での通信を管理する仮想ルーターです。インスタンス間の通信やインターネットゲートウェイ、VPN接続の経路制御など、サブネット内のルーティングに使用されます。 DNSサーバー (3番目のIPアドレス) 例: 10.0.0.2です。 役割: AWSが提供するDNSリゾルバーのIPアドレスです。VPC内のインスタンスがDNSクエリを行う際に使用します。独自のカスタムDNS設定を行わない限り、このアドレスがデフォルトでDNSリゾルバーとして機能します。 将来の用途のために予約されたアドレス (4番目のIPアドレス) 役割: 現時点で特定の用途が明確には指定されていませんが、AWSが今後の機能拡張や内部用途のために予約しています。 ブロードキャストアドレス (最後のIPアドレス) 例: 10.0.0.255/24サブネットの場合、10.0.0.255がこのアドレスです。 役割: ブロードキャスト通信のために予約されていますが、AWSのVPCではブロードキャスト通信はサポートされていないため、実際に使用することはありません。 セキュリティグループ・ネットワークACL・AWS Network Firewall AWS Network Firewallは有料なのであまり使われない セキュリティグループ(SG)→ネットワークACLと、フィルタの範囲を狭めて、シンプルな構成・運用にする SGは、同一SGに所属しているノード同士の通信でも明示的に許可する必要がある ルートテーブル ルートテーブルは複数のサブネットで共有可能 サブネット作成時にルートテーブルも作成され、追加の設定なくVPC内の通信は可能 デフォルトで、VPC内の全てのサブネットに向けたローカルルートが設定されているため ということは、同じVPC内のサブネットに存在するリソース間で通信を拒否したい場合は、セキュリティグループで設定する必要がある VPCエンドポイント 異なるVPCやリージョンに配置されたAWSサービスへインターネットを経由せずに接続するサービス ゲートウェイエンドポイント ルートテーブルでAWSサービスへのルートを指定 費用かからない インターフェイスエンドポイント VPCのプライベートIPアドレスを使用してアクセスする ENIとしてVPC内に配置され、それがサービスに接続するためのエンドポイントとして動作する 処理するデータ量に応じて課金される 例えばS3は、どちらでも接続可能だが、インターフェイスエンドポイントの方がセキュリティグループでトラフィックを制御できるため、セキュアである VPC内のリソースがエンドポイントに対して、どのように通信できるかを詳細に制御ができるため、という意味(IPやプロトコル等の制限が可能) VPCフローログ VPC内のネットワークインターフェースに流れる情報をキャプチャし、ログに記録する 監査に必要なログを出力したり、通信がうまく通らない場合はトラブルシューティングとして出力したり フローログは以下の3つの項目を指定する フローログを取得するリソース(VPC/サブネット/ENIをもつELBやNATGateway等) どんなトラフィックをキャプチャするか(許可、拒否、全て) フローログの出力先(CloudWatch Logs/S3) AWSにセキュアに接続する AWS Client VPN サイト間VPN Direct Connect 5.コンピューティング Lambda イベント駆動型のアプリケーションで使いやすい コールドスタートにかかる時間を短くする方法 VPC内にアクセスしない(ENI作成に10〜30秒かかるため) VPC Lambdaと呼ばれてるやつ Lambdaをパブリックサブネットに配置するとENIが作成されアタッチされる そのENIに対し、パブリックIPを付与(アドレス関連付け)してやれば、Lambdaからアウトバウンドの通信ができるらしい メモリ増やす(メモリ量に比例してCPUも増加する) コード量を短くする 関数の初期化や依存解決の速度の向上が見込まれるため Lambdaのセキュリティ IAMを最小限にする 特定の条件下で特定のリソースに対して実行できるアクションのみ定義する 基本的には複数のLambda関数でIAMロールで共有しない Lambdaの監視 Lambda関数をデプロイすると自動でCloudWatch Logsと連携する＋レイテンシやエラー率などのメトリクスも自動で発行する エラーを検知できるようにアラートを設定しておくと良い 特にDuration(所要時間)やThrottles(同時実行上限を超えて制限した数)は、エラーが発生する前に適切検知できるようにしておく EC2 インスタンスタイプの書式 Amazon EC2 インスタンスタイプの命名規則 - Amazon EC2 オプション コンピューティング最適化: CPU大きめ メモリ最適化: メモリ大きめ AMI インスタンス起動するのに必要なOSやボリューム・アプリケーションを含むテンプレート OSのライセンス費用はEC2の利用料金に含まれている(オンプレと異なる点であり、メリットである) インスタンスの費用削減 リザーブドインスタンス 時間単位の費用を削減できる 1年や3年の長期使用を約束する インスタンスクラスの変更しない場合、または負荷増加の際にオンデマンドインスタンスやスポットインスタンスで対応できる場合に検討する 実際の使用有無に関わらず、購入した条件に応じた期間の費用が発生する SavingsPlans これも1年や3年の長期使用を約束する リザーブドインスタンスとの違いは、LambdaやFargateでも使用可能である点、インスタンスファミリーやプラットフォームなどを指定しなくて良い 逆にRDSやElasiCacheでは使用できないので注意 3種類がある インスタンスタイプや構成を柔軟に変更する予定がある場合は、SavingsPlansを検討する スポットインスタンス AWSクラウド内の使用されていないEC2キャパシティを活用し、中断される可能性がある なので、本番環境で常時起動するサーバーではなく、ECS実行環境やCICDのビルド環境、バッチに適用する 本番環境で適用する場合は、AutoScalingグループでオンデマンドインスタンスとスポットインスタンスの割合を指定する等して、中断が影響しないようにする 中断の2分前にAWSから警告が来るので、アプリケーションの安全な停止や、ログの退避などは自動で対応できるように実装する インスタンスメタデータで中断対象か確認できる インスタンスメタデータを取得できるAPIがあるっぽい そこを定期的に叩くことで確認 T系インスタンスの注意点 汎用のT系はM系よりも安価でありよく選定されるが、バーストパフォーマンスインスタンスであることは十分に理解が必要 バーストパフォーマンスインスタンスとは ベースラインと呼ばれるCPU使用率がある そのベースラインに対して、下回る間はクレジットを獲得し、超える間は消費する 1CPUクレジット=1vCPU×100%使用率×1分 つまり、1vCPUを50%使用率で2分使用すると、1クレジット消費するということ 24時間の間で、獲得したクレジットよりも消費するクレジットが多い場合に、その分のvCPU費用が発生する T系インスタンスの各タイプで、1時間あたりに受け取るクレジットや蓄積可能なクレジット、ベースライン使用率は決められている CPUクレジットの消費タイプには以下の2種類がある Standard: 残高が0になると、ベースライン使用率以下でのみ使用可能となる Unlimited: Standardのような制約はない代わりに、CPUクレジットが0になった後は、vCPU時間ごとに均一追加料金が発生する（他のインスタンスタイプの利用料金を超える可能性がある） 重要なのは、CPU使用率を監視すること CloudWatchメトリクスで参照可能 バーストインスタンスの CPU クレジットをモニタリングする - Amazon Elastic Compute Cloud 参考: バーストパフォーマンス(T系)インスタンスの特徴を理解して上手に利用しよう | AWS Startup ブログ コンテナ 仮想化とコンテナの違い ゲストOSの有無が大きな違い 仮想化はホストOSを介して、ハードウェアを制御するため、オーバーヘッドが大きい コンテナは、アプリケーションの動作環境を隔離していて、カーネルはホストOSに依存するため、仮想化のように複数の異なるOSを稼働させることはできないが、逆に言えばOSがない分起動が早く、使用するリソースも少なくて済む コンテナとEC2の違い EC2上でコンテナを実行するのと、ECSやEKSなどのオーケストレーションツールを使用するのとでどのような違いがあるのかという問いと同義 EC2上で動かした場合、デプロイする時は、EC2アプリケーションを更新→AMIを取得→AutoScaling対象のAMIを変更するという、とても面倒な手作業が発生する 逆にロールバックの作業も面倒.. 加えて、OS更新等の手作業も発生する 一方、ECSの場合は、コンテナやOSの障害や更新をAWS側が管理してくれる CI/CDパイプラインを構築すれば、アプリケーション変更から適用まで迅速に行える コンテナがプロセス落ちを管理し、再度デプロイしてくれる(Serviceがやっていることかな？) コンテナを構成するサービスの特徴 複数の環境を有するシステム 再現性が高い特徴を活かせる 更新頻度が高いシステム アクセス増減の発生が高いシステム もはやこのご時世的にはあえてEC2を選択するケースはないのではと思う コンテナサービスを作るときに気をつけること 障害発生することを前提とする プロセスが落ちても、すぐに起動できるように ECS Serviceを使えという話だと思う 環境差異は変数化する ログ出力を1本化する コンテナは実行環境であるホストOS上でプロセスとして動作し、他のプロセスから隔離されている コンテナ内部でアプリケーションログを吐いても、プロセス停止した際などにログが残らなくなってしまう ホストOSか別の領域に出力するように設定する ちょっと調べた感じ、タスク定義でログドライバにawslogsを設定し、ロググループなども設定すれば、1つのロググループに出力されるようになるっぽい 1コンテナ1プロセスとする 1つのコンテナに複数のプロセスを稼働させることも可能だが、制御が難しいため Amazon ECS ECSの構成要素 クラスター：実行環境 タスク定義：指定のコンテナを動かす サービス：全体の構成やデプロイ方法を設定 タスク定義 主な設定項目 Dockerイメージ コンテナのCPUとメモリ データボリューム IAMロール コンピューティング環境(EC2 or Fargate) サービス 主な設定項目 連携するELBを指定 指定したタスク定義のタスク数 デプロイ方法(Blue/Green,ローリングアップデート) 実行環境(EC2,Fargate)で待ち受けるポートや、コンテナ側で待ち受けるポートも指定する サービスはなくても動くけど、AutoScalingの実装等に必要 クラスター 主な設定項目 コンテナ実行環境のネットワークを指定 起動するインスタンスタイプやAMI、その数を指定 Fargateの場合は、ネットワーク作成とクラスター名のみを設定する タスク定義の更新 コンテナイメージにつけるタグ名はlatestにするとタスク定義の修正が不要になる一方、コンテナイメージのバージョンがわからないのがで名rっと デプロイ方法「ローリングアップデート」と「Blue/Greenデプロイメント」がある ローリングアップデートの例 DesiredCountを4に、minimumHealthyPercentを0.5に設定した場合、4 * 0.5の2インスタンスが更新されたタスク定義を元に作成される Blue/Greenデプロイメントの例 タスク定義を更新すると、新たにGreen環境が作成あれ、疎通に問題がなければ、LBのレイヤーで切り替えを行う（だからLBが必須） データボリューム ログや共通のデータはコンテナ外に領域を確保する ECSで選択可能なデータボリュームは以下になる EFS FSx for Windows File Sever Dockerボリューム EC2のみ利用可能 バインドマウント ホスト上のファイルやディレクトリをコンテナからマウントする Fargate タスクエフェメラルストレージ エフェメラルストレージ=一時的なストレージ プロビジョニング時にECSタスクが受け取るもの これらをマウントし、タスク定義内でvolumes、mountPointsおよびvolumesFromパラメータを使用しているコンテナ間で共有することが可能 Amazon ECS タスクのストレージオプション - Amazon Elastic Container Service 6.データベース データベースの選択 どんな用途なのかと移行か新規なのか、複数の観点からの検討が必要 RDS EC2同様に仮想サーバー上で実行される EC2でもDBの構築は可能だが、RDSと異なり自動スケーリングや高可用性、OS・DBソフトウェアのパッチ適用などはユーザーが設計・実装・運用する必要がある 逆に、その辺りを自前で管理したい・RDSでサポートされていないパラメータをチューニングしたい・開発環境などで費用削減をしたいという場合はEC2でのDB構築が選択肢になる リクエストのI/Oサイズやアクセスパターンにより、パフォーマンスが大きく変わる シーケンシャルなアクセスでは、最大I/Oサイズに達するまで、単一のI/O操作に含められる ランダムなアクセスでは、最大I/Oサイズに達しない小さいサイズでも、IOPSに個別カウントする つまりランダムアクセスの場合はIOPSの消費が多いので、それを考慮してインスタンスクラスなどを決めようという話 パフォーマンスは、DBで最も重要な非機能要件になるので、机上確認だけでなく、実際に検証したり、CloudWatchメトリクスで確認したりして、ストレージタイプを選ぶと良い マルチAZ構成 サポートされている機能は、リージョンやデータベースエンジンによって異なる マルチAZデプロイすると、Read/WriteできるプライマリDBインスタンスとフェイルオーバー先となるスタンバイレプリカ(読み取り書き込みはできない)が別AZへデプロイされる スタンバイレプリカは通常時は動作せず、プライマリに障害が発生した時にレプリカが昇格する フェイルオーバーは60〜120秒 マルチAZ DBクラスタ 1つの読み取り/書き込みインスタンスと、2つ以上の読み取り専用スタンバイDBインスタンスで構成 読み取り/書き込みインスタンスに障害が発生したら、読み取り専用スタンバイDBインスタンスが昇格 書き込み専用DBインスタンス接続するクラスタエンドポイントと、読み取り専用に接続するリーダーエンドポイントがある エンドポイントは、クラスタ内の対象インスタンスに接続できない場合に自動的に接続先を変更する フェイルオーバーは35秒未満 RDS Proxy RDSでは、アプリケーションからの接続を処理する際にメモリやCPUを消費する 頻繁に短時間でDB接続を繰り返すアプリケーションでは、DBの処理負荷を下げるためRDS Proxyを導入すると良い RDSの最大接続数はパラメータグループのmax_connectionsで定義されており、手動変更は推奨されていない そのため、同時接続数が上限に達しそうな場合は、上位のインスタンスクラスorRDS Proxyを検討する RDS Proxyの特徴 フルマネージドサービス アプリケーションとRDSの間に設置 VPC内の異なるAZにある2サブネットを選択して作成 RDS Proxyを間に配置することによる遅延は5ミリ秒程度 RDSのインスタンスレベルを上げずに済むので、コストや運用工数を抑えられる RDS Proxyを採用するメリット フェイルオーバーにかかる時間を短縮できる 数秒レベルでフェイルオーバーが完了する RDS Proxyがない場合は、スタンバイの昇格とクラスタエンドポイントの更新後にアプリケーションが再接続するのに比べて、RDS Proxyがある場合はアプリケーションからの接続をプールし、RDS ProxyからRDSへの接続は処理中であったものを除いて保持・再利用するため この箇所ちょっと引っかかったので調べてみた。 RDS Proxyの使用有無で、RDS側のフェイルオーバーにかかる時間は変わらないと思う ただし、アプリケーションの視点で見た時に、RDS Proxyへのコネクションを再確立する必要がない RDS ProxyーRDS間のコネクションの再確立のみで不要 なので、アプリケーション側からすると、再接続するオーバーヘッドがかからないので、フェイルオーバーにかかる時間を短縮できると表現されていると思われる(RDS側のDNS更新も待つ必要もない) RDS Proxyを利用する際の注意点 IPアドレスの枯渇 IPアドレスを消費するのは、RDS Proxy-RDSの接続 RDS Proxy-RDSは、同じVPC内で通信するため、プライベートIPアドレスを使用する RDS Proxyは、接続先RDSのインスタンスクラスと台数に応じて自動的に容量を増減し、場合によっては多くのIPアドレスを利用する IPアドレスが枯渇するとうまくスケールができず、クエリ遅延やコネクション失敗が発生することがある インスタンスクラスごとに確保すべき最小IPアドレス数が定められている 回避する方法としては、サブネットのIPアドレス範囲を広くすることが推奨される セッション固定（ピン止め）による影響 特定のトランザクションやセッションが接続プール内の特定のバックエンド(DB)接続に固定される状態を指す この状態になってしまうと、通常共有可能な接続が他のリクエストに再利用されなくなり、DBへの同時接続数が増え続け、最終的にはDB接続が行えなくなる可能性がある CloudWatchメトリクスの「DatabaseConnectionsCurrentlySessionPinned」を監視すると良い ピン留め発生が想定されるケース ステートフルなリクエスト ユーザーセッションに依存する処理が行われる場合、同じバックエンド接続を使用し続ける必要があります。 例: 一時テーブルやユーザー固有の設定を使用したクエリ。 特定のSQL機能の使用 以下のような機能を使用すると、接続が固定されることがあります： セッション変数: SET SESSION を使用してカスタム設定を適用。 一時テーブル: セッション固有のデータを保持。 ユーザー定義関数（UDF）: セッションスコープで動作する関数。 ロック操作: セッションスコープのロック（例: GET_LOCK()）。 トランザクション管理 トランザクション内で複数のクエリが実行される場合、トランザクションの一貫性を保つため、同じ接続を使い続ける必要があります。 逆に、接続と破棄を繰り返すLambda関数等の使用であれば、この問題は発生しないも？ 目を通した導入事例とか 【AWS】RDSのインスタンスタイプを上げたらRDS ProxyのENIがDBサブネットのIPを食い尽くした話 - BFT名古屋 TECH BLOG Amazon RDS Proxy が BASE にもたらした期待以上の導入メリット - BASEプロダクトチームブログ Aurora Auroraを利用すると、簡単にレプリケーションやクラスタの設定が可能 Auroraの構成 1つ以上のインスタンスと1つのクラスタボリューム インスタンスには読み取り/書き込みを行うプライマリと読み取りのみをサポートするレプリカ RDSでAurora以外のエンジンを使用している場合との比較 インスタンスとストレージが分離している点が大きく異なる AuroraはRDSにまたがる分散ストレージにより、バックアップや復旧がRDSより高速 RDSより割高なイメージがあるが、構成と運用次第でRDSよりも費用を抑えられる Auroraのバージョン MySQLやPostgreSQLのコミュニティバージョンに対応した独自のAuroraバージョン major.minor.patchの構成 マイナーとパッチは自動アップグレードも可能 アップグレードにはDBの停止を伴うことを想定する コミュニティサポート期限が切れると現行以降のメジャーバージョンに自動アップグレードされてしまうので注意 レプリケーションとフェイルオーバー レプリケーション プライマリインスタンスに書き込みが発生すると、通常100ミリ秒以下の遅延でレプリカ側でも書き込まれたデータを参照可能になる レプリカは最大15台をクラスタに組み込めるので、読み込み負荷の高いアプリケーションはAuroraを検討すると良い 複数リージョンにまたがるグローバルデータベースでも、レプリケーションが1秒以内 レプリケーション先にDBインスタンスは不要(クラスタボリュームがあるため) DR対策としてもAuroraは優位性がある フェイルオーバー プライマリに障害が発生すると、レプリカが昇格する フェイルオーバーの開始から終了までは通常30秒以内 なおシングルインスタンス構成の場合は、障害が発生したAZにDBインスタンスを作成しようとする スケーリング 最大128TiBまで容量を自動拡張する 拡張時にパフォーマンス影響なし 手動でインスタンスクラスを変更すると、容量だけでなくCPUやメモリもスペックアップ可能だが、サービス停止が発生するので注意 無停止でインスタンスクラスが自動スケールするAuroraServerlessもある AuroraServerless ユーザーが事前に設定した範囲で自動スケールアップ DynamoDB フルマネージド型のNoSQLデータベース DynamoDBの特徴 高信頼性 リージョン内3AZに同期されるので、高い可用性と耐障害性 高スループット テーブルごとのRead/Writeそれぞれにスループットキャパシティを柔軟に割り当てられる サーバーレス VPCの設計が不要 事前に設定するキャパシティに基づいて自動スケーリングできる 容量無制限 データのパーティショニングも自動で行われる 整合性モデル DynamoDBはデフォルトで「結果整合性のある読み込み」を行う DynamoDBでは少なくとも2AZで書き込み完了後、およそ1秒以内にAck(確認応答)を返す 書き込み後1秒の間にアクセスした際のデータ不整合を許容できる場合はデフォルトのままで良い 「強力な整合性のある読み込み」をするには、DynamoDBへのリクエスト時に「ConsistentReadパラメータ」を付与する(追加でコストがかかる点に注意) トランザクション読み込み/書き込みAPIもある モード 実際に使用した分にかかる「オンデマンドキャパシティ」と事前に予測可能な場合に有用な「プロビジョンドキャパシティ」がある 単位や請求内容が異なるので注意 インスタンスを用いるRDSよりは、多くの場合で費用を削減できる DynamoDBの設計 以下のプライマリキーが必要 パーティションキー(必須) テーブルのアイテムはパーティションという領域に配置される このパーティションキーの値を元に配置先のパーティションが決定される ソートキー パーティションキーが同一であるアイテムに対し、並び順を保証するために使用される この辺り理解甘いから公式ドキュメントを読み込みたい DynamoDB を使用した設計とアーキテクチャの設計に関するベストプラクティス - Amazon DynamoDB 7.ストレージ 大量のデータを保存したい場合：S3 Lambdaや複数のLinux系EC2インスタンスからデータを利用したい場合：EFS EBS オンプレミスサーバに例えると、搭載する物理ディスクにあたる 費用は、プロビジョニングされた容量に対して発生するので、インスタンスが停止していても課金されるので注意 S3 オブジェクトストレージ インターネットからアクセスを受け付けるS3には適切なセキュリティ対策が必要 セキュリティ データ保護 2023年1月より、S3に追加される全てのオブジェクトにはSSE-S3での暗号化が自動適用されるようになった 監査や鍵の一元管理が不要であれば、追加費用かからず管理の手間もないSSE-S3を利用すると良い アクセスポリシーの全体像 リソースベースのポリシーとユーザーベースのポリシーを利用して、リソースへのアクセスを管理できる リソースベースのポリシー バケットポリシー バケットアクセスコントロールリスト(ACL) オブジェクトACL バケットアクセスコントロールリスト(ACL)とオブジェクトACLは、使用する必要がないケースが多い バケットポリシーとユーザーポリシーで同じ対象に異なるアクセス制限(拒否と許可など)がされている場合は、より厳しい制限が適用されるので注意 8.アプリーション統合 Amazon API Gateway 2種類のAPIが用意されており、RestfulAPIとチャットなどのリアルタイム双方向通信を行うステートフルなWebSocketAPIがある RestfulAPIには、WAF統合やクライアントごとのスロットリングなどの多機能なREST APIと、機能を絞り費用を抑えたHTTP APIが存在する 以下を参考に、要件に対して必要な機能を検討してどちらかを選ぶようにする REST API と HTTP API のどちらかを選択する - Amazon API Gateway マッピングテンプレートを使用すると、リクエストやレスポンスの整形が可能 トークンバケットアルゴリズムを使用したスロットリング 公式が出しているベストプラクティスもある Amazon API Gateway のセキュリティのベストプラクティス - Amazon API Gateway 書かれているのは、最小権限やアクセスログの記録・アラート設定、CloudTrailの有効化など EventBridge EventBridgeの特徴 EventBridgeは、様々なAWS内やSaaSアプリケーションのイベントを受信・処理し、ターゲットであるAWSサービスへ渡すイベント駆動型のマネージドサービス スケジュールをトリガーとしたルール実行も可能 イベントバスの種類 イベントバスと呼ばれるパイプラインでイベントを受信する アクセス制御 デフォルトのイベントバスは、操作しているAWSアカウントからのイベントを許可する 各サービスのアクセス制御は、ターゲット側のポリシーで許可するorEventBridgeのルールのIAMロールでポリシーを設定する EventBridgeのルールと入力トランスフォーマー ターゲットは5つまで指定できる 並列実行が可能 DatadogやNewRelic等のサードパーティツールにも統合可能 入力トランスフォーマーでターゲットに渡す情報を編集できる SNSやSQSとの使い分け 同じイベント駆動型アプリケーションであるSNSやSQSとの使い分けについて SNSやSQSを使用するケースは以下の通り 低レイテンシが求められる 多数のエンドポイントが必要 対人メッセージングに利用(SNSを使うべし) 順序保証が必要 SNS プッシュ方式 プロデューサー == ブローカー == コンシューマーという構成でブローカーからコンシューマーへジョブがプッシュされる SQS プル方式 コンシューマー側が能動的にブローカー(キュー)からメッセージを取得する P2P方式 プロデューサーとコンシューマが1：1で連携する方式 EventBridge スケジュール実行・SaaSサービスとの連携・メッセージの加工はEventBridgeにしかない機能 要件に合わせて使い分けることが大切 9.可用性 疎結合化の文脈で、システムのつなぎ目に拡張性・耐障害性に優れた機能を配置すると良い 例えば、ロードバランサやDNS・メッセージキュー つなぎ目にはできるだけ非同期処理を行うコンポーネントを配置する EventBridge,SQS,Kinesisシリーズ群,Step Functions SQS(スタンダードキュー)は、1秒間にほぼ無限にAPIコールを受け付けられるため、可用性は問題にならない 疎結合には、スケールアウトした時に他のコンポーネントへの影響が少ないことや障害発生時の切り分けもしやすいことがメリットになる SLA AWSはSLAを満たせなかった場合、サービスクレジットとして還元される キャッシュバックではなく、今後請求される支払いに対して利用できるもの 契約者は、いくつかの情報を揃えてAWSに提出する必要がある(自動で適用されるものではない点に注意) 10.セキュリティ クラウド事業者の選定 ISMAPのクラウドサービスリスト: https://www.ismap.go.jp/csm?id=cloud_service_list Amazon Inspector CIS Benchmarksに沿って、EC2やECRのOSやミドルウェア設定を確認・可視化できる ベストプラクティスに準拠していない場合はレポート出力される リスク検出を支援するAWSサービス 無料で手軽に：TrustedAdvisor, IAM Access Analyzer ルールをカスタマイズもできる：AWS Config それほど料金かからない：SecurityHub 11.ジョブ管理 バッチ処理を行うシステムをジョブ管理システムという AWSのジョブ実行に関連するサービスはいくつかある 15分以内ならLambdaで実装するのが良い ECS Scheduled TaskやBatchと比較して安価 ECS Scheduled Taskは、EventBridgeでのトリガを元にECSを実行するというもの Batch 長時間、高負荷な処理はBatchでの実装を検討すると良い 逆に短時間で終わるものや即時実行が必要なジョブには向いていない Batchはコンテナ環境を使って処理を行うので、注意すべきポイントがいくつかある Batchの特徴 コンポーネント BatchのジョブはECSやEKSのコンテナ上で実行される スポットインスタンスの活用 コストを安くできる反面、発生しうる中断に対してのケアが必要 冪等性を考慮したジョブ設計にし、リトライできるようにする ジョブを短時間で終わるように設計する 定期的に結果をS3やEFSに出力するチェックポイント方式にする ジョブの再試行回数を設定する 実際の設計例では、 優先度の高いジョブはオンデマンドに処理させて、そうではないジョブはスポットインスタンスにするとか スポットインスタンスで失敗したジョブをSNSに通知→Lambdaを経由して、オンデマンド用キュー→オンデマンドインスタンスでジョブを再実行とか方法がある Step Functions AWSサービスやAPIを組み合わせ、ワークフローを視覚的に作成・実行できるサービス ワークフロータイプ StandardとExpressがある 実行頻度の高い処理を短時間で処理させる場合はExpressを選択する 料金 Lambdaよりは割高 状態遷移の回数で課金される EventBridgeーLambdaの構成であれば無料利用枠内に収まるなんてこともあるので、見積もりを慎重に行う StepFunctionsはデバッグがしやすい ステートごとに入出力やイベントが見やすかったり ステートごとにログが時系列でわかりやすく並んでいたりする 12.バックアップ オンプレでもクラウドでもバックアップの重要性は変わらない AWSのバックアップ EC2 Amazon Data Lifecycle Managerで定期的にスナップショットを取得 RDS 自動バックアップの有効化、手動バックアップの実行 S3 バージョニング有効、ライフサイクル管理 AWS Backup フルマネージドなバックアップサービス 最低料金や初期費用が発生しない バックアップの自動化や保存期間が過ぎたデータなどバックアップに関する一元管理が可能 対象は、AWSリソースのみ 概要 バックアッププランを作成し、ルールで指定したスケジュールでバックアップを行う バックアッププランで、AWSリソースを指定する 想定外にかかる費用 簡単に設定できてしまう反面、想定より費用がかかるケースがある バックアップを一定期間運用した後は、定期的に適切な範囲に収まっているかを確認した方が良い 13.監視 RDS スロークエリなどを出力したい場合は、パラメータグループのlog_outputをFILEにする VPC VPC内のトラフィック情報をCloudWatch Logsに出力するには、VPCフローログが必要 </p>
   </div>
   <footer class="entry-footer"><span title='2025-01-15 21:58:49 +0900 JST'>January 15, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to AWS設計スキルアップガイド" href="http://localhost:1313/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/"></a>
+  <a class="entry-link" aria-label="post link to AWS設計スキルアップガイド" href="http://localhost:1313/my-hugo-blog/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -446,7 +446,7 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-01-09 10:38:46 +0900 JST'>January 9, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to ElasticCache 入門" href="http://localhost:1313/posts/elasticache/"></a>
+  <a class="entry-link" aria-label="post link to ElasticCache 入門" href="http://localhost:1313/my-hugo-blog/posts/elasticache/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -464,7 +464,7 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
     <p>4.VPC 基本 VPC内には1つ以上のサブネットを構成する サブネットはプライベート/パブリックがある AZごとにサブネットを構成すると、可用性が向上する VPC(AZ1(PublicSubnet&amp;PrivateSubnet)AZ2(PublicSubnet&amp;PrivateSubnet))みたいな構成 VPCは、AZを跨げるが、リージョンはまたげない ある1リージョンの中で論理的な仮想ネットワーク IPv4 CIDRの設計方法 サブネットを一度作成すると、サブネットが利用するCIDRブロックは変更不可 CIDR設計する際に、以下の2点をまずは考える必要がある 作成するサブネット数 サブネット内に作成するリソース数 これらはトレードオフの関係にあり、サブネットの数を増やすと、サブネット内のリソース数は減る 例えば、10.0.0.0/16というCIDRブロックを持つVPCを仮定する /16なので、第3・4オクテッド(16ビット分)がホスト部になる 16ビットの中で、サブネットとリソースを割り当てることになる サブネット8ビット(256)とした場合は、リソースも8ビット(256-5=251)となる ※リソース数は理論的な最大値から5つを引いた数になる 書籍では/20で設定しており、/20だと4091個のリソースを作成できるので十分 実務でもこのくらいで割り当てるのが良いのかなと思った 追記: いくつか記事を読むとVPCには/16、サブネットには/24を割り当てるケースが多そう まとめると、まずVPCのCIDRブロックを決定した後に、その範囲の中でサブネットのCIDRブロックを決定する インターネットゲートウェイ VPCで作成されたネットワークとインターネット間を通信を可能にするためのもの VPCに存在する(サブネットではない) IGW作成した後にVPCにアタッチする必要がある NATゲートウェイ 前提として、 IGWはVPCとインターネットが通信可能にするためのもの インターネットとの通信にはパブリックIPを持っている必要がある 「パブリックIPを持つ＝インターネットに公開されている」であるため、プライベートサブネットで外部通信をどのように実現するかという話になる 上記を解決するものとして、NATゲートウェイがある NATゲートウェイは、パブリックサブネットに配置し、プライベートサブネット内のリソースを外部に通信できるようにする プライベートサブネットにあるリソース→NATゲートウェイ→インターネットゲートウェイという順で外部に通信を行う この通信制御は、ルートテーブルで行う NATの仕組み アパートを例にすると、アパートの中では部屋番号のみで特定できるが、アパートの外と郵便物をやり取りする場合は、住所＋部屋番号が必要になる これをNATの仕組みに割り当てると、NATゲートウェイにパブリックIPを割り当て(住所)、内部ではプライベートIP(部屋番号)で判別する仕組み この時の送信元IPは、パブリックIP＋プライベートIPになるのか？どのように特定するのか？ 外部から見た時の送信元IPは、パブリックIPになる 内部的には、プライベートIP＋ポート番号とパブリックIP＋ポート番号のペアを一時的に保存し、特定している NATゲートウェイの構築 NATゲートウェイを配置するサブネットを設定する ここはインターネットと通信する場合はパブリックなサブネットを指定する必要がある むしろプライベートなサブネットを指定することってあるの？と思った(調べてもそのような使い方は見つからず…) ElasticIP割り当てIDを指定する(自動生成) これが外部と通信するときに、外部から見えるIPアドレスになるのだと思われる 補足: ElasticIP AWSでは、リソースにIPアドレスを直接持たせることができない(そうなんだ…) パブリックIPを管理するElasticIPをリソースに割り当てることで、リソースに間接的にパブリックIPを割り当てることができている ルートテーブル サブネット同士やサブネットと各ゲートウェイの間の通信経路を定義するためにルートテーブルが必要になる これがないとサブネット内からサブネット外に通信を行うことができない 具体的には「ネットワークトラフィックがどの宛先に対してどの経路を通るかを決定するための設定」を定義する もっと具体的には「トラフィックが、インターネットや他のVPC、プライベートネットワーク内のリソースにどのように到達するか」を定義する ルートテーブルはサブネットごとに存在する 一般的な設定例 例1: パブリックサブネット用のルートテーブル 送信先: 0.0.0.0/0 -&gt; ターゲット: インターネットゲートウェイ (igw-xxxxxxx) 意味: インターネット通信 例2: プライベートサブネット用のルートテーブル 送信先: 0.0.0.0/0 -&gt; ターゲット: NATゲートウェイ (nat-xxxxxxx) 例3: 同一VPC内のリソース 送信先: 10.0.0.0/16 -&gt; ターゲット: Local 送信先: どこに接続するかをIPアドレス(特定のIPでもCIDR形式でも可) ターゲット: どこを経由するか 指定できる値は決まっている(ローカル/IGW/NAT GW/VPN GW/VPCピアリング/VPCエンドポイント) 余談: 0.0.0.0/0とは？ すべてのIPv4アドレスの範囲をCIDR表記 インターネット上の全てのアドレスが対象となる ルートテーブルには大抵複数のルートが定義され、どれにも当てはまらかったルートは0.0.0.0/0として扱われるのだと思われる 余談: ルートテーブルに複数ルートが定義されている時の優先順位は？ 宛先CIDR範囲の具体性に基づいて決まる より具体性の高い(範囲が狭い＝詳細な)ルートが適用される セキュリティグループ 外部からのアクセス制限を設けるために使用する 外部からのアクセスを以下2つの要素で制御ができる ポート番号 IPアドレス セキュリティグループの作成 セキュリティグループ作成時にVPCを指定する必要がある VPCを跨いで同じセキュリティグループを使用することは不可 この理由を推察すると以下のような理由が考えられる(私の持論) セキュリティグループはVPC内リソースに対する通信を制御するため、VPC内の他のリソースを指定する。 つまり、他のVPCのリソースを参照したり、プライベートIPの重複考慮したりすると、VPCを跨いで同じセキュリティグループを設定することは事実不可である(多分) 余談: ネットワークACLとの違い 設定範囲が異なる セキュリティグループ: リソース ネットワークACL: サブネット 2段構えで設定することにより、設定漏れを防ぐことができる 一方で、アクセス制御を2箇所で管理することになるので運用コストが増える 筆者は、セキュリティグループのみ設定しているらしい 7.ロードバランサー LBでTLS復号を行うことでWebサーバーの負荷を軽減できる クライアントからLBはHTTPS通信・LBとWebサーバー間はHTTP通信 LBで80(HTTP)or443(HTTPS)ポートを公開するが、内側のWebサーバーは必ずしも同ポートに設定を合わせる必要はない これをやるメリットとしてはWebサーバーのセキュリティ向上が挙げられる 具体的にはLinuxOSでは0~1023番ポートで待ち受けするためには、強力な権限(root権限)を持ったユーザーでプログラムを動作させる必要がある そのプログラムが悪意あるユーザーに乗っ取られてしまった場合、強力な権限が悪意あるユーザーに渡ってしまう どの番号が使用されるかは慣習により、Java言語をベースとしたものは8080、Ruby言語をベースとしたものは3000(Node.jsも3000が多い)が使われることが多い 8.RDS RDSは以下の4つで構成される データベースエンジン DB本体 パラメータグループ DBエンジン固有の設定 使用する言語やDBのチューニングの設定 データベースエンジンそのものの基本動作やパフォーマンスを制御するための設定 オプショングループ RDS固有の設定 AWSによるDB監視設定とか データベースエンジンにプラグインや追加機能を付加するための設定 サブネットグループ DBサーバーを複数のAZに分散させて配置する時に使用する データベースサーバー構築 以下の流れで作成する パラメータグループ作成 オプショングループ作成 サブネットグループ作成 データベース作成 1.パラメータグループ作成 パラメータグループファミリー: mysql8.0等 タイプ: 通常のRDS用かクラスタリングRDS用か 2. オプショングループ作成 エンジン: mysql メジャーエンジンバージョン: 8.0 3. サブネットグループ作成 RDSを作成する時はサブネットグループを指定し、どのサブネットに作成されるかはAWSに任せることになる 理由: RDSはマネージドサービスとして、耐障害性や自動フェイルオーバーなどを考慮して配置を決定するため(AWS側で最適な配置が自動的に行われる仕組みになっている) 4. データベース作成 エンジンのタイプ マスターユーザー名やパスワード DBインスタンスクラス 上で設定した各グループ識別子を指定する 9.S3 S3は、OS・スケーリング・監視の部分を運用側が意識せずにデータ管理のみに集中できる S3にアクセスするリソースに対しては、それを許可するIAMロールを割り当てる必要がある 10.Route53 ホストゾーンを作成する時に「プライベート」を選択することができる プライベートDNSで登録するドメインは、パブリックも含めてユニークにする必要がある 理由: 名前解決する時に意図しないリソースへのアクセスが行われてしまう可能性があるため RDSには固定されたIPアドレスが参照できなくなっている代わりに、エンドポイントが用意されている そのエンドポイントを値に持つCNAMEレコードを登録することで、ドメインの名前解決ができるようになる 11.メールサーバー メールが届く仕組み 送信者が自分が所属する組織のメールサーバーに送信を依頼する 受信者側のメールサーバーにメールが届く 受信者が自身のメールサーバーのメールを閲覧する 補足 送信にはSMTPプロトコルが使用され、受信にはPOP3・IMAP4が使用される 補足: HTTPでメール送れるようにすれば良いのでは？なぜSMTP？ SMTPにはメール通信に必要不可欠な以下の機能(特長)を有している リトライ機能(HTTPのリトライはクライアント依存) 多段階転送 クライアント→メールサーバー→受信サーバー(HTTPはクライアント→サーバー) メールの特殊なデータ構造 ファイル添付や複雑なヘッダー情報 設計思想的に、HTTPは即時性みたいなものが重視され、SMTPは信頼性が重視されている SES(Amazon Simple Email Service) メールの送受信を行う機能を提供するマネージドサービス 通常のメールサーバーとは異なり、人ではなくアプリからメールを送受信を行うのに都合が良い機能が用意されている 送信 システム(ex:no-reply@example.com)からメールを送る場合、そのユーザーをIAMユーザーとして登録し、IAMユーザーを使って、メール送信ができる 受信 POP3やIMAP4は使用しない(通常のメール受信と大きく異なる) 代わりにメールを受信した時にアクションと呼ばれる処理が実行される S3に保存する、SNSトピックに公開する、Lambda関数を実行する等 SNSアクションに登録しておくと、管理者のメールや携帯にプッシュ通知を送ることができる つまり、ユーザーからのメールを管理者が手動で対応する運用が行えないということになる 代わりに用意されているアクションの機能を考慮すると、CRMシステムとの連携を想定している その辺りを考慮して、SESを使うのか他のメールサーバーを使うのかを考える必要がある 12.キャッシュサーバー RedisとMemcachedというOSS(ミドルウェア)がある これをEC2で作成したLinuxサーバーにインストールしてサーバーとして動作させることが可能 ただこれは運用やコスト面で課題がある Redis/Memcachedと互換性のあるElastiCacheというマネージドサービスがある ElastiCache 基本的にはあるキーに対してキャッシュされたデータを返す、キーバリュー型の仕組みを提供する ElastiCacheは以下の階層構造を持つ ノード: 最小単位。実際のデータが保存される。 シャード: ノードを束ねるグループ。1つのプライマリノードと複数のレプリカノードで構成される。 プライマリノードに障害が発生したら、レプリカノードで処理継続できるので、耐障害性が上がる クラスター: シャードを束ねるグループ。複数のシャードで構成される。 マルチAZ構成にできる。フェイルオーバーで耐障害性アップ。 redis-cliで、クラスターのエンドポイント向けに動作確認を行うことができる </p>
   </div>
   <footer class="entry-footer"><span title='2025-01-08 23:43:51 +0900 JST'>January 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to AWSで始めるインフラ構築入門" href="http://localhost:1313/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/"></a>
+  <a class="entry-link" aria-label="post link to AWSで始めるインフラ構築入門" href="http://localhost:1313/my-hugo-blog/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -484,7 +484,7 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-12-26 16:14:54 +0900 JST'>December 26, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to RDSのAuroraをアップデートする" href="http://localhost:1313/posts/update-aurora/"></a>
+  <a class="entry-link" aria-label="post link to RDSのAuroraをアップデートする" href="http://localhost:1313/my-hugo-blog/posts/update-aurora/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -504,7 +504,7 @@ Chapter2 Webシステムの基本、HTTP／HTTPSプロトコルを理解する H
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-12-12 15:07:51 +0900 JST'>December 12, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to 作りながら学ぶWebシステムの教科書" href="http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/"></a>
+  <a class="entry-link" aria-label="post link to 作りながら学ぶWebシステムの教科書" href="http://localhost:1313/my-hugo-blog/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -528,21 +528,21 @@ AWS公式が運用・公開しているGitHubActionsワークフローには、�
 IDプロバイダとしてGitHubを登録する(OpenID Connect) GitHubActionsが引き受けるIAMロール(それに紐付けるIAMポリシーも) 信頼関係の条件には、&#34;token.actions.githubusercontent.com:sub&#34;: &#34;repo:octo-org/octo-repo:ref:refs/heads/octo-branch&#34;のように指定することで、GitHubActionsからの引き受けを制限できる 参考 アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs aws-actions/configure-aws-credentials OpenID Connect を使ったセキュリティ強化について - GitHub Docs OpenID Connectについて詳しく書かれている。 </p>
   </div>
   <footer class="entry-footer"><span title='2024-12-06 21:56:17 +0900 JST'>December 6, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to GitHubActions上におけるAWSの認証認可" href="http://localhost:1313/posts/authenticate-aws/"></a>
+  <a class="entry-link" aria-label="post link to GitHubActions上におけるAWSの認証認可" href="http://localhost:1313/my-hugo-blog/posts/authenticate-aws/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/page/2/">
+    <a class="prev" href="http://localhost:1313/my-hugo-blog/page/2/">
       «&nbsp;Prev&nbsp;
     </a>
-    <a class="next" href="http://localhost:1313/page/4/">Next&nbsp;&nbsp;»
+    <a class="next" href="http://localhost:1313/my-hugo-blog/page/4/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/my-hugo-blog/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

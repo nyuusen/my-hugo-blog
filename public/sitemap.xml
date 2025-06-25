@@ -2,293 +2,293 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/cloudfront-cache/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/cloudfront-cache/</loc>
     <lastmod>2025-06-25T09:47:54+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/</loc>
     <lastmod>2025-06-25T09:47:54+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/</loc>
     <lastmod>2025-06-25T09:47:54+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/</loc>
     <lastmod>2025-06-25T09:47:54+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ecs-logging/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/ecs-logging/</loc>
     <lastmod>2025-06-24T21:29:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/basic/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/basic/</loc>
     <lastmod>2025-06-23T23:26:25+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/what-is-nodejs/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/what-is-nodejs/</loc>
     <lastmod>2025-06-23T23:26:25+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/backend/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/backend/</loc>
     <lastmod>2025-06-23T23:26:25+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/module-system/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/module-system/</loc>
     <lastmod>2025-06-23T23:26:25+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/docker/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/docker/</loc>
     <lastmod>2025-06-18T11:40:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/</loc>
     <lastmod>2025-06-18T11:40:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/terraform-docs/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/terraform-docs/</loc>
     <lastmod>2025-06-15T23:49:25+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sqs/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/sqs/</loc>
     <lastmod>2025-06-14T15:07:36+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/transfer-family-for-sftp/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/transfer-family-for-sftp/</loc>
     <lastmod>2025-06-09T23:48:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/</loc>
     <lastmod>2025-06-06T19:15:39+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hydration/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/hydration/</loc>
     <lastmod>2025-06-04T09:46:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/waf/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/waf/</loc>
     <lastmod>2025-06-02T21:48:36+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/</loc>
     <lastmod>2025-05-30T22:29:38+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/</loc>
     <lastmod>2025-05-27T21:25:40+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/</loc>
     <lastmod>2025-05-22T22:02:47+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/</loc>
     <lastmod>2025-05-19T23:08:39+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/</loc>
     <lastmod>2025-05-08T23:37:16+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/matome/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/matome/</loc>
     <lastmod>2025-05-03T11:24:57+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/font/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/font/</loc>
     <lastmod>2025-04-30T07:20:59+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/csrf/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/csrf/</loc>
     <lastmod>2025-04-28T23:15:14+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/xss/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/xss/</loc>
     <lastmod>2025-04-28T23:15:14+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/private-link/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/private-link/</loc>
     <lastmod>2025-04-26T23:26:39+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/css-in-react/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/css-in-react/</loc>
     <lastmod>2025-04-21T06:49:42+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cors/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/cors/</loc>
     <lastmod>2025-04-20T15:23:16+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/</loc>
     <lastmod>2025-04-17T23:10:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bash-pipefail-option/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/bash-pipefail-option/</loc>
     <lastmod>2025-04-14T22:56:57+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/go-mod-vendor/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/go-mod-vendor/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/version-switching-with-homebrew/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/version-switching-with-homebrew/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/interface-vs-any/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/interface-vs-any/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/uintptr-type/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/uintptr-type/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/web-server/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/web-server/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fix-write-broken-pipe-error/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/fix-write-broken-pipe-error/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/golden-test/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/golden-test/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/pure-go-web-app/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/pure-go-web-app/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/pointer-gabage-collection/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/pointer-gabage-collection/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/how-to-update-deps/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/how-to-update-deps/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/impl-interface-to-function/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/impl-interface-to-function/</loc>
     <lastmod>2025-04-02T23:32:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/connection/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/connection/</loc>
     <lastmod>2025-03-27T22:12:34+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cloudfront/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/cloudfront/</loc>
     <lastmod>2025-03-19T22:10:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/</loc>
     <lastmod>2025-03-18T21:43:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/basic-auth-on-aws/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/basic-auth-on-aws/</loc>
     <lastmod>2025-03-16T22:15:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/basic-auth/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/basic-auth/</loc>
     <lastmod>2025-03-16T22:15:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ecspresso/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/ecspresso/</loc>
     <lastmod>2025-03-12T23:29:34+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/terraform/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/terraform/</loc>
     <lastmod>2025-03-09T22:36:07+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/apigateway-lambda/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/apigateway-lambda/</loc>
     <lastmod>2025-02-28T23:13:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/</loc>
     <lastmod>2025-02-27T21:38:10+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cors-cloudfront-s3/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/cors-cloudfront-s3/</loc>
     <lastmod>2025-02-19T22:26:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/condition-status/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/condition-status/</loc>
     <lastmod>2025-02-15T22:03:42+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/linux-distribution/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/linux-distribution/</loc>
     <lastmod>2025-02-15T21:58:13+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lambda-layer/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/lambda-layer/</loc>
     <lastmod>2025-01-20T21:16:52+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vpc-lambda/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/vpc-lambda/</loc>
     <lastmod>2025-01-20T21:16:52+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/</loc>
     <lastmod>2025-01-15T21:58:49+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/elasticache/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/elasticache/</loc>
     <lastmod>2025-01-09T10:38:46+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/</loc>
     <lastmod>2025-01-08T23:43:51+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/update-aurora/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/update-aurora/</loc>
     <lastmod>2024-12-26T16:14:54+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/</loc>
     <lastmod>2024-12-12T15:07:51+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/authenticate-aws/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/authenticate-aws/</loc>
     <lastmod>2024-12-06T21:56:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vpc-peering/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/vpc-peering/</loc>
     <lastmod>2024-12-04T19:30:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/prefix-list/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/prefix-list/</loc>
     <lastmod>2024-12-02T11:36:10+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kms/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/kms/</loc>
     <lastmod>2024-11-29T21:55:12+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/acm/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/acm/</loc>
     <lastmod>2024-11-27T22:55:34+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ecs-migrate-to-lambda/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/ecs-migrate-to-lambda/</loc>
     <lastmod>2024-11-06T18:18:40+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/dependabot/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/dependabot/</loc>
     <lastmod>2024-10-30T23:36:19+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cost-reduction/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/cost-reduction/</loc>
     <lastmod>2024-10-28T22:57:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vpc-ipv4-cidr-block/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/vpc-ipv4-cidr-block/</loc>
     <lastmod>2024-10-28T22:57:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/dns/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/dns/</loc>
     <lastmod>2024-10-24T22:57:11+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/https/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/https/</loc>
     <lastmod>2024-10-23T23:12:52+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu-dash-to-bash/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/ubuntu-dash-to-bash/</loc>
     <lastmod>2024-10-07T22:09:49+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/transfer-log-to-s3/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/transfer-log-to-s3/</loc>
     <lastmod>2024-10-04T22:32:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lsp/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/lsp/</loc>
     <lastmod>2024-10-04T22:32:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/newrelic/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/newrelic/</loc>
     <lastmod>2024-10-04T22:32:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/uuid-ulid/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/uuid-ulid/</loc>
     <lastmod>2024-10-04T22:32:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/system-replace/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/system-replace/</loc>
     <lastmod>2024-10-04T22:32:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/redirect/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/redirect/</loc>
     <lastmod>2024-10-04T22:32:31+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/environments/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/environments/</loc>
     <lastmod>2024-08-16T10:56:56+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/makefile/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/makefile/</loc>
     <lastmod>2024-08-16T09:13:56+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/observerbility/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/observerbility/</loc>
     <lastmod>2024-08-14T09:00:11+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/20240704/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/20240704/</loc>
     <lastmod>2024-08-09T22:37:12+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fundamental-engineer/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/fundamental-engineer/</loc>
     <lastmod>2024-07-31T09:55:28+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/publish-open-api-document/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/publish-open-api-document/</loc>
     <lastmod>2024-06-16T00:07:56+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/build-and-deploy-cloud-run/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/build-and-deploy-cloud-run/</loc>
     <lastmod>2024-06-16T00:00:08+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/memo/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/memo/</loc>
     <lastmod>2024-06-16T00:00:08+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/oidc/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/oidc/</loc>
     <lastmod>2024-06-16T00:00:08+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/understand-branch-and-head/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/understand-branch-and-head/</loc>
     <lastmod>2024-06-16T00:00:08+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/encrypt/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/encrypt/</loc>
     <lastmod>2024-06-16T00:00:08+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/commands/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/commands/</loc>
     <lastmod>2024-06-14T17:08:46+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/event-driven/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/event-driven/</loc>
     <lastmod>2024-06-11T21:18:58+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sourcemap/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/sourcemap/</loc>
     <lastmod>2024-06-11T17:28:05+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/saml/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/saml/</loc>
     <lastmod>2024-05-31T21:54:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mysql/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/posts/mysql/</loc>
     <lastmod>2024-05-22T20:52:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/my-hugo-blog/tags/</loc>
   </url>
 </urlset>

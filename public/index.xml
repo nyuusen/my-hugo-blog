@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>nyuusen blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/my-hugo-blog/</link>
     <description>Recent content on nyuusen blog</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jun 2025 09:47:54 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my-hugo-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CloudFrontのキャッシュについて</title>
-      <link>http://localhost:1313/posts/cloudfront-cache/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/cloudfront-cache/</link>
       <pubDate>Wed, 25 Jun 2025 09:47:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/cloudfront-cache/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/cloudfront-cache/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;新規システム構築時にキャッシュ戦略を考えたのでまとめる&lt;/p&gt;
 &lt;h2 id=&#34;キャッシュする場所&#34;&gt;キャッシュする場所&lt;/h2&gt;
@@ -123,9 +123,9 @@
     </item>
     <item>
       <title>ネットワークはなぜつながるのか</title>
-      <link>http://localhost:1313/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/</link>
       <pubDate>Wed, 25 Jun 2025 09:47:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/</guid>
       <description>&lt;h1 id=&#34;1章-webブラウザがメッセージを作る&#34;&gt;1章 Webブラウザがメッセージを作る&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;ファイルとディレクトリの違い
@@ -483,9 +483,9 @@
     </item>
     <item>
       <title>ECSのロギング設定</title>
-      <link>http://localhost:1313/posts/ecs-logging/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/ecs-logging/</link>
       <pubDate>Tue, 24 Jun 2025 21:29:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/ecs-logging/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/ecs-logging/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;タスク定義でログドライバを設定可能&lt;/li&gt;
 &lt;li&gt;シンプルにCloudWatchLogsに吐かせるならそれを設定するだけで良いが、例えば特定の監視ツールにも転送したいとかなると、FluentBitのようなログルータ的なものが必要になる
@@ -529,9 +529,9 @@
     </item>
     <item>
       <title>JavaScriptとTypeScriptとその周辺理解</title>
-      <link>http://localhost:1313/posts/basic/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/basic/</link>
       <pubDate>Mon, 23 Jun 2025 23:26:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/basic/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/basic/</guid>
       <description>&lt;h2 id=&#34;javascriptとは&#34;&gt;JavaScriptとは？&lt;/h2&gt;
 &lt;p&gt;JavaScriptは、ウェブブラウザ上で動作するプログラミング言語であり、主に以下の特徴がある。&lt;/p&gt;
 &lt;ul&gt;
@@ -581,9 +581,9 @@
     </item>
     <item>
       <title>Node.js</title>
-      <link>http://localhost:1313/posts/what-is-nodejs/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/what-is-nodejs/</link>
       <pubDate>Mon, 23 Jun 2025 23:26:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/what-is-nodejs/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/what-is-nodejs/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;Node.jsでサーバーサイドの開発って結局微妙なのでは？複雑性増すよね？というようなトピックでXが盛り上がっていた。&lt;/p&gt;
 &lt;p&gt;雰囲気でしか掴めていなかったので、改めてNode.jsとは何者なのか？他と比較した時の優位性は何なのか？をちょっと調べてみた。&lt;/p&gt;
@@ -668,9 +668,9 @@
     </item>
     <item>
       <title>TS(JS)でのサーバーサイド開発</title>
-      <link>http://localhost:1313/posts/backend/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/backend/</link>
       <pubDate>Mon, 23 Jun 2025 23:26:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/backend/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/backend/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;XでTSのバックエンド開発が向いてないよねという話題が盛り上がってたので、少し深掘りしてみる。&lt;/p&gt;
 &lt;h2 id=&#34;向いてないと思われている理由&#34;&gt;向いてないと思われている理由&lt;/h2&gt;
@@ -717,9 +717,9 @@
     </item>
     <item>
       <title>モジュールシステム</title>
-      <link>http://localhost:1313/posts/module-system/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/module-system/</link>
       <pubDate>Mon, 23 Jun 2025 23:26:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/module-system/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/module-system/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;ES ModulesとCommonJSの2種類がある&lt;/li&gt;
 &lt;li&gt;Node.jsではデフォルトがCommonJSであり、Next.jsではデフォルトがES Modulesとなっている&lt;/li&gt;
@@ -763,9 +763,9 @@
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/posts/docker/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/docker/</link>
       <pubDate>Wed, 18 Jun 2025 11:40:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/docker/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/docker/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;なんとなく触っているDockerを以下を題材にきちんと学ぶ。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://y-ohgi.com/introduction-docker/&#34;&gt;入門 Docker&lt;/a&gt;&lt;/p&gt;
@@ -1239,9 +1239,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>試して理解 Linuxのしくみ</title>
-      <link>http://localhost:1313/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/</link>
       <pubDate>Wed, 18 Jun 2025 11:40:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/</guid>
       <description>&lt;h1 id=&#34;第1章-linuxの概要&#34;&gt;第1章 Linuxの概要&lt;/h1&gt;
 &lt;h2 id=&#34;プログラムとプロセス&#34;&gt;プログラムとプロセス&lt;/h2&gt;
 &lt;ul&gt;
@@ -1362,9 +1362,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>Terraformの公式ドキュメントを読み漁る</title>
-      <link>http://localhost:1313/posts/terraform-docs/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/terraform-docs/</link>
       <pubDate>Sun, 15 Jun 2025 23:49:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/terraform-docs/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/terraform-docs/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.hashicorp.com/terraform&#34;&gt;https://developer.hashicorp.com/terraform&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1375,9 +1375,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>SQS設計</title>
-      <link>http://localhost:1313/posts/sqs/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/sqs/</link>
       <pubDate>Sat, 14 Jun 2025 15:07:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/sqs/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/sqs/</guid>
       <description>&lt;h2 id=&#34;sqsの構成要素&#34;&gt;SQSの構成要素&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;パブリッシャー &amp;mdash; SQS &amp;mdash; コンシューマー(ワーカー)&lt;/li&gt;
@@ -1474,9 +1474,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>AWS Transfer Family For SFTP</title>
-      <link>http://localhost:1313/posts/transfer-family-for-sftp/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/transfer-family-for-sftp/</link>
       <pubDate>Mon, 09 Jun 2025 23:48:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/transfer-family-for-sftp/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/transfer-family-for-sftp/</guid>
       <description>&lt;h2 id=&#34;やりたいこと&#34;&gt;やりたいこと&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;バッチ処理で出力したファイルをS3に置く&lt;/li&gt;
@@ -1518,9 +1518,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>ゼロからはじめるLinuxサーバー構築・運用ガイド</title>
-      <link>http://localhost:1313/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/</link>
       <pubDate>Fri, 06 Jun 2025 19:15:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/</guid>
       <description>&lt;h2 id=&#34;1章-linuxって何&#34;&gt;1章 Linuxって何？&lt;/h2&gt;
 &lt;h3 id=&#34;1-linuxとはどのようなosか&#34;&gt;1. LinuxとはどのようなOSか&lt;/h3&gt;
 &lt;ul&gt;
@@ -1788,9 +1788,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>ハイドレーション</title>
-      <link>http://localhost:1313/posts/hydration/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/hydration/</link>
       <pubDate>Wed, 04 Jun 2025 09:46:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/hydration/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/hydration/</guid>
       <description>&lt;p&gt;ハイドレーションの必要性がわからなかったので調べた。&lt;/p&gt;
 &lt;h2 id=&#34;ハイドレーションとは&#34;&gt;ハイドレーションとは？&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -1837,9 +1837,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>WAF</title>
-      <link>http://localhost:1313/posts/waf/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/waf/</link>
       <pubDate>Mon, 02 Jun 2025 21:48:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/waf/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/waf/</guid>
       <description>&lt;h2 id=&#34;構成要素&#34;&gt;構成要素&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;WebACL&lt;/li&gt;
@@ -1894,9 +1894,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>AWSコンテナ設計構築本格入門</title>
-      <link>http://localhost:1313/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/</link>
       <pubDate>Fri, 30 May 2025 22:29:38 +0900</pubDate>
-      <guid>http://localhost:1313/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.nri-net.com/books/2fxup8utd3sl/&#34;&gt;AWSコンテナ設計構築本格入門&lt;/a&gt;
 &lt;a href=&#34;https://speakerdeck.com/horsewin/imanarakouzuo-ritai-awskontena-ben-ge-ru-men-hanzuon-2024nian-ban-hanzuonnogou-xiang&#34;&gt;いまならこう作りたい AWSコンテナ[本格]入門ハンズオン　〜2024年版 ハンズオンの構想〜 - Speaker Deck&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;chapter01-コンテナの概要&#34;&gt;Chapter01 コンテナの概要&lt;/h1&gt;
@@ -2465,9 +2465,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>GitHub CICD実践ガイド</title>
-      <link>http://localhost:1313/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/</link>
       <pubDate>Tue, 27 May 2025 21:25:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/</guid>
       <description>&lt;h2 id=&#34;1章-ソフトウェア開発とgithub&#34;&gt;1章 ソフトウェア開発とGitHub&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;継続的インテグレーションとは？
@@ -3802,9 +3802,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>AWSクラウドネイティブデザインパターン</title>
-      <link>http://localhost:1313/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/</link>
       <pubDate>Thu, 22 May 2025 22:02:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://direct.gihyo.jp/view/item/000000003465&#34;&gt;AWSクラウドネイティブデザインパターン&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;ul&gt;
@@ -3951,9 +3951,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>改訂新版プロになるためのWeb技術入門</title>
-      <link>http://localhost:1313/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/</link>
       <pubDate>Mon, 19 May 2025 23:08:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/</guid>
       <description>&lt;h2 id=&#34;参考にしたもの&#34;&gt;参考にしたもの&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/live/5WZDiKol8k4?si=snrgHWB_KgGl3jTe&#34;&gt;https://www.youtube.com/live/5WZDiKol8k4?si=snrgHWB_KgGl3jTe&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;3章-wwwの基本要素とその発展&#34;&gt;3章 WWWの基本要素とその発展&lt;/h2&gt;
@@ -4108,9 +4108,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>システム設計の面接試験</title>
-      <link>http://localhost:1313/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/</link>
       <pubDate>Thu, 08 May 2025 23:37:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/</guid>
       <description>&lt;h2 id=&#34;1章-ユーザー数ゼロから数百万人へのスケールアップ&#34;&gt;1章 ユーザー数ゼロから数百万人へのスケールアップ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;NoSQLを選択するケース
@@ -4147,9 +4147,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>認証認可まとめ</title>
-      <link>http://localhost:1313/posts/matome/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/matome/</link>
       <pubDate>Sat, 03 May 2025 11:24:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/matome/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/matome/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;認証認可についての知識が散らかりがちなので調べたことをメモ（随時更新）&lt;/p&gt;
 &lt;p&gt;MDNに良い感じにまとめてあった。
@@ -4290,9 +4290,9 @@ ENTRYPOINT はDocker起動時のコマンドを強制します。
     </item>
     <item>
       <title>フォント</title>
-      <link>http://localhost:1313/posts/font/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/font/</link>
       <pubDate>Wed, 30 Apr 2025 07:20:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/font/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/font/</guid>
       <description>&lt;p&gt;FEの開発で特定の端末でのみ、英語の文字が太字にならないという問題が発生した。&lt;br&gt;
 この問題に対処した上でフォント周りを調べたので雑にメモを残しておく。&lt;/p&gt;
 &lt;h2 id=&#34;フォントとは反映されるまでの流れ&#34;&gt;フォントとは？＋反映されるまでの流れ&lt;/h2&gt;
@@ -4347,9 +4347,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>CSRF(Cross Site Request Forgery)</title>
-      <link>http://localhost:1313/posts/csrf/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/csrf/</link>
       <pubDate>Mon, 28 Apr 2025 23:15:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/csrf/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/csrf/</guid>
       <description>&lt;h2 id=&#34;csrfとは&#34;&gt;CSRFとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;認証済みユーザーが勝手にリクエストを送られる&lt;/li&gt;
@@ -4374,9 +4374,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>XSS(Cross-Site Scripting)</title>
-      <link>http://localhost:1313/posts/xss/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/xss/</link>
       <pubDate>Mon, 28 Apr 2025 23:15:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/xss/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/xss/</guid>
       <description>&lt;h2 id=&#34;xssとは&#34;&gt;XSSとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;悪意あるスクリプト（JavaScriptなど）をユーザーのブラウザ上で実行させる攻撃&lt;/li&gt;
@@ -4419,9 +4419,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>PrivateLinkを理解する</title>
-      <link>http://localhost:1313/posts/private-link/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/private-link/</link>
       <pubDate>Sat, 26 Apr 2025 23:26:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/private-link/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/private-link/</guid>
       <description>&lt;h2 id=&#34;privatelinkとは&#34;&gt;PrivateLinkとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;サービスがVPC内にあるかのようにVPCをそれらのサービスにプライベートに接続できるようにするサービス
@@ -4505,9 +4505,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>ReactにおけるCSS</title>
-      <link>http://localhost:1313/posts/css-in-react/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/css-in-react/</link>
       <pubDate>Mon, 21 Apr 2025 06:49:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/css-in-react/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/css-in-react/</guid>
       <description>&lt;p&gt;勉強会でCSS周りの話を聞いたので調べてみる。&lt;/p&gt;
 &lt;h2 id=&#34;どのような種類があるか&#34;&gt;どのような種類があるか&lt;/h2&gt;
 &lt;h3 id=&#34;css&#34;&gt;CSS&lt;/h3&gt;
@@ -4557,9 +4557,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>CORS</title>
-      <link>http://localhost:1313/posts/cors/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/cors/</link>
       <pubDate>Sun, 20 Apr 2025 15:23:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/cors/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/cors/</guid>
       <description>&lt;p&gt;SOPというブラウザのセキュリティ制約を理解した上で、CORSをちゃんと理解する。&lt;/p&gt;
 &lt;h2 id=&#34;same-origin-policysop&#34;&gt;Same Origin Policy(SOP)&lt;/h2&gt;
 &lt;ul&gt;
@@ -4650,9 +4650,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>DNSがよくわかる教科書</title>
-      <link>http://localhost:1313/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/</link>
       <pubDate>Thu, 17 Apr 2025 23:10:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;委任によって管理を任された範囲をゾーンと呼ぶ&lt;/li&gt;
 &lt;li&gt;ゾーンの管理者はネームサーバで以下の2種類を情報を管理する
@@ -4705,9 +4705,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>Bashのpipefailオプションについて</title>
-      <link>http://localhost:1313/posts/bash-pipefail-option/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/bash-pipefail-option/</link>
       <pubDate>Mon, 14 Apr 2025 22:56:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/bash-pipefail-option/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/bash-pipefail-option/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;GHAでGitHubHostedRunner上でUbuntuを動かす場合、デフォルトのシェルはbashとなる。
 ただ厄介なことにshellキーの有無で、bash起動オプションが異なるという挙動があり、その点を深掘ってみる。&lt;/p&gt;
@@ -4756,9 +4756,9 @@ sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(�
     </item>
     <item>
       <title>go mod vendor</title>
-      <link>http://localhost:1313/posts/go-mod-vendor/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/go-mod-vendor/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/go-mod-vendor/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/go-mod-vendor/</guid>
       <description>&lt;h2 id=&#34;go-mod-vendorとは&#34;&gt;go mod vendorとは？&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;go mod vendor&lt;/code&gt;とは、Goのモジュールシステムにおけるコマンドの1つである。  　&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;go mod vendor&lt;/code&gt;を実行すると、ビルドとテストに必要な全ての依存パッケージのコピーをvendorディレクトリに格納する。&lt;/p&gt;
@@ -4789,9 +4789,9 @@ vendorディレクトリからパッケージをロードしてビルドやテ�
     </item>
     <item>
       <title>HomebrewでGoバージョンを切り替える</title>
-      <link>http://localhost:1313/posts/version-switching-with-homebrew/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/version-switching-with-homebrew/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/version-switching-with-homebrew/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/version-switching-with-homebrew/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今まではgoenvとかを使ってローカルのGoバージョンを管理していたが、PC切り替えたタイミングでシンプルにHomebrewで管理してみることにした。&lt;br&gt;
 Homebrewだと&lt;code&gt;brew update&lt;/code&gt;で新しいバージョンが入るので良いが、バージョン切り替えに手こずったのでその方法を残しておく。&lt;/p&gt;
@@ -4820,9 +4820,9 @@ Homebrewだと&lt;code&gt;brew update&lt;/code&gt;で新しいバージョンが
     </item>
     <item>
       <title>interface{} vs any</title>
-      <link>http://localhost:1313/posts/interface-vs-any/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/interface-vs-any/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/interface-vs-any/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/interface-vs-any/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;空のインターフェイスを表現するものとして、interface{}とanyがある&lt;!-- raw HTML omitted --&gt;
 両者の違いとどちらを使うべきかを調べた際のメモ&lt;/p&gt;
@@ -4843,9 +4843,9 @@ Homebrewだと&lt;code&gt;brew update&lt;/code&gt;で新しいバージョンが
     </item>
     <item>
       <title>uintptr型</title>
-      <link>http://localhost:1313/posts/uintptr-type/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/uintptr-type/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/uintptr-type/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/uintptr-type/</guid>
       <description>&lt;h2 id=&#34;uintptr型とは&#34;&gt;uintptr型とは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ポインタを整数として扱うための型&lt;/li&gt;
@@ -4908,9 +4908,9 @@ Homebrewだと&lt;code&gt;brew update&lt;/code&gt;で新しいバージョンが
     </item>
     <item>
       <title>Webサーバー</title>
-      <link>http://localhost:1313/posts/web-server/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/web-server/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/web-server/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/web-server/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;PHP/LaravelでWebアプリケーションを開発する場合、ApacheやNginx等のWebサーバーが必要になる一方で、&lt;br&gt;
 Node.jsの場合は不要である。この違いが気になったのと、そもそもWebサーバーって何をやってくれているのか気になるので調べてみる。&lt;/p&gt;
@@ -4955,9 +4955,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>write: broken pipeエラーを解決する</title>
-      <link>http://localhost:1313/posts/fix-write-broken-pipe-error/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/fix-write-broken-pipe-error/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/fix-write-broken-pipe-error/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/fix-write-broken-pipe-error/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;個人開発しているアプリでDB接続時に以下のエラーが度々発生するので解決したい&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;write tcp &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;...&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;:51724-&amp;gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;...&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;:5432: write: broken pipe
@@ -5008,9 +5008,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>ゴールデンテスト</title>
-      <link>http://localhost:1313/posts/golden-test/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/golden-test/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/golden-test/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/golden-test/</guid>
       <description>&lt;h2 id=&#34;ゴールデンテストの目的&#34;&gt;ゴールデンテストの目的&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;目的を一言で言うとシステムリグレッションを防ぎたい
@@ -5035,9 +5035,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>ピュアなGo言語のみでWebアプリケーションを実装する</title>
-      <link>http://localhost:1313/posts/pure-go-web-app/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/pure-go-web-app/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/pure-go-web-app/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/pure-go-web-app/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://zenn.dev/bigen1925/books/introduction-to-web-application-with-python&#34;&gt;伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門&lt;/a&gt;をGoで実装した際のメモ帳。
 実際のソースコードはこちら: &lt;a href=&#34;https://github.com/nyuusen/pure-go-web-app&#34;&gt;https://github.com/nyuusen/pure-go-web-app&lt;/a&gt;&lt;/p&gt;
@@ -5191,9 +5191,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>ポインタとガベージコレクション</title>
-      <link>http://localhost:1313/posts/pointer-gabage-collection/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/pointer-gabage-collection/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/pointer-gabage-collection/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/pointer-gabage-collection/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;Goで関数の戻り値としてポインタを返しすぎると、ガベージコレクション(GC)も負担が増えるという問題について調べたのでメモする&lt;/p&gt;
 &lt;h2 id=&#34;スタックとヒープ&#34;&gt;スタックとヒープ&lt;/h2&gt;
@@ -5259,9 +5259,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>依存パッケージのアップデート方法</title>
-      <link>http://localhost:1313/posts/how-to-update-deps/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/how-to-update-deps/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/how-to-update-deps/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/how-to-update-deps/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;Goのプロジェクトにおいて、依存パッケージをアップデート方法を記載する&lt;/p&gt;
 &lt;h2 id=&#34;やり方&#34;&gt;やり方&lt;/h2&gt;
@@ -5275,9 +5275,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>関数型にインターフェイスを実装する</title>
-      <link>http://localhost:1313/posts/impl-interface-to-function/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/impl-interface-to-function/</link>
       <pubDate>Wed, 02 Apr 2025 23:32:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/impl-interface-to-function/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/impl-interface-to-function/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;Goの特徴として、構造体にメソッドを定義する以外に関数型にもインターフェイスを実装できる。&lt;/p&gt;
 &lt;p&gt;net/httpパッケージを例に調べてみたのでメモ。&lt;/p&gt;
@@ -5340,9 +5340,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>コネクション</title>
-      <link>http://localhost:1313/posts/connection/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/connection/</link>
       <pubDate>Thu, 27 Mar 2025 22:12:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/connection/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/connection/</guid>
       <description>&lt;h2 id=&#34;コネクションやコネクションプールについて&#34;&gt;コネクションやコネクションプールについて&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;アプリケーション側で接続先のDB情報とともにコネクションIDを保持し、データベース側ではコネクションIDとそれに対応したプロセスIDを保持する
@@ -5400,9 +5400,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>CloudFront</title>
-      <link>http://localhost:1313/posts/cloudfront/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/cloudfront/</link>
       <pubDate>Wed, 19 Mar 2025 22:10:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/cloudfront/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/cloudfront/</guid>
       <description>&lt;p&gt;なんとなく使っているCloudFrontを理解したい。
 多分何が設定できるかを理解できたら使い方がわかるはずだからまずは設定できる内容を調査する。&lt;/p&gt;
 &lt;h2 id=&#34;基本用語&#34;&gt;基本用語&lt;/h2&gt;
@@ -5452,9 +5452,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>AWS運用入門</title>
-      <link>http://localhost:1313/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/</link>
       <pubDate>Tue, 18 Mar 2025 21:43:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/007_aws%E9%81%8B%E7%94%A8%E5%85%A5%E9%96%80/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.sbcr.jp/product/4815615499/&#34;&gt;AWS運用入門 | SBクリエイティブ&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;chapter9-セキュリティ統制&#34;&gt;Chapter9 セキュリティ統制&lt;/h1&gt;
 &lt;h2 id=&#34;waf&#34;&gt;WAF&lt;/h2&gt;
@@ -5537,9 +5537,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>## AWSで実装する場合</title>
-      <link>http://localhost:1313/posts/basic-auth-on-aws/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/basic-auth-on-aws/</link>
       <pubDate>Sun, 16 Mar 2025 22:15:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/basic-auth-on-aws/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/basic-auth-on-aws/</guid>
       <description>&lt;p&gt;以下のどちらかで実装が可能&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;WAF&lt;/li&gt;
@@ -5567,9 +5567,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>Basic認証</title>
-      <link>http://localhost:1313/posts/basic-auth/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/basic-auth/</link>
       <pubDate>Sun, 16 Mar 2025 22:15:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/basic-auth/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/basic-auth/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;username:passwordをBase64エンコードしてAuthorizationヘッダにセットする&lt;/li&gt;
 &lt;li&gt;なぜbase64エンコードするのか？
@@ -5593,9 +5593,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>ecspresso</title>
-      <link>http://localhost:1313/posts/ecspresso/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/ecspresso/</link>
       <pubDate>Wed, 12 Mar 2025 23:29:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/ecspresso/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/ecspresso/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;ECSデプロイツールであるecspressoについてまとめてみた。&lt;/p&gt;
 &lt;h2 id=&#34;ecspressoとは&#34;&gt;ecspressoとは？&lt;/h2&gt;
@@ -5704,9 +5704,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>Terraform</title>
-      <link>http://localhost:1313/posts/terraform/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/terraform/</link>
       <pubDate>Sun, 09 Mar 2025 22:36:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/terraform/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/terraform/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;業務で雰囲気で触っているTerraformをきちんと学んでみる。&lt;/p&gt;
 &lt;h2 id=&#34;コマンド群&#34;&gt;コマンド群&lt;/h2&gt;
@@ -5816,9 +5816,9 @@ Node.jsの場合は不要である。この違いが気になったのと、そ�
     </item>
     <item>
       <title>API Gateway &#43; Lambda</title>
-      <link>http://localhost:1313/posts/apigateway-lambda/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/apigateway-lambda/</link>
       <pubDate>Fri, 28 Feb 2025 23:13:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/apigateway-lambda/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/apigateway-lambda/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;API Gateway（Lambda統合）をterraformで実装したいので色々調査&lt;/li&gt;
@@ -5901,9 +5901,9 @@ WebSocket API: 全二重通信のためにクライアントとの永続的な�
     </item>
     <item>
       <title>AWS開発を成功させる技術</title>
-      <link>http://localhost:1313/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/</link>
       <pubDate>Thu, 27 Feb 2025 21:38:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/006_aws%E9%96%8B%E7%99%BA%E3%82%92%E6%88%90%E5%8A%9F%E3%81%95%E3%81%9B%E3%82%8B%E6%8A%80%E8%A1%93/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sbcr.jp/product/4815617523/&#34;&gt;エバンジェリストの知識と経験を1冊にまとめた AWS開発を《成功》させる技術 | SBクリエイティブ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -5939,9 +5939,9 @@ WebSocket API: 全二重通信のためにクライアントとの永続的な�
     </item>
     <item>
       <title>CloudFront &#43; S3構成でCORSを設定する</title>
-      <link>http://localhost:1313/posts/cors-cloudfront-s3/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/cors-cloudfront-s3/</link>
       <pubDate>Wed, 19 Feb 2025 22:26:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/cors-cloudfront-s3/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/cors-cloudfront-s3/</guid>
       <description>&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;S3バケットに何かしらの資材を配置する&lt;/li&gt;
@@ -5991,9 +5991,9 @@ WebSocket API: 全二重通信のためにクライアントとの永続的な�
     </item>
     <item>
       <title>GitHubActionsでジョブ実行の条件に指定できるステータスの動作検証</title>
-      <link>http://localhost:1313/posts/condition-status/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/condition-status/</link>
       <pubDate>Sat, 15 Feb 2025 22:03:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/condition-status/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/condition-status/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;GitHubActionsでジョブ実行の条件に指定できるが幾つがあるが、RequiredReviewが設定したEnvironmentにおいて、承認・承認却下した時の該当ステップの出力結果を検証したい。&lt;/p&gt;
 &lt;h2 id=&#34;検証リポジトリ&#34;&gt;検証リポジトリ&lt;/h2&gt;
@@ -6030,9 +6030,9 @@ WebSocket API: 全二重通信のためにクライアントとの永続的な�
     </item>
     <item>
       <title>Linuxディストリビューション</title>
-      <link>http://localhost:1313/posts/linux-distribution/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/linux-distribution/</link>
       <pubDate>Sat, 15 Feb 2025 21:58:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/linux-distribution/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/linux-distribution/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;Linuxには多くのディストリビューションが存在する。&lt;br&gt;
 特にDockerでベースイメージを選定する時などに一応知っておいた方が良さそうなので簡単にまとめる。&lt;/p&gt;
@@ -6056,9 +6056,9 @@ Linux=OSという風に認識されがちだけど、厳密にはLinuxはカー�
     </item>
     <item>
       <title>Lambdaレイヤー</title>
-      <link>http://localhost:1313/posts/lambda-layer/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/lambda-layer/</link>
       <pubDate>Mon, 20 Jan 2025 21:16:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/lambda-layer/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/lambda-layer/</guid>
       <description>&lt;h2 id=&#34;lambdaレイヤーとは&#34;&gt;Lambdaレイヤーとは&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;複数のLambda関数でライブラリを共有できる仕組み&lt;/li&gt;
@@ -6086,9 +6086,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>VPC Lambda</title>
-      <link>http://localhost:1313/posts/vpc-lambda/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/vpc-lambda/</link>
       <pubDate>Mon, 20 Jan 2025 21:16:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/vpc-lambda/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/vpc-lambda/</guid>
       <description>&lt;h2 id=&#34;vpc-lambdaとは&#34;&gt;VPC Lambdaとは&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;VPCにアタッチしたLambda関数のこと
@@ -6138,9 +6138,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>AWS設計スキルアップガイド</title>
-      <link>http://localhost:1313/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/</link>
       <pubDate>Wed, 15 Jan 2025 21:58:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/003_aws%E8%A8%AD%E8%A8%88%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gihyo.jp/book/2023/978-4-297-13649-9&#34;&gt;AWS設計スキルアップガイド ――サービスの選定から、システム構成、運用・移行の設計まで：書籍案内｜技術評論社&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2クラウドのインフラ設計&#34;&gt;2.クラウドのインフラ設計&lt;/h2&gt;
 &lt;h3 id=&#34;クラウドで考えるセキュリティ&#34;&gt;クラウドで考えるセキュリティ&lt;/h3&gt;
@@ -7227,9 +7227,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>ElasticCache 入門</title>
-      <link>http://localhost:1313/posts/elasticache/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/elasticache/</link>
       <pubDate>Thu, 09 Jan 2025 10:38:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/elasticache/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/elasticache/</guid>
       <description>&lt;h2 id=&#34;elasticache-とは&#34;&gt;ElastiCache とは&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;一言で表すと「フルマネージドのインメモリキャッシングサービス」&lt;/li&gt;
@@ -7323,9 +7323,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>AWSで始めるインフラ構築入門</title>
-      <link>http://localhost:1313/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/</link>
       <pubDate>Wed, 08 Jan 2025 23:43:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/002_aws%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8B%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/</guid>
       <description>&lt;h2 id=&#34;4vpc&#34;&gt;4.VPC&lt;/h2&gt;
 &lt;h3 id=&#34;基本&#34;&gt;基本&lt;/h3&gt;
 &lt;ul&gt;
@@ -7716,9 +7716,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>RDSのAuroraをアップデートする</title>
-      <link>http://localhost:1313/posts/update-aurora/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/update-aurora/</link>
       <pubDate>Thu, 26 Dec 2024 16:14:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/update-aurora/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/update-aurora/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;業務で必要になったので、調べたことを雑にメモ。&lt;/p&gt;
 &lt;h2 id=&#34;アップデート方法&#34;&gt;アップデート方法&lt;/h2&gt;
@@ -7794,9 +7794,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>作りながら学ぶWebシステムの教科書</title>
-      <link>http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/</link>
       <pubDate>Thu, 12 Dec 2024 15:07:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://info.nikkeibp.co.jp/media/LIN/atcl/books/081600038/&#34;&gt;作りながら学ぶWebシステムの教科書&lt;/a&gt;の読書メモ。気づきや調べたことをまとめていく。&lt;/p&gt;
 &lt;h2 id=&#34;chapter2-webシステムの基本httphttpsプロトコルを理解する&#34;&gt;Chapter2 Webシステムの基本、HTTP／HTTPSプロトコルを理解する&lt;/h2&gt;
@@ -7900,9 +7900,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>GitHubActions上におけるAWSの認証認可</title>
-      <link>http://localhost:1313/posts/authenticate-aws/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/authenticate-aws/</link>
       <pubDate>Fri, 06 Dec 2024 21:56:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/authenticate-aws/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/authenticate-aws/</guid>
       <description>&lt;h2 id=&#34;どのようにするのが良いか&#34;&gt;どのようにするのが良いか？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AWS への API 呼び出しは認証情報で署名する必要があるため、AWS SDK または AWS ツールのいずれかを使用する場合は、AWS 認証情報と AWS リージョンを提供する必要があります。GitHub Actions でこれを行う 1 つの方法は、IAM 認証情報でリポジトリシークレットを使用することですが、これは長期認証情報の使用に関するAWS セキュリティガイドラインに準拠していません 。代わりに、長期認証情報または JWT を使用して一時的な認証情報を取得し、それをツールで使用することをお勧めします。この GitHub Action はまさにそれを実現します。&lt;/p&gt;&lt;/blockquote&gt;
@@ -7958,9 +7958,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>VPCピアリング</title>
-      <link>http://localhost:1313/posts/vpc-peering/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/vpc-peering/</link>
       <pubDate>Wed, 04 Dec 2024 19:30:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/vpc-peering/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/vpc-peering/</guid>
       <description>&lt;h2 id=&#34;vpcピアリングとは&#34;&gt;VPCピアリングとは？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;プライベート IPv4 アドレスまたは IPv6 アドレスを使用して 2 つの VPC 間でトラフィックをルーティングすることを可能にするネットワーク接続です。
@@ -8024,9 +8024,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>プレフィックスリスト</title>
-      <link>http://localhost:1313/posts/prefix-list/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/prefix-list/</link>
       <pubDate>Mon, 02 Dec 2024 11:36:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/prefix-list/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/prefix-list/</guid>
       <description>&lt;h2 id=&#34;プレフィックスリストとは&#34;&gt;プレフィックスリストとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;複数のIPアドレス範囲をまとめて管理できる&lt;/li&gt;
@@ -8073,9 +8073,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>KMS</title>
-      <link>http://localhost:1313/posts/kms/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/kms/</link>
       <pubDate>Fri, 29 Nov 2024 21:55:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/kms/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/kms/</guid>
       <description>&lt;h2 id=&#34;kmsとは&#34;&gt;KMSとは&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;暗号化キーの作成と管理機能を提供するマネージドサービス&lt;/li&gt;
@@ -8111,9 +8111,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>AWS Certificate Manager</title>
-      <link>http://localhost:1313/posts/acm/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/acm/</link>
       <pubDate>Wed, 27 Nov 2024 22:55:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/acm/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/acm/</guid>
       <description>&lt;h2 id=&#34;acmとリージョンの関係&#34;&gt;ACMとリージョンの関係&lt;/h2&gt;
 &lt;p&gt;ACM証明書はリージョナルリソースであるため、作成する際に適用するリソースに合わせ、リージョンを意識する必要がある。&lt;/p&gt;
 &lt;ul&gt;
@@ -8171,9 +8171,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>WebアプリケーションをECSからLambdaに移行する</title>
-      <link>http://localhost:1313/posts/ecs-migrate-to-lambda/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/ecs-migrate-to-lambda/</link>
       <pubDate>Wed, 06 Nov 2024 18:18:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/ecs-migrate-to-lambda/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/ecs-migrate-to-lambda/</guid>
       <description>&lt;h2 id=&#34;参考資料&#34;&gt;参考資料&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/fujiwara3/yapc-hakodate2024&#34;&gt;https://speakerdeck.com/fujiwara3/yapc-hakodate2024&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;要約&#34;&gt;要約&lt;/h2&gt;
@@ -8191,9 +8191,9 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
     </item>
     <item>
       <title>Dependabot</title>
-      <link>http://localhost:1313/posts/dependabot/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/dependabot/</link>
       <pubDate>Wed, 30 Oct 2024 23:36:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/dependabot/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/dependabot/</guid>
       <description>&lt;h2 id=&#34;dependabotとは&#34;&gt;Dependabotとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;GitHubによって提供される、プロジェクトの依存関係を自動的に管理・更新するツール&lt;/li&gt;
@@ -8234,9 +8234,9 @@ DockerComposeファイル(compose.yaml)に記述されたイメージ指定(imag
     </item>
     <item>
       <title>AWSにおけるコスト削減対応</title>
-      <link>http://localhost:1313/posts/cost-reduction/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/cost-reduction/</link>
       <pubDate>Mon, 28 Oct 2024 22:57:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/cost-reduction/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/cost-reduction/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;業務や参加した勉強会でコスト削減についての学びがあったのでメモ&lt;/p&gt;
 &lt;p&gt;勉強会URL: &lt;a href=&#34;https://www.youtube.com/live/WOsD-Rk3SVg?si=El_AK4863iGt8L42&#34;&gt;https://www.youtube.com/live/WOsD-Rk3SVg?si=El_AK4863iGt8L42&lt;/a&gt;&lt;/p&gt;
@@ -8273,9 +8273,9 @@ DockerComposeファイル(compose.yaml)に記述されたイメージ指定(imag
     </item>
     <item>
       <title>IPv4 VPC CIDRブロック</title>
-      <link>http://localhost:1313/posts/vpc-ipv4-cidr-block/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/vpc-ipv4-cidr-block/</link>
       <pubDate>Mon, 28 Oct 2024 22:57:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/vpc-ipv4-cidr-block/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/vpc-ipv4-cidr-block/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;VPCを作成するときに、そのVPCのIPv4 CIDRブロックを指定する必要がある。&lt;br&gt;
 許可されるブロックは、/16ネットマスク（65,536個のIPアドレス）から/28ネットマスク（16個のIPアドレス）になる。&lt;/p&gt;
@@ -8317,9 +8317,9 @@ DockerComposeファイル(compose.yaml)に記述されたイメージ指定(imag
     </item>
     <item>
       <title>DNS</title>
-      <link>http://localhost:1313/posts/dns/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/dns/</link>
       <pubDate>Thu, 24 Oct 2024 22:57:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/dns/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/dns/</guid>
       <description>&lt;h2 id=&#34;名前解決の流れ&#34;&gt;名前解決の流れ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;クライアントがドメイン(example.com)へのアクセスを試行する&lt;/li&gt;
@@ -8376,9 +8376,9 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     </item>
     <item>
       <title>HTTPS</title>
-      <link>http://localhost:1313/posts/https/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/https/</link>
       <pubDate>Wed, 23 Oct 2024 23:12:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/https/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/https/</guid>
       <description>&lt;h2 id=&#34;ssl証明書の種類&#34;&gt;SSL証明書の種類&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ドメイン認証(DV)
@@ -8405,9 +8405,9 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     </item>
     <item>
       <title>ubuntu server(EC2)のデフォルトシェルをdashからbashに変更する</title>
-      <link>http://localhost:1313/posts/ubuntu-dash-to-bash/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/ubuntu-dash-to-bash/</link>
       <pubDate>Mon, 07 Oct 2024 22:09:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/ubuntu-dash-to-bash/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/ubuntu-dash-to-bash/</guid>
       <description>&lt;h2 id=&#34;変更方法&#34;&gt;変更方法&lt;/h2&gt;
 &lt;p&gt;以下の**設定変更可能なシェルのプロファイルを有効化する(コンソール)**の方法で変更できた。&lt;/p&gt;
 &lt;ul&gt;
@@ -8416,9 +8416,9 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     </item>
     <item>
       <title>LambdaのログをS3に保存する.md</title>
-      <link>http://localhost:1313/posts/transfer-log-to-s3/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/transfer-log-to-s3/</link>
       <pubDate>Fri, 04 Oct 2024 22:32:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/transfer-log-to-s3/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/transfer-log-to-s3/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;Webhookを受け付けるAWS Lambda関数で出力するログをS3に保存(転送)したい&lt;/p&gt;
 &lt;h2 id=&#34;目的と要件&#34;&gt;目的と要件&lt;/h2&gt;
@@ -8470,9 +8470,9 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     </item>
     <item>
       <title>Language Server Protocol(LSP)</title>
-      <link>http://localhost:1313/posts/lsp/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/lsp/</link>
       <pubDate>Fri, 04 Oct 2024 22:32:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/lsp/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/lsp/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;職場の方が語っていたので興味本位で調べてみる。&lt;/p&gt;
 &lt;h2 id=&#34;language-server-protocollspとは&#34;&gt;Language Server Protocol(LSP)とは？&lt;/h2&gt;
@@ -8507,9 +8507,9 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     </item>
     <item>
       <title>NewRelic</title>
-      <link>http://localhost:1313/posts/newrelic/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/newrelic/</link>
       <pubDate>Fri, 04 Oct 2024 22:32:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/newrelic/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/newrelic/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;業務でNewRelicを使用しているが基礎的な部分も含めてあまりわかっていないので調べる&lt;/p&gt;
 &lt;h2 id=&#34;進め方&#34;&gt;進め方&lt;/h2&gt;
@@ -8630,9 +8630,9 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     </item>
     <item>
       <title>UUIDやULID</title>
-      <link>http://localhost:1313/posts/uuid-ulid/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/uuid-ulid/</link>
       <pubDate>Fri, 04 Oct 2024 22:32:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/uuid-ulid/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/uuid-ulid/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;データベース設計において、AutoIncrementな純粋な番号(連番)の他にUUIDやULIDがあるけど、それらの違いと結局どれ使えば良いのかという話。&lt;/p&gt;
 &lt;h2 id=&#34;連番の欠点&#34;&gt;連番の欠点&lt;/h2&gt;
@@ -8722,9 +8722,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>システムリプレイス</title>
-      <link>http://localhost:1313/posts/system-replace/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/system-replace/</link>
       <pubDate>Fri, 04 Oct 2024 22:32:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/system-replace/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/system-replace/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;あるtoCサービスのリプレイスの話&lt;/p&gt;
 &lt;h2 id=&#34;システム構成&#34;&gt;システム構成&lt;/h2&gt;
@@ -8812,9 +8812,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>リダイレクトについて</title>
-      <link>http://localhost:1313/posts/redirect/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/redirect/</link>
       <pubDate>Fri, 04 Oct 2024 22:32:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/redirect/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/redirect/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;リダイレクト3xx系のHTTPステータスコードについて調べた。
 歴史的背景とかが絡んで、仕様と実態の乖離等が発生し、わかりづらいものになっているらしいので整理。&lt;/p&gt;
@@ -8861,9 +8861,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>Environments</title>
-      <link>http://localhost:1313/posts/environments/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/environments/</link>
       <pubDate>Fri, 16 Aug 2024 10:56:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/environments/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/environments/</guid>
       <description>&lt;h2 id=&#34;environmentsとは&#34;&gt;Environmentsとは&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;GitHubActionsの機能であり、リポジトリに設定できるもの&lt;/li&gt;
@@ -8890,9 +8890,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>Makefile</title>
-      <link>http://localhost:1313/posts/makefile/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/makefile/</link>
       <pubDate>Fri, 16 Aug 2024 09:13:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/makefile/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/makefile/</guid>
       <description>&lt;h2 id=&#34;makefileの基本&#34;&gt;Makefileの基本&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;全てはここに載っている：&lt;a href=&#34;https://www.gnu.org/software/make/manual/make.html&#34;&gt;GNU make&lt;/a&gt;&lt;/li&gt;
@@ -8942,18 +8942,18 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>## オブザーバビリティ</title>
-      <link>http://localhost:1313/posts/observerbility/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/observerbility/</link>
       <pubDate>Wed, 14 Aug 2024 09:00:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/observerbility/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/observerbility/</guid>
       <description>&lt;h2 id=&#34;オブザーバビリティとは&#34;&gt;オブザーバビリティとは&lt;/h2&gt;
 &lt;p&gt;以下の記事が最も腹落ちする説明だった。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ymotongpoo.hatenablog.com/entry/2019/03/25/084500&#34;&gt;https://ymotongpoo.hatenablog.com/entry/2019/03/25/084500&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LayerX Go勉強会 20240704</title>
-      <link>http://localhost:1313/posts/20240704/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/20240704/</link>
       <pubDate>Fri, 09 Aug 2024 22:37:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/20240704/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/20240704/</guid>
       <description>&lt;h2 id=&#34;差分テスト&#34;&gt;差分テスト&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;モノレポ構成でリポジトリが肥大するとテスト時間が長くなって辛いという話&lt;/li&gt;
@@ -8965,9 +8965,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>基本情報技術者試験</title>
-      <link>http://localhost:1313/posts/fundamental-engineer/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/fundamental-engineer/</link>
       <pubDate>Wed, 31 Jul 2024 09:55:28 +0900</pubDate>
-      <guid>http://localhost:1313/posts/fundamental-engineer/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/fundamental-engineer/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;エンジニアとしての基礎が足りないと感じる点が多々あり、業務が忙しくないタイミングで勉強&amp;amp;受験してみた。その際の勉強になった点や中々覚えられなかった点をまとめた。&lt;/p&gt;
 &lt;h2 id=&#34;結果&#34;&gt;結果&lt;/h2&gt;
@@ -9439,9 +9439,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>OpenAPI仕様書生成&amp;デプロイ</title>
-      <link>http://localhost:1313/posts/publish-open-api-document/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/publish-open-api-document/</link>
       <pubDate>Sun, 16 Jun 2024 00:07:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/publish-open-api-document/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/publish-open-api-document/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;以下を実現するGitHub Actionsのワークフローを作成した。&lt;/p&gt;
 &lt;ul&gt;
@@ -9491,9 +9491,9 @@ UUID v4はあえて使うシーンはなさそうかなという印象。&lt;/p&
     </item>
     <item>
       <title>CloudRunデプロイ</title>
-      <link>http://localhost:1313/posts/build-and-deploy-cloud-run/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/build-and-deploy-cloud-run/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/build-and-deploy-cloud-run/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/build-and-deploy-cloud-run/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;個人で開発したCloud Runで動いているGoアプリケーションデプロイをGitHub Actionsでパイプラインを構築し、
 デプロイ作業を簡略化したい&lt;/p&gt;
@@ -9542,9 +9542,9 @@ Workload Identity連携で行うのが推奨とされているらしい。&lt;/p
     </item>
     <item>
       <title>GitHub Actionsに関する調べたことを雑に書く</title>
-      <link>http://localhost:1313/posts/memo/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/memo/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/memo/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/memo/</guid>
       <description>&lt;h2 id=&#34;github_output-vs-github_env&#34;&gt;$GITHUB_OUTPUT vs $GITHUB_ENV&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -9573,9 +9573,9 @@ Workload Identity連携で行うのが推奨とされているらしい。&lt;/p
     </item>
     <item>
       <title>OpenID Connect</title>
-      <link>http://localhost:1313/posts/oidc/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/oidc/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/oidc/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/oidc/</guid>
       <description>&lt;h2 id=&#34;登場人物&#34;&gt;登場人物&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ユーザー&lt;/li&gt;
@@ -9658,9 +9658,9 @@ Workload Identity連携で行うのが推奨とされているらしい。&lt;/p
     </item>
     <item>
       <title>ブランチとHEADを理解する</title>
-      <link>http://localhost:1313/posts/understand-branch-and-head/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/understand-branch-and-head/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/understand-branch-and-head/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/understand-branch-and-head/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;雰囲気の理解で使っていたブランチ及びHEADを理解する&lt;br&gt;
 ちょっと調べた所、見事に自分が浮かべていたイメージと異なっていたので、調べたことをメモ&lt;/p&gt;
@@ -9701,9 +9701,9 @@ git show @~
     </item>
     <item>
       <title>暗号化</title>
-      <link>http://localhost:1313/posts/encrypt/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/encrypt/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/encrypt/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/encrypt/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;業務で暗号化に触れる機会があったので基本から調べてみた。&lt;/p&gt;
 &lt;h2 id=&#34;暗号化とは&#34;&gt;暗号化とは？&lt;/h2&gt;
@@ -9728,9 +9728,9 @@ git show @~
     </item>
     <item>
       <title>Gitコマンド集</title>
-      <link>http://localhost:1313/posts/commands/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/commands/</link>
       <pubDate>Fri, 14 Jun 2024 17:08:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/commands/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/commands/</guid>
       <description>&lt;p&gt;ペア/モブプログラミングする時はコマンドの方がわかり良いのでコマンドを&lt;/p&gt;
 &lt;h2 id=&#34;git-diff&#34;&gt;git diff&lt;/h2&gt;
 &lt;p&gt;コミット間の差分を確認する&lt;/p&gt;
@@ -9751,9 +9751,9 @@ git push
     </item>
     <item>
       <title>イベント駆動型アーキテクチャ</title>
-      <link>http://localhost:1313/posts/event-driven/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/event-driven/</link>
       <pubDate>Tue, 11 Jun 2024 21:18:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/event-driven/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/event-driven/</guid>
       <description>&lt;h2 id=&#34;イベント駆動型アーキテクチャとは&#34;&gt;イベント駆動型アーキテクチャとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;イベントの発生に基づいて動作するシステム&lt;/li&gt;
@@ -9788,9 +9788,9 @@ git push
     </item>
     <item>
       <title>SourceMap</title>
-      <link>http://localhost:1313/posts/sourcemap/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/sourcemap/</link>
       <pubDate>Tue, 11 Jun 2024 17:28:05 +0900</pubDate>
-      <guid>http://localhost:1313/posts/sourcemap/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/sourcemap/</guid>
       <description>&lt;h2 id=&#34;sourcemapとは&#34;&gt;SourceMapとは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;コンパイル前とコンパイル後の対応関係を示すJSON形式のファイル&lt;/li&gt;
@@ -9831,9 +9831,9 @@ git push
     </item>
     <item>
       <title>SAML</title>
-      <link>http://localhost:1313/posts/saml/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/saml/</link>
       <pubDate>Fri, 31 May 2024 21:54:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/saml/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/saml/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Security Assertion Markup Languageの略&lt;/li&gt;
@@ -9915,9 +9915,9 @@ participant sp as SP(アプリケーション)
     </item>
     <item>
       <title>MySQL</title>
-      <link>http://localhost:1313/posts/mysql/</link>
+      <link>http://localhost:1313/my-hugo-blog/posts/mysql/</link>
       <pubDate>Wed, 22 May 2024 20:52:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/mysql/</guid>
+      <guid>http://localhost:1313/my-hugo-blog/posts/mysql/</guid>
       <description>&lt;h2 id=&#34;コマンド&#34;&gt;コマンド&lt;/h2&gt;
 &lt;h3 id=&#34;確認調査系&#34;&gt;確認・調査系&lt;/h3&gt;
 &lt;ul&gt;

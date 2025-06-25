@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.147.8"><script src="/my-hugo-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-hugo-blog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -10,17 +10,17 @@
 
 <meta name="description" content="">
 <meta name="author" content="nyuusen">
-<link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/my-hugo-blog/">
+<link crossorigin="anonymous" href="/my-hugo-blog/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/my-hugo-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/my-hugo-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/my-hugo-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/my-hugo-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/my-hugo-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/my-hugo-blog/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/my-hugo-blog/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,7 +57,7 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/">
+</noscript><meta property="og:url" content="http://localhost:1313/my-hugo-blog/">
   <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="nyuusen blog">
   <meta property="og:locale" content="en-us">
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "nyuusen blog",
-  "url": "http://localhost:1313/",
+  "url": "http://localhost:1313/my-hugo-blog/",
   "description": "",
-  "logo": "http://localhost:1313/favicon.ico",
+  "logo": "http://localhost:1313/my-hugo-blog/favicon.ico",
   "sameAs": [
       
   ]
@@ -96,7 +96,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
+            <a href="http://localhost:1313/my-hugo-blog/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -145,7 +145,7 @@ VPC ピア機能とは - Amazon Virtual Private Cloud
 アカウントAでVPCピアリングを作成 この時に接続先としてアカウントBのVPCを選択する 作成したら「承諾の保留中」というステータスになる アカウントAのVPCはリクエスタという扱いになる アカウントBで該当のピアリング接続を選択し「リクエストを承諾」を選択する アカウントAの対象VPCのルートテーブルを更新する ターゲットには「ピアリング接続」を選択し、送信先には接続先VPCのCIDRを指定する アカウントBの対象VPCのルートテーブルを更新する アカウントAでの設定の逆を設定する VPC ピアリング接続のルートテーブルを更新する - Amazon Virtual Private Cloud アカウントBで対象リソースのセキュリティグループを変更する アカウントA側のリソースにアタッチしているセキュリティグループorアカウントAのVPCのCIDR 前者の方が狭く絞れる分、セキュリティ性は高い ちなみに、両方のVPCが同じリージョンにある場合のみ、相手のVPCのセキュリティグループを参照できる アカウントAのVPCのリソースから、アカウントBのリソースへ接続する ルートテーブルに従って、ピアリング接続で接続できる 注意点 複数のVPCピアリング接続はできない(必ず1対1である必要がある/参考) プライベートIPで名前解決を行うので、それぞれのVPCでCIDRが重複してはいけない(参考) 役立つシーン VPC跨ぎのデータ取得や移行など </p>
   </div>
   <footer class="entry-footer"><span title='2024-12-04 19:30:17 +0900 JST'>December 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to VPCピアリング" href="http://localhost:1313/posts/vpc-peering/"></a>
+  <a class="entry-link" aria-label="post link to VPCピアリング" href="http://localhost:1313/my-hugo-blog/posts/vpc-peering/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -163,7 +163,7 @@ VPC ピア機能とは - Amazon Virtual Private Cloud
     <p>プレフィックスリストとは？ 複数のIPアドレス範囲をまとめて管理できる AWSが提供する「AWSマネージドプレフィックスリスト」と、ユーザー側が作成する「カスタマーマネージドプレフィックスリスト」が存在する 作成されたリージョンのみで利用可能 セキュリティグループ等でIPアドレス単位で設定をする際に有用 IPアドレスリストを手動で管理する際のオーバーヘッド発生を防ぐ AWS側が提供するIPアドレス情報に依存することで、設定ミス等を防ぐこともでき、セキュリティ的にも良い AWSが自動作成するプレフィックスリスト S3 VPCエンドポイント(ゲートウェイ型) Dynamo DB VPCエンドポイント(ゲートウェイ型) EC2 Instance Connect VPC Lattice ※よく見かけるものを抜粋 実際にどのような場面で役立つか？ 同じ内容を持つ複数のセキュリティグループを作成したい場合 例えば、 セキュリティグループを用いてインバウンドルールの送信元IPアドレスを制御したい 同様の内容を制御するセキュリティグループをいくつか作成したい 各セキュリティグループにIPアドレスを手打ちしていくのは手間がかかる＋設定ミスの恐れがある プレフィックスリストを使用することで、IPアドレスの設定を1箇所にまとめることができ、複数のセキュリティグループからそれを参照させることができる S3のVPCエンドポイント(ゲートウェイ型)を利用する時 接続元の方のルートテーブルに自動で生成される 以下のような内容 ターゲット: vpce-xxxxx 送信先: pl-xxxx(自動生成されたプレフィックスリスト) 参考 AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud </p>
   </div>
   <footer class="entry-footer"><span title='2024-12-02 11:36:10 +0900 JST'>December 2, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to プレフィックスリスト" href="http://localhost:1313/posts/prefix-list/"></a>
+  <a class="entry-link" aria-label="post link to プレフィックスリスト" href="http://localhost:1313/my-hugo-blog/posts/prefix-list/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -181,7 +181,7 @@ VPC ピア機能とは - Amazon Virtual Private Cloud
     <p>KMSとは 暗号化キーの作成と管理機能を提供するマネージドサービス AWS Key Management Service - AWS Key Management Service KMSの必要性 データの暗号化に必要な暗号化キーを保護する必要がある キーの作成・管理・使用・削除がAWS KMS内でのみで行われるので、安全性が高い 自前でこの辺りやるのは大変だけど、KMSで楽に安全にできるよということ KMSの料金 作成したキーに対して、1USD/月 ローテーションすると2回目までは1USD/月 APIリクエストあたり0.0x$ 料金 - AWS Key Management Service | AWS エイリアス 自動で生成される識別子は判別しづらいので、エイリアスを付与することで判別しやすくなる エイリアスを使用することで、キーをノーテーションしてもアプリケーション側での変更が不要 KMSのポリシー KMS側にはキーポリシーがある キーポリシーでは暗号キーに対して、どのリソースに対して何をできるかを定義することで、特定のサービスからのみアクセスさせるという制御が可能 例えば、ECSタスクに割り当てるロールに、特定のKMSに対する暗号復号のアクションを許可するみたいなことができる </p>
   </div>
   <footer class="entry-footer"><span title='2024-11-29 21:55:12 +0900 JST'>November 29, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to KMS" href="http://localhost:1313/posts/kms/"></a>
+  <a class="entry-link" aria-label="post link to KMS" href="http://localhost:1313/my-hugo-blog/posts/kms/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -201,7 +201,7 @@ CloudFront グローバルサービスなので、米国東部 (バージニア�
 ACMの認証について ACMに限らない話だが、証明書を発行する際に、証明書を発行した者が問題ないか？ドメインに対する権限を持っているか？等を検証する必要がある この確認がないと、好き勝手に証明書作り放題になる ここを実施しているのがCA(認証局) その検証の部分を「認証」と呼ぶ 認証には、DV・OV・EV認証という種類がある 参考: DV、OV、EV の各 SSL 証明書の違いとは | DigiCert 右に行くほど厳格な認証方法となる ACMはDV認証(ドメイン認証＝該当ドメインに対する権限を保持しているかどうかのみを確認する) ACMはDV認証をどうやっているのか？という話になるが、以下の手順で確認する ACM証明書を発行すると、CNAME名とCNAME値が発行される(この段階ではACM証明書は未承認状態) 該当ドメインのホストゾーンにCNAME名とCNAME値をCNAMEレコードとして登録する ACM証明書が認証状態になる 🎉 </p>
   </div>
   <footer class="entry-footer"><span title='2024-11-27 22:55:34 +0900 JST'>November 27, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to AWS Certificate Manager" href="http://localhost:1313/posts/acm/"></a>
+  <a class="entry-link" aria-label="post link to AWS Certificate Manager" href="http://localhost:1313/my-hugo-blog/posts/acm/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -220,7 +220,7 @@ ACMの認証について ACMに限らない話だが、証明書を発行する�
 要約 元はECSで動いていたWebアプリケーションだが、負荷予測を外した時に障害もしくはインフラコスト過剰にかかる課題があった AWS Lambda Web Adapterを使って、Lambdaで Webアプリケーションを動かす 結果として、実際の負荷に応じてスケーリングしてくれて課題が解消された 感想 Lambdaはシンプルな関数を配置するイメージがあったが、Adapterを使うことでWebアプリケーションも配置できることを知れた Lambdaであれば、実行時間等の制約があるものの、実際に負荷に応じたスケーリングをしてくれるのがとても良いなと思った 最後のスライドでも言及されているが、向き不向きもある。アーキテクチャ選定の選択肢の1つとして頭に入れておきたい </p>
   </div>
   <footer class="entry-footer"><span title='2024-11-06 18:18:40 +0900 JST'>November 6, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to WebアプリケーションをECSからLambdaに移行する" href="http://localhost:1313/posts/ecs-migrate-to-lambda/"></a>
+  <a class="entry-link" aria-label="post link to WebアプリケーションをECSからLambdaに移行する" href="http://localhost:1313/my-hugo-blog/posts/ecs-migrate-to-lambda/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -242,7 +242,7 @@ DockerComposeファイル(compose.yaml)に記述されたイメージ指定(imag
 </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-30 23:36:19 +0900 JST'>October 30, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Dependabot" href="http://localhost:1313/posts/dependabot/"></a>
+  <a class="entry-link" aria-label="post link to Dependabot" href="http://localhost:1313/my-hugo-blog/posts/dependabot/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -262,7 +262,7 @@ DockerComposeファイル(compose.yaml)に記述されたイメージ指定(imag
 大前提としての心構え コスト削減対応で浮いた分は単純な利益増につながる つまり後回しにせず、早くやろうぜという気持ちで やり方 モブでやってあーだこーだ言ってみる 職能を絞らないでやるのも視野が広がって良いアイディアが生まれたりする 具体的なコストカットポイント NATゲートウェイ→VPC Endpoint やはりNATゲートウェイは高い！ ECRからのイメージプルをECR pull through cacheでキャッシュ化 コンテナイメージのサイズダウン 各インスタンスのサイジングやスペック見直し テスト環境のサーバーを夜間休日は停止する 例: Amazon EventBridge Schedulerで平日夜間になったらECSのタスク数を0にする リザーブドインスタンスやSavingsPlansの活用 </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-28 22:57:29 +0900 JST'>October 28, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to AWSにおけるコスト削減対応" href="http://localhost:1313/posts/cost-reduction/"></a>
+  <a class="entry-link" aria-label="post link to AWSにおけるコスト削減対応" href="http://localhost:1313/my-hugo-blog/posts/cost-reduction/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -284,7 +284,7 @@ CIDRブロックについて簡単に整理 /数字の数字に当たる部分�
 </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-28 22:57:29 +0900 JST'>October 28, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to IPv4 VPC CIDRブロック" href="http://localhost:1313/posts/vpc-ipv4-cidr-block/"></a>
+  <a class="entry-link" aria-label="post link to IPv4 VPC CIDRブロック" href="http://localhost:1313/my-hugo-blog/posts/vpc-ipv4-cidr-block/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -306,7 +306,7 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
 結論：移譲されている子のホストゾーンに登録する ちなみに移譲元である親のホストゾーンに登録しても認証は通らない(digコマンドとかでCNAMEレコードの名前解決がそもそもできない) そもそもDV認証というのは「該当ドメインの所有者であるか？」の確認するための目的で、ACM証明書作成時に発行されるCNAMEレコードをそのドメインに登録させるという手段を取っている そしてこの認証が対象ドメインのDNSゾーンに対して行われるため、権限を移譲してしまっている親ドメインでは認証が通らないためと思われる 対象ドメイン名のネームサーバーを問い合わせる→指定されたCNAMEレコードがそのドメインのDNSに存在するかを定期的に確認している 結局、AレコードやCNAMEレコード等のレコード種別に関係なく、ネームサーバーを辿っていき、対象ドメインのDNSゾーンの何らかのレコードを解決するという方法になる そもそもDNSゾーンとは？ あるドメインに関連するDNSレコードを管理するための領域(namespace) </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-24 22:57:11 +0900 JST'>October 24, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to DNS" href="http://localhost:1313/posts/dns/"></a>
+  <a class="entry-link" aria-label="post link to DNS" href="http://localhost:1313/my-hugo-blog/posts/dns/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -324,7 +324,7 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
     <p>SSL証明書の種類 ドメイン認証(DV) CAが申請者がドメイン管理者であることのみを確認する ACMでのCNAMEレコードを用いた認証はこれに該当する 組織認証(OV) CAは合法的な存在であることを確認する 拡張検証(EV) CAは厳格な検証プロセスを通じて組織を確認する ブラウザのアドレスバーが緑色になる </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-23 23:12:52 +0900 JST'>October 23, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to HTTPS" href="http://localhost:1313/posts/https/"></a>
+  <a class="entry-link" aria-label="post link to HTTPS" href="http://localhost:1313/my-hugo-blog/posts/https/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -343,7 +343,7 @@ AWSのRoute53を用いてドメイン管理を行なっているものとする�
 https://repost.aws/ja/knowledge-center/ssm-session-manager-change-shell </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-07 22:09:49 +0900 JST'>October 7, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to ubuntu server(EC2)のデフォルトシェルをdashからbashに変更する" href="http://localhost:1313/posts/ubuntu-dash-to-bash/"></a>
+  <a class="entry-link" aria-label="post link to ubuntu server(EC2)のデフォルトシェルをdashからbashに変更する" href="http://localhost:1313/my-hugo-blog/posts/ubuntu-dash-to-bash/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -363,7 +363,7 @@ https://repost.aws/ja/knowledge-center/ssm-session-manager-change-shell </p>
 </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-04 22:32:31 +0900 JST'>October 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to LambdaのログをS3に保存する.md" href="http://localhost:1313/posts/transfer-log-to-s3/"></a>
+  <a class="entry-link" aria-label="post link to LambdaのログをS3に保存する.md" href="http://localhost:1313/my-hugo-blog/posts/transfer-log-to-s3/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -382,7 +382,7 @@ https://repost.aws/ja/knowledge-center/ssm-session-manager-change-shell </p>
 Language Server Protocol(LSP)とは？ テキストエディタやIDE（統合開発環境）とプログラミング言語のサーバー（言語サーバー）との間で通信を行うためのプロトコルのこと コード補完やシンタックスハイライト等の機能提供してくれる Microsoftが提唱した LSPの必要性 エディタに関係なく一貫した開発体験を得られる 言語ごとに専用のプラグインやサポートを作成するのは手間がかかる 技術的な構成 エディタやIDEと言語サーバーがLSPを通じて通信する 言語サーバー 実体はプログラミング言語環境 VSCodeではGoという拡張機能をインストールするとgoplsというGoの言語サーバーがローカルにインストールされるっぽい(?) VSCode &#43; Goだと..？ Goの言語サーバーの実装がgoplsである VSCodeのsettings.jsonの&#34;go.useLanguageServer&#34;: trueでLSP設定をONにできる </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-04 22:32:31 +0900 JST'>October 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Language Server Protocol(LSP)" href="http://localhost:1313/posts/lsp/"></a>
+  <a class="entry-link" aria-label="post link to Language Server Protocol(LSP)" href="http://localhost:1313/my-hugo-blog/posts/lsp/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -403,7 +403,7 @@ New Relic Documentation
 NewRelicを使い始める New Relicを使い始める | New Relic Documentation 用語の定義 NewRelic One: 管理画面 テレメトリデータ：パフォーマンスデータ 機能群 アラート アプリケーション異常発生時にSlack等に通知する APM アプリケーションパフォーマンス監視のこと アプリケーションにエージェントを導入し、NewRelicデータベースに保存する 様々な種類のデータを収集・監視できる ブラウザ ウェブサイトのパフォーマンスを監視する 具体的には、ページロードタイムやJavaScriptエラー、ユーザーインタラクションの追跡 ブラウザ側でのユーザーアクションやランタイムエラー、性能が監視できるという理解 ダッシュボード 運用者側でデータを好きなように整理できる エラーインボックス エラー追跡ソリューション あまりわかっていないが、エラーの種類ごとにエラーカウントを出してくれたりする？ インフラストラクチャモニタリング コンテナ等のクラウドインフラのCPUやメモリ、ネットワークトラフィック、ディスク使用量をカバーする ログ ログプロバイダーからログを転送する OpenTelemetry アプリケーションやホストからデータを収集し、NewRelicに送信する データのクエリ NRQL(NewRelicクエリ言語)で詳細な条件でデータを収できる SQLに似ている サービスレベル アプリケーションのサービスレベル指標(SLI)と目標(SLO)を設定して測定できる 合成のモニタリング(Synthetics) 外形監視機能 ユーザーがフロントエンドのアプリやサービスをどのように使用するかをシュミレートできる 脆弱性管理(Vulnerability) ソフトウェアの脆弱性を管理する チュートリアル アラートの作成と管理 Incidents: 条件閾値に違反するイベント Issues: 通知の送信の原因となる1つ以上のインシデントの集合 この2つの違いがあまりわからない アラートを管理するためには、 通知方法をPoliciesとして設定する 通知条件をConditionsとして設定する 例えば、ALBが5xx系のエラーが全体の80%を超えたら、設定済みPoliciesにある「SLack通知する」みたいな条件を作っていく 条件自体は、NRQLでクエリを書く形になる どのようにNewRelicを活用するか どのようにデータを転送するか NewRelicを見る時のポイント</p>
   </div>
   <footer class="entry-footer"><span title='2024-10-04 22:32:31 +0900 JST'>October 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to NewRelic" href="http://localhost:1313/posts/newrelic/"></a>
+  <a class="entry-link" aria-label="post link to NewRelic" href="http://localhost:1313/my-hugo-blog/posts/newrelic/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -437,7 +437,7 @@ UUID v4はあえて使うシーンはなさそうかなという印象。
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-10-04 22:32:31 +0900 JST'>October 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to UUIDやULID" href="http://localhost:1313/posts/uuid-ulid/"></a>
+  <a class="entry-link" aria-label="post link to UUIDやULID" href="http://localhost:1313/my-hugo-blog/posts/uuid-ulid/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -456,7 +456,7 @@ UUID v4はあえて使うシーンはなさそうかなという印象。
 システム構成 フロントエンド: HTML/JavaScript S3に静的ホスティング バックエンド: TypeScript/Fastify ECS on Fargate データベース: RDS キャッシュ: CloudFront Firewall: AWS WAF リプレイスの概要 現在稼働しているシステムの運用会社の変更に伴うリプレイス AWSアカウント自体も変更になる サービス自体は、別の外部サービスへの送客するだけの小さいサービス 進め方 (事前)新環境の開発&amp;デプロイ 非公開状態 現環境をメンテナンスモード 誤って旧環境でデータ作成等が行われないようにする 現環境→新環境にデータ移行 事前にデータ移行用のバッチを作成 新環境の動作が問題ないかをテスト 社内ネットワークのみに公開する 新環境のIP制限を解除し、外部に公開 勉強になったポイント データ移行バッチで扱うデータ量が多く、移行時にAWSマネージドサービスを使用する場合は、スロットリング制限を考慮して実装を行う 今回はAWS KMSを使用して一部データを暗号化していたので、何も考えずに実装したらスロットリング制限に引っかかってしまった データ移行前に、現環境はメンテナンスモードにする 万が一、データ移行中等に現環境の方にデータが作成されてしまったら、移行対象外となり、障害発生の可能性がある メンテナンスモードに切り替える際にCloud Frontのオリジンを変更する場合は、キャッシュ保持期間に気を付ける キャッシュのInvalidateを行わないと、普通のページにアクセスできてしまう恐れがある (新環境リリース後)現環境メンテナンスモード内に配置するリンク等は新環境のものにしておく オートリダイレクトにするのもあり HTMLならmeta refreshでできる &lt;meta http-equiv=&#34;refresh&#34; content=&#34;リダイレクトするまでの秒数; URL=新URL&#34;&gt; APIなら、HeaderのLocationフィールドに新URLをセットして30x系のリダイレクトのHTTPステータスコードを返す JavaScriptを使用するのも可能だが、SEO的に微妙らしい </p>
   </div>
   <footer class="entry-footer"><span title='2024-10-04 22:32:31 +0900 JST'>October 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to システムリプレイス" href="http://localhost:1313/posts/system-replace/"></a>
+  <a class="entry-link" aria-label="post link to システムリプレイス" href="http://localhost:1313/my-hugo-blog/posts/system-replace/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -476,7 +476,7 @@ UUID v4はあえて使うシーンはなさそうかなという印象。
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-10-04 22:32:31 +0900 JST'>October 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to リダイレクトについて" href="http://localhost:1313/posts/redirect/"></a>
+  <a class="entry-link" aria-label="post link to リダイレクトについて" href="http://localhost:1313/my-hugo-blog/posts/redirect/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -494,7 +494,7 @@ UUID v4はあえて使うシーンはなさそうかなという印象。
     <p>Environmentsとは GitHubActionsの機能であり、リポジトリに設定できるもの 環境ごとにプロテクションルールや変数、シークレットを保持することができ、環境を指定して、ワークフローを指定することで、必要な権限のみでデプロイを実行できたりする デプロイに環境の使用 - GitHub Docs 使い方 Environmentsの設定自体はGitHubの管理画面のSettingsから設定が可能 ワークフローからはenvironmentフィールドにEnvironmentsの環境名を指定する ユースケース 環境ごとに必要な変数やシークレットを使用する 例えば環境ごとに適切なAWSのロールを設定することで、セキュリティ性を向上させることができる 参考 [GitHub Actions] ブランチごとにジョブの実行を制御できる Environments を試してみた | DevelopersIO </p>
   </div>
   <footer class="entry-footer"><span title='2024-08-16 10:56:56 +0900 JST'>August 16, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Environments" href="http://localhost:1313/posts/environments/"></a>
+  <a class="entry-link" aria-label="post link to Environments" href="http://localhost:1313/my-hugo-blog/posts/environments/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -512,7 +512,7 @@ UUID v4はあえて使うシーンはなさそうかなという印象。
     <p>Makefileの基本 全てはここに載っている：GNU make GNUというは「グヌー」というらしく、フリーソフトウェア（特に、オープンソースソフトウェア）のみでUNIX風のOSと関連するソフトウェア群を開発・公開するプロジェクト 簡単に内容把握する:Makefileの基本 細かなTips nオプション make -n xxxで実行されるコマンドを表示する（dry-run） .PHONY ターゲットと同名のファイルが実行ディレクトリ以下に存在していた場合、makeコマンドはターゲットに指定されているコマンドを実行しないというのがデフォルト .PHONYにターゲットを書くことで、ファイルの存在有無関係なく、コマンドを実行してくれる もし仮に同名のファイルが作成されてしまったためにmakeコマンドが実行されなくなってしまう等の問題を避けることを目的としている 全てのターゲットは.PHONYに指定するで良さそう shell関数 $(shell echo hoge)とかでシェルを実行する 変数展開 即時展開(:=)と遅延展開(=)の2種類がある（本当はもっとある) 即時展開(:=) 定義の段階で一度だけ即時で評価される 常に結果を固定したい場合や計算コストが高い処理を一度だけ実行し、その値を使い回ししたい場合に使用する 遅延展開(=) 使用される度に右辺を評価される 動的な値が必要な場合に使用する 参考 Makeの変数における代入タイプについて - Howdunnit </p>
   </div>
   <footer class="entry-footer"><span title='2024-08-16 09:13:56 +0900 JST'>August 16, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to Makefile" href="http://localhost:1313/posts/makefile/"></a>
+  <a class="entry-link" aria-label="post link to Makefile" href="http://localhost:1313/my-hugo-blog/posts/makefile/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -532,21 +532,21 @@ https://ymotongpoo.hatenablog.com/entry/2019/03/25/084500
 </p>
   </div>
   <footer class="entry-footer"><span title='2024-08-14 09:00:11 +0900 JST'>August 14, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to ## オブザーバビリティ" href="http://localhost:1313/posts/observerbility/"></a>
+  <a class="entry-link" aria-label="post link to ## オブザーバビリティ" href="http://localhost:1313/my-hugo-blog/posts/observerbility/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/page/3/">
+    <a class="prev" href="http://localhost:1313/my-hugo-blog/page/3/">
       «&nbsp;Prev&nbsp;
     </a>
-    <a class="next" href="http://localhost:1313/page/5/">Next&nbsp;&nbsp;»
+    <a class="next" href="http://localhost:1313/my-hugo-blog/page/5/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/my-hugo-blog/">nyuusen blog</a></span> · 
 
     <span>
         Powered by
