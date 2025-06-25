@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My New Hugo Site</title>
+
+<meta name="description" content="">
+<meta name="author" content="nyuusen">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="My New Hugo Site">
+<meta name="twitter:description" content="">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "My New Hugo Site",
+  "url": "http://localhost:1313/",
+  "description": "",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">write: broken pipeエラーを解決する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 個人開発しているアプリでDB接続時に以下のエラーが度々発生するので解決したい
+write tcp [...]:51724-&gt;[...]:5432: write: broken pipe ※…という部分にはIPv6アドレスが入っている
+個人開発しているアプリの技術スタックは以下の通り。
+バックエンド: Go(Cloud Run) データベース: Neon(Serverless Postgres) エラーを読み解く まずエラーが発生している箇所をソースコードで追うと、DB処理の部分でエラーが吐かれている。
+エラー内容で検索すると、TCPコネクションにデータを書き込もうとした際にネットワークエラーが発生するもので、broken pipeというのは、ネットワーク接続上でデータを送受信ができなかったことを意味するらしい。
+エラーが発生する条件としては、以下の通り。
+一度API内部のDB処理が成功した後 一定の時間が経過した後に再度DB処理が実行された時に当該エラーが発生する サンプルが少ないため自信はないが、成功から次の実行まで5分以上空く時にエラーになってるっぽい 仮説を立てる 以上のことから、既に死んでいるコネクションを使用してDB接続を行い、エラーが出ているのではと仮説を立ててみる
+調査 Go(sqlパッケージ) maxIdleTimeのデフォルト値はない＝無限に保持される DB(Neon) デフォルトでは5分でインスタンスが0になるらしい 参考 調査結果を経て考察 恐らく仮説の通りで、5分経過するとDBインスタンスが落ちるが、アプリ側では既に消失しているDBインスタンスに対するコネクションを保持してしまっていた。
+そのコネクションを用いてDBにアクセスしようとした時に本ネットワークエラーが発生してしまったと思われる。
+対応 https://github.com/nyuusen/ayoze/commit/25719057cfc4a140f8e422d1e7aa8938f0eae769 にて対応。
+アイドルコネクションの保持時間を4分(DBインスタンスが自動停止する5分より短い時間)に設定した。
+サーバレスDBを使うとこの辺りも考慮しなければいけないんだなという学びがあった。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to write: broken pipeエラーを解決する" href="http://localhost:1313/posts/fix-write-broken-pipe-error/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ゴールデンテスト
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ゴールデンテストの目的 目的を一言で言うとシステムリグレッションを防ぎたい システムリグレッションとはソフトウェアの機能改修やリファクタリングにより、機能の低下や仕様差異を発生させてしまうこと ゴールデンテストとは システムが過去の仕様と変更がないことを保証するためのリグレッションテスト手法 具体的には、同じ内容でHTTPリクエストを実行した時に、同じ内容でHTTPレスポンスが返ってくることをテストする 過去に実行したテスト結果をゴールデンファイルに保存し、再度実行したときに同じ結果が返ってくるかを確認する ゴールデンテストを書いてみた // TODO
+参考 Golden TestではじめるGoのAPI ServerのRegression Test - DeNA Testing Blog
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ゴールデンテスト" href="http://localhost:1313/posts/golden-test/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ピュアなGo言語のみでWebアプリケーションを実装する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門をGoで実装した際のメモ帳。 実際のソースコードはこちら: https://github.com/nyuusen/pure-go-web-app
+※ピュアなGo言語といっても、低レイヤすぎる箇所(TCPコネクション等)は標準ライブラリを使用
+TCPコネクションの確立 listener.Accept()でTCPコネクションを確立させる 内部的にはTCPConnインスタンスを作成している Accept()の責務としては、TCPConnインスタンスを作成するのみであり、以降のリクエスト/レスポンス処理はTCPConnが行う TCPConnについては、ネットワーク｜Goから学ぶI/Oが参考になった。 ソケットとは？ ネットワーク通信のために作られるソフトウェア的な構造で、通信のエンドポイントとして機能する アプリケーションとネットワーク層を結びつけるインターフェースであり、TCP通信において重要な役割を果たしている ソケットがやること アプリケーションが送信したデータをTCPプロトコルに渡してネットワーク層へ送信する 逆に、ネットワーク層から受信したデータをアプリケーションに渡すこともする 接続の確立や終了(3wayハンドシェイク)を管理する 必要性 前提として、TCP通信はデータを送受信するために必ず双方向の通信チャネルが必要である この前提を満たすために、以下の理由で必要となる ソケットがこのチャネルを作成・管理する役割を果たしている ソケットが接続情報(IPやポート番号)を保持する 1つのサーバーが複数のクライアントと通信する場合、ソケットごとに接続を管理する この仕組みがあることで、各クライアントとの通信が独立して行われる 実装に落とし込むと.. 双方向の通信チャネルに必要ということで、サーバー側もクライアント側もソケットの作成が必要となる サーバー側 ソケットを作成する ポートにバインドする 接続してきたクライアントごとに新しいソケットを生成し、それぞれ独立した通信を行う(これは内部的に行われている?) クライアント側 サーバーに接続するためのソケットを作成する(作成時に接続先の指定が必要) ソケットを通じてデータの送受信を行う 独り言 この辺りの知識があると、実装したコードとそのコードが何をやるのかがリンクしてよき Goにおけるビット演算子 参考: Go言語 ビット演算でのフラグ管理 package main import &#34;fmt&#34; func main() { a := 12 // 1100 b := 7 // 0111 // ビット論理積を計算 and := a &amp; b fmt.Printf(&#34;AND: %04b\n&#34;, and) // ビット論理和を計算 or := a | b fmt.Printf(&#34;OR: %04b\n&#34;, or) } ビット演算をする理由 osパッケージの中を見ていくとflagの比較等でビット演算を使用している処理を見かける 単純にenumみたいにintegerで扱えば良いのに、なぜビット演算を行うのか調べてみた 調べた感じ、以下のような理由があるらしい ビット演算はCPUが直接サポートする高速な処理であるから 数値や文字列演算だとその分オーバーヘッドが発生し、メモリ効率も悪くなる 1つの整数値で、複数の状態や設定を管理することができるから(コードがコンパクトになる＋拡張性も高い) 例えば1ビット目は新規作成するか、2ビット目はRead Onlyかとか.. 新しくフラグ管理したい要素が出た場合は、単純にその分のビットを追加すれば良いということになる POSIXやOS固有の低レベルAPI（例: syscall）との相性が良い osパッケージなどでは、この辺りを直接利用して処理を行うことが多い ビット演算はC言語やUNIX系のシステムプログラミングで長く使用されてきた標準的な手法であるから そもそもHTTPとは TCPが「漏れなく順序よく」送るためのルール その上で何をどうやって送るかのルールを定義するのがHTTPやSFTPになる ここまで実装を進めたことで、以下の章が理解度が素晴らしい.. HTTPとは？｜伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門 レスポンスパーサの自作 HTTPリクエストはリクエストライン,ヘッダー,ボディという構成になっている この構成のスペースの数や改行文字(CRLF)がきちんと定義されていることで安心してパースする この辺の処理を自作することで、HTTP含めプロトコルが定義されている理由やありがたみがわかるのがとても良い POST通信のフォーマットについて formタグのenctype属性で指定することが可能 application/x-www-form-urlencoded デフォルト値 URLに使用可能な文字のみ使用する 別名URLエンコーディング multipart/form-data ファイルを送信するとき使用する application/json 素のHTMLとブラウザの組み合わせでは使用できない JavaScriptのAjaxやAPI同士の通信でよく使用される(と思う) 利点としては、各言語にエンコード/デコード機能が豊富にあること・配列を持てること・数値と文字列の区別ができることが挙げられる ただし、JSONはただのテキストデータなので、バイナリデータを送信することはできない これをサーバー側とクライアント側で同じフォーマットルールを共有することで、互いに解釈することができる フォーマットルールの共有にHTTPヘッダーのContent-Typeを利用しているというわけ POSTパラメータを扱えるようにする｜伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ピュアなGo言語のみでWebアプリケーションを実装する" href="http://localhost:1313/posts/pure-go-web-app/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ポインタとガベージコレクション
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに Goで関数の戻り値としてポインタを返しすぎると、ガベージコレクション(GC)も負担が増えるという問題について調べたのでメモする
+スタックとヒープ まずは前提として、スタックとヒープを理解する必要がある。
+プログラムがデータを保存するメモリ領域として、スタックとヒープというものが存在する。
+スタック 関数の中で宣言された一時的なローカル変数が保存される場所 関数が終わると自動的に消えるので、管理が簡単で高速 小さいデータはスタックに置かれることが多い ヒープ プログラムのどこからでもアクセスできるデータを保存する場所 プログラムが明示的に消すまでメモリに残る それ故に不要なデータが増えるとメモリを圧迫する ポインタで管理されるデータはヒープに保存されることが多い 関数のスコープを超えて存続する可能性があるデータであるため GCの必要性 上で述べたが「ヒープに確保されたデータは明示的に消さない限り残り続ける」という問題を解決するための仕組み 具体的には、GCが動いて、不要なデータを自動的に回収する 不要なデータを回収するから「ガベージコレクション」という GCにより、開発者が手動でメモリを解放しなくても、安全にメモリ管理が可能となる 一方、GCが頻繁に動くと、プログラムの動作が遅くなることがある ポインタを返しすぎるとGCの負担が増える問題まとめ ポインタで管理されるデータヒープに保存される(ことが多い) ヒープのデータは自動的には消されないので、GCという仕組みにより、不要なデータが回収される つまりポインタを使いすぎるとその分GCが動くので、それにより処理が遅くなるといった問題が発生する可能性がある 余談: GCはどのようにして、いつ動いているのか？ どのように動く？ バックグラウンドで走り続け、不要なメモリを検出すると解放する いつ動く？ 自動的に適切なタイミングで実行される 手動実行も可能(runtime.GC()) 発展 GCが動くと不要なメモリが解放される一方、CPU使用率が一時的に上がってしまう可能性がある そのため、GCの回数を減らす工夫として、小さい構造体なら値で返したり等でスタックを活用するということが考えられる </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ポインタとガベージコレクション" href="http://localhost:1313/posts/pointer-gabage-collection/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">依存パッケージのアップデート方法
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 Goのプロジェクトにおいて、依存パッケージをアップデート方法を記載する
+やり方 go.sumファイルを削除する go.modファイルのgoのバージョン表記から下を削除する go mod tidyを実行する 手順1と2を行うことで、インストール済みのパッケージのチェックサムとバージョン情報が削除される。
+手順3で、必要な依存解決を1から実行してくれるので、結果的にパッケージのバージョンが上がったりする(もちろんバージョンが変わらないものもある)
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 依存パッケージのアップデート方法" href="http://localhost:1313/posts/how-to-update-deps/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/7/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/9/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

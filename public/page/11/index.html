@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My New Hugo Site</title>
+
+<meta name="description" content="">
+<meta name="author" content="nyuusen">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="My New Hugo Site">
+<meta name="twitter:description" content="">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "My New Hugo Site",
+  "url": "http://localhost:1313/",
+  "description": "",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CloudFront &#43; S3構成でCORSを設定する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>前提 S3バケットに何かしらの資材を配置する S3バケットは外部公開しておらずCloudFront Distributionに設定(OAC) クライアント(ブラウザ) – CloudFront(ディストリビューション) – S3(バケット)という構成 CORSおさらい https://github.com/nyuusen/TIL/blob/main/other/cors.md CloudFront &#43; S3構成でCORSを設定する方法 実現したいことは「CloudFront &#43; S3で返す内容にCORSの設定を追加したい」
+もう少し具体にすると「クライアントからのリクエストに対するレスポンスのヘッダにAccess-Control-Allow-Originとその値として該当オリジンを追加したい」となる。
+そのためには以下のようにいくつかの手順が必要となる。
+STEP1: S3(オリジンサーバー)からAccess-Control-Allow-Originヘッダを返す バケットにCORS設定を作成する 詳細: CORS 設定の要素 - Amazon Simple Storage Service STEP2: CloudFrontディストリビューションからOrigin等のヘッダをオリジンサーバに転送するように設定する CloudFrontディストリビューションに、以下のヘッダをS3に転送するように設定する Access-Control-Request-Headers Access-Control-Request-Method Origin 上記の設定は、マネージドポリシー「CORS-S3Origin」もしくは「CORS-CustomOrigin」に含まれているので、どちらかを選択すると良い STEP3: CloudFrontディストリビューションのキャッシュ動作を、HTTPリクエストのOPTIONSメソッドを許可する設定にする プリフライトリクエストが使用される場合は、OPTIONSメソッドを明示的に許可する必要がある デフォルトでは、GETとHEADリクエストのみ許可されている STEP4: CloudFrontディストリビューションでレスポンスヘッダーポリシーを設定する CloudFrontディストリビューションのCORSを有効にするレスポンスヘッダーポリシーを追加する 参考 CloudFront からの「アクセス制御-オリジン許可ヘッダなし」エラーを解決する | AWS re:Post </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-19 22:26:30 +0900 JST'>February 19, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to CloudFront &#43; S3構成でCORSを設定する" href="http://localhost:1313/posts/cors-cloudfront-s3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">GitHubActionsでジョブ実行の条件に指定できるステータスの動作検証
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに GitHubActionsでジョブ実行の条件に指定できるが幾つがあるが、RequiredReviewが設定したEnvironmentにおいて、承認・承認却下した時の該当ステップの出力結果を検証したい。
+検証リポジトリ https://github.com/nyuusen/github-actions-sandbox 検証対象 success failure cancel 検証結果 ワークフロー実行画面で「Cancel Workflow」を押下する success: false failure: false cancel: true 承認する success: true failure: false cancel: false 却下する success: false failure: true cancel: false まとめ 却下した時に、canceledがtrueにならない点は注意したほうが良さそう。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-15 22:03:42 +0900 JST'>February 15, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to GitHubActionsでジョブ実行の条件に指定できるステータスの動作検証" href="http://localhost:1313/posts/condition-status/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Linuxディストリビューション
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに Linuxには多くのディストリビューションが存在する。
+特にDockerでベースイメージを選定する時などに一応知っておいた方が良さそうなので簡単にまとめる。
+Linuxディストリビューションとは？ そもそもdistributionという単語は「配布」という意味を持つ単語である。
+なので、LinuxディストリビューションというのはLinuxを配布するためのパッケージみたいなものだという理解で大丈夫そう。
+具体的には、Linuxカーネルとそのほかソフトウェア群を1つにまとめたものである。
+Linux=OSという風に認識されがちだけど、厳密にはLinuxはカーネルというOSのコア部分を指していて、実際にOSとして利用可能な状態にパッケージ化されたものがLinuxディストリビューションだと思われる。
+詳細は: Linuxディストリビューション - Wikipedia
+(私がよく見かける)主要なLinuxディストリビューション Ubuntu：最も一般的に使用されているLinuxディストリビューションの一つで、ユーザーフレンドリーで安定している。デスクトップ、サーバー、クラウド環境に適している Debian：安定性とセキュリティに重点を置いたディストリビューションで、多くの他のディストリビューション（Ubuntuを含む）のベースとなっている CentOS：エンタープライズクラスのオペレーティングシステムで、Red Hat Enterprise Linux (RHEL)の無料版として広く使用されている（過去人気だった） ※GitHub Copilotさんの回答をコピペした
+比較してみる 基本的には、先祖としてDebian系とRedHat系とで分かれてるっぽい
+Debianは、100％フリーソフトであり続ける宣言をしており、ユーザーフレンドリーなのが特徴。
+昨今のWeb界隈の仕事だと、Debian系であるDebianやUbuntuを見ることが多いと思われる。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-15 21:58:13 +0900 JST'>February 15, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Linuxディストリビューション" href="http://localhost:1313/posts/linux-distribution/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Lambdaレイヤー
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Lambdaレイヤーとは 複数のLambda関数でライブラリを共有できる仕組み ライブラリをLayerとしてアップロードしておくことで、個々の関数はLayerを使えば良くなる メリット デプロイメントパッケージのサイズを縮小できる 依存関係の一部または全てをレイヤーに配置できるので、デプロイメントパッケージのサイズが小さくなる 関数のコアなロジックから依存関係を分離できる 複数の関数間で依存関係を共有できる（保守性の向上？） GoやRustでは推奨されていない Go または Rust で Lambda 関数を使用している場合は、レイヤーの使用はお勧めしません。 o および Rust 関数の場合、関数コードを実行可能ファイルとして提供します。これには、コンパイルされた関数コードとそのすべての依存関係が含まれます。 依存関係をレイヤーに配置すると、関数は初期化フェーズ中に追加のアセンブリを手動でロードする必要があり、コールド スタート時間が長くなる可能性があります。Go および Rust 関数のパフォーマンスを最適化するには、依存関係をデプロイメント パッケージと一緒に含めます。
+参考 レイヤーによる Lambda 依存関係の管理 - AWS Lambda </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-20 21:16:52 +0900 JST'>January 20, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Lambdaレイヤー" href="http://localhost:1313/posts/lambda-layer/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">VPC Lambda
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>VPC Lambdaとは VPCにアタッチしたLambda関数のこと 各公式ドキュメントでは「接続」という言葉が使用されているが「アタッチ」と同義だと思っているのと、そっちの方がしっくりくる ちなみにLambda関数は、デフォルトではLambdaマネージドVPCで実行される VPC内のリソースへのプライベートアクセスが可能になる点が最大のメリット(だと思われる) 構築に必要なもの ネットワークインターフェイス 実行ロールへのIAMポリシー(AWSLambdaVPCAccessExecutionRole)アタッチ 上2つはどちらもLambdaがVPC内のリソースへのアクセスするために必要 構築手順 めちゃくちゃ端折ると..
+Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設定からVPCを選択し、サブネットを選択する 注意ポイント Lambda関数からインターネット接続したい場合はNATゲートウェイを経由する必要がある これはサブネットがパブリックであっても同じ 公式で記載されている情報を見ると、Lambda関数にはプライベートIPしか割り振られないためだと思われる NATゲートウェイは高いので、代替案を考察している記事 VPC内のLambdaからインターネット接続する方法 - Briswell Tech Blog 結論、VPC Lambda-&gt;VPC外 Lambdaでインターネットにアクセスする(VPCエンドポイント設定が必要)と行けるみたい。面白い。 参考 Lambda 関数に Amazon VPC 内のリソースへのアクセスを許可する - AWS Lambda インターネットアクセス可能な VPC Lambda を作成してみた | DevelopersIO VPC の Lambda 関数へのインターネットアクセスを許可する | AWS re:Post </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-20 21:16:52 +0900 JST'>January 20, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to VPC Lambda" href="http://localhost:1313/posts/vpc-lambda/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/10/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/12/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

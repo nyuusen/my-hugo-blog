@@ -1,4 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-flex'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+pagination.pagerSize = 20
+
+[params]
+env = "production"
+author = "nyuusen"
+ShowShareButtons = true
+ShowReadingTime = true

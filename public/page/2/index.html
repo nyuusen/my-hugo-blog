@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My New Hugo Site</title>
+
+<meta name="description" content="">
+<meta name="author" content="nyuusen">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="My New Hugo Site">
+<meta name="twitter:description" content="">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "My New Hugo Site",
+  "url": "http://localhost:1313/",
+  "description": "",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">認証認可まとめ
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに 認証認可についての知識が散らかりがちなので調べたことをメモ（随時更新）
+MDNに良い感じにまとめてあった。 HTTP 認証 - HTTP | MDN
+認証認可を実現する技術と仕様 ID/パスワード SAML OAuth OpenID Connect JWT MFA Basic認証 usernameとpasswordをBase64エンコードしてHTTPヘッダのAuthorizationに設定する リクエストのたびにパスワードを送信する形 実装が簡単（ヘッダの値をセット・検証するだけ） しかし盗聴されるとBase64デコードすることで元の値が見れてしまうのでセキュリティ性は低くない Basic認証を採用する場合はHTTPS化することが推奨される ダイジェスト認証 Basic認証の改良版 サーバが生成したランダムの文字列をパスワードに付与し、IDとパスワードをMD5でハッシュ化して送信 これもリクエストのたびにパスワードを送信する形 サーバ側でも登録済みの認証情報をハッシュ化し、照合することで認証する セッションベース認証 リクエストの度にパスワード等を送る(Basic/ダイジェスト認証)のは良くないので、サーバー側でログイン済み情報を保持する「セッション」という仕組みが誕生 セッションは、このユーザーはこのセッションという情報を保持しているので「ステートフル」と言える（サーバーが状態を持っている） サーバー側で強制ログアウトや履歴管理が可能 クライアント側では、セッションID的なものをCookieで保持することが多い Cookieで保持することが多い理由 クライアント側はセッションIDだけを知っていれば良い セッションIDをCookieに保存しておけば、ブラウザが自動で送信してくれる（フロントエンドがセッションの存在を意識しなくて良い） JWT認証 JSON Web Tokeの略で、クライアントとサーバー間で認証等の情報を安全にやりとりするための標準規格 JWTには、ヘッダー（トークン種類や署名アルゴリズム）とペイロード（ユーザーID、有効期限、ロール等）と署名（ヘッダとペイロードを暗号鍵で署名し、改竄されていないことを保証する） JWTはトークンに全ての情報（ユーザーIDや期限など）を持っているので「ステートレス」な認証と言える サーバーは、クライアントから送られてきたトークンを検証するだけなので、DBやセッションを見に行く必要はない その代わり、サーバ側で保持していない＝一度発行したトークンをサーバ側で無効化するみたいなことはできない JWTは、LocalStorageで保持することが多い LocalStorageで保持することが多い理由 JWTは、Authorizationヘッダにセットする（自動送信されるCookieとは異なり、リクエストごとにセットする必要がある） つまり、ブラウザで保持しているトークンを何かしらの形で、リクエストに含める必要がある そうなると、JSからアクセスできる場所が都合良いので、LocalStorageに保存することが多い（CookieにHttpOnly属性が付与されているとJSから読み取れないため） 結果、SPAやCSR前提のアプリケーションで採用されるケースが多い JSからアクセスできるということはXSSのリスクがある（CookieはHttpOnly属性を防げる） LocalStorageにあるトークンを盗まれてしまうリスクがある 最近ではJWTをCookieに保存するケースもある セッション vs JWT ※保存場所(Cookie vs LocalStorage)の話も含む
+サーバーとクライアント結合度合い Cookieは、ブラウザ前提とした設計になりがち Authorizationヘッダでトークン送る形式(JWT)は、ブラウザ以外（例：モバイルアプリ）でも使用できる つまり、Cookieを使用するとサーバーとクライアント(種類)の依存度が強まってしまう CORS制御の面倒度合い APIとフロントが別ドメインである場合、CORS設定が面倒（Cookie送るのにcredentials: ‘include’が必要、SameSite設定） スケーリング セッションは、サーバー側で保持されるのでスケーリングに不向き ただし昨今はデータストアに置くケースが多いのであまり考えなくて良いかも トークンを強制的に無効化 セッションは消せば良いのでサーバー側で可能(サーバー側が中央集権的に管理できる) JWTはできない・・・？ クライアント側での考慮 セッションはCookieにさえセットされていれば自動で送信されるのでクライアント側での考慮が必要ない また、CookieはSSRやHTMLフォームとの相性が良い SSRで初回リクエストした時、Cookieなら自動で送信されるため クライアント側でのログイン状態管理 SPAなどではログイン状態をクライアント側で保持・制御するケースが多く、JWTの方が向いている 未ログイン状態ではログインボタンを表示するというような制御 一方、SSRのシステムでは、サーバー側でログイン状態を判断し、HTMLを返却しているので、クライアント側では基本的にログイン状態を持たない マイクロサービス サーバーが異なっていても送りやすいJWTが向いている 結論 アプリケーションの作り方でどちらを採用するかを決めるのが良いか？（私見）
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-03 11:24:57 +0900 JST'>May 3, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 認証認可まとめ" href="http://localhost:1313/posts/matome/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">フォント
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>FEの開発で特定の端末でのみ、英語の文字が太字にならないという問題が発生した。
+この問題に対処した上でフォント周りを調べたので雑にメモを残しておく。
+フォントとは？＋反映されるまでの流れ フォントの実態は.woff2のようなファイルに、CMAPテーブルというそのフォントがどのUnicodeに対応しているかをものがある DOM構築時にUnicodeを取得し、CMAPテーブルをチェックし、フォントを確定 そのフォントを使って描画する フォントの種類とか ※実際にどのようなフォントをあてるかはCSSのfont-familyで指定される
+まずフォントには、どこにあるかの場所により大きく2分できる
+ローカルフォント Webフォント ローカルフォントはそのままで私たちが触っている携帯やPC等にあるやつ。
+Webフォントは、Web経由で配信されているフォントのこと（Google Fontsとかが有名）
+その上で、Noto Sans JPやRobot, sans-serifのようなフォント種類がある。
+sans-serifは、汎用フォントファミリであり、serif(飾り)がsans(フランス語で「無い」という意味)という意味。実際の具体のフォント名ではなく「飾りがない」フォントをあててねというものであり、実際にどのフォントがあたるかは環境によって異なる。
+あとはフォントの種類によって、日本語に対応しているもの・そうでないものとかある。
+Webフォント Webフォントを指定することで、ユーザーの環境に依存することなく、統一のフォントをあてることができる。その一方で、ページ描画時にフォントダウンロードが発生するデメリットがある（フォントは長い時間キャッシュされることが多いのでそこまで大きな問題にならないが）
+※Webフォントは、headタグ内のlinkタグで指定される（CSSとかと同様に読み込み時にダウンロードが走る）
+雑に使ってしまうと容量大きくなるので、日本語だけ取得するサブセット化すると、サイズ縮小できる。
+[追記] 以下のパフォーマンスチューニングのスライドでは、ウェブセーフフォント(sans-serif等)使うのが良いと書かれている。
+https://speakerdeck.com/cp20/shi-jian-webhurontopahuomansutiyuningu?slide=72
+next/font: Next.jsでのアプローチ next/fontとは？ 最適化: フォント | Next.js 上記にあるが、next/fontというフォント最適化の仕組みがある。これはセルフホスティングされるので、ユーザーが表示時に外部サイトからフォントダウンロードが走る・レイアウトズレが生じるというようなことを発生を抑制できる。
+セルフホスティングとは、ビルド(next build)を実行するとビルド結果にwoff2ファイルが含まれる（ビルド時にフォントダウンロードしてくれる）つまり、ブラウザからGoogle等のフォント配信先へのリクエストが走らないようになる。
+セルフホスティング vs 従来のWebフォントインストール ※従来のWebフォントインストール: headタグのlinkタグでフォント配信先URLを指定
+結局どちらもブラウザからすると、ネットワーク経由のリクエスト/レスポンスが発生するからそこまでセルフホスティングにメリットがあるのか？を調べてみた。
+DNSルックアップやTLSハンドシェイクが外部サーバーに対して不要になる(セキュリティ性向上？) 冒頭の問題解決方法 冒頭述べた問題に対しては以下の対処を行なった。
+Webフォントを採用 font-weightを一般的な400,700を採用 まず表示する端末に依存することを避けるためWebフォントを使うことにした。
+また、今回プロジェクトで使用されていたfont-weightの太字にあたる値が600であったため、一般的な太字の700と異なり、これがそもそも特定の端末で太字にならない本あの原因だった説が高い。ので、一般的な400,700という値を統一して使用することにした（フォントが同じでも太さが異なると、フォントファイルも違うという学びも得られた）
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-30 07:20:59 +0900 JST'>April 30, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to フォント" href="http://localhost:1313/posts/font/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CSRF(Cross Site Request Forgery)
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>CSRFとは？ 認証済みユーザーが勝手にリクエストを送られる 例えば、A銀行のサイトがあり、Cookieにセッションを保持した状態で、別の悪意あるサイトに遷移した際に勝手にそのセッションを用いて、A銀行サーバーにリクエストを送ってしまう（勝手に送金されるとか..） Forgeryは「偽造」という意味 対策 リクエスト元を制御: CookieのSameSite属性 StrictもしくはLaxを設定することで、クロスサイトでのCookie送信を防止する リクエスト元を検証: CSRFトークン サーバー側で発行したトークンをフォームに埋め込む クライアントからのリクエストにそのトークンがあるかを確認し、リクエストの妥当性をチェック 認証トークンを送らせない: Authorizationヘッダを利用 Cookieだと自動送信されてしまう 代わりにAuthorizationヘッダを利用すればブラウザが自動送信しないため、CSRF攻撃は成立しない </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-28 23:15:14 +0900 JST'>April 28, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to CSRF(Cross Site Request Forgery)" href="http://localhost:1313/posts/csrf/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">XSS(Cross-Site Scripting)
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>XSSとは？ 悪意あるスクリプト（JavaScriptなど）をユーザーのブラウザ上で実行させる攻撃 例えば、HTML入力フォームに、&lt;script&gt;alert(&#39;hello&#39;)&lt;/script&gt;という内容を入力する形でJSを実行できてしまう 例えばCookie, LocalStorageにあるセッション・トークン情報を盗んだり 対策 発動を防ぐ: CSP サーバ側でContent-Security-Policy（CSP）を設定する(レスポンスにヘッダをセットする) CSPは、ブラウザに命令をするもの(インラインのJS実行禁止とか、同一オリジンのJSのみ実行許可するとか) ブラウザがCSPに書かれている命令を読み取り、それに則り行動する 設定例: script-src &#39;self&#39;: &lt;script src=&#34;./script/app.js&gt;&lt;/script&gt;といった 外部スクリプトの同一オリジンのみ許可（インライン＝HTML内のJSやbutton等のHTMLタグのonclick属性等のJSもブロック） コンテンツセキュリティポリシー (CSP) - HTTP | MDN
+埋め込みを防ぐ: 入力値サニタイズ ユーザー入力値をエスケープ処理する 例：&lt;script&gt; → &amp;lt;script&amp;gt; 読み取りを防ぐ: Cookie HttpOnly属性 Cookie HttpOnly属性をつけることでJSからトークンを盗まれないようにできる 対策まとめ サーバーからブラウザに変なJSを実行しないでね＋ユーザー入力値はきちんと文字列として扱ってね＋もし万が一Cookieにアクセスされても盗まれないようにね
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-28 23:15:14 +0900 JST'>April 28, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to XSS(Cross-Site Scripting)" href="http://localhost:1313/posts/xss/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">PrivateLinkを理解する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>PrivateLinkとは？ サービスがVPC内にあるかのようにVPCをそれらのサービスにプライベートに接続できるようにするサービス あるVPCから別のVPCのあるリソースをあたかも同一VPC内にホストされているかのように、プライベートIPアドレスを使用して接続することを可能にする 後述のVPCエンドポイントVPCエンドポイントサービスを使用して、上記の機能が実現することができ、その提供される機能（サービス）のことをPrivateLinkという IGW、NATデバイス、パブリックIPアドレス、DirectConnect、Site-to-Site VPN接続を使用する必要はない セキュリティが向上するのはもちろん、NATゲートウェイ（インスタンス）やEIPが不要ということでコスト面でもメリットが大きい AWS PrivateLink とは AWS PrivateLink の概念 VPCエンドポイントとは？ VPCと他サービス間でプライベート接続を可能にするコンポーネント サービス利用側のVPC内に作成する (インターフェイス型)VPCエンドポイントを作成するとENIが作成（アタッチ）される VPCエンドポイントを作成するときは1つ以上のサブネットを選択するが、選択したサブネットそれぞれにENIが作成される VPCエンドポイントサービスとは？ VPCと他サービス間でプライベート接続を可能にするコンポーネント サービス提供側のVPC内に作成する 実体はロードバランサー NLB or GLBが必要 VPCエンドポイントサービス側では、VPCエンドポイントの接続リクエストを承諾を行う必要がある なぜサービス提供側にNLBが必要なのか？（考察） （そういう仕様だからというのは置いておいて、どうしてそのようになっているか考えてみた）
+PrivateLinkの思想はあくまでネットワークレイヤの透過的な疎通なので、L7レイヤのことは気にするべきでない（ALBでは実現不可） L4レイヤであれば内部ネットワークで通信を延長できるイメージ 加えて、L7レイヤではHTTPリクエストの解釈等の負荷があるが、IPとポートだけで接続先を決めるL4レイヤは軽くてパフォーマンスも良い じゃあECSとかサーバーに直接繋げるのはダメなの？起動のたびにIP変わったりするし、そうなるとPrivateLinkも貼り直しになり色々微妙（そもそもL7レイヤでの通信じゃんという話ももちろんあるが） PrivateLinkは、あくまでネットワーク（VPC）のサービスだから、アプリケーションレイヤが立ち入るのは良くないよねという設計思想なのかもしれない ちなみに、NLBのターゲットにALBを指定することは可能 VPCエンドポイントの種類 インターフェイスタイプ プライベートIPが割り当てられたENIが作成される(これはEC2のようなもの…？) ゲートウェイタイプ ルートテーブルで送信先に対するターゲットとして指定する このサブネットのこの宛先（プレフィックスリスト）の通信はS3/DyanamoDBに流すというやつ 内部的にENIやIPアドレスは作成されない（恐らく仮想ルータ的なものだけ） つまり、ルートテーブルだけでの制御(L3 IPレベルの単純な転送)なので、軽いしスケールしやすい だから、通信容量が多そうなS3とDynamoDBだけなのだろうか…？ インターフェースVPCエンドポイントの料金 時間課金: VPCエンドポイント1つあたり 0.014USD/1h データ処理量: 0.01USD/1PB →これって多分ENI（EC2的な？）を内部で立てているための料金なのかも？
+※ゲートウェイ型は、データ処理量のみ発生する
+参考 【初心者向け】VPCエンドポイントとAWS PrivateLinkの違いを実際に構築して理解してみた | DevelopersIO </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-26 23:26:39 +0900 JST'>April 26, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to PrivateLinkを理解する" href="http://localhost:1313/posts/private-link/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ReactにおけるCSS
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>勉強会でCSS周りの話を聞いたので調べてみる。
+どのような種類があるか CSS （言わずもがな）
+ブラウザが直接解釈する（のでパフォーマンス良い） クラス名設計等のスコープ管理が難しいのと、コンポーネントベースの設計と相性が微妙 コンポーネントごとにスタイルを独立させたいが、純粋CSSだとそうもいかない どのスタイルがどのコンポーネントに対応しているかが追いづらい 使用されなくなったCSSが残り、肥大する可能性もある BEM等を採用してクラス名ルールを決めたり、CSS Modulesでローカルスコープ化したりやり方はあるが、JSではないので、モジュール化(import/export)を使用できないので、JSフレームワークとの相性はあまり良くないという意味 CSS in JS(ランタイム) JSファイル内でCSSを書く ランタイムでCSSを生成してDOMに注入する CSS文字列からパース処理を経てstyleタグを生成し、classNameをハッシュ関数等で作成しstyleタグを直接挿入し、コンポーネントにバインドする パース処理とDOMへの直接埋め込みという負荷の大きい処理をランタイムで行うことになりオーバーヘッドが大きい サーバー側でコンポーネントがレンダリング処理が行われるためにDOMアクセスができないので、ServerComponentでは動作しない styled-components, Emotion等 ゼロランタイムCSSとの比較で、ランタイムCSS in JSと呼ぶこともある ゼロランタイムCSS 書き方はCSS in JSだが、ビルド時に純粋CSSを出力する JS実行時にスタイルを処理しないので「ゼロランタイム」と呼ばれている 純粋CSSなので、ブラウザがそのまま解釈可能、パフォーマンスが高い CSS in JSの実装面の良い所である型安全やスコープ管理が使える ステートの状態でcolorが変わるようなものは、ClientComponentとしてランタイムでスタイリングが当てられる（なるべくこの処理を減らした方がパフォーマンスが良い） vanilla-extractやLinaria、Kuma-UI 参考 ゼロランタイムCSS in JSとは？結局、何を使えばいい？- フロントエンドの現在 - ゼロランタイムUIコンポーネントライブラリ「Kuma UI」の紹介 日本人の方が作成したゼロランタイムCSS in JSライブラリ </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-21 06:49:42 +0900 JST'>April 21, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ReactにおけるCSS" href="http://localhost:1313/posts/css-in-react/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CORS
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>SOPというブラウザのセキュリティ制約を理解した上で、CORSをちゃんと理解する。
+Same Origin Policy(SOP) SOPとは、ブラウザにある仕組みのことで、あるオリジンから別のオリジンにあるリソースへのアクセスを制限するというもの オリジン：スキーム（プロトコル）、ホスト、ポートの3つの組み合わせたもの(なので、いずれかがど異なるだけでも別オリジンと見なされる) この仕組みが存在する理由は、例えば悪意あるスクリプトが仕込まれたWebページを読み込んだ時に、JSであらゆるリソースにアクセスできたらセキュリティ的な問題が生じうるので、それを防ぐため ここで制限の対象となるのは、JavaScriptからリクエストするもののみ（fetch()とか、scriptタグでのフォントインストールとか） なので、HTMLのimgタグのsrc属性に別オリジンとなるURLが設定されていても、SOPによる制限は受けない また、これはあくまでブラウザの機能なので、curlコマンドとかだとSOPの仕組みはない（CORSエラーは発生しない） Cross Origin Resource Sharing(CORS) CORSは、異なるオリジンからのリソース要求を可能にするブラウザの機能 この機能は、HTTPヘッダーを利用して実現される 実装的には、サーバーのレスポンスヘッダAccess-Control-Allow-Originに許可したいリクエスト元のドメインを設定することで、そのドメイン(オリジン)からのリクエストを許可する仕組みとなっている 例えば、APIサーバー側のレスポンスヘッダAccess-Control-Allow-Originの値にフロントエンドドメインを設定することで、フロントエンドからのAPIサーバーへのアクセスが可能になる 補足として、よくCORSエラーと表現されることが多いが、あくまでCORS自体はクロスオリジンからのリクエストを許可するものである（CORSエラーというのは、SOPという制約を受けて＋CORSが設定されていないという内容のエラーである）
+CORSエラーが発生するタイミング CORSエラーが発生するタイミングは、リクエストの種類によって異なる。
+1.シンプルリクエストの場合 シンプルリクエストとは？
+プリフライトリクエストが発生しないリクエストのことで、以下の条件に当てはまるもの。
+HTTPメソッドはGET、POST、HEADのいずれか リクエストヘッダーが以下のみ Accept Accept-Language Content-Language Content-Type（ただしapplication/x-www-form-urlencoded,multipart/form-data,text/plainのみ） Authorizationやカスタムヘッダ(X-API-KEYなど)を含む場合は、非シンプルリクエストになる リクエストボディにBlobやArrayBufferなどを含まない（通常のテキストデータのみ） 簡単にまとめると「GETやHEADのサーバー側に影響を及ぼさない安全なメソッド」や「HTMLフォームで送信できる範囲のPOSTリクエスト」が該当する。
+CORSの検証〜エラー発生までの流れ
+ブラウザがサーバーにリクエストを送信し＆サーバーからのレスポンスを受け取った後にAccess-Control-Allow-Originヘッダーをみて、自身のOriginが含まれているかをチェックする 自身のOriginが含まれていない場合、ブラウザがエラーを発生させ、レスポンスをJavaScript側に渡さない 仮にサーバー側が200 OKを返してもいても、自身のOriginが含まれていなければエラーが発生する Access-Control-Allow-Originヘッダー自体がそもそもない場合もエラーとなる シンプルリクエストは、基本的にはサーバー側に影響を及ぼさないリクエストなので、事後チェックとなっている （なお、サーバー側に影響を及ぼす可能性がある）HTMLフォームから送信される範囲のPOSTリクエストが同じく事後チェックなのは互換性重視のため（HTMLフォームからのクロスオリジンリクエストはCORS登場の前から行われていた） 2.プリフライトリクエスト(が必要なリクエスト)の場合 ブラウザがリクエスト送信前にOPTIONSメソッドでプリフライトリクエストを送る ブラウザから、Access-Control-Request-Methodで実際に送るリクエストのメソッドをサーバー側に伝える サーバーがCORS関連の情報をブラウザに返却する ブラウザがレスポンスヘッダを見て、リクエストが許可されているかをチェックする 許可されていれば、本リクエストを送信する 許可されていなければ、本リクエストは送信されず、エラーが発生する 参考 オリジン間リソース共有 (CORS) - HTTP | MDN 同一オリジンポリシー - ウェブセキュリティ | MDN </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-20 15:23:16 +0900 JST'>April 20, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to CORS" href="http://localhost:1313/posts/cors/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">DNSがよくわかる教科書
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> 委任によって管理を任された範囲をゾーンと呼ぶ ゾーンの管理者はネームサーバで以下の2種類を情報を管理する そのゾーンに存在するドメイン名とIPアドレスの対応づけ 委任情報(委任先のネームサーバ情報) 問い合わせが来たら委任先を紹介するイメージ ドメイン登録手順 申請者→レジストラ(リセらとか)→レジストリ(データベース) そのドメインが使えるかはWhoisというシステムで確認可能 3種類と構成要素 スタブリゾルバー これがDNSクライアントとなる 端末のOSに存在する フルサービスリゾルバー キャッシュDNSサーバー ISPとかに存在 プロキシ的に動く DNS結果をキャッシュする 権威サーバー ネームサーバーのことで、ドメインに紐づくIPアドレスを持つ そのドメインに対する権威を保持していることから権威という名前 複数あるネームサーバーのどれに問い合わせるの？ RTTをチェックし、最も短いサーバーに問い合わせる ラウンドトリップタイム: 問い合わせてから応答が返るまでの時間 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-17 23:10:29 +0900 JST'>April 17, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to DNSがよくわかる教科書" href="http://localhost:1313/posts/011_dns%E3%81%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%99%E7%A7%91%E6%9B%B8/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Bashのpipefailオプションについて
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに GHAでGitHubHostedRunner上でUbuntuを動かす場合、デフォルトのシェルはbashとなる。 ただ厄介なことにshellキーの有無で、bash起動オプションが異なるという挙動があり、その点を深掘ってみる。
+なおshellキーの有というのは、shell: bashというのをステップで宣言することを指している。
+具体的なGHAでの起動オプションの違い 省略時: bash -e {0} 記述時: bash --noprofile --norc -eo pipefail ※起動オプションでなくても、set -e等でスクリプトの中で実行することも可能
+オプションを理解する -e: スクリプト内のどこかでコマンドが失敗すると即時終了する -o pipefail: パイプラインの中で失敗したコマンドをエラーとして扱う --noprofile --norc: .bash_profile や .bashrc を読み込まずに起動する（環境の違いを排除） パイプラインとは？ コマンドの出力を次のコマンドの入力として渡す構文のこと cat example.txt | grep &#34;keyword&#34; pipefailがないデフォルトの状態では、パイプラインの最終コマンドの終了ステータスのみが評価されるので、途中のコマンドが失敗してもスルーされる可能性がある -o pipefailの設定をすることで、パイプラインのどこかが1つでも失敗すれば、全体が失敗と評価される スクリプトの中で、set -o pipefailとやることでも設定可能 なぜデフォルトではpipefailがないのか？ pipefailは比較的新しいオプションであり、、後方互換性のためデフォルトでは無効になっている Unixの思想として「小さいコマンドを繋いで処理を作る」というのがあり、パイプで繋いで小さい処理をインタラクティブに繋ぎ合わせる そもそもユーザー入力値を前提に処理を進める場合はpipefailが無効の方が便利だったりする grepして結果無いたびにエラーになるより、エラーなしで処理が継続できた方が柔軟性が高い pipefail以外でシェルを堅牢にするオプション -e(errexit): コマンドが失敗したら即スクリプトを終了 -u(nounset): 未定義の変数を使ったらエラーにする </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-14 22:56:57 +0900 JST'>April 14, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Bashのpipefailオプションについて" href="http://localhost:1313/posts/bash-pipefail-option/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">go mod vendor
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>go mod vendorとは？ go mod vendorとは、Goのモジュールシステムにおけるコマンドの1つである。 go mod vendorを実行すると、ビルドとテストに必要な全ての依存パッケージのコピーをvendorディレクトリに格納する。
+vendoringが有効な場合、goコマンド(ex:go buildやgo test等)はソースからモジュールキャッシュをダウンロードする代わりに、 vendorディレクトリからパッケージをロードしてビルドやテストを実行してくれる。
+Go1.14以上の場合は、ルートディレクトリにvendorディレクトリがあれば自動的にvendorディレクトリが使用される (現行バージョンだとvendoringはデフォルトでONになっているという認識で良さそう)
+明示的に無効にしたい場合は、goコマンドに-mod=readonlyまたは-mod=modのオプションを使用する。
+メリット ネットワーク不要でビルド可能になる 依存パッケージのバージョンを固定できる(ビルドの安定度向上等) デメリット リポジトリサイズの肥大化 依存パッケージが更新された場合は再度コマンド実行が必要 実際のユースケースを考えてみる 現在自分が担当しているGoを使用したプロジェクトではdockerコンテナ上で開発をしており、 コンテナを破棄してイメージの再ビルド(docker compose down &amp;&amp; up)を行う度にモジュールダウンロードが発生するため、 ローカルでの開発での速度向上には良いのかもしれない(と教えてもらった)
+ただ注意点としては、複数人で開発を行うときはgit管理対象外にするのは必須なのと、 依存パッケージの更新時は、go mod vendorを再実行することを忘れずないようにする。
+参考 go mod vendor
+Vendoring
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to go mod vendor" href="http://localhost:1313/posts/go-mod-vendor/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">HomebrewでGoバージョンを切り替える
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 今まではgoenvとかを使ってローカルのGoバージョンを管理していたが、PC切り替えたタイミングでシンプルにHomebrewで管理してみることにした。
+Homebrewだとbrew updateで新しいバージョンが入るので良いが、バージョン切り替えに手こずったのでその方法を残しておく。
+やり方 1.23.4から1.23.6に上げる方法
+※ここではあえて、brew updateではなくgoのインストールから手動で行うで紹介
+// 存在を確認 brew search go@1.23.6 // インストール brew install &#34;go@1.23&#34; // 現在リンクされているgoバージョンを解除 brew unlink go // 1.23に設定 brew link go@1.23 // 出力されたパス通すコマンド実行 echo &#39;export PATH=&#34;...&#34;&#39; &gt;&gt; ... source ~/.zshrc go version &gt;&gt; go version go1.23.6 darwin/arm64 注意点としては、brew switchを紹介している古い記事が結構あるが、switchコマンドは廃止されており、使用できなかった…
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to HomebrewでGoバージョンを切り替える" href="http://localhost:1313/posts/version-switching-with-homebrew/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">interface{} vs any
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに 空のインターフェイスを表現するものとして、interface{}とanyがある 両者の違いとどちらを使うべきかを調べた際のメモ
+interface Goの初期バージョンから存在する 全ての型はinterface{}を実装しているので任意の型を格納できる any Go1.18で追加されたinterface{}の型エイリアス 可読性向上のために導入された まとめ anyを使うべし
+参考 Go 1.18 で interface{} の代わりに any が使えるようになる話
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to interface{} vs any" href="http://localhost:1313/posts/interface-vs-any/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">uintptr型
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>uintptr型とは？ ポインタを整数として扱うための型 ポインタ操作やメモリアドレスの計算を行う際に役立つ 特に低レベルのメモリ操作や特定のシステムプログラミングで重要 ただし安全でない操作を行うため、unsafeパッケージのインポートが必要になる 使用例 package main import ( &#34;fmt&#34; &#34;unsafe&#34; ) func main() { var x int = 10 // int型のポインタを取得 p := &amp;x // ポインタをunsafe.Pointer型に変換 up := unsafe.Pointer(p) // unsafe.Pointer型をuintptr型に変換 uip := uintptr(up) // uintptr型を再びunsafe.Pointer型に変換 up2 := unsafe.Pointer(uip) // unsafe.Pointer型を元の型（*int）に変換（キャストする) p2 := (*int)(up2) fmt.Println(&#34;元の値:&#34;, x) fmt.Println(&#34;ポインタ経由の値:&#34;, *p2) } 解説
+unsafeパッケージを用いて、メモリ操作を可能にしている int型の変数xをポインタ経由で操作している (*int)(up2)でup2を*int型にキャストする 実際のユースケース 特定のメモリアドレスやハードウェアにアクセスが必要がある低レイヤーの開発 メモリアロケータやガベージコレクタの実装など メモリアロケータ アロケータとは割り当てのこと プログラム実行時にメモリを動的に割り当てる機能を提供するシステムコンポーネントのことをメモリアロケータという メモリの割り当て（アロケーション）や解放（デアロケーション）や再利用という機能を有する ガベージコレクタ 不要になったメモリを自動的に解放するシステムコンポーネント メモリリークを起こさないようにしてくれるやつ </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to uintptr型" href="http://localhost:1313/posts/uintptr-type/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Webサーバー
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 PHP/LaravelでWebアプリケーションを開発する場合、ApacheやNginx等のWebサーバーが必要になる一方で、
+Node.jsの場合は不要である。この違いが気になったのと、そもそもWebサーバーって何をやってくれているのか気になるので調べてみる。
+PHP/LaravelにおけるApacheやNginxの必要性 リクエストのルーティング pacheやNginxはクライアント（ブラウザなど）からのHTTPリクエストを受け取り、リクエストされたURLとHTTPメソッドに基づいて、PHPアプリケーションを振り分けている PHPエンジンとの連携 ApacheやNginxはリクエストをPHPエンジンに渡している Apacheではmod_phpモジュール、Nginxでは、PHP-FPM（FastCGI Process Manager）を使用している 静的ファイルの配信 負荷分散やリバースプロキシ機能 Node.jsにおけるWebサーバーが不要である理由 理由：内臓のHTTPサーバー機能を持っており、Node.js自体がHTTPリクエストを直接処理可能であるため httpやexpressなどのモジュールを使用して直接HTTPリクエストを受け取り、レスポンスを返す PHP/LaravelとECS on Fargateにデプロイしたい時はどうするの？ HTTPリクエスト処理を行うNginx/ApacheコンテナとPHP-FPM（PHP FastCGI Process Manager）コンテナに分割する 同居も可能ではあるが、リソース効率やスケールの柔軟性を考慮すると分割するのが推奨らしい (Nginxを仮定し、前面にALBを配置したケースを例)具体的には、 ALBのターゲットをNginxコンテナの80番ポートに転送する NginxコンテナからPHPリクエストをFastCGIでPHP-FPMコンテナに転送するように設定(nginx.conf) </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Webサーバー" href="http://localhost:1313/posts/web-server/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">write: broken pipeエラーを解決する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 個人開発しているアプリでDB接続時に以下のエラーが度々発生するので解決したい
+write tcp [...]:51724-&gt;[...]:5432: write: broken pipe ※…という部分にはIPv6アドレスが入っている
+個人開発しているアプリの技術スタックは以下の通り。
+バックエンド: Go(Cloud Run) データベース: Neon(Serverless Postgres) エラーを読み解く まずエラーが発生している箇所をソースコードで追うと、DB処理の部分でエラーが吐かれている。
+エラー内容で検索すると、TCPコネクションにデータを書き込もうとした際にネットワークエラーが発生するもので、broken pipeというのは、ネットワーク接続上でデータを送受信ができなかったことを意味するらしい。
+エラーが発生する条件としては、以下の通り。
+一度API内部のDB処理が成功した後 一定の時間が経過した後に再度DB処理が実行された時に当該エラーが発生する サンプルが少ないため自信はないが、成功から次の実行まで5分以上空く時にエラーになってるっぽい 仮説を立てる 以上のことから、既に死んでいるコネクションを使用してDB接続を行い、エラーが出ているのではと仮説を立ててみる
+調査 Go(sqlパッケージ) maxIdleTimeのデフォルト値はない＝無限に保持される DB(Neon) デフォルトでは5分でインスタンスが0になるらしい 参考 調査結果を経て考察 恐らく仮説の通りで、5分経過するとDBインスタンスが落ちるが、アプリ側では既に消失しているDBインスタンスに対するコネクションを保持してしまっていた。
+そのコネクションを用いてDBにアクセスしようとした時に本ネットワークエラーが発生してしまったと思われる。
+対応 https://github.com/nyuusen/ayoze/commit/25719057cfc4a140f8e422d1e7aa8938f0eae769 にて対応。
+アイドルコネクションの保持時間を4分(DBインスタンスが自動停止する5分より短い時間)に設定した。
+サーバレスDBを使うとこの辺りも考慮しなければいけないんだなという学びがあった。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to write: broken pipeエラーを解決する" href="http://localhost:1313/posts/fix-write-broken-pipe-error/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ゴールデンテスト
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ゴールデンテストの目的 目的を一言で言うとシステムリグレッションを防ぎたい システムリグレッションとはソフトウェアの機能改修やリファクタリングにより、機能の低下や仕様差異を発生させてしまうこと ゴールデンテストとは システムが過去の仕様と変更がないことを保証するためのリグレッションテスト手法 具体的には、同じ内容でHTTPリクエストを実行した時に、同じ内容でHTTPレスポンスが返ってくることをテストする 過去に実行したテスト結果をゴールデンファイルに保存し、再度実行したときに同じ結果が返ってくるかを確認する ゴールデンテストを書いてみた // TODO
+参考 Golden TestではじめるGoのAPI ServerのRegression Test - DeNA Testing Blog
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ゴールデンテスト" href="http://localhost:1313/posts/golden-test/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ピュアなGo言語のみでWebアプリケーションを実装する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門をGoで実装した際のメモ帳。 実際のソースコードはこちら: https://github.com/nyuusen/pure-go-web-app
+※ピュアなGo言語といっても、低レイヤすぎる箇所(TCPコネクション等)は標準ライブラリを使用
+TCPコネクションの確立 listener.Accept()でTCPコネクションを確立させる 内部的にはTCPConnインスタンスを作成している Accept()の責務としては、TCPConnインスタンスを作成するのみであり、以降のリクエスト/レスポンス処理はTCPConnが行う TCPConnについては、ネットワーク｜Goから学ぶI/Oが参考になった。 ソケットとは？ ネットワーク通信のために作られるソフトウェア的な構造で、通信のエンドポイントとして機能する アプリケーションとネットワーク層を結びつけるインターフェースであり、TCP通信において重要な役割を果たしている ソケットがやること アプリケーションが送信したデータをTCPプロトコルに渡してネットワーク層へ送信する 逆に、ネットワーク層から受信したデータをアプリケーションに渡すこともする 接続の確立や終了(3wayハンドシェイク)を管理する 必要性 前提として、TCP通信はデータを送受信するために必ず双方向の通信チャネルが必要である この前提を満たすために、以下の理由で必要となる ソケットがこのチャネルを作成・管理する役割を果たしている ソケットが接続情報(IPやポート番号)を保持する 1つのサーバーが複数のクライアントと通信する場合、ソケットごとに接続を管理する この仕組みがあることで、各クライアントとの通信が独立して行われる 実装に落とし込むと.. 双方向の通信チャネルに必要ということで、サーバー側もクライアント側もソケットの作成が必要となる サーバー側 ソケットを作成する ポートにバインドする 接続してきたクライアントごとに新しいソケットを生成し、それぞれ独立した通信を行う(これは内部的に行われている?) クライアント側 サーバーに接続するためのソケットを作成する(作成時に接続先の指定が必要) ソケットを通じてデータの送受信を行う 独り言 この辺りの知識があると、実装したコードとそのコードが何をやるのかがリンクしてよき Goにおけるビット演算子 参考: Go言語 ビット演算でのフラグ管理 package main import &#34;fmt&#34; func main() { a := 12 // 1100 b := 7 // 0111 // ビット論理積を計算 and := a &amp; b fmt.Printf(&#34;AND: %04b\n&#34;, and) // ビット論理和を計算 or := a | b fmt.Printf(&#34;OR: %04b\n&#34;, or) } ビット演算をする理由 osパッケージの中を見ていくとflagの比較等でビット演算を使用している処理を見かける 単純にenumみたいにintegerで扱えば良いのに、なぜビット演算を行うのか調べてみた 調べた感じ、以下のような理由があるらしい ビット演算はCPUが直接サポートする高速な処理であるから 数値や文字列演算だとその分オーバーヘッドが発生し、メモリ効率も悪くなる 1つの整数値で、複数の状態や設定を管理することができるから(コードがコンパクトになる＋拡張性も高い) 例えば1ビット目は新規作成するか、2ビット目はRead Onlyかとか.. 新しくフラグ管理したい要素が出た場合は、単純にその分のビットを追加すれば良いということになる POSIXやOS固有の低レベルAPI（例: syscall）との相性が良い osパッケージなどでは、この辺りを直接利用して処理を行うことが多い ビット演算はC言語やUNIX系のシステムプログラミングで長く使用されてきた標準的な手法であるから そもそもHTTPとは TCPが「漏れなく順序よく」送るためのルール その上で何をどうやって送るかのルールを定義するのがHTTPやSFTPになる ここまで実装を進めたことで、以下の章が理解度が素晴らしい.. HTTPとは？｜伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門 レスポンスパーサの自作 HTTPリクエストはリクエストライン,ヘッダー,ボディという構成になっている この構成のスペースの数や改行文字(CRLF)がきちんと定義されていることで安心してパースする この辺の処理を自作することで、HTTP含めプロトコルが定義されている理由やありがたみがわかるのがとても良い POST通信のフォーマットについて formタグのenctype属性で指定することが可能 application/x-www-form-urlencoded デフォルト値 URLに使用可能な文字のみ使用する 別名URLエンコーディング multipart/form-data ファイルを送信するとき使用する application/json 素のHTMLとブラウザの組み合わせでは使用できない JavaScriptのAjaxやAPI同士の通信でよく使用される(と思う) 利点としては、各言語にエンコード/デコード機能が豊富にあること・配列を持てること・数値と文字列の区別ができることが挙げられる ただし、JSONはただのテキストデータなので、バイナリデータを送信することはできない これをサーバー側とクライアント側で同じフォーマットルールを共有することで、互いに解釈することができる フォーマットルールの共有にHTTPヘッダーのContent-Typeを利用しているというわけ POSTパラメータを扱えるようにする｜伸び悩んでいる3年目Webエンジニアのための、Python Webアプリケーション自作入門 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ピュアなGo言語のみでWebアプリケーションを実装する" href="http://localhost:1313/posts/pure-go-web-app/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ポインタとガベージコレクション
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに Goで関数の戻り値としてポインタを返しすぎると、ガベージコレクション(GC)も負担が増えるという問題について調べたのでメモする
+スタックとヒープ まずは前提として、スタックとヒープを理解する必要がある。
+プログラムがデータを保存するメモリ領域として、スタックとヒープというものが存在する。
+スタック 関数の中で宣言された一時的なローカル変数が保存される場所 関数が終わると自動的に消えるので、管理が簡単で高速 小さいデータはスタックに置かれることが多い ヒープ プログラムのどこからでもアクセスできるデータを保存する場所 プログラムが明示的に消すまでメモリに残る それ故に不要なデータが増えるとメモリを圧迫する ポインタで管理されるデータはヒープに保存されることが多い 関数のスコープを超えて存続する可能性があるデータであるため GCの必要性 上で述べたが「ヒープに確保されたデータは明示的に消さない限り残り続ける」という問題を解決するための仕組み 具体的には、GCが動いて、不要なデータを自動的に回収する 不要なデータを回収するから「ガベージコレクション」という GCにより、開発者が手動でメモリを解放しなくても、安全にメモリ管理が可能となる 一方、GCが頻繁に動くと、プログラムの動作が遅くなることがある ポインタを返しすぎるとGCの負担が増える問題まとめ ポインタで管理されるデータヒープに保存される(ことが多い) ヒープのデータは自動的には消されないので、GCという仕組みにより、不要なデータが回収される つまりポインタを使いすぎるとその分GCが動くので、それにより処理が遅くなるといった問題が発生する可能性がある 余談: GCはどのようにして、いつ動いているのか？ どのように動く？ バックグラウンドで走り続け、不要なメモリを検出すると解放する いつ動く？ 自動的に適切なタイミングで実行される 手動実行も可能(runtime.GC()) 発展 GCが動くと不要なメモリが解放される一方、CPU使用率が一時的に上がってしまう可能性がある そのため、GCの回数を減らす工夫として、小さい構造体なら値で返したり等でスタックを活用するということが考えられる </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ポインタとガベージコレクション" href="http://localhost:1313/posts/pointer-gabage-collection/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">依存パッケージのアップデート方法
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 Goのプロジェクトにおいて、依存パッケージをアップデート方法を記載する
+やり方 go.sumファイルを削除する go.modファイルのgoのバージョン表記から下を削除する go mod tidyを実行する 手順1と2を行うことで、インストール済みのパッケージのチェックサムとバージョン情報が削除される。
+手順3で、必要な依存解決を1から実行してくれるので、結果的にパッケージのバージョンが上がったりする(もちろんバージョンが変わらないものもある)
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 依存パッケージのアップデート方法" href="http://localhost:1313/posts/how-to-update-deps/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">関数型にインターフェイスを実装する
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに Goの特徴として、構造体にメソッドを定義する以外に関数型にもインターフェイスを実装できる。
+net/httpパッケージを例に調べてみたのでメモ。
+関数型にインターフェイスを実装とは？をnet/httpパッケージを例に理解する 前提として、今回題材にするnet/httpパッケージのhttp.Handlerインターフェイスについて理解しておく。
+type Handler interface { ServeHTTP(ResponseWriter, *Request) } Handlerは、ServeHTTPというメソッドを定義しているインターフェイスである。
+中身としては、Handlerという名の通り、HTTPリクエストを受けて、HTTPレスポンスを返す処理が記述されるものである。
+本題に入るが、まずは違いをわかりやすくするために、通常の(よくある)方法である「構造体とメソッドを使ってインターフェイスを実装する」の実装例を書いてみる。
+package main import ( &#34;fmt&#34; &#34;net/http&#34; ) // 構造体定義 type MyHandler struct{} // 構造体メソッドでインターフェイスを実装 func (h MyHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) { fmt.Fprintln(w, &#34;Hello, World!&#34;) } func main() { handler := MyHandler{} http.Handle(&#34;/hello&#34;, handler) http.ListenAndServe(&#34;:8080&#34;, nil) } MyHandlerという構造体に対し、Handlerインターフェイスを満たすServeHTTPというメソッドの実装を行なっている。
+その後、main関数内でMyHandlerインスタンスを生成し、http.Handleに渡すことで、パスに対してハンドラーを登録している。
+次に「関数型を使ったインターフェイスを実装する」の実装例を書いてみる。
+package main import ( &#34;fmt&#34; &#34;net/http&#34; ) func helloHandler(w http.ResponseWriter, r *http.Request) { fmt.Fprintln(w, &#34;Hello, World!&#34;) } func main() { http.HandleFunc(&#34;/hello&#34;, helloHandler) http.ListenAndServe(&#34;:8080&#34;, nil) } helloHandlerというfunc(http.ResponseWriter, *http.Request)シグネチャの関数を実装する。　…あれ、ハンドラーを定義するHandlerインターフェイスとハンドラーを登録するHandleはどこにいった…？
+今回登場したhttp.HandlerFuncは、以下のように定義されている。
+type HandlerFunc func(http.ResponseWriter, *http.Request) func (f HandlerFunc) ServeHTTP(w http.ResponseWriter, r *http.Request) { f(w, r) } HandlerFuncという関数型に対し、ServeHTTPメソッドが実装されている。
+つまり、以下のhelloHandlerの実装時点＝HandlerFunc型の実装時点で自動的にServeHTTPというメソッドの実装が行われている。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 関数型にインターフェイスを実装する" href="http://localhost:1313/posts/impl-interface-to-function/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

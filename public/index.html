@@ -1,184 +1,617 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
+<head>
+	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My New Hugo Site</title>
 
-  
-  
+<meta name="description" content="">
+<meta name="author" content="nyuusen">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
 
-  <meta charset="utf-8">
+            .list {
+                background: var(--theme);
+            }
 
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
 
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="My New Hugo Site">
+<meta name="twitter:description" content="">
 
-
-  
-    
-  
-
-
-<meta name="color-scheme" content="light dark">
-
-
-
-
-
-
-
-<meta name="generator" content="Hugo 0.147.8">
-  <title>My New Hugo Site</title>
-  <link href="http://localhost:1313/" rel="canonical">
-
-
-
-
-  <link href="alternate" rel="/feed.xml" type="application/rss+xml">
-
-  
-
-
-
-
-
-
-
-
-  
-
-  
-    
-    
-    
-    
-    
-  
-
-
-  
-    <link href="/css/base.css" rel="stylesheet">
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "My New Hugo Site",
+  "url": "http://localhost:1313/",
+  "description": "",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
 </head>
 
-<body>
-  <nav class="u-background">
-  <div class="u-wrapper">
-    <ul class="Banner">
-      <li class="Banner-item Banner-item--title">
-        
-          <a class="Banner-link u-clickable" href="/">My New Hugo Site</a>
-        
-      </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/">About</a>
-        </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/">Posts</a>
-        </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/tags/">Tags</a>
-        </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/categories/">Categories</a>
-        </li>
-      
-        
-        
-          
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/feed.xml">RSS</a>
-        </li>
-      
-    </ul>
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="first-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CloudFrontのキャッシュについて
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに 新規システム構築時にキャッシュ戦略を考えたのでまとめる
+キャッシュする場所 クライアント(ブラウザ) ---- CDN(CloudFront) ---- オリジンサーバー という構成の場合、キャッシュする場所としては以下がある。
+ブラウザ CloudFront(CDN) ※オリジンサーバ側にも何らかのキャッシュ機構があるかもしれないが話が逸れるので割愛 ブラウザキャッシュ ブラウザキャッシュは、ブラウザのメモリやストレージにデータを保持する形でキャッシュを実現する。
+どのように、どのくらいキャッシュを行うかは、CloudFrontから返却されるCache-Controlヘッダの設定値による。
+CloudFrontキャッシュ キャッシュポリシーで設定する。キャッシュポリシーはビヘイビアごとに設定が可能。
+ビヘイビアにはパスパターンで対象の拡張子やファイルパスを元に対象を特定し、キャッシュ以外にもリクエスト・レスポンス周りやオリジンの設定が可能。
+キャッシュポリシーでは、オリジンからCache-Controlが返却された場合、どのように扱う(それを適用する/無視してCloudFrontの設定を使用する等)かも設定できる。
+キャッシュ保持時間を表すTTLには、min,default,maxの項目がある（これがちょっとややこしい..）
+min: オリジンからの指定有無に関係なく、CloudFrontがキャッシュする最小時間 default: オリジンから指定がなかったらこの値が使用される max: オリジンの指定がこの値を超えていた場合に使用される、CloudFrontがキャッシュする最大時間 CloudFrontを採用するメリット コンテンツの高速配信 全国にあるエッジサーバーからコンテンツを返却できるので低遅延かつ高速なレスポンスが期待できる（例え日本国内にあったとしても） （真偽に100％の自信はないが）S3はディスク保存なのに対し、CloudFrontはメモリor高速なSSDにあると思われるので高速 オリジンサーバーの負荷軽減にもつながる 可用性向上 オリジンサーバー障害時でもCDNキャッシュにより一部コンテンツの継続提供が可能 セキュリティ強化 HTTPS対応 WAF キャッシュ設定を細かく制御できる CDN上でA/Bテストやコンテンツ切り替えが可能 圧縮や画像の自動最適化もサポートされていることが多い キャッシュを検討する フロントエンド資材 Next.jsのようなJavaScriptフレームワークを使用しており、ビルド資材をS3に格納し、CloudFrontで配信するというような場合の設定例
+staticファイル: JSやCSS、publicフォルダにないimage等は、ファイル名にハッシュ値が設定されるのでURLが変わるため、長めの設定で問題ない 上記以外のhtml,publicフォルダやappディレクトリ直下にあるicon画像等の静的資材: 上とは異なり、ファイル名が固定値(ex:index.html)であるため、短い時間が安全 もしくはno-cacheで毎回新鮮かを問い合わせるとか API ユーザー固有の情報を返すようなAPIの場合はキャッシュ無効化(no-store)やプライベート化(private)にすべき。
+キャッシュが他のユーザーの情報を返してしまい事故リスクがあるため。
+Cache-Control 以下を見れば全てがわかる!!
+Cache-Control - HTTP | MDN
+気になった箇所だけちょっと補足
+privateとno-storeの違い private: クライアント側のキャッシュに限定（CDNにはキャッシュしない） no-store: キャッシュを完全に無効化 max-ageとs-maxageの違い max-age: レスポンスが生成されてから、新鮮である期間を示す（新鮮とみなす＝つまりキャッシュする時間） s-maxage: max-ageと同じ意味だが、これは共有キャッシュ(CDN)特有の値となる 条件付きリクエストによる再検証 If-Modified-Since &#43; Last-Modified オリジンからLast-Modifiedが返却され、キャッシュはそれを保持 キャッシュからIf-Modified-SinceにLast-Modifiedの値をセットし、このキャッシュって新鮮かどうかを確認 オリジンは、200&#43;コンテンツ or 304&#43;コンテンツなしを返却 If-None-Match &#43; ETag オリジンからETagが返却され、キャッシュはそれを保持 次のリクエスト時に If-None-Match: &#34;&lt;ETagの値&gt;&#34; を付けて問い合わせ オリジンは、200&#43;コンテンツ or 304&#43;コンテンツなしを返却 どちらを使うか S3オリジンの場合はETagが自動で返却される カスタムオリジンの場合は返すヘッダ次第で決める </p>
   </div>
-</nav>
+  <footer class="entry-footer"><span title='2025-06-25 09:47:54 +0900 JST'>June 25, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to CloudFrontのキャッシュについて" href="http://localhost:1313/posts/cloudfront-cache/"></a>
+</article>
 
-  <main>
-    <div class="u-wrapper">
-      <div class="u-padding">
-        
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ネットワークはなぜつながるのか
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1章 Webブラウザがメッセージを作る ファイルとディレクトリの違い 末尾/をつけるかつけないかの話 example.com/だと、example.comというWebサーバーの/(ルート)にあるデフォルトファイルを指定する HTTPプロトコル 何を（URI）どうして欲しいか（メソッド）をクライアントからサーバーに送る HTTP通信の宛先の指定がIPアドレス行われる理由 IPアドレスは4バイトしかないので処理効率が高いため ドメインからIPアドレス変換(名前解決) コンピュータが扱いやすいIPアドレス、人間が扱いやすいドメイン、この間をとりもち変換の役割を行うのがDNS クライアントはDNSリゾルバといい、ブラウザに限らず、いろんなアプリケーションが必要としているので、ライブラリという形で提供されている また、ネットワークでデータ送信する機能とセットなっており、そのまとめ方はOSや言語により異なる ほとんどのOSや言語が「Socketライブラリ」と呼ぶものの考え方を採用している 具体的には、C言語で書かれたプログラムの中からgethostbyname(&#39;example.com&#39;)と呼び、IPアドレスが返却される形となる それを受け取ったリゾルバは、アプリケーション側から指定されたメモリ領域にIPアドレスを書き込む データ送受信処理（ここの話はP40〜P41を見ながらがわかりやすい） クライアント側の準備 まずはドメインからIPアドレスへの変換 次はソケット生成して接続情報を管理（Socketライブラリ内のsocketという関数を実行する） ソケットとは？ ホテルチェックイン時のアカウント作成みたいなイメージ（その人が何か注文するたびにそのアカウントに追記していき、そのアカウントを見ればどのような状態＝会計済み等） アカウントのことをソケットといい、アカウントに紐づけられた情報のことを制御情報とし、メモリー領域を用意するのが目的となる その後、ディスクリプタという値をアプリケーションに返す ディスクリプタ＝TCP/IPソフトがそれぞれのアプリケーションに渡す番号札のようなもの 以後、アプリケーションは、TCP/IPソフトにデータ送受信を依頼するとき、このディスクリプタを提出する socketの実行が終わり、ディスクリプタが返ってきたら、次はconnectというプログラムを呼び出して接続動作を実行する サーバーのIPアドレスとTCP/IPソフトに通知する TCP/IPソフトは、渡されたIPアドレスに対して、制御用のバケットを送り、通信開始を知らせる サーバー側の待ち受けの準備 socket ソケット生成 bind ソケットに「通信を許可するIPアドレス」と「自分自身のポート番号」を登録する 「通信を許可するIPアドレス」は、どこからそれが届いたのかを調べ、許可するか拒否するかの判断に使用する 例：ローカルマシンだけから接続可能にする場合は、127.0.0.1を設定 例：どこからでもOKの場合は0.0.0.0を設定 「自分自身のポート番号」は、TCP/IPソフトがパケットを受信した時にそれをどのアプリケーションに渡すべきかを listen ソケットがクライアントからの接続を待ち受けるものであることをTCP/IPソフトに通知 accept クライアントから通信開始の制御バケットを待ち受ける状態 サーバー側でクライアントから通信開始の制御バケットが届いたら bindでIPアドレスして照合するかを確認 応答バケットを送り返す データ送受信 ここまでしてようやく準備完了 クライアント write 送信データとそのデータの長さを渡す すると、TCP/IPソフトがそのデータをサーバーに送ってくれる サーバー サーバー側のTCP/IPソフトがそのデータを内部のバッファ・メモリに格納する バッファというのは、OSカーネルが管理するメモリ領域であり、TCPバケットが到着するとすぐにソケットに対応したバッファに格納される バッファが readが呼び出されると、受信バッファ用のメモリ領域を通知するので、TCP/IPソフトはそのメモリ領域にデータを格納して、サーバープログラムに制御を戻す readを呼び出すのはアプリケーション側 readを呼び出した後、カーネルはバッファからアプリのメモリ領域にデータをコピーする サーバ側の処理がなされた後は、writeを呼び出す この時にレスポンスデータは送信バッファに格納され、クライアントに送り返す close サーバー側から通信終了を知らせる クライアントもcloseを呼び出し、ソケットを抹消 自分用の整理メモ 以前サーバー側の処理を以下で実装してみたけど、 https://github.com/nyuusen/pure-go-web-app/blob/main/server/main.go 基本的にはサーバー側のアプリケーションは、OSの機能を使いながら、ネットワークを介してパケット受信したりしている そのためとして、ソケットを作って、そこに必要な自分の情報をセットして、接続を受け付けている 結局ソケットって何？ 色々難しいことが書かれていたけど、シンプルに理解するならソケット＝通信に必要な情報の塊 必要な情報＝通信状態や接続先情報、送受信バッファ 役割としては内部（アプリケーション）と外部（ネットワーク）を繋ぐ橋渡し役 ロジックとしてはアプリケーションから通信したい。通信するにはOSカーネルに依頼する必要があるという前提でがある OSカーネルに依頼するにはシステムコール発行が必要でそれがsocketというもの アプリケーションにはSocketライブラリというものがあり、それを通じてソケットを生成する アプリケーションからOSカーネルにソケット生成を依頼し、ソケットはシステムコール発行の対象（＝操作されるカーネル内の構造体）となる ソケットはどのアプリケーションから呼ばれたか？とか外（ネットワーク）からもらった情報を一時的にバッファに格納してくれたりとかやってくれる 2章 TCP/IPのデータを電気信号にして送る 1章ではブラウザのURL欄に入力されたURLを解読し、それを元にHTTPリクエストを作って、TCP/IPソフトに依頼する所までがブラウザの範囲でそこの説明だった 2章ではそのメッセージをサーバーに向けて送り出す所を探検する 注意点として、TCP/IPソフトの役割は中身には関知せず、それをそのまま運ぶことが役割である メッセージの中身が見られるのはサーバーに届いてからなので、それまでは中身について見ない Socketライブラリ関連の居場所の整理 アプリケーション側（ユーザー空間） システムコールを発するAPI ソケット作成指示や接続/待受処理、データ送受信の指示・制御 具体的には標準ライブラリ(net等)の内部でシステムコールを発している Socketライブラリはユーザー空間にある関数・APIの集合（ユーザー空間ライブラリ）であり、OSのソケット機能を使いやすくするためのものである OS側（カーネル） socketの基本機能 コネクション管理やバッファ管理などの実体の処理 以下のような構成 - アプリケーション - Socketライブラリ(DNSリゾルバ) - TCP/UDP - IP ソケットの実体とは？ TCP/IPソフトの内部にあるメモリ領域であり、TCP・UDPどちらを使うかや通信動作がどのような状態かを表す制御情報が格納されている（これがソケットの実体） 通信というのは、遠方にあるマシンとやりとりすることになり、ちゃんと送れているかやエラーが起きていないかなどの情報の管理が重要になる この重要な制御情報を管理しているのが「ソケット」になる 流れ ソケットの実体はメモリ領域であるが、最初からメモリ領域があるわけではない OSに依頼してソケット1つ分のメモリ領域を確保する そのメモリ領域に制御情報を記録していく ソケットを作って通信の準備が終わったら、socketは呼び出し元のアプリケーションにディスクリプタを返却する ディスクリプタ：TCP/IPソフトの内部にある多数のソケットの中のどれを指すかを表す情報 以降アプリケーション側からは、通信相手の情報を毎度送る代わりにディスクリプタを通知する TCP/IPソフトがやること ①ソケット作成（socket呼び出す） メモリ領域確保 制御情報（IPv4を使う・TCP使う等）を記録 socketからディスクリプタが返却される ディスクリプタとは？ OSが保持するファイルディスクリプタテーブルの配列インデックス（単なるint型の番号） ファイルディスクリプタテーブル：そのプロセスが現在開いているリソース一覧（ファイル・ソケット）を管理しているテーブル カーネル側ではそのインデックスに紐づかれた本当の構造体のポイントを内部で持っている 以降の処理はディスクリプタを指定することでソケットを特定する ②TCPでパイプを繋ぐ（Socketライブラリのconnectプログラム呼び出し）＝通信相手との接続動作 通信開始を知らせる制御情報をやりとりする アプリケーションからOSに「このソケットで相手のアドレス・ポートに接続してくれ」と依頼する クライアントとサーバーのポートを論理的に接続する＝これはパイプのようなものであり、通り道自体をコネクションと呼ぶ このコネクションはデータ送受信中はずっと存在し続け、送受信が終わり、closeが呼び出された時に通信終了を知らせる制御情報が流れることで、コネクション消滅＋ソケット削除という流れになる ③制御情報を納めたTCPヘッダを作る 「これからデータを送ります」という意味の制御情報を作成する TCPは何らかの送信動作を行う際は「TCPヘッダ」という制御情報をデータに付加する どのフェーズのどの動作か、データが正しく届いたかを確認するための情報、ポート番号など TCPヘッダに含まれるコントロールビット SYN（synchronize）のビットを1にする＝これからデータを送りますという意味 ACK（Acknowledge）のビットを1にする＝了解しました 宛先と送信元ポート番号をセット 宛先：アプリケーションからconnect呼び出し時に指定された番号 送信元：無作為に決定（指定したい場合はbindを呼び出すことで可能） ④IPアドレスを納めたIPヘッダを作る TCPヘッダを作ったらそれをIPに渡す するとIPはIPヘッダを作って、TCPヘッダの頭にくっつける IPヘッダの中で一番重要なのはそれをどこに届けるかを表す「宛先IPアドレス」（アプリケーションから指定されるもの） 送信元のIPアドレスもセットする 複数のネットワークインターフェイス（例：LANアダプタなど）がある場合は少し曲者 OSのルーティングテーブルに基づいて、送信先IPアドレスから、送信元IPアドレスが決まる ⑤イーサネット用にMACヘッダを作る IPヘッダを作ったら次はMACヘッダを作る IPヘッダに宛先IPアドレスは書いてあるが、イーサネットにはこのTCP/IPの考えが通用しない（異なる方法でパケットを運ぶ必要がある） イーサネットの宛先判断に使うのが「MACヘッダ」となる 送信元MACアドレスをセットする LANアダプタを製造するときにそのROMに書かれているので、LANドライバに依頼して、それを読み込んでMACヘッダにセットする LANドライバは、単なるハードウェア（LANアダプタ）とOSを橋渡しするソフトウェアを指す 送信先MACアドレスは調べる必要ある（次のステップへ） ちなみにIPアドレスは動的に変わることがあったり、あくまで論敵的な住所なので、パケットを届ける際は物理的な住所であるMACアドレスが必要となる ⑥ARPで送信先ルーターのMACアドレスを調べる Address Resolution Protocol 送った信号が全員に届くイーサネットの仕組みを活用して、「XXXのIPアドレスを持った人はいませんか？」でMACアドレスを聞く ARPに数分程度のキャッシュ機構がある ⑦IPパケットを電気や光の信号に変換して送信 MACヘッダをIPヘッダの上につけたらパケットは完成 このパケットを作るまでがIPno担当 パケットはメモリに格納されたデジタルデータなので、電気や光の信号に変換してケーブルに送り出す必要がある これをやるのがLANアダプタ（＋ドライバ） ⑧さらにパケットに3つの制御用データを付ける 5章 Webサーバーに遂にたどり着く 負荷分散：キャッシュサーバー キャッシュサーバーにあるキャッシュが古くなっていないかを確認する方法として、If-Modified-Sinceヘッダを使用してその日時以降にデータの変更があったかを尋ねる 変更があればコンテンツを返すし、変更なければ304レスポンス（ボディなし）を返却する </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-25 09:47:54 +0900 JST'>June 25, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ネットワークはなぜつながるのか" href="http://localhost:1313/posts/014_%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%8B/"></a>
+</article>
 
-  
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ECSのロギング設定
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> タスク定義でログドライバを設定可能 シンプルにCloudWatchLogsに吐かせるならそれを設定するだけで良いが、例えば特定の監視ツールにも転送したいとかなると、FluentBitのようなログルータ的なものが必要になる FluentBitは、ログを集約・整形して転送してくれるログの便利屋さん FluentBitの動かし方？としてはいくつか選択肢がある サイドカー 同一タスク内に別コンテナとしてサイドカーとしてFluentBitコンテナを動かす アプリケーションコンテナからは標準出力 or 特定ファイルにログを出力し、ホストとそれぞれが同一のボリュームマウントすることで、FluentBitコンテナを内部的にはそのファイルをtailするなどすることでログを収集してくれる ECS設定的にはcontainerDefinitions(配列)にfluent/fluent-bit:latestのような形でタスクを定義する Daemonサービス データプレーンとしてEC2を採用している場合、ホストに別プロセスとしてFluentBitを常駐させておく 1コンテナ1プロセスの原則に反する 外から見た時に片方が落ちていることも気づきにくいので可観測性が落ちる（ので非推奨） FireLens AWS推奨＆公式ECSロギング機構 タスク定義のログドライバにawsfirelensを設定するだけ 内部的には背後にFluentBitがサイドカーとして自動で立ち上がる 業務での設定例 ECSのログドライバとしてCloudWatch Logsを設定 CloudWatch Logsにログが吐かれたらLambdaを実行し、LambdaでNewRelicにログ転送 Lambdaトリガーはサブスクリプションフィルターを使って、特定のロググループに新しいログが出力されるたびにLambdaにストリーミングする設定 メトリクスは、メトリクスストリームを設定して、NewRelicで収集 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-24 21:29:31 +0900 JST'>June 24, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ECSのロギング設定" href="http://localhost:1313/posts/ecs-logging/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JavaScriptとTypeScriptとその周辺理解
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>JavaScriptとは？ JavaScriptは、ウェブブラウザ上で動作するプログラミング言語であり、主に以下の特徴がある。
+動的型付け: 変数の型を明示的に指定する必要がなく、実行時に型が決まる。 インタプリタ言語: ソースコードを逐次解釈しながら実行する。 オブジェクト指向: オブジェクトを使ったプログラミングが可能。 イベント駆動: ユーザーの操作や他のイベントに応じて動作を制御する。 JavaScriptは、ウェブページの動的な操作やユーザーインターフェースの構築に広く利用されている。
+ECMAScriptとは？ ECMAScriptは、JavaScriptの標準仕様を定めたスクリプト言語。ECMAScriptの仕様は、ECMAインターナショナルによって策定されている。以下のようなバージョンがある。
+ES5 (ECMAScript 5): 2009年にリリースされ、多くのブラウザでサポートされている。 ES6 (ECMAScript 2015): 2015年にリリースされ、クラス構文やモジュール、アロー関数など多くの新機能が追加された。 ESNext: ES6以降、毎年新しいバージョンがリリースされており、最新の仕様を指す。 ECMAScriptは、JavaScriptの進化を支える基盤となっており、ブラウザやNode.jsなどの実行環境でサポートされている。
+実行環境(ブラウザとNode.js)について JavaScriptは、主に以下の2つの実行環境で動作する。
+ブラウザ ブラウザは、ウェブページを表示するためのソフトウェアであり、JavaScriptを実行するためのエンジンを内蔵している。代表的なブラウザには、Google Chrome、Mozilla Firefox、Microsoft Edge、Safariなどがある。ブラウザ環境では、以下のような特徴がある。
+DOM操作: ドキュメントオブジェクトモデル (DOM) を通じて、HTMLやCSSを動的に操作できる。 イベントハンドリング: ユーザーの操作（クリック、入力など）に応じて動作を制御できる。 セキュリティ制限: クロスサイトスクリプティング (XSS) やクロスオリジンリソースシェアリング (CORS) などのセキュリティ制限がある。 Node.js Node.jsは、サーバーサイドでJavaScriptを実行するためのランタイム環境。GoogleのV8 JavaScriptエンジンを使用しており、高速な実行性能を持つ。Node.js環境では、以下のような特徴がある。
+非同期I/O: 非同期処理を標準でサポートしており、高いスループットを実現する。 モジュールシステム: CommonJSモジュールシステムを使用して、モジュールのインポートやエクスポートが可能。 豊富なパッケージ: npm (Node Package Manager) を通じて、多数のパッケージを簡単に利用できる。 ブラウザとNode.jsは、それぞれ異なる用途に特化した実行環境であり、JavaScriptの多様な利用シーンを支えている。
+JavaScriptにおけるモジュールシステム そもそもモジュールシステムとは？ モジュールシステムとは、コードを再利用可能な部品（モジュール）に分割し、他の部分からインポートして使用できる仕組みのこと。これにより、コードの管理が容易になり、再利用性が向上する。
+モジュールシステムがないことの辛み モジュールシステムがない場合、以下のような問題が発生する。
+グローバルスコープの汚染: すべての変数や関数がグローバルスコープに存在するため、名前の衝突が発生しやすい。 依存関係の管理が困難: どのスクリプトがどのスクリプトに依存しているかを手動で管理する必要がある。 コードの再利用が難しい: 同じコードを複数の場所で使いたい場合、コピー＆ペーストするしかない。 CommonJSの誕生 CommonJSは、サーバーサイドJavaScript（特にNode.js）向けに設計されたモジュールシステム。以下の特徴がある。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-23 23:26:25 +0900 JST'>June 23, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to JavaScriptとTypeScriptとその周辺理解" href="http://localhost:1313/posts/basic/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Node.js
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに Node.jsでサーバーサイドの開発って結局微妙なのでは？複雑性増すよね？というようなトピックでXが盛り上がっていた。
+雰囲気でしか掴めていなかったので、改めてNode.jsとは何者なのか？他と比較した時の優位性は何なのか？をちょっと調べてみた。
+そもそもNode.jsとは？ ブラウザ外でJavaScriptを動かす実行環境 シングルスレッドで動作する Node.jsはいくつかのモジュールが組み合わされて構成されている そのうち理解する上で大事なのが「V8」と「Libuv」 V8とは？ V8は、Googleが開発するJavaScriptエンジン つまり、JavaScriptで書かれたソースコードを受け取り、機械語に変換してOS上で実行してくれるやつ chromeとNode.jsはJavaScriptエンジンとしてV8を採用している。 Libuvとは？ OSによるディスクへの書き込みや通信などの処理に関するイベントを監視し、そのステータスをNode.jsに通知する機能を持つ イベント監視はOSによって仕様や実現方法が異なるが、この辺りを抽象化し、OSを気にすることなく使えるようにしているのがLibuvである Node.jsの特徴 非同期I/O I/Oとは、Input/Outputのことでファイルの読み書き/ネットワーク通信/データベースアクセスなど、プログラム外とのやりとりする処理全般を指す 非同期I/Oとは、リソースを効率的に利用するための手法 具体的には、時間のかかるI/O操作の完了を待たずに次の処理を進められるので、大量の同時接続を効率的に処理することができる [memo] なぜ非同期I/Oを採用しているかというと、Node.jsはシングルスレッドで動作するという背景があるらしい。 マルチスレッドの場合は複数のスレッドに分散して処理を実行できるが、シングルスレッドの場合は文字の通りそれができない。 なので、時間軸で分散させる目的で、非同期I/Oを採用している。
+イベント駆動モデル イベントが発生するたびに対応するコールバック関数が呼び出される仕組みのこと 具体的には、以下のように動作する イベント登録：非同期操作(I/O操作)が発生すると、その操作に対するコールバックがイベントキューに登録される イベント処理: イベントループがイベントキューを監視し、キューに入ると対応するコールバックを実行する これにより、Node.jsはシングルスレッドでありながら、並行処理を効率的に行うことができる Node.jsの優位性 C10K問題の解決 C10K問題とは「同時に10,000（K=1000）クライアントを処理する際に効率的に処理できない」という問題のこと 従来のサーバー設計は、1接続ごとに1つのスレッドとプロセスを割り当てることが一般的だった この方法では、スレッドやプロセスのオーバーヘッドが大きくなり、メモリ消費やコンテキストスイッチの負荷が高くなるので、10000以上の同時接続を効率的に処理するのは難しいよねという意味 この問題に対し、Node.jsは面で優位性がある 1つのスレッドで多くのI/O操作や非ブロッキングで処理できるため、少ないリソースで多数の同時接続を捌くことができる 従来のスレッド/プロセスベースのアプローチと異なり、Node.jsは各接続にスレッドやプロセスを割り当てるのではなく、イベントループを利用してI/O操作の完了を待ち受けるため、メモリ使用量が低く抑えられ、コンテキストスイッチのオーバーヘッドがない ロングポーリングの効率的な処理 ロングポーリングとは、HTTPのみで擬似的にプッシュ通信(サーバー→クライアントへの通信)を実現する手法の1つ。 具体的には、クライアントがサーバーにHTTPリクエストを送信し、サーバーは応答せず受付のみし、保留のまま接続を維持しておき、サーバー側が任意のタイミングで保留を解除して応答する。応答を受け取ったクライアント側はすぐさま同じくサーバーにHTTPリクエストを送信し、これを繰り返すことでリアルタイム通信を実現することができる。 Node.jsは非同期I/Oとイベント駆動モデルを採用しているため、ロングポーリングのような多くのオープンな接続を効率的に処理するのに適している 非同期I/O: リクエストを非ブロッキングで処理するため、I/O操作の完了を待たずに次の操作を開始できるため、リソースの効率的な使用が可能である イベント駆動モデル: リクエストが来るたびにNode.jsはイベントキューに追加し、非同期に処理できるため、同時に多数のリクエストを効率的に処理できる 参考 Node.jsの設計をつらつらと概観する #JavaScript - Qiita
+I/Oのイベント管理がキモ | 日経クロステック（xTECH） →分かりやすい図あり
+Node.jsを理解する (libuv)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-23 23:26:25 +0900 JST'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Node.js" href="http://localhost:1313/posts/what-is-nodejs/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">TS(JS)でのサーバーサイド開発
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに XでTSのバックエンド開発が向いてないよねという話題が盛り上がってたので、少し深掘りしてみる。
+向いてないと思われている理由 シングルスレッドで動作するから プロトタイプ汚染 数値計算や等価演算の挙動に怪しい箇所がある バッチ処理に向かない デプロイが割と面倒 ライブラリの依存関係のあれでRAMが太る シングルスレッドで動作するから Nodeは1つのスレッドで全ての処理（リクエスト対応など）を処理する CやJavaはリクエストごとにスレッドを作成して並列処理をする Goでも同じで、リクエスト単位で Nodeは1つのメインスレッドを順番にタスク処理していくことで、シンプルで軽量な動作を実現している 具体的にはイベントループという仕組みで、非同期処理を効率的に捌いている これは基本的には処理中は裏で待機、完了したら次の処理（コールバック）を実行していく これはリクエストごとに完全に独立した環境で処理するわけではない あるリクエストに対する処理がメモリリークを起こした場合、同じプロセス内の他のリクエスト処理にも影響が発生するということ 例えば画像変換や圧縮などのCPUを大量に使う処理が1件あると、それだけでメインスレッドが占有されて、他のリクエストが滞ってしまう 逆に向いているシーン I/Oバウンド処理（シンプルなAPI・DBアクセスが多いなど）が多い I/Oの特性としてCPUが働く時間は少ないが、外部の応答を待っている時間が多いというのがある イベントループは、その待ち時間に次の処理を進めることができる 逆にマルチスレッド方式だと、スレッド数が限られている中で、I/O中は待機＝ブロッキング状態となる I/O中にノンブロッキング状態で他の処理を進められるという点で優位性がある </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-23 23:26:25 +0900 JST'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to TS(JS)でのサーバーサイド開発" href="http://localhost:1313/posts/backend/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">モジュールシステム
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> ES ModulesとCommonJSの2種類がある Node.jsではデフォルトがCommonJSであり、Next.jsではデフォルトがES Modulesとなっている 設定箇所 tsconfig.jsonのcompilerOption.module package.jsonのtypeフィールド(moduleかcommonjsを設定) 上記設定の違い tsconfig.jsonでの設定 TSがトランスパイル時に生成するJSコードのモジュール形式をしている(トランスパイル後のJSコードの指定されたモジュールシステムになる) TSコンパイラが、import/export構文をどのモジュール形式に変換するかを決定する package.jsonでの設定 Node.jsが実行時のJSファイルをどのモジュールシステム形式として扱うかを指定する .jsファイルをESMとして扱うか、CJSとして扱うか 双方の設定を合わせることで、トランスパイル時・実行時のモジュール形式を統一させることができる ファイル拡張子 js: プロジェクトの設定次第 mjs: 常にESMとして扱われる cjs: 常にCJSとして扱われる CommonJS exportsはただのオブジェクト それ故にそのファイルが全て評価される必要がある </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-23 23:26:25 +0900 JST'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to モジュールシステム" href="http://localhost:1313/posts/module-system/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Docker
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 なんとなく触っているDockerを以下を題材にきちんと学ぶ。
+入門 Docker
+基礎編 Dockerとは Dockerは任意のタイミングの状態（ランタイム・ライブラリ・コードのバージョン）を1つのスナップショットとして保存している 従来のVM型の仮想化は、物理レイヤの仮想化から行なっている つまりVMには、 一方DockerはLinuxカーネルの機能を用いて1プロセスとして隔離された環境を実現している なのでDockerの方が軽量でオーバーヘッドが少ない環境を実現できる DockerはImmutable InfrastructureをDockerfileとイメージという機能で実現 任意の時点で確実に動作するスナップショット（何か変更する場合は新しく構築する） かつてはサーバーへ変更を加えて実現するMutableなものだった また、イメージにはバージョン情報がつくので、それを指定することでロールバックが可能になり、可用性が向上する コンテナ自体は古くからある概念で、Dockerが流行ったのは「配布の容易性」がある（スナップショットを取得し配布を標準の機能として提供している） VMとDocker どちらも隔離された環境を提供する技術 VMはコンピュータ自体の抽象化（仮想化）するのに対し、Dockerはプロセス自体の抽象化（仮想化）を行う この2つは競合するのではなく、むしろ共存する VM ハードウェアから上、ハードウェア・カーネル（OS）、ユーザースペースの低レイヤから仮想化を行う 例えばmacOS上でWindowsを動かすことが可能だったりして、非常に自由度が高い 仮想化の対象となる領域が広いためオーバーヘッドが大きくなる Docker Linuxカーネルの機能を用いた技術で、cgroup・namespace・Capabilityのような機能を組み合わせて実現している
+VMとは異なり、ホストOSとリソースを共有し、効率的にホストOSのリソースを使うことができるので、高速化つ軽量な仮想化を実現している
+Linuxカーネルとは？
+OSの中核となる部分で、ハードウェアとアプリケーションの間を取り持つ橋渡し役 例えばファイルの読み書き・ネットワーク通信・メモリ管理・CPU割り当てなどの低レイヤ処理を全てカーネルが担っている UbuntuやCentOSなどのディストリビューションは全てLinuxカーネルをベースにしている カーネルが主に行なっているのは以下の4つ プロセス管理：プロセスに対してCPU割り当て（今どのプロセスにCPU時間を割り当てるかをスケジュール・切り替え＝コンテキストスイッチ） メモリ管理：アプリケーションへのメモリ割り当て（他のプロセスのメモリ領域を勝手にアクセスできないようにしたり、メモリ不足時はディスクにスワッピングしたり） ファイルシステム管理：ファイル操作を仲介（実際にディスクを触るのはカーネルが行なっている） ネットワーク管理：カーネルがパケット処理を行なっている でもDockerfileでFROM句にubuntu:latestみたいな記述をしているよね…？
+ホスト側のLinuxカーネルを使うのに、コンテナ側でOS指定が必要な理由は何？という話 結論、これはユーザースペースのOS環境を指定しているだけ ユーザースペースというのは、コマンドやライブラリ（bashとか） Distrolessとか軽量なOSイメージを指定すると、デフォルトのままではcurl等のコマンドがインストールされておらず使用できないのは、コンテナ側のユーザースペースを使っているため Docker Image イメージは、任意のタイミングのスナップショットとしての役割を持つ ファイルシステムのスナップショットである もっとシンプルに表現すると、OSの中身のフォルダ構造一式をZIP圧縮したようなもの 例えばubuntuイメージの中身は、ユーザースペース（ls /した時に見るような bin/,etc/,lib/等）のファイル・フォルダ一式が入っている（でもカーネル部分は含まない） てっきりイメージ＝プロセスのスナップショットと理解していたけどそれは間違っていて、イメージ＝実行前のファイル群が正しい表現 イメージを指定するときの命名は&lt;イメージ名&gt;:&lt;タグ&gt;であり、&lt;タグ&gt;を省略するとlatestタグが自動的に付与される レイヤー構造 Dockerイメージはレイヤーの積み重ね RUNやCOPY毎に新しいレイヤが作られる レイヤは読み取り専用で、キャッシュとして使い回せる レイヤー構造である理由 キャッシュ：同じベースイメージなら、そのレイヤはpull済み ストレージ節約：変更があった部分だけ新しいレイヤに保存 もし仮にレイヤ構造ではない場合はフルフルのものを保存しなければいけない 高速化：レイヤー単位でダウンロード・展開 docker pushすると以下のようなハッシュ値が表示されるが、これがまさにレイヤ構造（レイヤ単位で処理している） The push refers to repository [123456789012.dkr.ecr.us-east-1.amazonaws.com/myapp] d4f4f6a4b8c2: Pushed 7a0437f04f83: Pushed 8c662931926f: Pushed ... 各レイヤのコンテンツハッシュ(SHA256)らしい 具体的にはそのレイヤの差分をtarアーカイブをgzipなりで圧縮→圧縮されたバイナリファイルをSHA256ハッシュ計算している 整理すると、Dockerイメージはファイルシステムのスナップショットであり、それはレイヤー構造になっている 以下のDockerfileを例に考えると、 FROM ubuntu:latest RUN apt-get update RUN apt-get install -y curl 各行がレイヤとなっていて、そのレイヤで変更があったファイル群を持っているイメージ この上に、Dockerはコンテナ起動した時に、書き込みできるレイヤを作っている イメージとコンテナの違い イメージ: 読み込み専用の複数のレイヤを重ねたもの コンテナ: イメージに読み書き可能なレイヤを追加して起動したもの 参考リンク レイヤ — Docker-docs-ja 24.0 ドキュメント Dockerのまとめ - コンテナとイメージ編 #Docker - Qiita Dockerfile COPY 2つの引数を設定する 1つ目はホスト側のディレクトリ、2つ目はDocker側のディレクトリ ホスト側のディレクトリは docker build . で指定したディレクトリ この場合 . を指定しており、カレントディレクトリが参照される Docker側はデフォルトのパス、もしくは WORKDIR で定義されたディレクトリを参照する EXPOSE このポートを使いますよというドキュメント的な宣言 CMD Dockerはここで設定したコマンドがフォアグラウンドで実行されている間が生存期間となる RUN vs CMD RUN: イメージビルド時に実行される レイヤとしてファイルシステムに反映されキャッシュが効く CMD: コンテナ起動時に実行される イメージには反映せず、ただの実行時オプション CMD vs ENTRYPOINT CMDはデフォルト設定で、オーバーライド可能 一方、ENTRYPOINTは起動時に必ず実行される テクニックとしてENTRYPOINTでコマンドを指定し、CMDで引数を指定するというのがある（引数だけ利用者側で指定可能となる） 基本的に CMD を使うのが良いでしょう。 ENTRYPOINT はDocker起動時のコマンドを強制します。 コマンドのラップをするDocker Image の場合は ENTRYPOINT のほうが好ましいですが、一般的なWebアプリケーションの場合は CMD を使用する方がユーザーにとって使いやすいDocker Image になります。 COPYは最後に実行するとキャッシュが効きやすい Dockerfileの前段で、COPY . .を実行してしまうと、ローカル側のソースコードが1文字でも変わっていると、そのレイヤのキャッシュが効かなくなる レイヤーのキャッシュは、親が変わると問答無用でキャッシュ無効化されるので、COPY . .以降は全てキャッシュが利用されなくなる（レイヤは差分を持っているようなものだから、親が変更があったら当然子にも影響あるよねということだと理解した） なので、変更が頻繁にあるようなCOPY . .の処理は、Dockerfileの中で後ろの方に持っていくと良い Nodeならpackage系だけを最初にコピーする→依存関係をインストール→ソースコードをコピーしてくるみたいな形で工夫できる Container イメージがスナップショットだとすると、そのスナップショットから起動したプロセスがコンテナ コンテナは「1つのコマンド（プロセス）をフォアグラウンドで動かす」ように設計されている コンテナは1つのコマンドを隔離された環境で実行し、そのコマンドの実行がフォアグラウンドで終了するまで生存する ライフサイクル Image – (docker run &lt;$IMAGE&gt;) –&gt; RUNNING – STOPPED – DELETED 正常終了 or 異常終了 or docker killするとSTOPPED docker rmするとDELETED pauseすると停止状態を表すPAUSEDにもなる プロセスの隔離 コンテナ内のプロセスはホストマシンや他のコンテナと隔離されて実行される CMDもしくはENTRYPOINTで定義されたプロセスはPID 1となる Network Dockerではネットワークの扱いが重要となる 1コンテナでは1プロセスを動かす設計となっている nginxとphp-fpmのように複数プロセスを協調して動かす必要があるときはソケットではなく、ネットワークで通信を行うことが推奨されている Dockerでのネットワークは特にKubernetes・ECS・docker-composeのような各種オーケストレーションツールを使用する際に意識する必要がある Driverの種類 ネットワークドライバーはネットワークの振る舞いの定義で、デフォルトでは2種類ある 複数のコンテナ（プロセス）はネットワークを介して通信を行う bridge 基本的にはこれ コンテナごとに仮想IPが割り振られ、同じネットワークに属するコンテナ間で通信が可能 こうすることでコンテナ同士はコンテナ名で互いに名前解決して通信できる 少し深掘りすると.. 何も指定せずにコンテナ起動すると、docker0という名前のbridgeネットワークに所属する docker0というのははホストOS上に仮想ブリッジという仮想スイッチ hostネットワーク – docker0（仮想ブリッジ） – コンテナA, B…という構成 この構成では、各コンテナに独立した仮想ネットワーク内のIPが与えられ、同じネットワークにいるコンテナ間はIPやホスト名で通信できる コンテナに対し、外部からアクセスしたい場合はNAT変換によるポートフォワードが必要(ex: docker run -p 8080:80 nginx) Linuxカーネルのbridgeネットワークを使用する host コンテナがホストのIPアドレスとポート空間（ネットワーク名前空間）をそのまま使う 仮想NICやブリッジを介さずに、直接ホストのIP・ポート空間にアクセスできる 例：コンテナが80番でListenすると、それはホスト側の80番ポートを使うことになる オーバーヘッドが少ない分通信が速いが、ポートの競合に注意する必要がある ホスト側のlocalhost:80等でそのままコンテナにアクセスできるような仕組み none コンテナにネットワークを割り当てない セキュリティ上、外部から完全に切り離したい時に使う Docker Composeにおけるネットワークの考え方 Docker Composeはマルチコンテナを簡単に定義・管理できるツール 内部ネットワークは自動で作成される 各サービスは、自動で同じカスタムネットワークに所属するので、互いにサービス名で名前解決が可能となる（内部DNSによって解決されている） Volume データを永続化するための機能 Dockerコンテナは基本的にはエフェメラル（短命）なもので、ライフサイクルの終了とともにコンテナ上で作成されたファイルは消失する ボリュームタイプには以下の2種類がある Data Volume コンテナのライフサイクルの外で管理されるファイル/ディレクトリの設定 -v &lt;CONTAINER PATH&gt; or -v &lt;HOST PATH&gt;:&lt;CONTAINER PATH&gt; コンテナの外側＝ホスト側にファイルが保管される Data Volume Container 他のコンテナで指定されているボリュームを参照するための機能（コンテナ間でボリュームを共有する） --volumes-fromでコンテナ名を指定することで、別のコンテナのボリュームを参照できる 今の時代では、Named Volume(-v mydata:data)や上記のData VolumeのBind Mount(-v &lt;HOST PATH&gt;:&lt;CONTAINER PATH&gt;)を使用するケースが多そう Named Volumeの補足として、Linuxの場合は大抵/var/lib/docker/volumes/mydata/_data/に保存される プロダクションでの活用Tips セキュリティ rootユーザーを使わない 野良のイメージをベースイメージにしない ビルド時に機微情報を与えない ビルド時にパスワードや秘密鍵のような機微情報を与え、最終イメージに残らないようにする ビルド後に環境変数として渡すことがベストプラクティス もし仮にプライベートリポジトリをクローンするなどをしたい場合、–secretや–sshオプションを使用する(シークレット情報を格納したファイルを渡すイメージ)ことで、ビルド時に一時的にファイルにアクセスし、最終的なイメージには残らないようにセキュアなビルドを行うようにする この方法がなぜイメージに残らないのかというと、一時的なマウント(仮想的なtmpfs)としてビルド中のコンテナに提供されるだけであり、COPYやRUNコマンドで明示的に保存しない限り、イメージのレイヤーには一切含まれないため 逆に1行の中でRUN echo “secret” &gt; /tmp/hoge.txt &amp;&amp; rm -f /tmp/hoge.txtなどとまとめれば、レイヤーのスナップショットには残らない これを2行に分けてしまうとRUN echo “secret” &gt; /tmp/hoge.txtのみキャッシュが効いてしまい、最終イメージにファイルがそのまま残ってしまう .dockerignoreファイルでローカルの不要なパスを無視する .envのようなDBへの接続情報が記載されているようなファイルをビルドに含めないように、.dockerignoreを管理する（そうすればビルド時に無視される） 具体的には、Dockerクライアントはdocker build実行時にビルドコンテキスト全体をDockerデーモンに送るが、.dockerignoreで指定されたものは転送対象から除外される（COPYコマンドでも同じ） まぁそもそも.envに直接ベタでセキュアな情報を残すのも良くないとは思うが（ローカルでは必要ないはずだし、クラウド環境の秘匿情報はクラウド上の適した場所＝AWSならSecretsManager等に保存するべきはずだし..） イメージを塩漬けにしない ECRのイメージスキャンやDependabot Security Update等を活用したら良さそう GitHub ActionsでDocker社公式のdocker/scout-actionというCVEベースの脆弱性検知を行ってくれるみたい Dockerfileでマルチステージビルドを行い、Dockerfile内でセキュリティツールを実行する Snykをサイドカーとして動かしてリアルタイムでの自動検知 ファイルのマウントが必要な場合は最小限にする ホストのファイルをマウントする場合はRead-Onlyなど権限は必要最低限にする 特にdockerソケット(/var/run/docker.sock)の扱いは注意 dockerソケットとは、Dockerデーモンが提供するUNIXソケットファイル このソケットを通じて、docker buildやrunなどのCLIコマンドはデーモンと通信している（つまりDocker APIの入口） ホストファイルシステムの改ざん（削除して破壊等）やホストネットワークの操作・盗聴などなど ただ、CIや監視などでdockerソケットのマウントを要求するツールはあるので、その場合はRead-Onlyでマウントするようにする マルチステージビルド イメージのサイズが大きいとPullに時間がかかってしまい、リードタイムが長くなる リードタイムが長くなると、 デプロイ・ロールバックが遅くなる スケールアウトが遅くなり、コンテナ起動が間に合わず、リクエストを捌けなくなる レジストリの保存料が高くなる イメージの仕組みと設計 DockerイメージはDockerfileによって作成されるスナップショットであり、そのDockerイメージをもとに起動するのがコンテナ 1コンテナ1プロセスの原則 なぜ1コンテナ1プロセスが良いか？ 可観測性 プロセス単位でメトリクスやログ収集がしやすい 責務の明確化 まぁ責務は明確にして分離すべきという話 リソース制御 CPUやメモリの利用量をプロセス単位で制御できる 障害隔離性 複数のプロセスが同一コンテナにあると、一方のクラッシュがもう一方に影響しやすい とは言っても、全てのケースで1コンテナ＝1プロセスといく訳ではないので、1つのコンテナにつき1つの責務を目安にすると良い コンテナ設計の指針となるThe Twelve-Factor App The Twelve-Factor App （日本語訳） ファイルシステム イメージはRead-Onlyで、その上にRead-Write可能なコンテナレイヤが立ち上がるのがイメージとコンテナの仕組み 下位コンポーネントがイメージ（Read-Only）、上位コンポーネントがコンテナ（Read-Write） ステートレスなコンテナにする コンテナは廃棄容易性に優れている反面、データの永続化を苦手としている ステートを持たないことで特定の環境に依存せず、高い可搬性を実現できる ログは標準出力に出す ファイルに吐くとステートを持つことになる 標準出力に吐いて収集するようにする Dockerfileのベストプラクティス 軽量なベースイメージを選択する 公式が提供するイメージは軽量なslimというタグがついたイメージが存在する Google Cloudはdistrolessというシェルなどが入っていないシンプルで軽量なイメージを提供している 理想はdisrolessだが、シェルなどのツール群が入っていないのでまずはslimを使用するのがおすすめ alpineイメージがおすすめできない理由 軽量ではあるが、alpineのベースOSの歴史的系異常扱いが非常に難しい 元々フロッピーディスクに入るような軽量なOSとして開発された軽量化に特化したもので、逆にそれ以外の非機能要件を満たせないことが多々ある 調べると色々出てくるけど、基本的には標準ライブラリが（一般的なLinuxディストリビューションと）異なるための互換性が弱いこととパフォーマンス面に懸念があることっぽい 参考: とりあえずでDockerイメージにAlpine Linuxを選択するのはやめましょうという話 - NIFTY engineering .dockerignoreを使用する Dockerビルド時に無視するファイル・ディレクトリを指定することができる Dockerfile自体不要だし、node_modulesもイメージビルド時にインストールするから不要とかそんな感じ ビルド時に複数のアーキテクチャに対応させる Docker v19からbuildxというサブコマンドが増えた（ex: docker buildx build） 以下のようなコマンドで、複数アーキテクチャに対応可能 $ docker buildx build \ --load \ --platform linux/amd64,linux/arm64 \ -t multi-platform \ . 本番とローカルでアーキテクチャが異なる場合に便利 自分で調べたこと 識別子 Dockerのイメージやコンテナを識別する時、結局何で識別するんだっけ？となりがちなのでまとめる。 ここでいう識別というのは「イメージを指定してコンテナ起動」とか「コンテナを指定して停止・削除する」とかその辺りを指してます。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-18 11:40:43 +0900 JST'>June 18, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Docker" href="http://localhost:1313/posts/docker/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">試して理解 Linuxのしくみ
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>第1章 Linuxの概要 プログラムとプロセス Linuxではさまざまなプログラム（一連の命令）が動いている コンパイラ言語ではビルド後の実行ファイルがプログラムで、スクリプト言語ではソースコードそのものがプログラムとなる そしてカーネルもプログラムの1種 マシンの電源を入れるとまずカーネルが起動する。それ以外のすべてのプログラムはカーネルの後に起動する。 起動後に動作中のプログラムのことを「プロセス」という（広義にはこれもプログラムと呼ぶこともある） カーネル カーネルとは何か？なぜ必要か？というのをプロセスがストレージデバイスに直接アクセスできるシステムを例に考えてみる 例えばある異なる別のプロセスの実行順序が制御されず、意図しない領域へのアクセスができてしまうと問題になる このような問題に対処するのが、（ハードウェアの力を借りた）カーネルである 一般的なPCやサーバーのCPUには、カーネルモードとユーザーモードという2つのモードがある Linuxでは、カーネル（モード）のみがデバイスにアクセスできる それに対して、プロセスはユーザーモードで動作するため、デバイスにアクセスできないので、カーネルを介して間接的にデバイスにアクセスする まとめると カーネルは、システム内の全てのプロセスが共有するリソースを一元管理して、システム上のプロセスに配分する そのために、カーネルモードで動作するプログラムが「カーネル」なのである システムコール システムコールとは、プロセスがカーネルに処理を依頼するための方法 プロセスやメモリ、通信、ファイルシステムやデバイス管理あたり プロセスはユーザーモードで動いているが、システムコールを発行すると、CPUにおいて例外イベントが発生する これをきっかけにCPUのモードがユーザーモードからカーネルモードに遷移し、依頼内容に応じたカーネルの処理が動作する この動作が終わると、再びユーザーモードに戻ってプロセス本体の動作を継続する システムコールの冒頭で、プロセスからカーネルへの要求が正当なものかをチェックする（保有している量を超えるメモリが要求されていないかなど） システムコール以外で、プロセスからCPUのモードを変更する方法はない（もしあったら任意の悪意あるプロセスから攻撃できてしまう） システムコール発行の可視化 Goでhello worldを出力するプログラムを書き、straceコマンドでシステムコールを確認 自分の環境ではwrite(1, &#34;Hello, World!\n&#34;, 14)と出力されていた このwriteがシステムコールにあたるもの カーネルに処理を依頼する時は、システムコールを発行することを確認できた システムコールしている時間の割合 sarコマンドで論理CPUの処理割合を確認 親プロセスのプロセスIDを取得するループ処理を実行し、CPUがユーザーモード・カーネルモードがそれぞれのモードで動いていることを数値で確認できた この辺りのシステムの統計情報は、システムが想定通りに動いているかを把握するために非常に重要 これを人間やるのが辛いので、ZabbixやDatadogなどのツールを用いて、正常状態を定義し、異常になった際に通知するアラート機能と合わせて使用することが多い また併せて、数値の羅列では可視性が良くないので、ダッシュボード（上記のツールに包含されていることが多い）もよく使われる ライブラリ 標準Cライブラリ C言語にはISOによって定められた標準ライブラリがある（Linuxでもこの標準Cライブラリが提供されている） 通常はGNUプロジェクトが提供するglibcを標準Cライブラリとして使用する（単にlibcと表記されることが多い） libcは、ユーザースペース用のライブラリ printf、malloc、fopen、write など、アプリケーションが便利に使える関数を提供している そもそも標準Cライブラリってなぜ必要？何をする？ ほとんどのプログラムがlibcを内部的に利用している（高級言語たちのランタイムも同様） LinuxのようなUNIX系OSでは、ユーザープログラムとカーネルの間を取り持つ役目としてlibcが使われる libcは各ユーザーモードで動いているプロセスから、ファイル書き込みや標準出力などの処理依頼を受けて、内部的にシステムコールを発している つまりlibcはカーネルとのインターフェイス層みたいなもの そもそもカーネル本体がほぼC言語で書かれている ldd /bin/echoでechoコマンドがどのようなライブラリをリンクしているかを確認 libc.so.6 =&gt; /lib/aarch64-linux-gnu/libc.so.6という結果から、内部的にlibcを利用して動いていることがわかる catもpython3コマンドでも同様 普段C言語を触ることは少ないが、OSレベルでは縁の下の力持ちとして重要な言語であることがわかる 一旦ここまでまとめ ユーザープロセスがechoなどの処理を実行する echoの処理は内部的にlibcが提供する関数を実行する(write()) write()が実行されると、内部でアセンブリを用いてsyscall命令が実行され、カーネルに処理を依頼 カーネルが標準出力を行う ライブラリを「リンクする」という表現について これも気になったのでちょっと調べた。
+C言語はコンパイルすると.oファイルが出来上がる その中で外部ライブラリの関数を使っていた場合、コンパイラは「この関数が必要です」と記録するが、中身は含めない その後のリンクという工程で、ライブラリの関数本体と繋げる＝リンクする必要がある .oファイルは中間ファイルであり、リンク処理が行われることで.oから.outファイルができ上がる（.outは実行ファイル） なぜCPUモードを分ける必要があるのか？ 全部カーネルモードで動ければ、システムコール発行してCPUモード切り替えてという必要がなくなるのでは？と思ったので調べてみた →結論、セキュリティ・安全性を守るために、CPUモードを分けている
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-18 11:40:43 +0900 JST'>June 18, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 試して理解 Linuxのしくみ" href="http://localhost:1313/posts/013_linux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Terraformの公式ドキュメントを読み漁る
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> https://developer.hashicorp.com/terraform 入門 Terraformはプロバイダを利用して、各クラウドのAPIを利用できるようにしている </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-15 23:49:25 +0900 JST'>June 15, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to Terraformの公式ドキュメントを読み漁る" href="http://localhost:1313/posts/terraform-docs/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">SQS設計
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>SQSの構成要素 パブリッシャー — SQS — コンシューマー(ワーカー) キューの種類 標準 高スループット、順序保証なし、少なくとも1回の配信（重複あり） FIFO 順序保証（メッセージグループ単位）、重複排除 注文・決済処理など 多くのケースでは標準で良いはず ただし同じメッセージに対して複数処理が走っても結果が同じになる「冪等性」を担保すること SQS自体の設定 可視性タイムアウト メッセージを取得した後、指定時間は他のコンシューマからは見えなくなる設定 長すぎると遅延、短すぎると再処理されてしまうリスクがある デッドレターキュー 処理失敗したメッセージを隔離して格納するキュー エラーハンドリングや再試行の仕組みが必要なら必須 SQS vs SNS &#43; SQS 単一SQSかSNS＋SQS構成 SQS Only シンプルな設計 SNS＋SQS構成 前段にSNSを配置することで、複数のSQSにメッセージを通知できる（ファンアウト構成） 通知先を増やしたい場合は、SQSを新しく作り、SNSの通知先を登録するだけで良い（アプリケーション改修不要） 当初はメール通知だけでも良いけど、その後プッシュ通知も送りたいとかなる可能性がある コンシューマー設計 大前提としてシンプルに作れるのはLambda 長時間実行、メモリをたくさん使うような処理なのであればECSやEC2が次点の選択肢となる 判断軸 処理時間: Lambdaは最長15分 メモリ: Lambdaは10GBまで デプロイ: イベントソース型Lambdaであれば暗黙的にポーリング・メッセージ受信をやってくれるので気にしなくて良い 代わりにECSなどを使用する場合はデプロイ機構を検討する必要がある（常時起動 or 定期実行） オートスケーリング: Lambdaだと考慮不要 自前するケースだと、メッセージ数に応じてスケーリング設定をしたりする必要がある EventBridge Pipesを使うという選択肢 ワーカーがLambda以外の場合で良いかも？ SQSとECSの間に置き、中間処理を任せる ポーリング自動、フィルタ・変換等を行なってくれる アプリケーションロジックにこれらの処理を書かなくて良くなる 参考 Amazon SQSワーカーのアーキテクチャーをLambdaイベントソース/EventBridge Pipes/独自の3パターンで比較してみた | DevelopersIO </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-14 15:07:36 +0900 JST'>June 14, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to SQS設計" href="http://localhost:1313/posts/sqs/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AWS Transfer Family For SFTP
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>やりたいこと バッチ処理で出力したファイルをS3に置く そのファイルをSFTPで任意のPCからダウンロードする 登場人物 バッチ処理環境 S3バケット Transfer Family For SFTP（SFTPサーバー） SFTPクライアント 必要な設定 S3バケット作成 バケットポリシー定義 Transfer Family For SFTP作成 バックエンドはS3を設定 SFTPユーザーの作成 ユーザーのSSH公開鍵を設定（作成する必要あり） ホームディレクトリ: 転送を行うS3バケットのパス名 SFTPクライアント設定（WinSCPとか） 接続先 ユーザー名（上記で設定したユーザー名） パスワード（秘密鍵） </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-09 23:48:17 +0900 JST'>June 9, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to AWS Transfer Family For SFTP" href="http://localhost:1313/posts/transfer-family-for-sftp/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ゼロからはじめるLinuxサーバー構築・運用ガイド
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1章 Linuxって何？ 1. LinuxとはどのようなOSか Linux誕生当初はUnixが強力なOSとして存在していたが、一般の人たちが使える状況ではなかった そこでUnixっぽいOSとして作られたのがLinux Unixは発展の過程でいくつも枝分かれしてきており、現在Unixという1つのOSがあるわけではない 現在あるものとしては、macOSやAIXなどがある Linuxは、上記のUnixとは異なり、ゼロから開発されたOSである ただし、Unixの標準仕様であるPOSIXに準拠しているので、Unix系OSと呼ばれる Linuxは、Unix系OSと多くのコマンドが共通しており、Unix向けソフトウェアの多くはLinuxでも使用できる Linuxというのは「カーネル」の名前 カーネルは、OSの中核となるプログラムであり、カーネルだけではOSとして使えない 利用者とカーネルの仲介役となる「シェル」等があることで初めてOSとして利用できる カーネルとこれら周辺のソフトウェアを組み合わせたものを「ディストリビューション」と呼ぶ ディストリビューションは、大きく分けるとRedHat系とDebian系の2つの系統がある RedHat系 Fedora: 先進的。半年に1回バージョンアップがあるので長期利用には向かない。 RHEL: 企業向け。Fedoraの成果を取り込んで安定したソフトウェアを提供。バージョンアップ速度もゆったり。 CentOS Stream: 元々CentOSは、RHELからサポートを取り除いた同じバイナリ互換性を持っており、人気だった。 が、CentOSはサポートが停止され、RHELの開発版に近い位置付けでCentOS Streamが提供される形となっている Rocky Linux: 従来のCentOSに近い。中期的なスパンで安定してアップデートされる。 Debian系 Debian GNU/Linux フリーソフトウェアだけで作られており、長い歴史がある 無償 サーバー・クライアントどちらでも使用可能 初心者にはややハードルが高い GNUとは？ フリーソフトウェアのみを使用し、UNIX互換のコンピュータ環境を作ることを目標としているプロジェクト カーネルはGNUの製品ではないものの、ディストリビューションの多くはGNUの製品であり、GNU/Linuxと呼ぶべきという意見もある Ubuntu Debian GNU/Linuxから枝分かれした派生ディストリビューション 初心者に配慮した使いやすさを追求 デスクトップ用途で人気があり、サーバー版もある 半年に1度の(メジャー)バージョンアップ 2年に1回LTS版が出るので、バージョンアップをなるべく避けたい場合はそちらを使うと良い 2. Linuxとソフトウェア シェル: カーネルとユーザーを仲介するプログラム 入力を受け付けて実行したりする コマンド: 多くは実行形式のプログラム シェルにコマンド名を入力すると対応するプログラムが実行される ライブラリ: プログラムの共通部品 プログラムが正常動作するには、そのプログラムが利用するライブラリが適切なバージョンでインストールされている必要がある GUI: グラフィカルなユーザーインターフェイス Linuxカーネルとは別のプログラム群で作られており、サーバー版ではGUIなしの軽量なシステムとして運用できる カーネル OSの中核プログラム 3章 基本的なコマンドを覚えよう Linuxで扱われるファイルを分類すると以下の4種類となる 通常ファイル ディレクトリ リンクファイル 特殊ファイル（デバイスを表すデバイスファイルなど） デバイスファイルはUnix系OS特有であり、Linuxでは全てをファイルで表す コンピュータに接続されているデバイス、モニター、キーボードなどそれぞれに対応したデバイスファイルが存在する 例えば、プリンターを表すデバイスファイルに文字を書き込むと、プリンタから出力されるようなイメージ 全てをファイルとして抽象化することで、デバイスの扱いをシンプルにしている Windowsでは、.txtや.exeといった拡張子が意味を持ち、アプリケーションと関連付けられているが、Linuxではファイル名の一部にすぎない なので、Windows 圧縮系のコマンド gzip 最も一般的 高速軽量 圧縮率はそこまで bzip2 gzipより圧縮率高いが、遅い xz 圧縮率が非常に高い gzipやbzip2ほど広くサポートされていない zip 圧縮とアーカイブを同時に行う Windows環境との互換性が高い 圧縮率はbzip2やxzより低い アーカイブのコマンド tar 圧縮機能はなく、複数のファイルを1つのアーカイブ(書庫)にまとめる 他の圧縮ツール(gzip)等と組み合わせて使用される -z(–gzip)オプションでアーカイブ＋圧縮 圧縮とアーカイブの違い 圧縮: ファイルのサイズを小さくすることを目的とする ファイル内のデータをアルゴリズムを使って圧縮し、ディスク容量を節約する 圧縮されたファイルは元のファイルより小さくなるが、単一のファイルとして扱われる アーカイブ: 複数のファイルやディレクトリを1つのファイルにまとめることを目的とする ファイルをまとめて1つのアーカイブファイルにするが、サイズは変わらない 圧縮とアーカイブの組み合わせ これらはよく組み合わせて利用される 複数ファイルをtarでアーカイブし、gzipで圧縮する ディスク/通信容量を削減したい・ファイル数を減らしたいバックアップや転送時によく使用される 4章 ネットワーク IPアドレスは32ビット 人間にわかりやすいよう8桁区切り10進数で表記される IPアドレスはネットワーク部とホスト部で構成される その境界(ネットワーク部)を表すのにサブネットマスクがセットで用いられる 同一ネットワークアドレス(1つのLANの中にある)機器同士は直接通信することができる 逆にそうではない場合はルータを介す必要がある IPアドレスとクラス サブネットマスクを簡潔に表現するのがCIDR表記(192.168.0.0/255.255.255.0と/24は同じ意味) CIDR（Classless Inter-Domain Routing）以前のIPアドレス設計とは？ ネットワーク機器の性能も乏しく、アドレスの経路制御も複雑なことはできなかった そこで考案されたのがIPアドレスをいくつかの「クラス」に分ける設計 アドレス空間の管理がシンプルとなり、ルータがアドレスのプレフィックス（最初のビット）を見て簡単に判断できるという利点があった クラスA: ネットワーク部のビット数が8(ex: 10.0.0.0) クラスB: ネットワーク部のビット数が16(ex: 172.16.0.0) クラスC: ネットワーク部のビット数が24(ex: 192.168.0.0) プライベートIPアドレスとグローバルIPアドレス ホスト部のビットを全て0にしたアドレスを「ネットワークアドレス」 ネットワークそのものを表す 全て1にしたアドレスを「ブロードキャストアドレス」という 同じネットワークに属するすべてのホストに一斉送信する特殊なアドレス ホスト名とドメイン名 /etc/hostsファイルはホスト名とIPアドレスを対応させるためのファイル DNSが普及する前は、このファイルにインターネット上のホスト一覧がずらり並んでいた インターネットが大きくなるにつれ、埒があかなくなり、現在のDNSによる名前解決が行われることになった ただローカル環境や小規模環境では、/etc/hostsファイルでの名前解決で十分なので、今でも活躍するシーンはある ちなみに名前解決をしようとする際、DNSサーバーより/etc/hostsファイルの方が優先される（OSにより設定ファイルがあったりするがデフォルトはそうなっているはず） 6章 構築 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-06 19:15:39 +0900 JST'>June 6, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ゼロからはじめるLinuxサーバー構築・運用ガイド" href="http://localhost:1313/posts/009_%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8Blinux%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ハイドレーション
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ハイドレーションの必要性がわからなかったので調べた。
+ハイドレーションとは？ React によってサーバーサイドレンダリングされたページは単純にクライアントに返却するだけでは JavaScript のイベントを受け取れるインタラクティブな状態にはなりません。onClick プロパティなどで渡されたイベントリスナーを DOM に登録する必要があります。このイベントリスナーを DOM に登録する処理を Hydrate と呼びます。
+なぜ必要？ SSRされたHTMLだけでは、イベントリスナー（クリックなど）がバインドされないため 素のJSで、document.querySelector(‘button’).addEventListener()のように書けばイベントは効く が、Reactのような仮想DOMを使うフレームワークでは不十分 流れ SSR（サーバー側でHTML生成し、ブラウザに返却する） ブラウザは、HTMLとともにJavaScriptファイルを読み込み実行（このJavaScriptファイルの中に状態管理やイベントバインドに関するロジックが含まれている） JavaScript(React)のハイドレーション関連の処理が実行され、SSRされたDOMとReactの仮想DOMを突き合わせて、イベント・状態等の機能を復元する React Server Componentsというアプローチ RSCには、Server ComponentsとClient Componentsがある Next.js AppRouterではRSCがデフォルト Server Components ビルド時にレンダリングされたものをクライアントに送るので、ハイドレーションが不要 つまり、クライアントはサーバーが出力したHTMLを表示するだけ Server ComponentsとSSRとの違い SSRは、ページ全体をサーバーサイドでレンダリングし、完全なHTMLを返却する SCは、特定のコンポーネントをサーバーサイドでレンダリングし、他の部分はクライアントサイドでレンダリングする Client Components useStateのようなインタラクティブなAPIを使用するにはClient Componentsを使用する use clientディレクティブを追加することでClient Componentsとして扱える サーバコンポーネント – React </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-04 09:46:31 +0900 JST'>June 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to ハイドレーション" href="http://localhost:1313/posts/hydration/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WAF
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>構成要素 WebACL ルールグループ ルール WebACL 対象に関連付けるエントリポイントつまりWAFの入口に当たるもの WAFを適用したい対象（CloudFront/ALB/API Gateway）に紐づける事でトラフィックをチェックする 複数のルールやルールグループを含めることができる ルールの評価順序を管理する ルールグループ 複数のルールをまとめた論理的なグループ 再利用可能 ルールグループとしてまとめた場合、優先度付けできるのはルールグループに対してとなる（ルールグループ内のルールに対して優先度を個別でつけることはできない） ルール 実際のトラフィックに対する評価条件とそれに対するアクションを記述する 基本的にはIF→THEN(Allow, Block, Count)の形で定義する ルールグループとルールの使い分け 再利用性と管理性が高くなるので、基本的には再利用する or 複雑(例: Webアプリケーションに対する一般的なセキュリティ機構としてXSSとSQLインジェクションを自前で定義するを1つにまとめたい)といったような目的・用途があるならルールグループを使うと良い（と理解している） 優先度とは？ 優先度の低いものから順に評価していく 同じWebACL内にあるルールやルールグループに対して一意に設定する必要がある 一致した時点でアクション(Allow, Block, Count)が実行され、残りのルールは評価されない なので条件が厳しいルールを先に評価することで効率よくチェックが行える 複数のルールをPASSしたトラフィックのみ通したい場合は？ WAFは最初にマッチしたルールでALLOWされたら以降のルールは評価されなくなる 1つのルールに複数の条件（Statement）をANDで書くことで、表題を実現できる Countアクションの使い道 ルールにマッチしてもトラフィックを通過をブロックせず、ログだけ残す動作 例えば新しいルールの導入にあたり検証するため、BLOCKの前段階として使うとか </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-02 21:48:36 +0900 JST'>June 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to WAF" href="http://localhost:1313/posts/waf/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AWSコンテナ設計構築本格入門
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>AWSコンテナ設計構築本格入門 いまならこう作りたい AWSコンテナ[本格]入門ハンズオン　〜2024年版 ハンズオンの構想〜 - Speaker Deck
+Chapter01 コンテナの概要 コンテナは、他のプロセスとは隔離された状態でOS上にソフトウェアを実行する技術 コンテナ上で実行されたソフトウェアは単に1つのプロセスとして稼働しているのにも関わらず、コンテナ内のソフトウェアから見ると独立したOS環境を占有しているように見える サーバー仮想化は、ゲストOSごとにカーネルを占有する仕組み コンテナ技術は、OSとカーネルは共有し、プロセスを分離する仕組み コンテナのプロセスごとに、プロセッサやメモリ等のコンピューティングリソースが割り当てられ、アプリケーション稼働に必要なライブラリやミドルウェア等の依存関係が全て含まれる Chapter02 コンテナの設計に必要なAWSの基礎知識 コントロールプレーン コンテナを管理する機能 ECSがこれにあたり、ECSはフルマネージドなコンテナオーケストレーターである(実行環境ではない) データプレーン 実際に稼働するリソース環境 EC2とFargateがある Chapter03 コンテナを利用したAWSアーキテクチャ Well-Architectedフレームワークに則り、アーキテクチャを考える 1. 運用上の優秀性 以下のような観点から設計を検討する どのようにシステムの状態を把握するか どのように不具合の修正を容易にするか どのようにデプロイのリスクを軽減するか モニタリングとは？ システム内で定めた状態を確認し続けること 目的は、システムの可用性を維持するために問題発生に気づくことである →メモリ使用量などの定量情報である「メトリクス」や、アプリケーションの「ログ」などの定性的な情報から状態を検知し、アラートとして通知する ECSのようなコンテナサービスでは、小さなサービス同士が連携して動作することが多いので、障害発生時の影響範囲の把握や原因の特定が難しくなりがち そこで、一連の処理内容を追えるためにするのが「トレース」 上記をひっくるめて、システム内部の状態を深掘りできるような状態を「オブザーバビリティ」という オブザーバビリティを獲得することが、優れた運用に繋がる ロギング設計 CloudWatch Logsによるログ運用 ECS/Fargate構成では、CloudWatch Logsと連携することで、容易にログを収集できる 具体的には、タスク定義のlogConfiguration.logDriverにawslogsを設定するだけ サブスクリプションフィルターを使って特定の文字列が含まれている場合のみLambdaに連携→SNSを使って通知 FireLensによるログ運用 メリットは、CloudWatch Logs以外のAWSサービスやAWS外のSaaSへのログ転送がしやすい ログルーティング機能を担うOSSのFluentBitなどの選択が可能 CloudWatch Logsへの同時転送も可能 CloudWatch LogsとFireLensの使い分け ECSタスク定義の仕様としては、コンテナごとにログ出力先を指定するログドライバーの定義は1つ まず考えられるのがCloudWatch Logsを転送→S3にエクスポートする CloudWatch Logsはログを取り込んだタイミングで料金が発生してしまう コスト最適化と障害時運用の両立を図りたい場合は、FireLensがオススメ FluentBitは、CloudWatch LogsとS3への同時ログ転送に対応している 一方で、CloudWatch Logsに取り込まれたログは、クエリベースでログ検索できたり、ダッシュボード表示が可能と、一概にCloudWatch Logsへの転送を避けるべきではない ログ運用で大事なのは**「ビジネス観点で、ログをどのように扱うか、ユースケースを描くこと」**である ビジネス目標に対して、ログ種類や保持期間、分析方法を検討し、設計する メトリクス設計 ECSで取得可能なメトリクスとして、以下が挙げられる CloudWatchメトリクス CloudWatch Container Insights 以下は、ECSクラスターまたはECSサービスの単位でデフォルトで取得できる CPU使用率 メモリ使用率 それぞれ1分間隔で取得 より詳細なメトリクスを取得するにはCloudWatch Container Insightsの有効化が必要 ECSタスクごとに収集可能 ディスクやネットワークに関するメトリクス トレース設計 trace情報の取得をサポートするサービスとして「X-Ray」がある サービスマップのダッシュボードも提供されており、システム全体の可視化も可能 ECS/FargateでX-Rayを利用する場合、以下のようなサイドカー構成となる ECSタスク定義の中にアプリケーションコンテナとX-Rayコンテナを同梱する アプリケーション自体にAWSが提供するX-Ray用のSDKで一部コーディングを施す ECS上のコンテナアプリケーションからX-Rayにトレース情報を書き込むためには特定のIAM権限が必要となる 具体的には、ECSタスクロールが必要になる タスク実行ロールではないことは注意（X-Rayにトレース情報を書き込む主体はECSコンテナエージェントではなく、ECSタスク＝X-Rayコンテナなので） VPCからパブリックネットワークへの通信経路が必要 X-RayはVPC外のAWSパブリックネットワーク上に存在する ECSタスクがプライベートサブネットにデプロイされている場合は、X-Ray用のVPCエンドポイントかNATゲートウェイを用意する CI/CD設計 コンテナはポータビリティ・再現性・軽量さという観点で、CI/CDと相性が良い 開発環境・本番環境でシステム構成が異なることはよくある そうなると、OSやライブラリバージョンなどビルド・デプロイ手順で意識する必要があり、手間やミスが増える コンテナは、アプリケーションに必要な依存関係をパッケージ化してビルドするため、ホストマシン上で同じように振る舞う なので、実行環境によらない再現性があるコンテナは、よりCI/CDとの相性が良い ECR ECRの実体はS3 各環境で1つのECRを利用する場合、ライフサイクルポリシーで商用環境が参照しているイメージを削除してしまうという点は注意 環境ごとの固有のタグを付与し、タグごとにライフサイクルポリシーを設定する イメージタグはコミットIDを付与することで、どのソースコードバージョンかの判別が容易となる ガバナンスとコンプライアンス要件の考慮 以下の要件を満たす方法を考える リリースに関連したファイルの改ざん防止策を考慮すること 意図しないソフトウェアリリースを防ぐ目的として、承認プロセスを設けること 規定されたCI/CDパイプライン以外のリリースを禁止すること まず、リリースに関連したファイルの配置先は以下になる ステージ間でアーティファクトを受け渡すS3バケット コンテナイメージを保管するECR 検討できる方法としては、 S3バケットを操作するユーザーのポリシーとバケットポリシー等による制限 CodePipeline上で承認プロセスを設置 GitHubActionsでも可能 ECSやECRに書き込み・実行権限を設け、CI/CDパイプラインを介さないコンテナイメージデプロイを禁止 2.セキュリティ 「責任共有モデル」を理解することで、どのようなセキュリティ対策を行うべきかが見えてくる ECR、Trivy(OSS)によるイメージの脆弱性スキャン 継続的にスキャンすることが大事 dockleなどのチェックツールを利用する 提供元が信頼できるベースイメージを利用する GuardDutyで、外部と不正な通信がないかをチェックする 秘密情報は、SecretsManagerやSSMパラメータストアに格納し、環境変数としてコンテナ内に安全に秘密情報を挿入する 環境変数名に対し、値としてARNを設定するだけ 注意点として、SSMパラメータストアにはstringとsecure string定義が存在し、secure stringは内部的にKMSで暗号化されて、暗号・復号されるが、stringは暗号化されないので注意 レジストリに対する対策 ライフサイクルを適切に設定し、古いイメージは削除する運用にする 古いイメージは脆弱性混入しがちであり、そのイメージが誤ってデプロイされてしまうことを避ける 同名タグをプッシュされた時に上書きされないようにIMMUTABLE設定をする 特定のIAMユーザー/ロールからしかアクセスできないようプライベートレジストリにする そもそもパブリックレジストリを作成できないようにIAMポリシーを作成できるので、SCPに適用し、Organizationsの組織内でそのポリシーを継承・適用するのがオススメ イメージプッシュは、CIからのみ許可するポリシー設定をする オーケストレータ(ECS)に対する対策 IAMグループにポリシーを割り当て、ECSの操作スコープを制限する ECSのネットワークセキュリティはVPC全体を俯瞰して考える ECS/Fargateで起動するECSタスクは全てVPC上に配置される タスクに関するネットワーク接続方法はいくつかあり、「ネットワークモード」と呼ばれる Fargate上にホストされる場合は、awsvpcというネットワークモードが選択され、独自のENIが割り当てられ、そこにIPv4アドレスが割り当てられることで、ECSタスクが独立したネットワークサービスとして捉えることができる コンテナに対する対策 コンテナからの無制限ネットワークアクセスへの対策 ECSタスクから構成されるVPCネットワークには次の3つが設計ポイントになる パブリックネットワーク→VPCの通信 WAF - ALB - ECSの構成で、ECSはプライベートサブネットに配置する ECSタスク間の通信 例えば、FEのECSタスクとBEのECSタスクがどちらもプライベートサブネットに配置されている例 BEのECSタスクのセキュリティグループのインバウンドルールとして、FEのECSタスクのセキュリティグループを設定すると、到達できる送信元を制御できる VPC→パブリックネットワークの通信 パブリックサブネットにNATゲートウェイを配置して、ECSはプライベートサブネットに配置する AWSリソースへの通信はVPCエンドポイントにする VPCエンドポイントのインターフェース型は時間料金と処理データ量に応じた課金が発生する 仮にCloudWatch LogsのVPCエンドポイントをマルチAZに配置した場合は2,700円ほど NATゲートウェイをマルチAZに配置した場合は12,000円 VPCエンドポイントはサービスごとに配置する必要があるので、コスト圧縮の観点でNATゲートウェイに軍配が上がることもある点は注意 ECRをVPCエンドポイント接続する場合は、ECRに加えてS3のVPCエンドポイントも必要になる(ECRの実態はS3であるため) アプリケーションの脆弱性への対策 タスク定義でルートファイルシステムアクセスを読み取り専用にする ファイル改竄に関する脅威を小さくできる 3.信頼性 障害復旧やスケールなど マルチAZ構成による可用性向上 Fargateを使用すると、ECSサービス内部のスケジューラがベストエフォートでAZ間の負荷バランスを調整しながらタスク配置してくれる CloudWatchメトリクスを使用してタスクの障害を検知 ECSサービスを利用してタスクを自動復旧 ALBを利用して、ターゲットECSタスクが障害した時に切り離す メンテナンスによるECSタスク停止への対処 コントロールプレーンからECSタスクに対して停止状態を指示された際のハンドリングに関しても考慮が必要 ECSは、AWS内部におけるハードウェア障害やセキュリティ脆弱性が存在するプラットフォームであると判断された場合、新しいECSタスクに置き換えるイベントを発生させる Fargate上で稼働しているECSタスクについては、必要なパッチ運用や内部のインフラストラクチャ更新に伴いメンテナンスイベントが発生する 処理の整合性を求められるビジネスでは、停止指示がなされた場合に、適切にアプリケーションをハンドリングする必要がある ECSではタスク停止を指示する際、ECSクラスターがタスクに対してSIGTERMシグナルを送信する このシグナルに応答がない場合、デフォルト30秒でタイムアウトし、その後SIGKILLシグナルが発行される ただし、タイムアウトするまでの時間はタスク定義パラメータで変更可能 ECSで動かすアプリケーションにおいては、SIGTERMシグナルを受信したら、アプリケーションが安全に終了するように実装しましょう システムメンテナンス時におけるサービス停止 ALBのリスナールールで、ESCタスクが登録されているターゲットグループへの転送ルールと固定レスポンス(503とか)を返却する転送ルールを用意する パフォーマンス設計 FargateではOSレイヤの管理は不要となるが、コンピューティングリソースのサイジング等の設定は必要 適切なリソース設計の流れ まずはビジネス上のパフォーマンス要件（性能要件）を把握する ただし、AWSを利用する場合は、必要に応じてリソースを容易にスケールできるので、厳密に見積もる必要はない とは言いつつ、ある程度は利用者数やワークロードの特性を見極めつつ、性能目標から必要なリソースを仮決めするのは重要 AutoScalingを活用する STEP1: ビジネス上のパフォーマンス要件 具体的な数値の要件(10リクエスト/秒)から、必要なタスクのリソースやタスク数を検討する ピーク時のアクセスを考慮し、スパイクを擬似的に発生するテストや挙動(エラーが発生せず処理継続が可能)を確認するよう計画する STEP2-1: リソースの割り当て 初期のタイミングである程度余裕を持つのが良い ただし、タスク定義に割り当てたCPU・メモリサイズ分の料金が発生するので、余剰なリソースは避けた方が良いのは言うまでもない まずは単体でアプリケーションを稼働させてみて、その後のステップでテスト結果などをふまえ、コストとのバランスを見極めて設定を行う STEP2-2: スケール戦略の検討 スケールアップとスケールアウトでスケールアウトが良い理由 停止が不要 スケールアップには上限がある AutoScalingでスケール判断の自動化が簡単 パフォーマンス効率だけでなく、可用性と耐障害性が向上する AutoScalingを活用する CloudWatchアラームで定めたメトリクスの閾値にしたがってスケールアウトやスケールインが実行される スケーリングポリシー ステップスケーリングポリシー スケールアウト/インする条件にステップを設けることで段階的にスケールアクションを設定できるポリシー 例えば、タスクの平均CPU使用率が60%でタスクを数を10%追加するみたいな ターゲット追跡スケーリングポリシー 指定したメトリクスのターゲット値を維持するようにスケールアウト/インが制御されるポリシー AWS側が自動でタスク量を調整してくれるので、よりマネージドな戦略であり、管理も楽になる スケールアウトは高速に動作するが、スケールインは緩やかな実行される どちらが良いのか？ 筆者の推奨は「ターゲット追跡スケーリングポリシー」 理由：チューニング不要である点・コスパのバランスが良い STEP3: テストの実施 ツールを活用し、実際に想定されるリクエスト量を流して以下の観点でテストする メトリクスが取得できているか エラーログ出ていないか ログ内容は適切か(欠損等やログレベルの妥当性) スケールイン/アウトができているか STEP4: メトリクスの確認 STEP3のテストを実行しつつ、CloudWatchメトリクスを活用して以下を確認する パフォーマンス要件で定義したリクエスト量が満たされているか ECSタスクおよびコンテナに割り当てたCPU/メモリに余剰や逼迫が生じていないか AutoScalingのスケールアウト・インは正しく発動するか スケールアウト・イン時にエラーログが吐かれていないか STEP5: リソース割り当てやスケール戦略の見直し STEP4の結果から、ECSタスク定義のリソース割り当てやスケール戦略の閾値を調整する パフォーマンス設計に必要なマインドセット 必要なメトリクスを収集し、適切なサイジングを行うことは重要 コスト最適化設計 まずは必要十分なリソース量を定めることが基本動作 Compute Saving Plansの活用 1年or3年のいずれかの期間を指定リソースの利用をコミットすることで割引される コンテナイメージのメンテナンス イメージサイズに比例して料金が発生するため 非商用環境のタスク稼働時間帯の調整 必要な時間帯を整理し、EventBridge Schedulerで定期的に起動・停止を行う Fargate Spotの活用 停止を許容できる場合に有効な選択肢となる 停止する2分前にSIGTERMシグナルが送信されるので、アプリケーション側でハンドリングロジックを組み込んでおく 60-70%削減 コンテナイメージの削減 イメージサイズの分だけECRからのデータ処理料金が発生する コストメリットだけでなく、イメージのダウンロード時間が短くなり、起動時間が短縮できる Chapter04 コンテナを構築する(基礎編) ハンズオンのメモ 各サブネットに割り当てるIPv4 CIDR設計 将来の拡張性を意識して、最初の段階でCIDR割り当ての全体方針決めを心がけることが大切 とはいえ、最初からサブネットでどの程度のアドレスが必要かは予測しづらい.. 特にFargate上で稼働するコンテナは、コンテナごとにENIと呼ばれる仮想NICがアタッチされ、その仮想NICごとにIPアドレスが割り当てられるので、スケールアウト時のIPアドレス消費を考慮しておく必要がある コンテナ割り当て可能な全体数とのバランスを意識しながら、IPv4 CIDRごとに余力を持たせておくのが望ましい 実際の設計 VPC: 10.0.0.0/16 /16は、前半16ビットがネットワーク部・後半16ビットがホスト部という意味 つまり、実際のコンテナのENIなどに65,536(16ビット)分のIPアドレスを割り当てられるという意味 この範囲でサブネットのCIDRブロックを決める必要がある サブネット: 10.0.0.0/24, 10.0.1.0/24… /24は、後半8ビット分がホスト部 つまり、サブネットごとに、第3オクテッドの値がインクリメントする形となる ECR構築 プライベートサブネットにあるECSサービスからECRへプライベート接続させるためにVPCエンドポイントを作成する VPCエンドポイントにはいくつかの種類があり、ECRへコンテナイメージを登録・取得するためには以下の3つの種類が必要 インターフェイス型 com.amazonaws.[region].ecr.api ECR API呼び出しに必要(例: docker login時に必要なログインパスワード取得時など) com.amazonaws.[region].ecr.dkr docker image pushコマンド実行時などに必要 ゲートウェイ型 com.amazonaws.[region].s3 Dockerイメージ取得に必要 DockerビルドしたイメージをECSクラスタ上でタスク起動 タスク起動するとコンテナが起動継続しない事象が発生 ログを見るとexec /usr/local/bin/docker-entrypoint.sh: exec format errorが発生していた どうやら手元のM2 Mac(arm64)でビルドしたイメージをECS(x86_64 amd64)で動かそうとしたことが原因ぽい docker buildコマンドに--platform=linux/amd64を指定することで解決 Aurora構築 サブネットグループの必要性 AuroraのマルチAZ構成は、VPC内の複数AZにまたがるサブネットに配置される どのサブネットに配置するかを指定するために必要 DBスキーマ反映 from CloudShell 書籍ではCloud9からやっているけどもうないのでCloudShellから マイグレーションファイルがあるfrontendディレクトリが手元にない問題 手元からaws s3 cpコマンドでS3バケットにソースコード配置 CloudShellでaws s3 cpコマンドで手元に持ってくる ここで穴が空いておらずS3にアクセスできない問題が発生 S3はパブリック設定ではないのでVPCエンドポイント経由でアクセスする必要があった VPCエンドポイントが向き先のルートテーブルが、CloudShellを起動しているサブネットに関連付けされていなかったことが原因 関連づけたことでS3にアクセスできるようになった Chapter05 コンテナを構築する(実践編) 実務で使わない or 既に使っていて知見ありのものなので割愛 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-30 22:29:38 +0900 JST'>May 30, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to AWSコンテナ設計構築本格入門" href="http://localhost:1313/posts/005_aws%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E8%A8%AD%E8%A8%88%E6%A7%8B%E7%AF%89%E6%9C%AC%E6%A0%BC%E5%85%A5%E9%96%80/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">GitHub CICD実践ガイド
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1章 ソフトウェア開発とGitHub 継続的インテグレーションとは？ コードの変更を頻繁にコードベースに統合し、正しく動作するかを繰り返し検証する 統合頻度が上がるとコンフリクトが減る 繰り返して検証を行うとバグを発見すれば素早く修正できる ソフトウェアが安定して動けば、ユーザーの満足度も向上する 継続的デリバリーとは？ リリースしないとユーザーには価値を提供できない いつでも安全にリリースできる状態を保ち、ソフトウェアを繰り返し改善する CIとCDは同列の概念に見えるが、CIはCDに包含される 2章 GitHubActionsの基礎概念 実行時エラー コマンドの終了ステータスが0ならば成功、0以外ならば失敗見なされる なので、ワークフローでは終了ステータスを適切に返すことが大事 手動実行 on: workflow_dispatchで手動実行できる inputとして、列挙型となるchoice型の指定が可能 定期実行 on: schedule: cron()で定期実行できる 時刻はUTCなので注意 実行環境 GitHub-Hosted Runners GitHubが提供するマネージドな実行環境 LargerRunnersというマシンスペック向上したものも利用可能（有料） サポートOSとしては、Linux(Ubuntu)/Windows/macOSがある よく使用するDocker,Node.js,npmなどは既にインストールされている ただし、バージョン固定はできないので、バージョン固定で使用したい場合は、ワークフローの中で自分でインストールする必要ある エフェメラルという特性 ジョブ終了時に破棄されるので、毎回クリーンな環境でジョブを実行できる この特性は一貫性向上に貢献している Self-Hosted Runners 利用者が実行環境を用意する MarketPlace 再利用できるワークフローが公開されている 著名な組織にはVerifiedCreatorsマークがついているので、そういうのを利用するとセキュリティ不安が低減する（100%安全とは言い切れないが） 料金 パブリックリポジトリなら無料 プライベートは使用時間とストレージ使用量で計算される 月毎に無料枠があり、それを超えると課金が発生するが、支払い設定をしていない場合は実行できなくなるだけ（なので安心できる） 使用時間は、実行時間×ランナーごとの料率で計算される 料率はubuntuが1,Windowsが2,macOSが10なので、なるべくUbuntuを利用するのがオススメ 3章 ワークフロー構文の基礎 環境変数 単一のワークフローで使用できる envで定義する ワークフロー・ジョブ・ステップで定義可能 定義した場所で、環境変数のスコープが異なる 中間環境変数 コンテキスト(github.base_refのように参照できるもの)は、各ジョブ(ステップ)の中で直接スクリプトに埋め込むのはNG 理由: スクリプトインジェクションにリスクがあるため envの中で一度変数展開し、スクリプト内ではダブルクオテーションで囲むことが推奨される 変数展開することでメモリ上で保存されるので、スクリプト生成プロセスには生成プロセスには相互作用しないため GHAに限らず、シェルスクリプト全体で言えること Variables 複数のワークフローで使用できる varsコンテキストでアクセスする こちらも参照時は中間環境変数経由(envの中で環境変数に展開してから)が推奨 Secrets 以下の特徴がある 登録した値は暗号化され、GitHub内で安全に管理される ログ出力時はマスクされる 登録後の値確認は不可となる ログマスクのアルゴリズムは完全一致のみ、1文字スペースを加えたりするだけで出力されてしまうので、ログマスクは当てにしないようにする そもそもsecretsの値はログ出力しないようにしましょう expressions(式) ${ example }のような形で定義 リテラルや演算子などが使用可能 比較演算の際、GHAでは異なる型の値を比較すると、勝手に値が変換されるので注意 オブジェクトフィルター 配列やオブジェクトから指定したプロパティを抜き出し、配列を生成する ${{ github.event.*.html_url }}のような形で*を使用する 条件分岐(if) ifの少し面白い使い方として、最初のジョブへ条件分岐を定義し、特定の条件でスキップするようにすると、ワークフロー自体の実行がスキップできる 使用時間もゼロになり、コスト削減につながる ネーミング 実行ログが見やすくなるのでジョブ名やステップ名はきちんと書く run-nameは、nameとは異なり、コンテキストが利用できる run-name: Run by ${{ github.actor }} ステップ間のデータ共有 2つのやり方がある GITHUB_OUTPUT環境変数 定義: echo “=” » “${GITHUB_OUTPUT}” 参照: ${{ steps..outputs. }} 参照方法を見ると分かる通り、ステップ間の依存関係が明白 GITHUB_ENV環境変数 定義: echo “=” » “${GITHUB_ENV}” 参照: ${GITHUB_ENV} ステップIDの指定が不要なので、どのステップで環境変数を設定したかを意識する必要ない 異なる複数のステップで、同じ値を参照する場合に使える（ただしステップ間の依存がわかりづらくなる） これで定義したものは、事実上グローバル変数なので、ワークフローが大きくなるとバグの原因になるので注意が必要 特にこだわりなければ、GITHUB_OUTPUTを使用する GitHub APIの実行 GitHubHostedRunnerの場合は、GitHub CLIがインストールされているのでそれを使うと良い API(CLI)の実行にはトークンが必要 GHAには簡単に使えるクレデンシャルが利用できる ワークフロー開始時に自動生成、終了すると自動的に破棄 有効期限は、ワークフロー実行中のみなので、万が一漏れても影響範囲は限定的 取得方法は、${{ secrets.GITHUB_TOKEN }} もしくは ${{ github.token }} どちらでも良いので、どちらかに統一するのが良い トークンの指定は、GITHUB_TOKENもしくはGH_TOKENという名前の環境変数をセットするだけで、自動で読み込んでくれる パーミッション ジョブレベルとワークフローレベルで指定可能 スコープ(contents, pull-requests等)とそれに対するアクション(read, write, none)を設定する ただしワークフローを実行しているリポジトリ以外のアクセスは許可されない パーミッションを明示的に定義していない場合、自動でソースコードの読み込み許可はされる 一方、明示的な定義をする場合は、この暗黙的な挙動は無視されるので注意 パーミッション周りのトラブルシューティング ワークフロー実行ログのSet up jobの中に、GITHUB_TOKEN Permissionsがあるので、そこで実行時のパーミッションを確認できる スターターワークフロー GitHubリポジトリのActionsからNew Workflowを選択すると、ワークフローのコレクションが並んでいるので、参考にできそう https://github.com/actions/starter-workflows?tab=readme-ov-file 4章 継続的インテグレーションの実践 大体以下の流れでワークフローを構成する checkout setup(ex: actions/setup-go) リントやテストの実行 フィルター pathsと他の条件を指定するとAND条件になる 静的解析 actionlintは、GHAワークフローの静的解析を行ってくれるので便利 使用時間の削減（どのワークフローでも有用な設定） ジョブ・ステップレベルのタイムアウト設定 どのワークフローにも設定するようにする（GHAのデフォルト値は360分と大変長いため） 自動キャンセル（新しいコミットが追加されたら、古いコミットで動作しているワークフローを自動でキャンセルする） シェル ステップごとに起動シェルをshellキーで設定可能 Ubuntuの場合、省略時はbashだが、shellキーの指定有無で起動オプションが変更される 全ステップに書くのは面倒なので、ワークフローのトップレベルにデフォルト設定(defaults句)するのが良い デフォルトシェルにはデメリットは存在しないので、全てのワークフローに機械的に入れるのがオススメ Concurrency ワークフローはイベント駆動なので、イベントが発生すると起動、さらにまたイベントが発生すると起動することになる 起動制御できる仕組みとして、Concurrencyがある concurrency: &lt;group-name&gt;とすることで、同一グループの多重制御が設定できる さらにcancel-in-progress: trueで自動キャンセルの設定も可能（プルリクエストで最新ではないコミットのCIとかに有効） CIの黄金律 「クリーンに保つ」 全てのステータスチェックが成功した時だけマージできるようにする 「高速に実行する」 CIの実行が遅いと、待ち時間に他の作業→CIで失敗したらその対応する時にコンテキストスイッチが必要になる 時間の無駄だし、開発効率の低下につながる CIのスピードは大切で、理想は5分以内、遅くとも10分以内に終わらせるように 「ノイズを減らす」 CIからのフィードバックで価値ある情報の「シグナル」とそうではない「ノイズ」 判断基準としては、その情報を受け取り、これは気にしなくて良いやと流したならそれがノイズ ノイズがあると、シグナルもスルーされてしまうので、ノイズは意識的に減らす テスト 単体テストの割合を増やす フレーキーテストを放置しない（閾値を超えるとテスト全体が信頼されなくなる） Googleソフトウェアエンジニアリングでは閾値は1％とされている 遅いテストは実行タイミングをPRマージの時に限定するなど工夫する 使用しているテストツールで以下のような機能を利用する 部分実行 並列実行 シャッフル実行（テスト間の隠れた依存関係も洗い出せる） カテゴリ実行（スローテスト用のカテゴリを作ってそれだけ実行しないみたいな） 静的解析 不要な警告は無視するのではなく抑止する ignoreやsuppressのキーワードで検索する 抑止理由はコメントやコミットメッセージに残しておく 第5章 運用しやすいワークフロー設計 長期運用で役立つプラクティスの紹介 ロギング ワークフローの再実行時の「Enable debug logging」を有効にすると、デバッグログが確認できる デバッグログには以下がある ステップデバッグログ ステップのログの詳細（ステップステータスや各種コンテキスト）をトレースできる SecretsまたはVariablesに「ACTIONS_STEP_DEBUG」をtrueで登録しておくことで、これらの値も確認できる 他は内部実装者向けだったりするので、割愛 Bashのトレーシングオプション デバッグログよりシンプルで、どんなコマンドが実行され、結果はなんだったのかを知りたいケースで使用する Bashのトレーシングオプションは、set -xを実行するだけなので、手軽だが強力 全てのコマンドが実行前に表示されるようになり、どのコマンドがどのような引数で実行されているかを確認できる ログのグルーピング、手動マスク等もある レポーティング アノテーション echo &#34;::error::This is error&#34;みたいな形で書くとジョブページにみやすい形で表示 ジョブサマリー シンプルなテキストならアノテーションで十分だが、複数行表示したい場合等はマークダウン形式で出力される${GITHUB_STEP_SUMMARY}が便利 複数ジョブの実行制御 デフォルトでは複数のジョブを実行すると並列実行される 並列実行は、全体の実行時間を短縮できる もしジョブの実行時間の長さに問題がある場合は、ジョブを細かく分割し、並列実行させるというアプローチもある 逐次実行させたい場合は、needsを使用する ジョブ間のデータ共有 $GITHUB_OUTPUT環境変数に出力し、stepsコンテキスト経由で受け渡す 受け取る側は、needsコンテキストを経由で受け取る Environments 環境差分をパラメータ化でき、VariablesとSecretsがある 参照方法は、通常のVariablesとSecretsと同一(vars.xxx, secrets.xxx) よくあるのはワークフローの入力値で環境名をもらい、それをenvironmentsにセットし、同じ変数名(環境ごとに値が異なる)を参照 キャッシュ actions/cachedでGHA上にキャッシュとその利用が可能 実行時のパラメータとして key: キャッシュキー。生成と保存に利用する。 path: キャッシュ対象となるディレクトリ/ファイルパス。 restore-keys: キャッシュミス時のリストアキーを複数指定する。 キャッシュ復元時に挙動 ①keyキーに定義したキャッシュキーと厳密に一致するキャッシュを探す ②リストアキーの定義順に、プレフィックスが一致するキャッシュを探す リストアキーは省力可能であり、これはパッケージマネージャーと併用するときに威力を発揮する 大半のパッケージマネージャーはキャッシュにないファイルだけダウンロードするように振る舞う キャッシュは、7日以上アクセスされないと自動削除される ブラウザからリポジトリ画面で手動削除も可能 合計サイズは、リポジトリで10GBまで キャッシュキーの設計 プラットフォームごとに異なるキャッシュを利用するようにする キャッシュは最低でもOSごとに分離する 他にもCPUアーキテクチャや言語バージョン、パッケージマネージャーもキャッシュキーの候補 例えば、OSとCPUアーキテクチャでキャッシュを分離するなら: key: example-${{ runner.os }}-${{ runner.arch }} 依存関係を更新した時だけキャッシュを変更するようにする package-lock.jsonのようなロックファイルがある場合、そのファイルハッシュをハッシュキーに指定する hashfiles(&#39;**/package-lock.json) ロックファイルが更新されない限り、キャッシュが利用されるようになる アーティファクト ワークフロー内で生成したファイルをアーティファクトと呼ぶ アーティファクトはGitHubストレージへ一時的に保存ができる ビルドしたバイナリやメトリクスデータの保存に利用できる アーティファクトの保存はデフォルト90日で、保存時にパラメータ(retention-days)で指定可能 プライベートリポジトリだとストレージ容量は課金対象のため、保存期間を短くすると節約できる 6章 アクションによるモジュール化 ここでいう「アクションによるモジュール化」とは、ワークフローにおける小さな部品（ステップやコマンドの小さな単位）をモジュール化すること ランナーは、呼び出し元ワークフローに依存する アクションの実装方式は以下の3つがある Composite: YAMLで定義 JavaScript: JSで定義 Docker Container: Dockerで動かす(ビルド・起動するDockerfileを指定) これらはrunsのusingキーで指定する(ex: using: composite) アクションのロケーションは「ローカル」と「リモート」がある リモート: uses: actions/checkout@v4 URLと連動する @v4の部分はGitのタグ（ブランチやコミットハッシュも指定可能） ローカル: uses: ./.github/actions/hello/ 先頭部分が.であることが目印 ルートディレクトリを起点にパスを記述する CompositeAction メタデータファイル(action.yml)が必要 メタデータ構文のワークフロー構文との違いや注意点 シェル指定が必須 githubコンテキストのeventプロパティの使用は避ける アクションはトリガー指定ができないので、呼び出し元のワークフローによりeventの中身がガラリと変わるため variablesとsecretsは直接参照できない inputとして渡す必要あり secretsを渡したらログ出力時のマスクはしてくれる 環境変数のスコープはワークフローに準拠する ワークフロー側で定義した環境変数は参照できるし、アクション側で書き出した環境変数はワークフロー側からも参照可能 パーミッション定義できない ワークフロー側で制御するようにする つまり呼び出し側ワークフローでパーミッション定義を忘れると実行エラーが発生するので、どのようなパーミッションが必要かはREADMEなどに残しておくのがオススメ アクション設計プラクティス 認知負荷の低減 利用者はコードが読みたいのではなく、アクションを使いたいだけ なのでアクションの名前と概要はきちんとわかりやすいように書く（input/outputも） secrets.GITHUB_TOKENの取り方 アクションからsecretsは参照できないのでsecrets.GITHUB_TOKENは参照できないが、github.tokenで同じ値を参照できる スクリプトの切り出し 内部ロジックが大きくなってきたらshファイルとして別で切り出すと良い 切り出したshファイルは、GITHUB_ACTION_PATH環境変数で実行する必要がある run句に単純なshファイルへの相対パスを指定するだけでは実行できない 環境変数による暗黙的な依存の回避 ワークフローとアクションで相互に環境変数は参照できるが、必要な値はinputs/outputsで明示的に受け渡すようにするのが良い コードが追いづらくなるのと、意図せず壊れてしまうリスクがある ロググループ化の活用 まず大前提としてきちんとログを出力する（デバッグ効率が圧倒的に良くなるため） CompositeActionのログはステップごとに分割されないのでログを追うのが難しくなる なのでロググループ化を活用する アクションとNodeバージョン GitHubが提供する多くのアクションはJSで実装されている Nodeバージョンが上がるとアクションのメジャーバージョンが上がることが多い このバージョンアップ作業が地味に大変な作業… 7章 クリーンなリポジトリの維持 リポジトリルール ブランチプロテクションルールを設定しよう コードオーナーを設定して全てのコードにオーナーシップを維持しよう 自動でコードオーナーにレビュー依頼が飛ぶ シークレットスキャンを導入して、秘匿情報混入を検出しよう コードやIssueの本文やコメントなどもチェックしてくれる GitHubが定期的にチェックする（つまり事後） プッシュプロテクションをEnableにすると、プッシュするタイミングでチェックが走る ドキュメント READMEは読み手のことを考える LICENSEは確認するようにする MITは、責任とらないけど自由に使ってねくらいのニュアンス コミュニティヘルスファイル CONTRIBUTING.md: コントリビューション方法のガイド（PRやIssueの出し方、コーディング規約） CODE_OF_CONDUCT.md: 行動規範 SECURITY.md: 脆弱性報告方法など 8章 Dependabotによる依存関係バージョンアップ ソフトウェアは何もしないと壊れるので、変更し続ける必要がある 依存関係の管理には、検知・把握・実装・テストという活動が必要 Dependabotには以下3つの依存関係の管理をサポートする機能がある Dependabot version updates: 最新バージョンへの自動アップデート Dependabot security updates: 脆弱性を含むバージョンの自動アップデート Dependabot alerts: 脆弱性が含まれるバージョンのアラート通知 ワークフローで実践 ブランチプロテクションルールを設定し、全てのステータスチェックを行ってからマージしたい場合 GitHub CLIのmergeコマンドに--autoをつけることで、全ワークフローの成功状態になった後に、自動でマージしてくれる Dependabotが起動したワークフローは通常のsecretsへのアクセスができないので、Dependabot用のsecretsを登録する必要があるので注意 厄介なのが何もエラーが出ず、空文字で処理が進むので、頭の片隅に入れておくと良い dependabot/fetch-metadataアクションを活用する Dependabotが起動するワークフローで使用可能で、バージョンアップ・依存関係の種類、パッケージエコシステムを取得できる 有効活用の例 パッチバージョンの場合は自動マージ 開発環境向けの変更は自動マージ GHA向けの変更は自動マージ このように少しでも手動対応量を減らすことで、少しでも楽をする 9章 GitHub Releasesによるリリース自動化 バージョニング いつどんな変更が行われたのかをバージョンを併記してユーザーに知らせることができる トラブル時はバージョン情報をやり取りすることで関係者間の意思疎通が楽になる 開発者としてもどのバージョンで不具合が発生したかがわかれば、修正が楽になる セマンティックバージョニング メジャー.マイナー.パッチという構成のバージョニング方式 順序性だけでなく、後方互換性に関心を寄せているのが特徴 完璧ではない（後方互換性が個人の考え方やスキルに依存する点）が、有名であること視認性が高いことで、選択としては無難である Gitタグの保護はやっておこう（ブランチ保護と同じような感じ） ReleasesがGitタグに依存しており、そのGitタグが削除された場合、リリースノートは下書き状態となってしまうため 10章 GitHub Packagesによるパッケージ管理 パッケージエコシステム npmやMavenなどの言語パッケージ、HomebrewなどのOSパッケージ、Dockerなどのコンテナイメージもパッケージの一種 ソフトウェアのインストール・管理（依存関係の把握、ライブラリが足りなければ自動でダウンロード、新しいバージョンの検知、最新版へのアップデート等）を容易にする 提供者はパッケージマネージャークライアントを通じてパッケージを作成・登録＆メタデータを提供し、利用者はパッケージマネージャークライアントを通じてパッケージを検索・取得・更新＆依存関係を解決する（そしてこの両者をつなぐのがパッケージレジストリ） ContainerRegistryの話がメインで、使いそうもないのでスキップ 11章 OpenID Connectによるセキュアなクラウド連携 クラウドプロバイダのクレデンシャル クラウドプロバイダは誰がアクセスしようとしているかを「認証」によって判断する クレデンシャルは、その認証に利用するもので、ユーザーIDとパスワードもその一種 認証する側が、アクセスキーやAPIキーといった呼び名のランダム文字列を発行し、それをクレデンシャルとして利用する プログラムがリクエスト時にそのクレデンシャルを一緒に送信することで、認証と認証情報が正しければ正常レスポンスを受け取れるという仕組み 静的クレデンシャル 長期にわたって変更しないパスワードのようなクレデンシャルを静的クレデンシャルという 静的クレデンシャルは長命という欠点があり、漏洩した場合の被害が拡大しやすい 一時クレデンシャル こちらは必要なタイミングで都度払い出すので短命 ローテーション作業もないので運用も楽 OpenID Connectというプロトコルによって実現する クラウド連携のアンチパターン 静的クレデンシャルは使用してはいけない かつてはそれしか選択肢がなかったので、記事を探すときは要注意 OpenID Connect(OIDC) これは複数の異なるドメインで認証結果を共有し、協調してサービスを提供するオープンなプロトコル（アイデンティ連携を実現する） OAuth2.0を拡張する形で設計されている 利点として、GitHub上で静的クレデンシャルの管理が不要になる(一時クレデンシャルを取得するため)＋認証時にアクセス元を細かく制限できる（GHAの場合特定リポジトリのみに許可できる） 一時クレデンシャルの取得フロー ワークフローで以下の流れで、クラウドプロバイダから最終的に一時クレデンシャルを取得する GitHub OIDC ProviderからOIDCトークンを取得(ワークフロー→GitHub OIDC Provider) OIDCトークンと一時クレデンシャルを交換(GitHub OIDC Provider→クラウドプロバイダ) 一時クレデンシャルで操作 大抵の処理は隠蔽されており、私たちは行う作業は以下の2つのみ（準備に若干手間はかかるがメリットが大きい） クラウドプロバイダ側でOIDCに必要なコンポーネントを作成する ワークフローへクラウドプロバイダの認証アクションを組み込む OIDC TrustとCloud Roles クラウドプロバイダで準備するコンポーネントは以下の2つ OIDC Trust: クラウドプロバイダが信頼するOIDC Providerを設定(GitHub OIDC Provider) OIDCトークンで一時クレデンシャルを取得できる理由は、クラウドプロバイダがOIDC Providerを信頼しているため（OIDC Trust） OIDCトークンはJWT形式で、GitHub OIDC Providerの公開鍵を使って署名等の検証が行われる Cloud Roles: 一時クレデンシャルのアクセス先とアクセス元を制御 一時クレデンシャルの「アクセス先」を管理する AWSでいうIAMロールのこと 認証アクション 各クラウドプロバイダは公式で認証アクションを提供しているので、ワークフローからはそのアクションを呼び出すだけで、OIDCが扱える 検証作業のリスクヘッジ プライベートリポジトリで試す 認証パラメータ(AWSアカウントIDやIAMロール名)はSecretsで管理する これらクレデンシャルではないものの、ログ出力時にマスクされるので、謝ってパブリックリポジトリでワークフローを実行しても、第三者へ余計な情報が漏れない AWSにおけるOIDC利用準備と連携 以下の2つを作成する OIDC Provider AWSがGitHub OIDC Providerを信頼するように設定 IAMロール 一時クレデンシャルのアクセス先とアクセス元を制御する GHAワークフロー側での設定作業 Secrets登録 AWSアカウントID IAMロール名 ワークフロー実装 permissions id-token: writeの設定が必要 GitHub OIDC ProviderからOIDCトークン取得に必要 aws-actions/configure-aws-credentialsを利用 ロールARNとセッション名、デフォルトリージョンをパラメータとして指定する セッション名は、トレーザビリティを目的に、AssumeRole APIに渡すパラメータ名であり、CloudTrailのセッション名として記録される 「誰が・いつ・どのジョブでこのセッションを作ったか分かる」ような情報を含めると便利 例：&#34;${{ github.workflow }}-${{ github.run_id }}-${{ github.actor }}&#34; CloudRolesのセキュアな運用 他のリポジトリからアクセスできないことを確認しておく CloudRolesは目的ごとに分離する（必要最小限の権限だけ） クラウドプロバイダの設定作業にIaCを導入する 12章 コンテナオーケストレーションのデプロイメント デプロイ自動化の流れ コンテナビルドアクション：コンテナイメージのビルド＆プッシュ コンテナデプロイアクション：タスク定義の書き換えとサービスの更新 本番環境へのデプロイはルールを制限したい Deployment branches and tagsを設定する Environmentsからブランチ名パターンを登録することでパターン外のブランチでワークフローを起動できなくなる Required Reviewers ワークフローの起動に承認を必須とする デプロイメント設計 デプロイの設計では「ユーザー影響」と「ロールバック」の観点に着目する ローリングアップデート ECSのデプロイ方式 新しいバージョンへ少しずつ置き換える 無停止 ロールバック ローリングアップデートの場合は特別な仕組みはないので、リバートコミットを追加し、再デプロイする（あまり速くない） 人間が切り戻しを検知・判断するので、別途監視の仕組みが必要となる 第14章 GitHub Actionsの高度な使い方 Reusable Workflows アクションは比較的小さな処理をカプセル化するのに対し、Reusable Workflowsはワークフロー全体を丸ごとカプセル化する パーミッション パーミッション定義を省略した場合は呼び出し側ワークフローのパーミッションを暗黙的に継承する 呼び出し側より厳しくできるが、緩めることはできない なので、呼び出し側ではジョブレベルでパーミッションを定義すると良い（Reusable Workflowsの権限が最小限になるため＋ドキュメンテーションとなり可読性が向上する） コンテキスト 呼び出し側ワークフローのコンテキストを直接参照できる ただしReusable Workflowsが制御できないgithub.eventプロパティを参照すると再利用性は低下するので注意が必要 Secrets 呼び出し側ワークフローのコンテキストを直接参照できない 入力パラメータ経由で渡す or 呼び出し側でsecrets: inheritを指定するとまとめて継承可能 暗黙的な継承となりコードが追いづらくなるので個別で入力パラメータとして渡すのが良い 環境変数 こちらも参照できないので入力パラメータ経由で渡す fromJSON関数 動的なワークフロー定義 事前にマトリクスを生成できない場合、fromJSON()をmatrixに指定することで動的にマトリクスを生成できる 文字列の型変換 ワークフロー構文の環境変数はstring型として扱われてしまう その際string型の文字列をnumber型やboolean型に変換できる エラーハンドリング Continue on Error デフォルトではエラーが発生するとその時点でワークフローが停止する continue-on-error: trueを指定すると、エラーを握りつぶし、次の処理に進む これを指定すると、途中でエラーが発生しても、ワークフロー自体は正常終了扱いされる ログを見ない限りエラーには気づけないので、リカバリー不要な場合のみ使用する マトリックスのフェイルファスト マトリックスを使うと複数のジョブが並列に起動する 途中でエラーが発生した場合、他のジョブが止まる fail-fast: falseを指定することで他のジョブを継続可能とできる コンテキストによるフロー制御 終了状態を取得できるコンテキスト stepsコンテキスト：ステップの終了状態を保持 outcomeプロパティはContinue on Error適用前の終了状態（つまり生情報） conclusionプロパティはContinue on Error適用後の終了状態 needsコンテキスト：（依存している）ジョブの終了状態を保持 resultプロパティのみ コンテキストとステータスチェック関数の併用 「前のステップが失敗したら」という条件式を書きたい場合 if: ${{ failure() &amp;&amp; steps.stepName.outcome == &#39;failure&#39; }}とする必要がある このようにステータスチェック関数とコンテキスト参照を併用する必要がある理由として、failure()が記述されていない場合、暗黙的にsuccess()関数が存在すると解釈されるため 15章 GitHub Actionsのセキュリティ この章では「ソフトウェアサプライチェーン」に着目する ソフトウェアサプライチェーンとは、コード書いてから実行環境へリリースまでに含まれる一連のアクティビティを意味する GHAはさまざまなシステムと連携するため、強力な権限が集中するため、悪意ある人にとってはとても魅力な攻撃対象になる セキュリティのCIA CIAとは、機密性・完全性・可用性のこと CIAの観点から、守るべき資産はコード・クレデンシャル・アーティファクトとなる 闇雲に対策するのではなく、利便性とのトレードオフとなる セキュリティの設計原則 脅威を完全に排除することは難しいので、脅威の軽減を目標とする アタックサーフェス＝攻撃される恐れのある場所を小さくする シンプルな設計を意識する（複雑な設計では意図しないこれ↑を生みやすいので） 複数のセキュリティレイヤを用意して、多層防御にする 最小権限 攻撃されても被害を小さくできる 一時クレデンシャルのような権限の行使に時間の制約があるようなものも有効だと思われる Githubのサービス特性 上記の設計原則を踏まえて考えていく GitHubはデフォルトの設定は利便性重視なので注意する コードをプッシュできる人はワークフローの実行ができるという仕様を理解する 悪意ある人もコントリビューション可能であることを認識する サードパーティアクション サードパーティのアクションがリポジトリのコードを参照できるかはパーミションによるが、ほとんどのワークフローではコードにチェックアウトするので、大半のアクションはコードを参照できる サードパーティアクション導入時は、そのサードパーティを信頼するかを意識的に決断するようにする 本当に信頼して良いかを考えるクセをつけるのが重要 リポジトリ設定で利用制限も可能 呼び出し時にコミットハッシュによる固定を行えば、アクションを不変リソースとして扱える ハッシュ指定だけでは分かりづらいので、コメントでバージョン情報を併記しておくと分かりやすい 筆者の考えとしては「ある程度の車輪の再発明は仕方ない」それくらいサードパーティアクションの使用は慎重になるべき スクリプトインジェクション 外からやってくるデータ（例：PRのタイトル）に悪意あるスクリプトが仕込まれていた場合、それがワークフローの中で読み込まれてスクリプトとして実行されてしまうリスクがある 対策として、 中間環境変数による無害化 env: PR_TITLE: ${{ github.event.pull_request.title }}というような形でスクリプトインジェクションを防げる どのプロパティが危険かを正確に判断するのは困難なので、コンテキストは常に中間環境変数で参照するようにするのが確実で楽 ShellCheckによる静的解析 Github-Hosted Runnerには最初からインストールされている actionlintは内部的にShellCheckを実行していて、yamlに直接書いたスクリプトもチェックしてくれる 最小権限のパーミッション パーミッションはpermissionキーで設定可能 省略可能で、省略した場合はコード参照が許可される 明示的な記述を習慣化することで、自然とパーミッションを意識するようになる 具体的には、 ワークフローレベルでのパーミッション無効化(permissions: {})の設定を入れることで、コード参照すら明示的な許可が必要になる 各ジョブへ都度、必要なパーミッションを定義する 面倒に見えるが、やってみると慣れるのは早い ジョブ分割によるパーミッションの分離 パーミッションのスコープはいくつかあるが、特に注意すべきなのが以下の4つ contents: 改竄されたコードをプッシュされるリスク packages: 悪意あるパッケージをパブリッシュされるリスク actions: 別のワークフローを意図せず起動されるリスク id-token: OIDCでクラウドプロバイダにアクセスされるリスク これらのパーミッションを複数扱う場合はジョブの分割を検討すると良い パーミッションをジョブ単位で記述すれば、ジョブがセキュリティ境界となる シークレットマネジメント まずはクレデンシャルの把握をすべき 最小権限・一時クレデンシャルを優先・定期的なローテーション OpenID Connectハードニング OpenID Connectを深掘りするパート (再掲)一時クレデンシャルの取得フロー ワークフローで以下の流れで、クラウドプロバイダから最終的に一時クレデンシャルを取得する GitHub OIDC ProviderからOIDCトークンを取得(ワークフロー→GitHub OIDC Provider) OIDCトークンと一時クレデンシャルを交換(GitHub OIDC Provider→クラウドプロバイダ) 一時クレデンシャルで操作 IDトークン 上記の1のOIDCトークンと呼んでいるものはOIDCの世界ではIDトークンと呼ぶ これには主体に認証情報を含んでおり、リポジトリやワークフローの情報が含まれている これらの属性情報を受け取ったクラウドプロバイダ側で検証し、アクセス可否を判断している IDトークンの実体は、JWTである ヘッダ・ペイロード・署名をピリオド区切りでBase64URLエンコードしたもの ペイロードのデータ構造は決まっており、JSONの各フィールドはクレームと呼ぶ IDトークンにはいくつかの必須クレームがあり、この必須クレームがセキュリティ上重要となる IDトークンの検証フロー ワークフローはGitHub OIDC Providerから取得したIDトークンをクラウドプロバイダに渡す クラウドプロバイダはIDトークンの署名を検証し、JWTクレームを検証する この検証に成功したら、一時クレデンシャルをワークフローに返送する IDトークンの署名検証 本当にGitHub OIDC Providerが発行したIDトークンなのか確認する 署名の検証には、GitHub OIDC Providerの公開鍵を探し出す必要がある どこを探すかというと、OIDC Trust(AWSの場合はOpenID Connect Provider)にGitHub OIDC ProviderのURLを設定していて、このURLが公開鍵の検索に使用される（https://token.actions.githubusercontent.com） 注意点として、上記のURLは全アカウントで共通のため、アカウントやリポジトリの識別ができない（GitHubが生成したという内容しか検証できない） そこでJWTクレーム検証でその部分を補う形で検証する IDトークンのJWTクレーム検証 IDトークンの署名だけではGitHub利用者が誰でもアクセスできてしまうため、JWTクレームでも検証を行う JWTクレーム検証はクラウドプロバイダによって異なるが、AWSではAssumeRoleポリシーのCondition定義に基づいて検証を行う subクレーム もっとも重要な検証対象となる 認証された主体の識別子が格納される（一般的にはユーザーIDなど） GitHub Actionsでは少し毛色が異なり、ワークフローの属性情報を連結した値が入る（アカウント名やリポジトリ名など） ワークフローの実行方法によって値が異なるが、repo:/:のような文字列はどの方法でも含まれる なのでアカウント名やリポジトリ名が正しいかの判断は可能 GitHubのカスタムクレーム IDトークンは拡張が認めらていて、任意のカスタムクレームを追加可能 クラウドプロバイダによってサポート状況が異なっているので注意（AWSはサポートしていない） クラウドプロバイダのJWTクレーム検証設定 AssumeRoleポリシーのConditionに以下のように記述する &#34;token.actions.githubusercontent.com:sub&#34;: &#34;repo:&lt;OWNER&gt;/&lt;REPO&gt;:*&#34; 左辺のキーはsubクレームを指している 他の値もsubクレームで検証するとセキュリティがより強固になる Environmentsの検証 subクレームに含まれるEnvironmentsの値を検証することで、商用環境にアクセスできるのはレビュー済みのワークフローのみとしたいといった制御が可能 JWTクレームの検証はOpenID Connectのキモであり、特にsubクレームは重要となる 16章 セキュリティのシフトレフト セキュリティは後回しにしがちだが早めに取り組むのが良い戦略 これがシフトレフトという考え方（痛い目に遭うくらいなら早めに対処しよう） 依存関係の脆弱性スキャン 最新に保ち続けられるならそれで十分だけど現実はそうもいかない そこで活用したいのが依存関係の脆弱性を検出するサービス Dependabot Alerts 依存関係の脆弱性を発見するとアラートを送信する 「新たなコードのプッシュでDependency Graphが更新された時（例えばpackage.jsonなどのファイルが更新された時と同意かな？）」と「脆弱性データベースであるGitHub Advisory Databaseに脆弱性が登録された時」のタイミングでリポジトリをチェックしてくれる Dependabot security updates Alertsは情報提供で、これはプルリクエスト作成まで行ってくれるサービス 「security updates」は脆弱性のパッチを当てたバージョンへあげるもの（「version updates」の方は常に最新バージョンにあげるという違いがある） 設定ファイルについて .github/dependabot.ymlは、security updatesとversion updatesで共有される 共有されるということは除外ルールを書いたらどちらでも検知されない なので防御策として、Alertsを合わせて有効化しておくと良い（Alertsは設定ファイルに依存しない）そうすれば検出漏れを最小限にできる シークレットスキャン GitHubのシークレットスキャン機能は経済的理由で導入が困難な場合もある SecretlintというDockerで動かせるAWSやGitHubなどの主要サービスのクレデンシャルを検出できる これをGitHubActionsで動かすと尚良い その際、検出された情報がログ出力されないように注意（--maskSecretsオプションで設定可能） 途中からシークレットスキャンを導入する場合は全ヒストリーをスキャンするGitleaksというツールがある これもDockerで動かせる git push前にスキャンするのがベター .git/hooks/pre-commitファイルへシークレットスキャンコマンドを組み込むとコミット時にスキャンが実行あsれる 個々人で設定可能が必要であり、ストレスに感じる人もいるため、実際にやるかどうかは個人の判断に委ねると良い アプリケーションスキャン Static Application Security Testing(SAST) コードスキャンしてセキュリティ問題を検出する（静的解析） Goだとsecurego/gosec: Go security checkerがそれみたい コンテナイメージの脆弱性スキャン Trivyというツール 他にはコンテナレジストリでスキャン実施できる Infrastructure as Codeセキュリティ IaCで作業ミスは抑制できるが、セキュリティミスは防げない そしてパッと見で正しく動作しているように見えるので意外と発見が難しい セキュリティ設定ミスの防止 ここでもTrivyが活躍する 万事解決とまでいかないが、優れた出発点となる Policy as Code Conftestというツールが使える ポリシールールを設定ファイルに記述し、それを検証してくれる これもDockerで動かせるのでワークフローに簡単に実行できる 選択肢の1つとして持っておくと良い 継続的なセキュリティの改善 誤検出と検出漏れはどうしても発生する（バランス・トレードオフ） 誤検出は想像異常にストレスが大きい またツールを導入しすぎるたりして検出される問題が多すぎるとアラート疲れも発生する 時々立ち返って運用を見返すのが良い 18章 継続的デリバリーの実践 組織パフォーマンスを研究しているGoogleのDORAというチーム曰く「ソフトウェアデリバリーパフォーマンスは組織パフォーマンスと高い相関がある」と学術的な方法で示したこと DORAの研究では「スピードが速い組織ほど品質も高い」を提唱している 加えて、個人の幸福や組織文化にも寄与すると考えられている この章では「継続的デリバリー」うまく実践するために、何ができるかを紹介していく バージョン管理戦略 継続的デリバリーは適切なバージョン管理から始まる 大原則は「ソフトウェアの実行に必要なあらゆるものをバージョン管理する」 ソースコードだけではなく、テスト・ビルド・デプロイ・データベースマイグレーション・運用などのスクリプト・インフラ設定もバージョン管理の対象（つまりクレデンシャル以外） 1日に1回はデフォルトブランチにマージする短命なブランチ運用＝トランクベース開発をすることで、コード変更量が小さいのでレビューしやすかったりコンフリクトが発生しづらかったりする 実装途中の機能を一時的に無効化したい場合は「フィーチャートグル」を使えば良い 詳細: 機能トグル（別名機能フラグ） テスト戦略 CDの品質改善では、4章で説明した自動テストが重要な役割を担う それ以外の異なる観点を提供するものとして、以下の2つがある 探索的テスト 自動化できないテストのこと テストの目的は「調査」と「検証」がある 自動テストは記事の問題を「検証「することで、探索的テストは人間が手動で未知の問題を「調査」すること（目的が異なる） Testing in Production リリース後も本番環境でテストする A/Bテストやシンセティックテストなど リリース戦略 恐怖の克服 いくら自動化しても経験しないと恐怖は薄れない 自分の手でリリースすることが大切 ロールバック ロールバックも全員が慣れておく 頻度が少ないためにやり方を知らない人がいるので手順を周知し、平時にロールバックの練習をしておく デプロイとリリースの分離 分離していない場合にデプロイに問題があった時は全ユーザーに影響がある 分離する方法として、デプロイ後にユーザートラフィックを少しずつ新しい環境に流す「カナリアリリース」がある データベースの変更管理 手作業でデータベースコマンドを実行してはダメ マイグレーションスクリプト経由で実行すると、ヒューマンエラーも発生しない ロールバック用のスクリプトも用意するようにする IaCの変更管理 IaCはソフトウェアとライフサイクルが異なるため、固有の考慮点が存在する ツールにドライ欄があるならそれを使用する 毎回手動実行は大変なので、プルリクエスト作成時に自動で実行し、それをコメントに貼り付ける 「本番環境への適用はデフォルトブランチにマージした時のみ」という規律を設けるべき IaCはローカルからの変更は事故が起きやすいので止める 実行環境は強力な権限が必要なので、絶対消されてはいけないDB等のリソース削除を禁止したり、権限昇格なIAM操作を禁止すべき 構成ドリフト（実態とコードの差分がある状態）は定期的にドライランを実行して通知させよう 疎結合なアーキテクチャ 疎結合はCDがとても実践しやすい テストやデプロイの容易性 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-27 21:25:40 +0900 JST'>May 27, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to GitHub CICD実践ガイド" href="http://localhost:1313/posts/010_github_cicd%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AWSクラウドネイティブデザインパターン
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>AWSクラウドネイティブデザインパターン
+はじめに アプリケーション変更頻度と品質は正の相関にある 変更頻度が低いと品質が低下する クラウドネイティブの定義 クラウドの機能を活用して運用を効率化し、高度な回復力と可観測性を実現する 結果として、障害やメンテ・アクセス急増などの日々の運用に工数をかける必要がなく、頻繁に自信を持ってアプリケーションを変更できる これを実現するためのプラクティスと設計パターンを「運用を効率化」「回復力」「可観測性」の2つの観点から紹介するのが本書である クラウドネイティブを実現するには「疎結合」が重要な概念 疎結合なアーキテクチャとは「コントロール可能な部品を明確に定義されたインターフェイスで組み合わせるアーキテクチャ」のこと インターフェイスのみ知っておけば、コンポーネント間を繋いでシステムを構築できる これに役立つ技術がコンテナやサーバーレスになる 「コントロール可能」とは、望む動作を得られたりするように、管理できているということ 第1部 運用を効率化する 1章 責任共有モデルを意識してアーキテクチャを選択する 責任範囲の最小化 責任共有モデルを意識して、なるべく多くの運用をクラウドに移譲する 責任範囲のサポート 利用者が担う責任をサポートする機能やサービスを使い倒す VPC Reachability Analyzerでネットワークが目的通り設定されているかの確認が可能 AmazonInspectorで不要なネットワークパスが公開されていないかをスキャン 一言でまとめると.. なるべくできるだけクラウド側に運用を任せられるアーキテクチャを選定しようぜ 2章 テスト容易性を高める テスト容易性とは、アプリケーションに対してどれだけ簡単に、かつ効果的にテストができるかという性質 クラウドネイティブアプリケーションでは、ユニットテストを充実させることが有用 ユニットテストは、自動化が容易で実行が高速だから テストがないコード＝レガシーコードであり、レガシーコードは簡潔にいうと「密結合」なコード とは言っても、テストがあれば良いのかというとそうでもなく、「高い信頼性」と「開発者主体で作成されていること」が効果的である テストの信頼性とは？ 通ればリリースできるし、通らなければリリースできない 同じテストなのに実行するたびに変わるのは、偽陽性が多くなり、開発デリバリーに悪影響 こうした問題には、依存関係を整理してユニットテストの比重を増やすのももちろん、そもそもそう言ったテストを削除してしまうのも良い 開発者主体で作成された自動テストとは？ 外部に発注したテストもデリバリーに良い効果を齎せない 開発者主体で行うからこそ、疎結合に作り、パフォーマンス向上が見込める テストピラミッドとCI/CD 「開発者に素早くフィードバックを返す環境が重要」という観点から有名な考え方がテストピラミッド テスト戦略全体において、大部分（70％くらい）をユニットテストが占めるべきというもの ユニットテストは低コストで自動化が容易と定義されている 詳細：第5回 テストピラミッド～自動テストの信頼性を中長期的に保つ最適なバランス～ CI/CDの原則は、各ステージで失敗したらすぐに開発を止めて、原因を突き止め、修正すべきとされている テストピラミッドが崩れている（ユニットテストが少ないとか）とこの原則が形骸しがちなので注意 一言でまとめると.. とりあえずユニットテストを書いて自動化して、CI/CDパイプラインで検知しようぜ テスト容易性を高めるアーキテクチャパターン 依存関係の逆転 例えば、イベント作成メソッドの内部に「メールで通知する」という実装が含まれている例 このメソッドのユニットテストを書こうとすると、メールで通知するという外部に依存する処理を書く必要がある そこで、通知を送るというインターフェイスを用意して、インターフェイスという抽象に依存させることで、ユニットテストではこの部分をモック化するだけで良くなるので、テストがしやすくなる このように依存の向きを呼び出しの向きを逆にする＝イベント作成サービス側がインターフェイスを定義して、そのインターフェイスにメール送信処理が依存すること この原則は、上位と下位のレイヤ構造になっている依存関係全般に適用できる 特に、メールや外部API、SaaSなど、アプリケーションで直接制御していない外部との連携部分で利用すると有用である コンテナによる依存関係の注入 Dockerを使用してデータベース等の環境を立ち上げてそこでテストする Testcontainersでテストコードから、コンテナを起動可能 コマンドとクエリの分離(CQS) コードのメソッドをコマンドとクエリのどちらかに分離すべきという原則 副作用が発生するコードを局所化し、テストの容易性を向上できる ユニットテストで何をテストすべきか明確になるため コマンドとクエリの責任分離(CQRS) CQSを発展させたもので、コマンドの責務を持つクラスとクエリの責務を持つクラスを分離するデザインパターン
+例えば、ユーザーがどのチケットを買い、どのイベントに参加したか等のアクティビティをレポートする機能があるとする
+シンプルに実装した場合、レポート機能メソッドで様々なクラスを呼び出して情報を集めることになる こうなると多くのクラスに依存し、テストが容易ではない ここでアクティビティを取得するクラスにクエリの責務を分離する(CQRS) その中で実際のクエリを直接書くようにする UserActivityRepositoryみたいなイメージ 結果として、アクティビティの依存関係がシンプルになり、テストが容易になる この章を一言にまとめると..
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-22 22:02:47 +0900 JST'>May 22, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to AWSクラウドネイティブデザインパターン" href="http://localhost:1313/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">改訂新版プロになるためのWeb技術入門
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>参考にしたもの https://www.youtube.com/live/5WZDiKol8k4?si=snrgHWB_KgGl3jTe
+3章 WWWの基本要素とその発展 データ交換にHTMLは適さない(プログラムで取り扱うのが困難) そんな背景があり登場したのがXML どういうデータ構造なのかの決まりをスキーマという XMLではDOCTYPE宣言でdtdファイルでスキーマを指定できる スキーマレスのJSONやYAMLが流行ったが、結局JSONスキーマが流行ったり、流行は繰り返される XMLは人が扱うには複雑ではあるが、今でもExcelやe-taxなどコンピュータが読み取るデータとしては 多く利用される そこからXHTMLも開発されたが、制約が多かったりあまり歓迎されなかった(流行らなかった) 4章 HTTPクライアントとHTTPサーバー CGI: リクエストパスに応じてプログラムを起動する、今ではあまり見かけないが、このあとの発展に重要 動的にHTMLを返す、テンプレートエンジンの登場 上記を礎に、ブラウザなのでインストール不要であり、自由度の高いUIを実現できるWebアプリケーションが発展していくことになる 5章 URLとHTTP URLからwww.が消えたのは、クラウドの台頭とサブドメインを気軽にはやせることができるようになり、昔のようにホストとWebサーバの結びつきが弱くなったため 開発時にウェルナウンポートを使用すると起動のたびにsudo権限が必要なため、8080のようなポートを使うことが多い ブラウザはURLパスに含まれる拡張子ではなく、MIMEタイプ(Content-Type)を見てどのように扱うかを決めている GETリクエストでリソース状態を変更できるような実装すべきじゃない理由は、検索クローラによるアクセスでリソースが意図せず変化してしまうことを避けるということも理由にある よく見るフォーム再送信の確認ダイアログはPOSTリクエストが二重に行われることによる、不利益を避けるため 6章 従来型のWebアプリケーション 従来型アプリケーションをSPAとの対比という意味で昨今はMPAと呼ぶことが多い（当時からMPAと呼んでいたわけではなかった） コンピュータの世界で、一連の処理の流れにある背景情報(ユーザ名とか)をコンテキストという HTTPはステートレスである 一連の流れをセッションという ブラウザでそのセッション（状態）を管理するのがCookieである Cookie Cookieの送信条件は「同じサイトにアクセスした時にそのサイトのCookieを渡す」 同じサイトかは、オリジン（ホスト/スキーム/ポート）で判断する ただそれ以外にも、サーバーからSet-Cookieヘッダでレスポンスするときに以下のような属性(細かな送信条件)を設定することが可能 Expires/Max-Age 有効期限を表す どちらも設定されている場合はMax-Ageが優先される どちらも設定されていない場合はセッションクッキーと呼ばれ、ブラウザが終了するまで有効となる だが近年のいくつかのブラウザは起動時にタブを復元する機能があり、その際にクッキーも復元される Domain どのサーバに対してアクセスした時にクッキーを送信すべきかを設定する つまり、サーバからクライアントへの送信条件の制御 example.comと指定した場合は、sub.example.comのようなサブドメインも含まれる 未指定の場合は、上記のようなサブドメインはCookieは送信されない 例えば親ドメインで発行したクッキーを、サブドメインにあるサーバに送ってほしい時とかに使用する HttpOnly JSからのアクセスを禁止する 外部への漏洩を防ぐために推奨される設定 Domain: 未指定（発行したドメインだけに送信されるようにする） Secure: HTTPS通信時のみ HttpOnly: JSからアクセス禁止させる SameSite: Lax or Strict DomainとSameSiteの違い Domainは送信先の制限、SameSiteは送信元の制限 Domain指定なし: 同一ドメインしかCookieを送信しない Domainにexample.comを設定: sub.example.comにもCookieを送信する SameSite指定なし(Lax): 一部のクロスサイトリクエスト（GETメソッドのナビゲーションなど）でもCookieを送信する SameSiteにStrictを設定: 同一サイトのみCookieを送信する malicious.comというサイトからexample.comへのアクセス時はCookieを送信しないといったイメージ SameSiteにNoneを設定: いかなるクロスサイトのリクエストでもCookieを送信する まとめると、 Domainは、どこにCookieを送信するかの設定 SameSiteは、どこからCookieを送信するかの設定 セッション Cookieを用いてセッションを管理する セッションの盗用(セッションハイジャック)を防ぐ方法として 固定や推測されやすい値を使用しない サードパーティクッキーと個人情報保護 あるサイトAに訪問した時に広告画像をクリックした際に、このユーザー(ブラウザ)はこの広告をクリックしたよというCookieをセットする 別のサイトBにアクセスし、広告画像を表示する際に、広告側にはこのユーザーが過去にクリックした広告情報をCookieから取得し、異なるサイト間でも同じような広告を表示させるという仕組み セッションとユーザー管理 セッションベースでのToDoアプリ例を見ると、セッション単位＝ブラウザ単位となるので、ユーザー情報を異なるブラウザで保持させることができない問題がある ここで登場するのが「認証」という仕組みになる 7章 SPAへの進化 (この章の背景を補足)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-19 23:08:39 +0900 JST'>May 19, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 改訂新版プロになるためのWeb技術入門" href="http://localhost:1313/posts/008_%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%83%97%E3%83%AD%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEweb%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">システム設計の面接試験
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1章 ユーザー数ゼロから数百万人へのスケールアップ NoSQLを選択するケース アプリケーションに超低遅延が必要な場合 非構造化データを扱う場合 リレーショナルデータがない場合 データのシリアライズとデシリアライズだけが必要な場合(JSON,YAML等) 大量データの保存が必要な場合 シャーディング 水平スケーリングを実現 ユーザーID % 4というハッシュ関数を元にサーバーを振り分けている この場合ユーザーIDがシャーディングキーとなり、シャーディングキーはどうするかは重要な戦略 ただシャーディングにはいくつかの問題がある データ量の偏りや特定シャードに負荷がかかり、再シャードが必要になる→解決方法として一貫性ハッシュがよく使われる セレブ問題といわれる特定シャードに過負荷がかかる シャード間でのジョイン操作が難しい。対策としては非正規化して単一テーブルで実行できるようにする この章では一部非リレーショナルな機能はNoSQLを採用し、RDBへの負荷を軽減 感想 この章はアプリケーションにおける各レイヤの基本的なスケール戦略が紹介されていて良かった 2章 おおまかな見積もり</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-08 23:37:16 +0900 JST'>May 8, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to システム設計の面接試験" href="http://localhost:1313/posts/012_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E9%9D%A2%E6%8E%A5%E8%A9%A6%E9%A8%93/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
     
-    <header class="Heading">
-  <h1 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/" rel="bookmark">My New Hugo Site</a>
-  </h1>
-  
-</header>
-  
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
 
-  
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
 
-  
-  
-    <article>
-      
-      <header class="Heading">
-  <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/posts/first-post/" rel="bookmark">First Post</a>
-  </h2>
-  
-    
-      <time datetime="2025-06-22T23:09:44&#43;09:00">June 22, 2025</time>
-    
-  
-</header>
-      
-        
-          
-            <p>1つ目の記事です。</p>
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
 
-          
-        
-      
-      
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
 
-  
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
 
-  
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-
-
-
-
-    </article>
-    
-  
-
-  
-
-
-
-      </div>
-    </div>
-  </main>
-  
-  <footer class="Footer">
-    <div class="u-wrapper">
-      <div class="u-padding u-noboosting">
-        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
-      </div>
-    </div>
-  </footer>
-
+</script>
 </body>
 
 </html>

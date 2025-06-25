@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My New Hugo Site</title>
+
+<meta name="description" content="">
+<meta name="author" content="nyuusen">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="My New Hugo Site">
+<meta name="twitter:description" content="">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "My New Hugo Site",
+  "url": "http://localhost:1313/",
+  "description": "",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">作りながら学ぶWebシステムの教科書
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 作りながら学ぶWebシステムの教科書の読書メモ。気づきや調べたことをまとめていく。
+Chapter2 Webシステムの基本、HTTP／HTTPSプロトコルを理解する HTTP/1.1はテキストベースプロトコル(ASCII文字), HTTP/2はバイナリベースプロトコル それ以外にも1つのTCP接続で複数のリクエスト/レスポンスをやり取りできるようになったり、 ヘッダの圧縮等がより、高速で効率的な通信を実現できるようになった そろそろ知っておきたいHTTP/2の話 #http2 - Qiita HTTP/3で特徴的なのはQUICと呼ばれるUDPベースの伝送制御上でHTTP通信を行い、高効率や通信を実現している 現在ALBではHTTP/3に対応しておらず、 HTTP/3に対応するにはCloudFrontを経由させる必要がある(?) Webサーバー側の設定により、HTTPの使用可能なバージョンが定められている 異なるバージョンでHTTPリクエストを送るとリダイレクトされたり、エラーが返されたりする 普段ブラウザでWebページにアクセスする時はHTTPのバージョンを意識することがない理由はブラウザがよしなにやってくれている 具体的には、ブラウザはデフォルトで多くのサーバーからサポートしているHTTP1.1を使用し、接続を確立する Chapter3 Linux Linuxディストリビューション OSコアのLinuxカーネルに、UIを構成するデスクトップ環境やコマンド等のユーザーランドソフトウェアを組み合わせてコンピューターにインストールできるようにパッケージングされたもののこと サーバー向けのものも含め、現在は250種類以上も存在する 代表的なのがRedHat系とDebian系 RedHat自体は有償サポートがあるため、官公庁や比較的大きめの企業(お堅い金融機関等)で採用される傾向 RedHatのソースコードを元にしたCentOSもかつては高いシェアを占めていたが、2021年の開発体制変更を境に多くはUbuntu Serverに移行した Debian系で有名なのがUbuntuであり、現在人気がある シェルスクリプト コマンド結果をファイル出力: コマンド &gt; ファイル コマンド結果をファイルに追記: コマンド » ファイル コマンド結果を次の標準入力に使用: コマンド1 | コマンド2 コマンドを続けて実行: コマンド1 ; コマンド2 Chapter4 仮想化 LXD: システムコンテナマネージャー Dockerがアプリケーション指向であるのに対し、LXDはシステム指向 よりVMに近い動きをする サービス管理システムのsystemdに対応しているため、複数のプロセスやサービスを1コンテナで実行可能 Dockerとは異なり、1つのコンテナでWebサーバーとDBサーバー等の複数のサービスを起動することができる コンテナ技術とLinuxのかかわり コンテナ型仮想化技術のように、ハイパーバイザーを使用しない仮想化プラットフォームの多くが、LinuxをホストOSとしている これにはLinuxはマルチユーザーOSであるがために、他のプロセスやリソースを厳密に管理する必要があったという背景がある Linuxカーネル機能の名前空間によって、ホストのリソースからコンテナのリソースを隔離して、安全にプロセスを実行できるようになっている 具体的には、名前空間がコンテナAでプロセス(PID:1)とコンテナBでプロセス(PID:1)というのを可能にしている つまりまとめると、LinuxはマルチユーザーOSであること故に、1OSの中で複数のリソースやプロセスを管理したいという要求があり、カーネルの名前空間を良い感じに使用し、仮想化技術を実現している Chapter6 HTTPS SSL/TLSは、インターネット上の通信を暗号化するプロトコル SSLを新しい企画として再設計されたのがTLS ただしSSLが歴史的に長く使われている＋広く認知されているため、現在でもSSLとだけ表記されることがある 最新はTLS1.3 SSL/TLSの暗号化方式 共通鍵暗号方式と公開鍵暗号方式を同時に使用する HTTPS通信の流れ（技術詳細） 登場人物と役割 認証局（CA: Certificate Authority）
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-12 15:07:51 +0900 JST'>December 12, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 作りながら学ぶWebシステムの教科書" href="http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">GitHubActions上におけるAWSの認証認可
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>どのようにするのが良いか？ AWS への API 呼び出しは認証情報で署名する必要があるため、AWS SDK または AWS ツールのいずれかを使用する場合は、AWS 認証情報と AWS リージョンを提供する必要があります。GitHub Actions でこれを行う 1 つの方法は、IAM 認証情報でリポジトリシークレットを使用することですが、これは長期認証情報の使用に関するAWS セキュリティガイドラインに準拠していません 。代わりに、長期認証情報または JWT を使用して一時的な認証情報を取得し、それをツールで使用することをお勧めします。この GitHub Action はまさにそれを実現します。
+AWS公式が運用・公開しているGitHubActionsワークフローには、上記のように記載がある。 参考: aws-actions/configure-aws-credentials
+つまり、GitHubのSecretsに長期的なアクセス情報を保持するのは適切ではないので、一時的な認証情報をやり取りするのが良いというようなことが書かれている。
+一時的な認証情報はどうやって？ 結論、AssumeRoleを使用してやり取りする。
+ざっくりな手順(理解用) GitHubとAWSが認証情報をやり取りできるように設定 具体的にはOpenID Connect AWS側でIAMロールを作成する GitHubActions側でIAMロールを指定してAssumeRoleを実行する AWS CLIを実行してとかではなく、[aws-actions/configure-aws-credentials]という便利なワークフローを使用する 具体的な手順 基本的なことは以下に書かれている。
+アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs 少し補足すると、AWS側では以下の設定が必要になる。
+IDプロバイダとしてGitHubを登録する(OpenID Connect) GitHubActionsが引き受けるIAMロール(それに紐付けるIAMポリシーも) 信頼関係の条件には、&#34;token.actions.githubusercontent.com:sub&#34;: &#34;repo:octo-org/octo-repo:ref:refs/heads/octo-branch&#34;のように指定することで、GitHubActionsからの引き受けを制限できる 参考 アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs aws-actions/configure-aws-credentials OpenID Connect を使ったセキュリティ強化について - GitHub Docs OpenID Connectについて詳しく書かれている。 </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-06 21:56:17 +0900 JST'>December 6, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to GitHubActions上におけるAWSの認証認可" href="http://localhost:1313/posts/authenticate-aws/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">VPCピアリング
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>VPCピアリングとは？ プライベート IPv4 アドレスまたは IPv6 アドレスを使用して 2 つの VPC 間でトラフィックをルーティングすることを可能にするネットワーク接続です。 どちらの VPC のインスタンスも、同じネットワーク内に存在しているかのように、相互に通信できます。
+VPC ピア機能とは - Amazon Virtual Private Cloud
+料金 接続の確立には料金かからない AZ内での接続でのデータ通信も料金かからない ただし、異なるAZやリージョン間でのデータ通信には料金が発生する VPC ピア機能とは - Amazon Virtual Private Cloud VPCピアリング接続の構築手順 詳細はVPC ピアリングのプロセス、ライフサイクル、制限 - Amazon Virtual Private Cloudに記載されている。
+アカウントAのVPCからアカウントBにVPCに接続する前提だと、ざっくりと以下の流れ。
+アカウントAでVPCピアリングを作成 この時に接続先としてアカウントBのVPCを選択する 作成したら「承諾の保留中」というステータスになる アカウントAのVPCはリクエスタという扱いになる アカウントBで該当のピアリング接続を選択し「リクエストを承諾」を選択する アカウントAの対象VPCのルートテーブルを更新する ターゲットには「ピアリング接続」を選択し、送信先には接続先VPCのCIDRを指定する アカウントBの対象VPCのルートテーブルを更新する アカウントAでの設定の逆を設定する VPC ピアリング接続のルートテーブルを更新する - Amazon Virtual Private Cloud アカウントBで対象リソースのセキュリティグループを変更する アカウントA側のリソースにアタッチしているセキュリティグループorアカウントAのVPCのCIDR 前者の方が狭く絞れる分、セキュリティ性は高い ちなみに、両方のVPCが同じリージョンにある場合のみ、相手のVPCのセキュリティグループを参照できる アカウントAのVPCのリソースから、アカウントBのリソースへ接続する ルートテーブルに従って、ピアリング接続で接続できる 注意点 複数のVPCピアリング接続はできない(必ず1対1である必要がある/参考) プライベートIPで名前解決を行うので、それぞれのVPCでCIDRが重複してはいけない(参考) 役立つシーン VPC跨ぎのデータ取得や移行など </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-04 19:30:17 +0900 JST'>December 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to VPCピアリング" href="http://localhost:1313/posts/vpc-peering/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">プレフィックスリスト
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>プレフィックスリストとは？ 複数のIPアドレス範囲をまとめて管理できる AWSが提供する「AWSマネージドプレフィックスリスト」と、ユーザー側が作成する「カスタマーマネージドプレフィックスリスト」が存在する 作成されたリージョンのみで利用可能 セキュリティグループ等でIPアドレス単位で設定をする際に有用 IPアドレスリストを手動で管理する際のオーバーヘッド発生を防ぐ AWS側が提供するIPアドレス情報に依存することで、設定ミス等を防ぐこともでき、セキュリティ的にも良い AWSが自動作成するプレフィックスリスト S3 VPCエンドポイント(ゲートウェイ型) Dynamo DB VPCエンドポイント(ゲートウェイ型) EC2 Instance Connect VPC Lattice ※よく見かけるものを抜粋 実際にどのような場面で役立つか？ 同じ内容を持つ複数のセキュリティグループを作成したい場合 例えば、 セキュリティグループを用いてインバウンドルールの送信元IPアドレスを制御したい 同様の内容を制御するセキュリティグループをいくつか作成したい 各セキュリティグループにIPアドレスを手打ちしていくのは手間がかかる＋設定ミスの恐れがある プレフィックスリストを使用することで、IPアドレスの設定を1箇所にまとめることができ、複数のセキュリティグループからそれを参照させることができる S3のVPCエンドポイント(ゲートウェイ型)を利用する時 接続元の方のルートテーブルに自動で生成される 以下のような内容 ターゲット: vpce-xxxxx 送信先: pl-xxxx(自動生成されたプレフィックスリスト) 参考 AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-02 11:36:10 +0900 JST'>December 2, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to プレフィックスリスト" href="http://localhost:1313/posts/prefix-list/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">KMS
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>KMSとは 暗号化キーの作成と管理機能を提供するマネージドサービス AWS Key Management Service - AWS Key Management Service KMSの必要性 データの暗号化に必要な暗号化キーを保護する必要がある キーの作成・管理・使用・削除がAWS KMS内でのみで行われるので、安全性が高い 自前でこの辺りやるのは大変だけど、KMSで楽に安全にできるよということ KMSの料金 作成したキーに対して、1USD/月 ローテーションすると2回目までは1USD/月 APIリクエストあたり0.0x$ 料金 - AWS Key Management Service | AWS エイリアス 自動で生成される識別子は判別しづらいので、エイリアスを付与することで判別しやすくなる エイリアスを使用することで、キーをノーテーションしてもアプリケーション側での変更が不要 KMSのポリシー KMS側にはキーポリシーがある キーポリシーでは暗号キーに対して、どのリソースに対して何をできるかを定義することで、特定のサービスからのみアクセスさせるという制御が可能 例えば、ECSタスクに割り当てるロールに、特定のKMSに対する暗号復号のアクションを許可するみたいなことができる </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-29 21:55:12 +0900 JST'>November 29, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to KMS" href="http://localhost:1313/posts/kms/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/12/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/14/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
