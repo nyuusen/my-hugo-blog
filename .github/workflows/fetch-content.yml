@@ -20,7 +20,7 @@ jobs:
         run: |
           set -e
           mkdir -p content/posts
-          find til_repo -name "*.md" -print0 | while IFS= read -r -d '' file; do
+          find til_repo -name "*.md" -not -name "README.md" -print0 | while IFS= read -r -d '' file; do
             relative_path="${file#til_repo/}"
             commit_date=$(git -C til_repo log -1 --pretty=format:%cI -- "$relative_path")
             title=$(head -n 1 "$file" | sed 's/^# //')

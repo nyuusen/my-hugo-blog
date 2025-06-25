@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>RDSのAuroraをアップデートする | My New Hugo Site</title>
+<title>RDSのAuroraをアップデートする | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="はじめに
 業務で必要になったので、調べたことを雑にメモ。
@@ -127,7 +127,7 @@ Amazon Aurora MySQL 5.6を頑張らずに8.0へメジャーアップグレード
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/update-aurora/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="RDSのAuroraをアップデートする">
   <meta property="og:description" content="はじめに 業務で必要になったので、調べたことを雑にメモ。
 アップデート方法 1.インプレース(In-Place) 現行クラスターをそのままアップグレードする マネコンから1クリックで実行可能であり、エンドポイントも変わらないので作業工数が最もかからない 他の方法に比べダウンタイムが長い データベース再起動が発生するため 切り戻しは、アップグレード前のスナップショットを用いて行う 2.ダンプ&amp;リストア 移行先のDBクラスターを作成し、mysqldump等を利用してクラスター間でデータ移行させる データ量に応じて、ダンプにかかるエクスポート・インポート時間が発生する 3.レプリケーション 移行先のDBクラスターを作成し、binlogレプリケーションでクラスター間でデータ同期させた後、スイッチオーバーする データ量に関係なくダウンタイムが発生しない 手順が複雑 現在では、RDSでBlue/Greenデプロイに対応しているので前よりは簡単にできるらしい より安全、簡単、迅速な更新のための Amazon RDS ブルー/グリーンデプロイを発表 【衝撃】AWSのRDSがデータを失わないBlue/Greenデプロイに対応しました #reinvent | DevelopersIO 4.ブルー/グリーンデプロイ機能 エンドポイント変わらない グリーンへの切り替え後に、ブルーへの逆方向レプリケーションが可能 切り戻しが必要な時に迅速に対応が可能 補足: binlogとは バイナリログのこと バイナリログには、テーブルやデータ変更等のイベントが記述される バイナリログをレプリカに転送することで、レプリカ側でトランザクションを再現して、同様のデータ変更が可能 MySQL :: MySQL 8.0 リファレンスマニュアル :: 5.4.4 バイナリログ 注意点等 更新にはDBの再起動が必要であるため、採用するアップデート方式によるが、通常20-30秒のダウンタイムが発生する 再起動に必要な時間は、クラッシュ回復プロセス、再起動時のデータベースアクティビティ、および特定の DB エンジンの動作によって異なる データベースアクティビティをできるだけ減らすこと(未完了のトランザクションのロールバックアクティビティを減らすことに繋がる)で短くできる コミットされていないトランザクションがあると、それらをロールバックする処理が発生するからということだと思われる つまり、システムをメンテナンスモードにしておく等しておき、トランザクションが滞留していない状態を作るのが良さげ 参考 Amazon Aurora の更新 - Amazon Aurora Amazon Aurora MySQL 5.6を頑張らずに8.0へメジャーアップグレードしてみた | DevelopersIO 他社事例 ユーザベース様 記事: Aurora MySQL 2から3へのアップグレード - 安全性とコストを考慮した移行プロセス - Uzabase for Engineers">
@@ -257,7 +257,7 @@ Amazon Aurora MySQL 5.6を頑張らずに8.0へメジャーアップグレード
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -282,7 +282,7 @@ Amazon Aurora MySQL 5.6を頑張らずに8.0へメジャーアップグレード
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -497,7 +497,7 @@ Amazon Aurora MySQL 5.6を頑張らずに8.0へメジャーアップグレード
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

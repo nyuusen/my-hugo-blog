@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>リダイレクトについて | My New Hugo Site</title>
+<title>リダイレクトについて | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="はじめに
 リダイレクト3xx系のHTTPステータスコードについて調べた。
@@ -98,7 +98,7 @@ PUTやPOSTの結果として送り返される
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/redirect/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="リダイレクトについて">
   <meta property="og:description" content="はじめに リダイレクト3xx系のHTTPステータスコードについて調べた。 歴史的背景とかが絡んで、仕様と実態の乖離等が発生し、わかりづらいものになっているらしいので整理。
 301 Moved Permanently リクエストされたリソースが完全にHTTPヘッダーのLocationで示されたURLに移動したことを示す ブラウザはこのURLにリダイレクトするが、検索エンジンはリソースへのリンクを更新する 一部の古いクライアントでは、不正にメソッドがGETに書き換えられる恐れがあるので、GETリクエストのみで使用する SEO的には最も優れている？ 参考: 301 Moved Permanently - HTTP | MDN 302 Found リクエストされたリソースが一時的にHTTPヘッダーのLocationで示されたURLに移動したことを示す ブラウザはこのURLにリダイレクトするが、検索エンジンはリソースへのリンクを更新しない 一部の古いクライアントでは、不正にメソッドがGETに書き換えられる恐れがあるので、GETリクエストのみで使用する 参考: 302 Found - HTTP | MDN 303 See Other リダイレクトが新しくアップロードされたリソースではなく、 (確認ページやアップロード進捗ページのような) 別なページにリンクすることを示す PUTやPOSTの結果として送り返される リダイレクト先の表示にはGETを使用する 参考: 303 See Other - HTTP | MDN 307 Temporary Redirect リクエストされたリソースが一時的にHTTPヘッダーのLocationで示されたURLに移動したことを示す リクエストメソッドと本文が変更されないことが保証される 使用されるメソッドをGETに変更したい場合は303を使用する 参考: 307 Temporary Redirect - HTTP | MDN 308 Permanent Redirect リクエストされたリソースが完全にHTTPヘッダーのLocationで示されたURLに移動したことを示す(301と同じ) リクエストメソッドと本文が変更されないことが保証される 参考: 308 Permanent Redirect - HTTP | MDN ステータスコード別のユースケース ではどれを使えば良いのかというのを調べてみる">
@@ -199,7 +199,7 @@ PUTやPOSTの結果として送り返される
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -224,7 +224,7 @@ PUTやPOSTの結果として送り返される
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -444,7 +444,7 @@ PUTやPOSTの結果として送り返される
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on nyuusen blog</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on nyuusen blog</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jun 2025 09:47:54 +0900</lastBuildDate>
@@ -760,13 +760,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Sun, 22 Jun 2025 23:09:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;p&gt;1つ目の記事です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker</title>
@@ -7231,13 +7224,6 @@ o および Rust 関数の場合、関数コードを実行可能ファイルと
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>TIL(Today I Learned)</title>
-      <link>http://localhost:1313/posts/readme/</link>
-      <pubDate>Sat, 11 Jan 2025 23:50:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/readme/</guid>
-      <description>&lt;p&gt;個人用の雑な学習メモです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ElasticCache 入門</title>

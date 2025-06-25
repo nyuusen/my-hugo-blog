@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posts | My New Hugo Site</title>
+<title>Posts | nyuusen blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - My New Hugo Site">
+<meta name="description" content="Posts - nyuusen blog">
 <meta name="author" content="nyuusen">
 <link rel="canonical" href="http://localhost:1313/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
@@ -57,7 +57,7 @@
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
@@ -97,7 +97,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -131,37 +131,6 @@
     Posts
   </h1>
 </header>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">関数型にインターフェイスを実装する
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>はじめに Goの特徴として、構造体にメソッドを定義する以外に関数型にもインターフェイスを実装できる。
-net/httpパッケージを例に調べてみたのでメモ。
-関数型にインターフェイスを実装とは？をnet/httpパッケージを例に理解する 前提として、今回題材にするnet/httpパッケージのhttp.Handlerインターフェイスについて理解しておく。
-type Handler interface { ServeHTTP(ResponseWriter, *Request) } Handlerは、ServeHTTPというメソッドを定義しているインターフェイスである。
-中身としては、Handlerという名の通り、HTTPリクエストを受けて、HTTPレスポンスを返す処理が記述されるものである。
-本題に入るが、まずは違いをわかりやすくするために、通常の(よくある)方法である「構造体とメソッドを使ってインターフェイスを実装する」の実装例を書いてみる。
-package main import ( &#34;fmt&#34; &#34;net/http&#34; ) // 構造体定義 type MyHandler struct{} // 構造体メソッドでインターフェイスを実装 func (h MyHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) { fmt.Fprintln(w, &#34;Hello, World!&#34;) } func main() { handler := MyHandler{} http.Handle(&#34;/hello&#34;, handler) http.ListenAndServe(&#34;:8080&#34;, nil) } MyHandlerという構造体に対し、Handlerインターフェイスを満たすServeHTTPというメソッドの実装を行なっている。
-その後、main関数内でMyHandlerインスタンスを生成し、http.Handleに渡すことで、パスに対してハンドラーを登録している。
-次に「関数型を使ったインターフェイスを実装する」の実装例を書いてみる。
-package main import ( &#34;fmt&#34; &#34;net/http&#34; ) func helloHandler(w http.ResponseWriter, r *http.Request) { fmt.Fprintln(w, &#34;Hello, World!&#34;) } func main() { http.HandleFunc(&#34;/hello&#34;, helloHandler) http.ListenAndServe(&#34;:8080&#34;, nil) } helloHandlerというfunc(http.ResponseWriter, *http.Request)シグネチャの関数を実装する。　…あれ、ハンドラーを定義するHandlerインターフェイスとハンドラーを登録するHandleはどこにいった…？
-今回登場したhttp.HandlerFuncは、以下のように定義されている。
-type HandlerFunc func(http.ResponseWriter, *http.Request) func (f HandlerFunc) ServeHTTP(w http.ResponseWriter, r *http.Request) { f(w, r) } HandlerFuncという関数型に対し、ServeHTTPメソッドが実装されている。
-つまり、以下のhelloHandlerの実装時点＝HandlerFunc型の実装時点で自動的にServeHTTPというメソッドの実装が行われている。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-04-02 23:32:55 +0900 JST'>April 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to 関数型にインターフェイスを実装する" href="http://localhost:1313/posts/impl-interface-to-function/"></a>
-</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -469,25 +438,6 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">TIL(Today I Learned)
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>個人用の雑な学習メモです。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-01-11 23:50:13 +0900 JST'>January 11, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
-  <a class="entry-link" aria-label="post link to TIL(Today I Learned)" href="http://localhost:1313/posts/readme/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">ElasticCache 入門
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
@@ -542,6 +492,50 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
   <footer class="entry-footer"><span title='2024-12-26 16:14:54 +0900 JST'>December 26, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
   <a class="entry-link" aria-label="post link to RDSのAuroraをアップデートする" href="http://localhost:1313/posts/update-aurora/"></a>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">作りながら学ぶWebシステムの教科書
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 作りながら学ぶWebシステムの教科書の読書メモ。気づきや調べたことをまとめていく。
+Chapter2 Webシステムの基本、HTTP／HTTPSプロトコルを理解する HTTP/1.1はテキストベースプロトコル(ASCII文字), HTTP/2はバイナリベースプロトコル それ以外にも1つのTCP接続で複数のリクエスト/レスポンスをやり取りできるようになったり、 ヘッダの圧縮等がより、高速で効率的な通信を実現できるようになった そろそろ知っておきたいHTTP/2の話 #http2 - Qiita HTTP/3で特徴的なのはQUICと呼ばれるUDPベースの伝送制御上でHTTP通信を行い、高効率や通信を実現している 現在ALBではHTTP/3に対応しておらず、 HTTP/3に対応するにはCloudFrontを経由させる必要がある(?) Webサーバー側の設定により、HTTPの使用可能なバージョンが定められている 異なるバージョンでHTTPリクエストを送るとリダイレクトされたり、エラーが返されたりする 普段ブラウザでWebページにアクセスする時はHTTPのバージョンを意識することがない理由はブラウザがよしなにやってくれている 具体的には、ブラウザはデフォルトで多くのサーバーからサポートしているHTTP1.1を使用し、接続を確立する Chapter3 Linux Linuxディストリビューション OSコアのLinuxカーネルに、UIを構成するデスクトップ環境やコマンド等のユーザーランドソフトウェアを組み合わせてコンピューターにインストールできるようにパッケージングされたもののこと サーバー向けのものも含め、現在は250種類以上も存在する 代表的なのがRedHat系とDebian系 RedHat自体は有償サポートがあるため、官公庁や比較的大きめの企業(お堅い金融機関等)で採用される傾向 RedHatのソースコードを元にしたCentOSもかつては高いシェアを占めていたが、2021年の開発体制変更を境に多くはUbuntu Serverに移行した Debian系で有名なのがUbuntuであり、現在人気がある シェルスクリプト コマンド結果をファイル出力: コマンド &gt; ファイル コマンド結果をファイルに追記: コマンド » ファイル コマンド結果を次の標準入力に使用: コマンド1 | コマンド2 コマンドを続けて実行: コマンド1 ; コマンド2 Chapter4 仮想化 LXD: システムコンテナマネージャー Dockerがアプリケーション指向であるのに対し、LXDはシステム指向 よりVMに近い動きをする サービス管理システムのsystemdに対応しているため、複数のプロセスやサービスを1コンテナで実行可能 Dockerとは異なり、1つのコンテナでWebサーバーとDBサーバー等の複数のサービスを起動することができる コンテナ技術とLinuxのかかわり コンテナ型仮想化技術のように、ハイパーバイザーを使用しない仮想化プラットフォームの多くが、LinuxをホストOSとしている これにはLinuxはマルチユーザーOSであるがために、他のプロセスやリソースを厳密に管理する必要があったという背景がある Linuxカーネル機能の名前空間によって、ホストのリソースからコンテナのリソースを隔離して、安全にプロセスを実行できるようになっている 具体的には、名前空間がコンテナAでプロセス(PID:1)とコンテナBでプロセス(PID:1)というのを可能にしている つまりまとめると、LinuxはマルチユーザーOSであること故に、1OSの中で複数のリソースやプロセスを管理したいという要求があり、カーネルの名前空間を良い感じに使用し、仮想化技術を実現している Chapter6 HTTPS SSL/TLSは、インターネット上の通信を暗号化するプロトコル SSLを新しい企画として再設計されたのがTLS ただしSSLが歴史的に長く使われている＋広く認知されているため、現在でもSSLとだけ表記されることがある 最新はTLS1.3 SSL/TLSの暗号化方式 共通鍵暗号方式と公開鍵暗号方式を同時に使用する HTTPS通信の流れ（技術詳細） 登場人物と役割 認証局（CA: Certificate Authority）
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-12 15:07:51 +0900 JST'>December 12, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to 作りながら学ぶWebシステムの教科書" href="http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">GitHubActions上におけるAWSの認証認可
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>どのようにするのが良いか？ AWS への API 呼び出しは認証情報で署名する必要があるため、AWS SDK または AWS ツールのいずれかを使用する場合は、AWS 認証情報と AWS リージョンを提供する必要があります。GitHub Actions でこれを行う 1 つの方法は、IAM 認証情報でリポジトリシークレットを使用することですが、これは長期認証情報の使用に関するAWS セキュリティガイドラインに準拠していません 。代わりに、長期認証情報または JWT を使用して一時的な認証情報を取得し、それをツールで使用することをお勧めします。この GitHub Action はまさにそれを実現します。
+AWS公式が運用・公開しているGitHubActionsワークフローには、上記のように記載がある。 参考: aws-actions/configure-aws-credentials
+つまり、GitHubのSecretsに長期的なアクセス情報を保持するのは適切ではないので、一時的な認証情報をやり取りするのが良いというようなことが書かれている。
+一時的な認証情報はどうやって？ 結論、AssumeRoleを使用してやり取りする。
+ざっくりな手順(理解用) GitHubとAWSが認証情報をやり取りできるように設定 具体的にはOpenID Connect AWS側でIAMロールを作成する GitHubActions側でIAMロールを指定してAssumeRoleを実行する AWS CLIを実行してとかではなく、[aws-actions/configure-aws-credentials]という便利なワークフローを使用する 具体的な手順 基本的なことは以下に書かれている。
+アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs 少し補足すると、AWS側では以下の設定が必要になる。
+IDプロバイダとしてGitHubを登録する(OpenID Connect) GitHubActionsが引き受けるIAMロール(それに紐付けるIAMポリシーも) 信頼関係の条件には、&#34;token.actions.githubusercontent.com:sub&#34;: &#34;repo:octo-org/octo-repo:ref:refs/heads/octo-branch&#34;のように指定することで、GitHubActionsからの引き受けを制限できる 参考 アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs aws-actions/configure-aws-credentials OpenID Connect を使ったセキュリティ強化について - GitHub Docs OpenID Connectについて詳しく書かれている。 </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-06 21:56:17 +0900 JST'>December 6, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;nyuusen</footer>
+  <a class="entry-link" aria-label="post link to GitHubActions上におけるAWSの認証認可" href="http://localhost:1313/posts/authenticate-aws/"></a>
+</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="http://localhost:1313/posts/page/2/">
@@ -554,7 +548,7 @@ Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設�
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

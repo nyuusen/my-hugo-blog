@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>CSRF(Cross Site Request Forgery) | My New Hugo Site</title>
+<title>CSRF(Cross Site Request Forgery) | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="CSRFとは？
 
@@ -76,7 +76,7 @@ Cookieだと自動送信されてしまう
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/csrf/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="CSRF(Cross Site Request Forgery)">
   <meta property="og:description" content="CSRFとは？ 認証済みユーザーが勝手にリクエストを送られる 例えば、A銀行のサイトがあり、Cookieにセッションを保持した状態で、別の悪意あるサイトに遷移した際に勝手にそのセッションを用いて、A銀行サーバーにリクエストを送ってしまう（勝手に送金されるとか..） Forgeryは「偽造」という意味 対策 リクエスト元を制御: CookieのSameSite属性 StrictもしくはLaxを設定することで、クロスサイトでのCookie送信を防止する リクエスト元を検証: CSRFトークン サーバー側で発行したトークンをフォームに埋め込む クライアントからのリクエストにそのトークンがあるかを確認し、リクエストの妥当性をチェック 認証トークンを送らせない: Authorizationヘッダを利用 Cookieだと自動送信されてしまう 代わりにAuthorizationヘッダを利用すればブラウザが自動送信しないため、CSRF攻撃は成立しない ">
   <meta property="og:locale" content="en-us">
@@ -154,7 +154,7 @@ Cookieだと自動送信されてしまう
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -179,7 +179,7 @@ Cookieだと自動送信されてしまう
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -326,7 +326,7 @@ Cookieだと自動送信されてしまう
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

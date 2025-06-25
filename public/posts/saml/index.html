@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>SAML | My New Hugo Site</title>
+<title>SAML | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="概要
 
@@ -133,7 +133,7 @@ Googleトップ画面やAzureADのアプリ一覧に表示されているアプ�
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/saml/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="SAML">
   <meta property="og:description" content="概要 Security Assertion Markup Languageの略 異なるドメイン間でユーザー認証を実現するXMLベースの標準規格 異なるドメイン間で認証に関する情報をXML文書でやり取りするためのルール プラメクーポンの例：プラメクーポン(管理画面)とAzureAD間で認証情報をXMLでやり取りしています 2002年に策定、2005年に2.0がリリースされている 現在は2.0が主流 処理の流れ 登場人物 クライアント 認証させたいアプリケーション 大体は私たちが開発しているアプリケーションを指す IdP Identity Providerの略 認証機能を提供するサービス 具体的にはGoogleやAzureAD,Okta等が該当する SP Service Providerの略 ユーザーが利用するサービス 大体は私たちが開発しているアプリケーションを利用するユーザーを指す フロー sequenceDiagram participant client as ユーザー participant idp as IdP(AzureAD,Google等) participant sp as SP(アプリケーション) client -&gt;&gt; sp: 利用者がSPのログインURLにアクセス(GET) Note right of sp:SAMLフロー開始 sp --&gt;&gt; client: IdPにリダイレクト(SAMLリクエスト) client -&gt;&gt; idp: idp --&gt;&gt; client: IdP未ログインの場合、IdPログインを要求 client -&gt;&gt;&#43; idp: 利用者がIdPにログイン Note right of idp: IdPログイン idp --&gt;&gt;- client: client -&gt;&gt;&#43; sp: SPにリダイレクト(POST) Note left of sp: SAMLアサーション連携(SAMLレスポンス) Note right of sp: SP側でSAMLアサーションを検証後、認証完了 認証フローの種類 SAMLの認証フローは2種類ある SP initiated SSO SP→IdPにアクセスする 例：アプリケーションのログイン画面にメールアドレスを入力し、Googleリダイレクト→Googleログインを経由し、アプリケーションにログインする IdP initiated SSO IdP→SPにアクセスする Googleトップ画面やAzureADのアプリ一覧に表示されているアプリケーションを選択し、アプリケーションにログインする ※SSO＝シングルサインオン">
   <meta property="og:locale" content="en-us">
@@ -268,7 +268,7 @@ Googleトップ画面やAzureADのアプリ一覧に表示されているアプ�
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -293,7 +293,7 @@ Googleトップ画面やAzureADのアプリ一覧に表示されているアプ�
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -516,7 +516,7 @@ participant sp as SP(アプリケーション)
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

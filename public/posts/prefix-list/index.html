@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>プレフィックスリスト | My New Hugo Site</title>
+<title>プレフィックスリスト | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="プレフィックスリストとは？
 
@@ -98,7 +98,7 @@ AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/prefix-list/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="プレフィックスリスト">
   <meta property="og:description" content="プレフィックスリストとは？ 複数のIPアドレス範囲をまとめて管理できる AWSが提供する「AWSマネージドプレフィックスリスト」と、ユーザー側が作成する「カスタマーマネージドプレフィックスリスト」が存在する 作成されたリージョンのみで利用可能 セキュリティグループ等でIPアドレス単位で設定をする際に有用 IPアドレスリストを手動で管理する際のオーバーヘッド発生を防ぐ AWS側が提供するIPアドレス情報に依存することで、設定ミス等を防ぐこともでき、セキュリティ的にも良い AWSが自動作成するプレフィックスリスト S3 VPCエンドポイント(ゲートウェイ型) Dynamo DB VPCエンドポイント(ゲートウェイ型) EC2 Instance Connect VPC Lattice ※よく見かけるものを抜粋 実際にどのような場面で役立つか？ 同じ内容を持つ複数のセキュリティグループを作成したい場合 例えば、 セキュリティグループを用いてインバウンドルールの送信元IPアドレスを制御したい 同様の内容を制御するセキュリティグループをいくつか作成したい 各セキュリティグループにIPアドレスを手打ちしていくのは手間がかかる＋設定ミスの恐れがある プレフィックスリストを使用することで、IPアドレスの設定を1箇所にまとめることができ、複数のセキュリティグループからそれを参照させることができる S3のVPCエンドポイント(ゲートウェイ型)を利用する時 接続元の方のルートテーブルに自動で生成される 以下のような内容 ターゲット: vpce-xxxxx 送信先: pl-xxxx(自動生成されたプレフィックスリスト) 参考 AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud ">
   <meta property="og:locale" content="en-us">
@@ -198,7 +198,7 @@ AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -223,7 +223,7 @@ AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -392,7 +392,7 @@ AWS マネージドプレフィックスリスト - Amazon Virtual Private Cloud
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

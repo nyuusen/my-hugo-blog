@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>PrivateLinkを理解する | My New Hugo Site</title>
+<title>PrivateLinkを理解する | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="PrivateLinkとは？
 
@@ -135,7 +135,7 @@ VPCエンドポイントの種類
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/private-link/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="PrivateLinkを理解する">
   <meta property="og:description" content="PrivateLinkとは？ サービスがVPC内にあるかのようにVPCをそれらのサービスにプライベートに接続できるようにするサービス あるVPCから別のVPCのあるリソースをあたかも同一VPC内にホストされているかのように、プライベートIPアドレスを使用して接続することを可能にする 後述のVPCエンドポイントVPCエンドポイントサービスを使用して、上記の機能が実現することができ、その提供される機能（サービス）のことをPrivateLinkという IGW、NATデバイス、パブリックIPアドレス、DirectConnect、Site-to-Site VPN接続を使用する必要はない セキュリティが向上するのはもちろん、NATゲートウェイ（インスタンス）やEIPが不要ということでコスト面でもメリットが大きい AWS PrivateLink とは AWS PrivateLink の概念 VPCエンドポイントとは？ VPCと他サービス間でプライベート接続を可能にするコンポーネント サービス利用側のVPC内に作成する (インターフェイス型)VPCエンドポイントを作成するとENIが作成（アタッチ）される VPCエンドポイントを作成するときは1つ以上のサブネットを選択するが、選択したサブネットそれぞれにENIが作成される VPCエンドポイントサービスとは？ VPCと他サービス間でプライベート接続を可能にするコンポーネント サービス提供側のVPC内に作成する 実体はロードバランサー NLB or GLBが必要 VPCエンドポイントサービス側では、VPCエンドポイントの接続リクエストを承諾を行う必要がある なぜサービス提供側にNLBが必要なのか？（考察） （そういう仕様だからというのは置いておいて、どうしてそのようになっているか考えてみた）
 PrivateLinkの思想はあくまでネットワークレイヤの透過的な疎通なので、L7レイヤのことは気にするべきでない（ALBでは実現不可） L4レイヤであれば内部ネットワークで通信を延長できるイメージ 加えて、L7レイヤではHTTPリクエストの解釈等の負荷があるが、IPとポートだけで接続先を決めるL4レイヤは軽くてパフォーマンスも良い じゃあECSとかサーバーに直接繋げるのはダメなの？起動のたびにIP変わったりするし、そうなるとPrivateLinkも貼り直しになり色々微妙（そもそもL7レイヤでの通信じゃんという話ももちろんあるが） PrivateLinkは、あくまでネットワーク（VPC）のサービスだから、アプリケーションレイヤが立ち入るのは良くないよねという設計思想なのかもしれない ちなみに、NLBのターゲットにALBを指定することは可能 VPCエンドポイントの種類 インターフェイスタイプ プライベートIPが割り当てられたENIが作成される(これはEC2のようなもの…？) ゲートウェイタイプ ルートテーブルで送信先に対するターゲットとして指定する このサブネットのこの宛先（プレフィックスリスト）の通信はS3/DyanamoDBに流すというやつ 内部的にENIやIPアドレスは作成されない（恐らく仮想ルータ的なものだけ） つまり、ルートテーブルだけでの制御(L3 IPレベルの単純な転送)なので、軽いしスケールしやすい だから、通信容量が多そうなS3とDynamoDBだけなのだろうか…？ インターフェースVPCエンドポイントの料金 時間課金: VPCエンドポイント1つあたり 0.014USD/1h データ処理量: 0.01USD/1PB →これって多分ENI（EC2的な？）を内部で立てているための料金なのかも？
@@ -275,7 +275,7 @@ VPCエンドポイントの種類
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -300,7 +300,7 @@ VPCエンドポイントの種類
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -506,7 +506,7 @@ VPCエンドポイントの種類
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

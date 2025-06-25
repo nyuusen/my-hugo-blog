@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>API Gateway &#43; Lambda | My New Hugo Site</title>
+<title>API Gateway &#43; Lambda | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="概要
 
@@ -134,7 +134,7 @@ Amazon API Gateway エンドポイントを使用した Lambda 関数の呼び�
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/apigateway-lambda/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="API Gateway &#43; Lambda">
   <meta property="og:description" content="概要 API Gateway（Lambda統合）をterraformで実装したいので色々調査 やりたいこと API GatewayでPOSTリクエストを受け付け、Lambda関数をトリガーする Lambda関数ではリクエストの一部フィールドをdumpしたい dump先はCloudWatchLogs Lambda関数はPythonで書きたい PythonソースコードはS3バケットにアップロードしたい 必要なリソースまとめ API Gateway本体 IAMロール（lambda:InvokeFunctionポリシーをアタッチ）も必要 パスやスキーマ定義用にOpenAPI（YAML or JSON）も必要 Lambda関数 IAMロール（AWSLambdaBasicExecutionRoleポリシーをアタッチ）も必要 LambdaからCloudWatchLogsへの書き込みに必要 Lambda関数を置くS3バケット Pythonコード群 調査メモ HTTPリクエストを使用してLambda関数を呼び出す方法 API Gatewayの他にLambdaURLがある HTTP リクエストを使用して Lambda 関数を呼び出す方法を選択する - AWS Lambda シンプル・コスト効率を意識する場合は、LambdaURLで推奨 大規模やOpenAPI Descriptionサポート、認証オプション、カスタムドメイン名..などの高度な機能が必要な場合にはAPI Gatewayが適している API GatewayのAPIタイプ HTTP API: 軽量で低レイテンシーの RESTful API。 REST API: カスタマイズ可能で機能豊富な RESTful API。 WebSocket API: 全二重通信のためにクライアントとの永続的な接続を維持するウェブ API。
 HTTPとRESTどっちを選べば良いか問題 Choose between REST APIs and HTTP APIs - Amazon API Gateway RESTは機能が豊富、HTTPがシンプル(その分低価格) API GatewayのパスやスキーマはOpenAPIで管理が可能 OpenAPI定義ファイルをインポートすることで、API Gatewayのパスやスキーマの管理が可能 API Gateway で OpenAPI を使用して REST API を開発する - Amazon API Gateway リクエストのバリデーションも設定可能 x-amazon-apigateway-request-validator プロパティ - Amazon API Gateway Lambda関数の更新方法 S3バケットにコードを配置する場合、source_code_hashで変更有無と更新が可能 つまり、S3バケットに更新後のコード(zip)を配置した後、terraformを流せば、Lambda関数の更新が行われる アクセス許可について https://techblog.kayac.com/aws-lambda-iam 参考 Amazon API Gateway エンドポイントを使用した Lambda 関数の呼び出し - AWS Lambda ">
@@ -271,7 +271,7 @@ Amazon API Gateway エンドポイントを使用した Lambda 関数の呼び�
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -296,7 +296,7 @@ Amazon API Gateway エンドポイントを使用した Lambda 関数の呼び�
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -501,7 +501,7 @@ WebSocket API: 全二重通信のためにクライアントとの永続的な�
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

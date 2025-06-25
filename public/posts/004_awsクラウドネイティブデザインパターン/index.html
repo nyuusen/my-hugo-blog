@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>AWSクラウドネイティブデザインパターン | My New Hugo Site</title>
+<title>AWSクラウドネイティブデザインパターン | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="AWSクラウドネイティブデザインパターン
 はじめに
@@ -198,7 +198,7 @@ UserActivityRepositoryみたいなイメージ
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/004_aws%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="AWSクラウドネイティブデザインパターン">
   <meta property="og:description" content="AWSクラウドネイティブデザインパターン
 はじめに アプリケーション変更頻度と品質は正の相関にある 変更頻度が低いと品質が低下する クラウドネイティブの定義 クラウドの機能を活用して運用を効率化し、高度な回復力と可観測性を実現する 結果として、障害やメンテ・アクセス急増などの日々の運用に工数をかける必要がなく、頻繁に自信を持ってアプリケーションを変更できる これを実現するためのプラクティスと設計パターンを「運用を効率化」「回復力」「可観測性」の2つの観点から紹介するのが本書である クラウドネイティブを実現するには「疎結合」が重要な概念 疎結合なアーキテクチャとは「コントロール可能な部品を明確に定義されたインターフェイスで組み合わせるアーキテクチャ」のこと インターフェイスのみ知っておけば、コンポーネント間を繋いでシステムを構築できる これに役立つ技術がコンテナやサーバーレスになる 「コントロール可能」とは、望む動作を得られたりするように、管理できているということ 第1部 運用を効率化する 1章 責任共有モデルを意識してアーキテクチャを選択する 責任範囲の最小化 責任共有モデルを意識して、なるべく多くの運用をクラウドに移譲する 責任範囲のサポート 利用者が担う責任をサポートする機能やサービスを使い倒す VPC Reachability Analyzerでネットワークが目的通り設定されているかの確認が可能 AmazonInspectorで不要なネットワークパスが公開されていないかをスキャン 一言でまとめると.. なるべくできるだけクラウド側に運用を任せられるアーキテクチャを選定しようぜ 2章 テスト容易性を高める テスト容易性とは、アプリケーションに対してどれだけ簡単に、かつ効果的にテストができるかという性質 クラウドネイティブアプリケーションでは、ユニットテストを充実させることが有用 ユニットテストは、自動化が容易で実行が高速だから テストがないコード＝レガシーコードであり、レガシーコードは簡潔にいうと「密結合」なコード とは言っても、テストがあれば良いのかというとそうでもなく、「高い信頼性」と「開発者主体で作成されていること」が効果的である テストの信頼性とは？ 通ればリリースできるし、通らなければリリースできない 同じテストなのに実行するたびに変わるのは、偽陽性が多くなり、開発デリバリーに悪影響 こうした問題には、依存関係を整理してユニットテストの比重を増やすのももちろん、そもそもそう言ったテストを削除してしまうのも良い 開発者主体で作成された自動テストとは？ 外部に発注したテストもデリバリーに良い効果を齎せない 開発者主体で行うからこそ、疎結合に作り、パフォーマンス向上が見込める テストピラミッドとCI/CD 「開発者に素早くフィードバックを返す環境が重要」という観点から有名な考え方がテストピラミッド テスト戦略全体において、大部分（70％くらい）をユニットテストが占めるべきというもの ユニットテストは低コストで自動化が容易と定義されている 詳細：第5回 テストピラミッド～自動テストの信頼性を中長期的に保つ最適なバランス～ CI/CDの原則は、各ステージで失敗したらすぐに開発を止めて、原因を突き止め、修正すべきとされている テストピラミッドが崩れている（ユニットテストが少ないとか）とこの原則が形骸しがちなので注意 一言でまとめると.. とりあえずユニットテストを書いて自動化して、CI/CDパイプラインで検知しようぜ テスト容易性を高めるアーキテクチャパターン 依存関係の逆転 例えば、イベント作成メソッドの内部に「メールで通知する」という実装が含まれている例 このメソッドのユニットテストを書こうとすると、メールで通知するという外部に依存する処理を書く必要がある そこで、通知を送るというインターフェイスを用意して、インターフェイスという抽象に依存させることで、ユニットテストではこの部分をモック化するだけで良くなるので、テストがしやすくなる このように依存の向きを呼び出しの向きを逆にする＝イベント作成サービス側がインターフェイスを定義して、そのインターフェイスにメール送信処理が依存すること この原則は、上位と下位のレイヤ構造になっている依存関係全般に適用できる 特に、メールや外部API、SaaSなど、アプリケーションで直接制御していない外部との連携部分で利用すると有用である コンテナによる依存関係の注入 Dockerを使用してデータベース等の環境を立ち上げてそこでテストする Testcontainersでテストコードから、コンテナを起動可能 コマンドとクエリの分離(CQS) コードのメソッドをコマンドとクエリのどちらかに分離すべきという原則 副作用が発生するコードを局所化し、テストの容易性を向上できる ユニットテストで何をテストすべきか明確になるため コマンドとクエリの責任分離(CQRS) CQSを発展させたもので、コマンドの責務を持つクラスとクエリの責務を持つクラスを分離するデザインパターン
@@ -401,7 +401,7 @@ UserActivityRepositoryみたいなイメージ
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -426,7 +426,7 @@ UserActivityRepositoryみたいなイメージ
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -1609,7 +1609,7 @@ UserActivityRepositoryみたいなイメージ
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

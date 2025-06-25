@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>CloudFront | My New Hugo Site</title>
+<title>CloudFront | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="なんとなく使っているCloudFrontを理解したい。
 多分何が設定できるかを理解できたら使い方がわかるはずだからまずは設定できる内容を調査する。
@@ -101,7 +101,7 @@ ref: ディストリビューションの設定 - Amazon CloudFront">
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/cloudfront/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="CloudFront">
   <meta property="og:description" content="なんとなく使っているCloudFrontを理解したい。 多分何が設定できるかを理解できたら使い方がわかるはずだからまずは設定できる内容を調査する。
 基本用語 CloudFrontディストリビューション: ユーザーが設定(作成)するCloudFrontリソース ビヘイビア: 振り分けルール パスパターンでオリジンを振り分ける /api/*はALBに、/image/*はS3にみたいな ビューア/オリジン クライアント ==== ビューアリクエスト ==== CloudFrontディストリビューション ==== オリジンリクエスト ==== オリジン といった感じ。 「リクエスト」の部分を「レスポンス」に置き換えると、ビューア/オリジンレスポンスの説明になる ビューア/オリジンリクエスト/レスポンスにはCloudFront Functionを割り当てることが可能 例えば、Authorizationヘッダを検証してBasic検証するとか ディストリビューションに設定できること - コンテンツオリジン — CloudFront が配信するファイルの取得元である Amazon S3 バケット、AWS Elemental MediaPackage チャネル、AWS Elemental MediaStore コンテナ、Elastic Load Balancing ロードバランサー、または HTTP サーバーです。1 つのディストリビューションで、最大で 25 のオリジンの任意に組み合わせて指定できます。 - アクセス - ファイルをすべてのユーザーが使用できるようにするか、または一部のユーザーにアクセスを制限するか。 - セキュリティ - AWS WAF 保護を有効にして、HTTPS を使用したコンテンツへのアクセスを必須にするかどうか。 - キャッシュキー - キャッシュキーに含める値 (存在する場合)。キャッシュキーは、特定のディストリビューションのキャッシュ内の各ファイルを一意に識別します。 - オリジンリクエスト設定 - CloudFront でオリジンに送信するリクエストに HTTP ヘッダー、Cookie、またはクエリ文字列を含めるかどうか。 - 地理的制限 — CloudFront で特定の国のユーザーがコンテンツにアクセスできないようにするかどうか。 - ログ — CloudFront で標準ログを作成するか、ビューワーのアクティビティを示すリアルタイムログを作成するかどうか。 ref: ディストリビューションの設定 - Amazon CloudFront">
@@ -205,7 +205,7 @@ ref: ディストリビューションの設定 - Amazon CloudFront">
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -230,7 +230,7 @@ ref: ディストリビューションの設定 - Amazon CloudFront">
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -402,7 +402,7 @@ ref: ディストリビューションの設定 - Amazon CloudFront">
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

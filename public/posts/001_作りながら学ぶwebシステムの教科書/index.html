@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>作りながら学ぶWebシステムの教科書 | My New Hugo Site</title>
+<title>作りながら学ぶWebシステムの教科書 | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="概要
 作りながら学ぶWebシステムの教科書の読書メモ。気づきや調べたことをまとめていく。
@@ -155,7 +155,7 @@ HTTPS通信の流れ（技術詳細）
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/001_%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="作りながら学ぶWebシステムの教科書">
   <meta property="og:description" content="概要 作りながら学ぶWebシステムの教科書の読書メモ。気づきや調べたことをまとめていく。
 Chapter2 Webシステムの基本、HTTP／HTTPSプロトコルを理解する HTTP/1.1はテキストベースプロトコル(ASCII文字), HTTP/2はバイナリベースプロトコル それ以外にも1つのTCP接続で複数のリクエスト/レスポンスをやり取りできるようになったり、 ヘッダの圧縮等がより、高速で効率的な通信を実現できるようになった そろそろ知っておきたいHTTP/2の話 #http2 - Qiita HTTP/3で特徴的なのはQUICと呼ばれるUDPベースの伝送制御上でHTTP通信を行い、高効率や通信を実現している 現在ALBではHTTP/3に対応しておらず、 HTTP/3に対応するにはCloudFrontを経由させる必要がある(?) Webサーバー側の設定により、HTTPの使用可能なバージョンが定められている 異なるバージョンでHTTPリクエストを送るとリダイレクトされたり、エラーが返されたりする 普段ブラウザでWebページにアクセスする時はHTTPのバージョンを意識することがない理由はブラウザがよしなにやってくれている 具体的には、ブラウザはデフォルトで多くのサーバーからサポートしているHTTP1.1を使用し、接続を確立する Chapter3 Linux Linuxディストリビューション OSコアのLinuxカーネルに、UIを構成するデスクトップ環境やコマンド等のユーザーランドソフトウェアを組み合わせてコンピューターにインストールできるようにパッケージングされたもののこと サーバー向けのものも含め、現在は250種類以上も存在する 代表的なのがRedHat系とDebian系 RedHat自体は有償サポートがあるため、官公庁や比較的大きめの企業(お堅い金融機関等)で採用される傾向 RedHatのソースコードを元にしたCentOSもかつては高いシェアを占めていたが、2021年の開発体制変更を境に多くはUbuntu Serverに移行した Debian系で有名なのがUbuntuであり、現在人気がある シェルスクリプト コマンド結果をファイル出力: コマンド &gt; ファイル コマンド結果をファイルに追記: コマンド » ファイル コマンド結果を次の標準入力に使用: コマンド1 | コマンド2 コマンドを続けて実行: コマンド1 ; コマンド2 Chapter4 仮想化 LXD: システムコンテナマネージャー Dockerがアプリケーション指向であるのに対し、LXDはシステム指向 よりVMに近い動きをする サービス管理システムのsystemdに対応しているため、複数のプロセスやサービスを1コンテナで実行可能 Dockerとは異なり、1つのコンテナでWebサーバーとDBサーバー等の複数のサービスを起動することができる コンテナ技術とLinuxのかかわり コンテナ型仮想化技術のように、ハイパーバイザーを使用しない仮想化プラットフォームの多くが、LinuxをホストOSとしている これにはLinuxはマルチユーザーOSであるがために、他のプロセスやリソースを厳密に管理する必要があったという背景がある Linuxカーネル機能の名前空間によって、ホストのリソースからコンテナのリソースを隔離して、安全にプロセスを実行できるようになっている 具体的には、名前空間がコンテナAでプロセス(PID:1)とコンテナBでプロセス(PID:1)というのを可能にしている つまりまとめると、LinuxはマルチユーザーOSであること故に、1OSの中で複数のリソースやプロセスを管理したいという要求があり、カーネルの名前空間を良い感じに使用し、仮想化技術を実現している Chapter6 HTTPS SSL/TLSは、インターネット上の通信を暗号化するプロトコル SSLを新しい企画として再設計されたのがTLS ただしSSLが歴史的に長く使われている＋広く認知されているため、現在でもSSLとだけ表記されることがある 最新はTLS1.3 SSL/TLSの暗号化方式 共通鍵暗号方式と公開鍵暗号方式を同時に使用する HTTPS通信の流れ（技術詳細） 登場人物と役割 認証局（CA: Certificate Authority）">
@@ -313,7 +313,7 @@ HTTPS通信の流れ（技術詳細）
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -338,7 +338,7 @@ HTTPS通信の流れ（技術詳細）
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -848,7 +848,7 @@ HTTPS通信の流れ（技術詳細）
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

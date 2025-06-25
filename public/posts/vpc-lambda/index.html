@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>VPC Lambda | My New Hugo Site</title>
+<title>VPC Lambda | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="VPC Lambdaとは
 
@@ -101,7 +101,7 @@ VPC の Lambda 関数へのインターネットアクセスを許可する | AW
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/vpc-lambda/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="VPC Lambda">
   <meta property="og:description" content="VPC Lambdaとは VPCにアタッチしたLambda関数のこと 各公式ドキュメントでは「接続」という言葉が使用されているが「アタッチ」と同義だと思っているのと、そっちの方がしっくりくる ちなみにLambda関数は、デフォルトではLambdaマネージドVPCで実行される VPC内のリソースへのプライベートアクセスが可能になる点が最大のメリット(だと思われる) 構築に必要なもの ネットワークインターフェイス 実行ロールへのIAMポリシー(AWSLambdaVPCAccessExecutionRole)アタッチ 上2つはどちらもLambdaがVPC内のリソースへのアクセスするために必要 構築手順 めちゃくちゃ端折ると..
 Lambda関数作成時に「VPCを有効化」を選択する Lambda関数の設定からVPCを選択し、サブネットを選択する 注意ポイント Lambda関数からインターネット接続したい場合はNATゲートウェイを経由する必要がある これはサブネットがパブリックであっても同じ 公式で記載されている情報を見ると、Lambda関数にはプライベートIPしか割り振られないためだと思われる NATゲートウェイは高いので、代替案を考察している記事 VPC内のLambdaからインターネット接続する方法 - Briswell Tech Blog 結論、VPC Lambda-&gt;VPC外 Lambdaでインターネットにアクセスする(VPCエンドポイント設定が必要)と行けるみたい。面白い。 参考 Lambda 関数に Amazon VPC 内のリソースへのアクセスを許可する - AWS Lambda インターネットアクセス可能な VPC Lambda を作成してみた | DevelopersIO VPC の Lambda 関数へのインターネットアクセスを許可する | AWS re:Post ">
@@ -205,7 +205,7 @@ VPC の Lambda 関数へのインターネットアクセスを許可する | AW
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -230,7 +230,7 @@ VPC の Lambda 関数へのインターネットアクセスを許可する | AW
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -402,7 +402,7 @@ VPC の Lambda 関数へのインターネットアクセスを許可する | AW
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

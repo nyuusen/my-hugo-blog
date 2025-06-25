@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>ElasticCache 入門 | My New Hugo Site</title>
+<title>ElasticCache 入門 | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="ElastiCache とは
 
@@ -145,7 +145,7 @@ DynamoDBとの比較
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/elasticache/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="ElasticCache 入門">
   <meta property="og:description" content="ElastiCache とは 一言で表すと「フルマネージドのインメモリキャッシングサービス」 Memcached または Redis プロトコルに互換性がある 特にリアルタイム性が必要な読み込み量が多いユースケースで活躍する 端的にいうと高速なデータストア（キャッシュ） あくまでインメモリなので、ノードが落ちるとデータが消失するのでそこは注意が必要 構成要素 ノード：最小構成要素でありインスタンス シャード：ノードのグループ(レプリケーション機能を使用する時に使うやつ) クラスタ：複数のシャードを束ねる クラスタがあることで、例えばあるノードが落ちてしまっても、アプリケーション側からは1つのエンドポイントでアクセスできる(Redisの場合は) 料金 前提として、ElasticCache にはいくつかの種類がある オンデマンド、リザーブド、サーバレス.. オンデマンドの場合は、キャッシュノードタイプ(cache.t4g.micro)に応じて、時間あたりの料金が発生する 詳細: 料金 - Amazon ElastiCache | AWS ユースケース セッションストア レコメンデーション マルチプレイヤーゲームのランキングなどなど.. 設計・実装のポイントどころ 基本的にはアプリケーションからキャッシュを確認し、なければデータストアへ確認、そしてキャッシュへの格納みたいな設計になることが多い 結果整合性を前提とする プライマリからレプリカにデータをシャードしている場合、読み込むを行うレプリカ側にはすぐに反映されない これは、書き込みも読み込むも同じノードで行ってしまうとコネクション枯渇や CPU 使用率の逼迫を避けるためにそのように設計されてしまう そもそも結果整合性とは、データが分散されている環境でデータ更新が行われた場合、一定時間経過後に最終的な一貫性が担保されるという考え方(マイクロサービスの文脈でよく登場するイメージ) TTL に適切な値をセットする データ量が増えるとノードのメモリが溢れてしまう問題がある それを避けるために、一定時間経過後にデータが揮発するように設計すべき Memcached と Redis シンプルな Memcached と高機能な Redis 結論としては安全性でも機能面でも全てにおいてRedisを使用するのが良いと思われる ElastiCacheはMemcachedとRedisのどっちを選ぶ？ | DevelopersIO Memcached クラスタはノードの追加や削除が可能(水平スケーリング) アプリケーション側で定期的にノードの状態をチェックする必要がある マルチスレッド(スペック上げると性能もその分上がる) 格納できるデータはstring型のみ 扱えるコマンドが少なく、基本はデータ追加と削除のみを使用する想定 バックアップのサポートがされていない Redis クラスタにエンドポイントを持っている(Memcachedとの大きな違い) なのでアプリケーション側で定期的にポーリングする必要ある レプリケーションをサポートしている シングルスレッド(スペックを上げてもMemcachedほど性能は上がらない) 格納できるデータ型は、stringに加え、List、Set、Sorted Set、Hash、Bit Array、HyperLogLogがある 機能が豊富で、正規表現を用いた曖昧検索などもある クラスターごとにスナップショットを取ることが可能。スナップショットから復元も可能。 DynamoDBとの比較 以下の記事に比較しているセクションがあるので、少し考えてみる">
   <meta property="og:locale" content="en-us">
@@ -292,7 +292,7 @@ DynamoDBとの比較
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -317,7 +317,7 @@ DynamoDBとの比較
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -556,7 +556,7 @@ DynamoDBとの比較
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

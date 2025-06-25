@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>XSS(Cross-Site Scripting) | My New Hugo Site</title>
+<title>XSS(Cross-Site Scripting) | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="XSSとは？
 
@@ -94,7 +94,7 @@ Cookie HttpOnly属性をつけることでJSからトークンを盗まれない
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/xss/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="XSS(Cross-Site Scripting)">
   <meta property="og:description" content="XSSとは？ 悪意あるスクリプト（JavaScriptなど）をユーザーのブラウザ上で実行させる攻撃 例えば、HTML入力フォームに、&lt;script&gt;alert(&#39;hello&#39;)&lt;/script&gt;という内容を入力する形でJSを実行できてしまう 例えばCookie, LocalStorageにあるセッション・トークン情報を盗んだり 対策 発動を防ぐ: CSP サーバ側でContent-Security-Policy（CSP）を設定する(レスポンスにヘッダをセットする) CSPは、ブラウザに命令をするもの(インラインのJS実行禁止とか、同一オリジンのJSのみ実行許可するとか) ブラウザがCSPに書かれている命令を読み取り、それに則り行動する 設定例: script-src &#39;self&#39;: &lt;script src=&#34;./script/app.js&gt;&lt;/script&gt;といった 外部スクリプトの同一オリジンのみ許可（インライン＝HTML内のJSやbutton等のHTMLタグのonclick属性等のJSもブロック） コンテンツセキュリティポリシー (CSP) - HTTP | MDN
 埋め込みを防ぐ: 入力値サニタイズ ユーザー入力値をエスケープ処理する 例：&lt;script&gt; → &amp;lt;script&amp;gt; 読み取りを防ぐ: Cookie HttpOnly属性 Cookie HttpOnly属性をつけることでJSからトークンを盗まれないようにできる 対策まとめ サーバーからブラウザに変なJSを実行しないでね＋ユーザー入力値はきちんと文字列として扱ってね＋もし万が一Cookieにアクセスされても盗まれないようにね">
@@ -191,7 +191,7 @@ Cookie HttpOnly属性をつけることでJSからトークンを盗まれない
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -216,7 +216,7 @@ Cookie HttpOnly属性をつけることでJSからトークンを盗まれない
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -381,7 +381,7 @@ Cookie HttpOnly属性をつけることでJSからトークンを盗まれない
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Terraform | My New Hugo Site</title>
+<title>Terraform | nyuusen blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="はじめに
 業務で雰囲気で触っているTerraformをきちんと学んでみる。
@@ -161,7 +161,7 @@ stateファイルはS3などの共有ストレージで管理する
 
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/posts/terraform/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="Terraform">
   <meta property="og:description" content="はじめに 業務で雰囲気で触っているTerraformをきちんと学んでみる。
 コマンド群 init 実行するディレクトリにおける準備を行う 以下が生成される .terraform/ : providerの実体が置かれる これはコマンドを実行するディレクトリごとに作成されるので、離任したプロジェクトのもの等を放置しているとそれなりに容量を食ってしまう点に注意 .terraform.lock.hcl : providerの同じバージョンを使うためのファイル これはinitの度に作成されるので、CI上でterraform init -&gt; plan -&gt; applyと実行すると、結局バージョン固定されないので、どういう運用が良いかは別途考えたい(そもそもこのファイルの存在意義…) plan 構築するインフラの計画を行う stateファイルとterraformコードを比較し、差分計算する apply 実際にリソースの作成等を行う destroy インフラの削除を行う 正式にはapply -destroyである Tips Standard Module Structure 公式による基本構成に関する説明 https://developer.hashicorp.com/terraform/language/modules/develop/structure 変数定義 Terraformではvariables.tfを用いて変数を定義し、その変数をvar.の形で参照することができる variable &#34;allow_ssh&#34; { type = bool default = false } 値を何もセットしなかった場合はterraform planやapplyコマンド実行時にCLIで聞かれる(対話形式でコマンド実行が進むイメージ) 値をセットする方法としては、Assigning Values to Root Module Variablesに記載されている通りいくつかある (恐らく業務では扱う変数の数は一定あると思うので).tfvarsに変数の値を代入していく形が多くなりそう 毎回、terraform plan --var-file=&#34;ecs/dev/ecs.tfvars&#34;みたいに指定するのはとても面倒なので、各リソースのディレクトリ構成を統一させて、Makeコマンドなりで各リソース名や環境名を引数としてもらい、Makefileの中でterraformコマンドを組み立てるのが良さそう(実際に自分が今担当しているプロジェクトではこの作りになっている) 状態管理(tfstate) これはapplyした後の状態を管理するためのファイル このファイルがあること、一度applyした後にもう一度applyを実行すると前回との差分だけが適用される 複数人で運用する場合は、共有ストレージ(S3等)に管理すべきである そうでないと、人によってインフラの実態とtfstateの中身とで乖離ができてしまい、正しく運用できなくなってしまう このtfstateをどのように管理するかを指定することをbackendという ディレクトリ構成 大きく分けて2つのディレクトリに分けるのが良い 1.リソースの共通情報定義用(ex: modules/) 2.環境毎の情報定義用(ex: env/) 2のmain.tfを以下のようにすることでmodules配下の共通情報を読み取ることができる module &#34;ec2&#34; { source = &#34;../../modules/ec2&#34; allow_ssh = false } .terraform/や.terraform.lock.hclの管理方法 複数人で運用する際に気をつけること stateファイルはS3などの共有ストレージで管理する 厳密に競合を避けたい場合はDynamo DBを利用する ">
@@ -325,7 +325,7 @@ stateファイルはS3などの共有ストレージで管理する
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My New Hugo Site",
+    "name": "nyuusen blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/favicon.ico"
@@ -350,7 +350,7 @@ stateファイルはS3などの共有ストレージで管理する
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nyuusen blog (Alt + H)">nyuusen blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -582,7 +582,7 @@ stateファイルはS3などの共有ストレージで管理する
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">nyuusen blog</a></span> · 
 
     <span>
         Powered by
