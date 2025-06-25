@@ -1,0 +1,46 @@
+name: Fetch Content
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-and-process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog repository
+        uses: actions/checkout@v4
+
+      - name: Clone TIL repository
+        run: git clone https://github.com/nyuusen/TIL.git til_repo
+
+      - name: Process markdown files
+        run: |
+          set -e
+          mkdir -p content/posts
+          find til_repo -name "*.md" -print0 | while IFS= read -r -d '' file; do
+            relative_path="${file#til_repo/}"
+            commit_date=$(git -C til_repo log -1 --pretty=format:%cI -- "$relative_path")
+            title=$(head -n 1 "$file" | sed 's/^# //')
+            dest_path="content/posts/$(basename "$file")"
+            {
+              echo "+++"
+              echo "date = \"$commit_date\""
+              echo "draft = true"
+              echo "title = \"$title\""
+              echo "+++"
+              echo ""
+            } > "$dest_path"
+            tail -n +2 "$file" >> "$dest_path"
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/posts/
+          if git diff --staged --quiet; then
+            echo "No new content to add."
+          else
+            git commit -m "Feat: Add content from nyuusen/TIL"
+            git push
+          fi
