@@ -28,7 +28,7 @@ jobs:
             {
               echo "+++"
               echo "date = \"$commit_date\""
-              echo "draft = true"
+              echo "draft = false"
               echo "title = \"$title\""
               echo "+++"
               echo ""
