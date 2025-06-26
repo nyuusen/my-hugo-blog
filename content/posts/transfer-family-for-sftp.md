@@ -1,6 +1,6 @@
 +++
 date = "2025-06-09T23:48:17+09:00"
-draft = true
+draft = false
 title = "AWS Transfer Family For SFTP"
 +++
 

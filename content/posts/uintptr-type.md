@@ -1,6 +1,6 @@
 +++
 date = "2025-04-02T23:32:55+09:00"
-draft = true
+draft = false
 title = "uintptr型"
 +++
 

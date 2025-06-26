@@ -1,6 +1,6 @@
 +++
 date = "2024-08-16T09:13:56+09:00"
-draft = true
+draft = false
 title = "Makefile"
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = "2024-10-24T22:57:11+09:00"
-draft = true
+draft = false
 title = "DNS"
 +++
 

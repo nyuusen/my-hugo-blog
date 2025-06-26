@@ -1,6 +1,6 @@
 +++
 date = "2025-06-15T23:49:25+09:00"
-draft = true
+draft = false
 title = "Terraformの公式ドキュメントを読み漁る"
 +++
 

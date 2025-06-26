@@ -1,6 +1,6 @@
 +++
 date = "2025-03-09T22:36:07+09:00"
-draft = true
+draft = false
 title = "Terraform"
 +++
 

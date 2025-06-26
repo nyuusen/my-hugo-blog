@@ -1,6 +1,6 @@
 +++
 date = "2025-04-28T23:15:14+09:00"
-draft = true
+draft = false
 title = "XSS(Cross-Site Scripting)"
 +++
 

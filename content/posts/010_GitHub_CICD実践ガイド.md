@@ -1,6 +1,6 @@
 +++
 date = "2025-05-27T21:25:40+09:00"
-draft = true
+draft = false
 title = "GitHub CICD実践ガイド"
 +++
 

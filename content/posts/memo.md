@@ -1,18 +1,29 @@
 +++
-date = "2024-06-16T00:00:08+09:00"
-draft = true
-title = "GitHub Actionsに関する調べたことを雑に書く"
+date = "2024-06-15T23:49:48+09:00"
+draft = false
+title = "## React Hooks(v18)　by tanaka-san"
 +++
 
 
-## $GITHUB_OUTPUT vs $GITHUB_ENV
+- useId
+  - HTMLタグのid属性に付与する値を生成する
+  - JSXのループ時のkeyに使用するものではない
+- useTransition
+  - レンダリング処理を裏側で実行するための関数(startTransition)を提供する
+  - 具体的には、startTransition内に重い状態更新処理等を記述することにより、画面がブロックされることを回避する
+  - [useTransitionについて理解する](https://zenn.dev/hakoten/articles/e7ea977e00b4f8)
+- useDeferredValue
+  - レンダリングを遅延させる
+  - useDeferredValueが更新されたら、裏側でレンダリングを試行する
+  - 頻度が高いレンダリングを遅延させ、パフォーマンス向上に有用
 
-- $GITHUB_OUTPUT
-  - 特定のステップで使用する等出力先を細かく指定したい場合に使用する
-- $GITHUB_ENV
-  - 後続の(複数の)ステップで値を参照できるようにしたい場合に使用する
-- 基本的には$GITHUB_ENVを使用するで良いらしい
+[Hooks API Reference – React](https://legacy.reactjs.org/docs/hooks-reference.html)
 
-- 参考
-  - [Workflow commands for GitHub Actions - GitHub Docs](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable)
-  - [Difference between environment variable and output parameters · community · Discussion #55294](https://github.com/orgs/community/discussions/55294)
+## Flutter by koike-san
+
+- path
+  - パスを結合したりする時に使用する
+  - nodeのpathモジュールと同じような感じ？
+- sqflite
+  - ローカルストレージにあるファイルをRDBライクに操作できる
+  - 端末からアプリを削除すると、データも削除される？

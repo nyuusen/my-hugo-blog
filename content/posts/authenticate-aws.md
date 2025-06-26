@@ -1,6 +1,6 @@
 +++
 date = "2024-12-06T21:56:17+09:00"
-draft = true
+draft = false
 title = "GitHubActions上におけるAWSの認証認可"
 +++
 

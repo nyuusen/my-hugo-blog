@@ -1,6 +1,6 @@
 +++
 date = "2024-12-26T16:14:54+09:00"
-draft = true
+draft = false
 title = "RDSのAuroraをアップデートする"
 +++
 

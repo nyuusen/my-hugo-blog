@@ -1,6 +1,6 @@
 +++
 date = "2024-12-02T11:36:10+09:00"
-draft = true
+draft = false
 title = "プレフィックスリスト"
 +++
 

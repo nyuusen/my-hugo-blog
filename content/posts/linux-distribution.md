@@ -1,6 +1,6 @@
 +++
 date = "2025-02-15T21:58:13+09:00"
-draft = true
+draft = false
 title = "Linuxディストリビューション"
 +++
 

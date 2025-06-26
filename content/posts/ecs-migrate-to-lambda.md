@@ -1,6 +1,6 @@
 +++
 date = "2024-11-06T18:18:40+09:00"
-draft = true
+draft = false
 title = "WebアプリケーションをECSからLambdaに移行する"
 +++
 

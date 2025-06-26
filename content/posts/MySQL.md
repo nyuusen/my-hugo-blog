@@ -1,6 +1,6 @@
 +++
 date = "2024-05-22T20:52:30+09:00"
-draft = true
+draft = false
 title = "MySQL"
 +++
 

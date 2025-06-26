@@ -1,6 +1,6 @@
 +++
 date = "2025-06-06T19:15:39+09:00"
-draft = true
+draft = false
 title = "ゼロからはじめるLinuxサーバー構築・運用ガイド"
 +++
 

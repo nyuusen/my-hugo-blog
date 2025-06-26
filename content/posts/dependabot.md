@@ -1,6 +1,6 @@
 +++
 date = "2024-10-30T23:36:19+09:00"
-draft = true
+draft = false
 title = "Dependabot"
 +++
 

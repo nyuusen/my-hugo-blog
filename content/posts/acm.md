@@ -1,6 +1,6 @@
 +++
 date = "2024-11-27T22:55:34+09:00"
-draft = true
+draft = false
 title = "AWS Certificate Manager"
 +++
 

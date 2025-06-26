@@ -1,6 +1,6 @@
 +++
 date = "2024-08-14T09:00:11+09:00"
-draft = true
+draft = false
 title = "## オブザーバビリティ"
 +++
 

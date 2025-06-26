@@ -1,6 +1,6 @@
 +++
 date = "2024-06-11T21:18:58+09:00"
-draft = true
+draft = false
 title = "イベント駆動型アーキテクチャ"
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = "2025-02-28T23:13:29+09:00"
-draft = true
+draft = false
 title = "API Gateway + Lambda"
 +++
 

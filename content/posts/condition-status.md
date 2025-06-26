@@ -1,6 +1,6 @@
 +++
 date = "2025-02-15T22:03:42+09:00"
-draft = true
+draft = false
 title = "GitHubActionsでジョブ実行の条件に指定できるステータスの動作検証"
 +++
 

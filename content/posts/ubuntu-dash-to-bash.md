@@ -1,6 +1,6 @@
 +++
 date = "2024-10-07T22:09:49+09:00"
-draft = true
+draft = false
 title = "ubuntu server(EC2)のデフォルトシェルをdashからbashに変更する"
 +++
 

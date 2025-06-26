@@ -1,6 +1,6 @@
 +++
 date = "2025-04-20T15:23:16+09:00"
-draft = true
+draft = false
 title = "CORS"
 +++
 

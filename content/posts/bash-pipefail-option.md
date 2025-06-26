@@ -1,6 +1,6 @@
 +++
 date = "2025-04-14T22:56:57+09:00"
-draft = true
+draft = false
 title = "Bashのpipefailオプションについて"
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = "2024-10-04T22:32:31+09:00"
-draft = true
+draft = false
 title = "リダイレクトについて"
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = "2025-02-19T22:26:30+09:00"
-draft = true
+draft = false
 title = "CloudFront + S3構成でCORSを設定する"
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = "2024-07-31T09:55:28+09:00"
-draft = true
+draft = false
 title = "基本情報技術者試験"
 +++
 

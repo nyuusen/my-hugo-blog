@@ -1,6 +1,6 @@
 +++
 date = "2025-06-23T23:26:25+09:00"
-draft = true
+draft = false
 title = "JavaScriptとTypeScriptとその周辺理解"
 +++
 
