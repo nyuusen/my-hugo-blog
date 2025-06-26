@@ -1,5 +1,5 @@
 baseURL = 'https://nyuusen.github.io/my-hugo-blog/'
-languageCode = 'en-us'
+languageCode = 'ja'
 title = 'nyuusen blog'
 theme = 'PaperMod'
 

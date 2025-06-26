@@ -116,7 +116,7 @@ AWS公式が運用・公開しているGitHubActionsワークフローには、�
 ざっくりな手順(理解用) GitHubとAWSが認証情報をやり取りできるように設定 具体的にはOpenID Connect AWS側でIAMロールを作成する GitHubActions側でIAMロールを指定してAssumeRoleを実行する AWS CLIを実行してとかではなく、[aws-actions/configure-aws-credentials]という便利なワークフローを使用する 具体的な手順 基本的なことは以下に書かれている。
 アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs 少し補足すると、AWS側では以下の設定が必要になる。
 IDプロバイダとしてGitHubを登録する(OpenID Connect) GitHubActionsが引き受けるIAMロール(それに紐付けるIAMポリシーも) 信頼関係の条件には、&#34;token.actions.githubusercontent.com:sub&#34;: &#34;repo:octo-org/octo-repo:ref:refs/heads/octo-branch&#34;のように指定することで、GitHubActionsからの引き受けを制限できる 参考 アマゾン ウェブ サービスでの OpenID Connect の構成 - GitHub Docs aws-actions/configure-aws-credentials OpenID Connect を使ったセキュリティ強化について - GitHub Docs OpenID Connectについて詳しく書かれている。 ">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-12-06T21:56:17+09:00">

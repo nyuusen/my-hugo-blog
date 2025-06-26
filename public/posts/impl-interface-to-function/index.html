@@ -129,7 +129,7 @@ package main import ( &#34;fmt&#34; &#34;net/http&#34; ) func helloHandler(w htt
 今回登場したhttp.HandlerFuncは、以下のように定義されている。
 type HandlerFunc func(http.ResponseWriter, *http.Request) func (f HandlerFunc) ServeHTTP(w http.ResponseWriter, r *http.Request) { f(w, r) } HandlerFuncという関数型に対し、ServeHTTPメソッドが実装されている。
 つまり、以下のhelloHandlerの実装時点＝HandlerFunc型の実装時点で自動的にServeHTTPというメソッドの実装が行われている。">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-04-02T23:32:55+09:00">

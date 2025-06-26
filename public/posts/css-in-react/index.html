@@ -106,7 +106,7 @@ vanilla-extractやLinaria、Kuma-UI
   <meta property="og:description" content="勉強会でCSS周りの話を聞いたので調べてみる。
 どのような種類があるか CSS （言わずもがな）
 ブラウザが直接解釈する（のでパフォーマンス良い） クラス名設計等のスコープ管理が難しいのと、コンポーネントベースの設計と相性が微妙 コンポーネントごとにスタイルを独立させたいが、純粋CSSだとそうもいかない どのスタイルがどのコンポーネントに対応しているかが追いづらい 使用されなくなったCSSが残り、肥大する可能性もある BEM等を採用してクラス名ルールを決めたり、CSS Modulesでローカルスコープ化したりやり方はあるが、JSではないので、モジュール化(import/export)を使用できないので、JSフレームワークとの相性はあまり良くないという意味 CSS in JS(ランタイム) JSファイル内でCSSを書く ランタイムでCSSを生成してDOMに注入する CSS文字列からパース処理を経てstyleタグを生成し、classNameをハッシュ関数等で作成しstyleタグを直接挿入し、コンポーネントにバインドする パース処理とDOMへの直接埋め込みという負荷の大きい処理をランタイムで行うことになりオーバーヘッドが大きい サーバー側でコンポーネントがレンダリング処理が行われるためにDOMアクセスができないので、ServerComponentでは動作しない styled-components, Emotion等 ゼロランタイムCSSとの比較で、ランタイムCSS in JSと呼ぶこともある ゼロランタイムCSS 書き方はCSS in JSだが、ビルド時に純粋CSSを出力する JS実行時にスタイルを処理しないので「ゼロランタイム」と呼ばれている 純粋CSSなので、ブラウザがそのまま解釈可能、パフォーマンスが高い CSS in JSの実装面の良い所である型安全やスコープ管理が使える ステートの状態でcolorが変わるようなものは、ClientComponentとしてランタイムでスタイリングが当てられる（なるべくこの処理を減らした方がパフォーマンスが良い） vanilla-extractやLinaria、Kuma-UI 参考 ゼロランタイムCSS in JSとは？結局、何を使えばいい？- フロントエンドの現在 - ゼロランタイムUIコンポーネントライブラリ「Kuma UI」の紹介 日本人の方が作成したゼロランタイムCSS in JSライブラリ ">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-04-21T06:49:42+09:00">

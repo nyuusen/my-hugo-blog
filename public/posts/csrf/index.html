@@ -79,7 +79,7 @@ Cookieだと自動送信されてしまう
   <meta property="og:site_name" content="nyuusen blog">
   <meta property="og:title" content="CSRF(Cross Site Request Forgery)">
   <meta property="og:description" content="CSRFとは？ 認証済みユーザーが勝手にリクエストを送られる 例えば、A銀行のサイトがあり、Cookieにセッションを保持した状態で、別の悪意あるサイトに遷移した際に勝手にそのセッションを用いて、A銀行サーバーにリクエストを送ってしまう（勝手に送金されるとか..） Forgeryは「偽造」という意味 対策 リクエスト元を制御: CookieのSameSite属性 StrictもしくはLaxを設定することで、クロスサイトでのCookie送信を防止する リクエスト元を検証: CSRFトークン サーバー側で発行したトークンをフォームに埋め込む クライアントからのリクエストにそのトークンがあるかを確認し、リクエストの妥当性をチェック 認証トークンを送らせない: Authorizationヘッダを利用 Cookieだと自動送信されてしまう 代わりにAuthorizationヘッダを利用すればブラウザが自動送信しないため、CSRF攻撃は成立しない ">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-04-28T23:15:14+09:00">

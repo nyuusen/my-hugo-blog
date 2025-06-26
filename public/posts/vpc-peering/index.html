@@ -122,7 +122,7 @@ VPC ピア機能とは - Amazon Virtual Private Cloud
 料金 接続の確立には料金かからない AZ内での接続でのデータ通信も料金かからない ただし、異なるAZやリージョン間でのデータ通信には料金が発生する VPC ピア機能とは - Amazon Virtual Private Cloud VPCピアリング接続の構築手順 詳細はVPC ピアリングのプロセス、ライフサイクル、制限 - Amazon Virtual Private Cloudに記載されている。
 アカウントAのVPCからアカウントBにVPCに接続する前提だと、ざっくりと以下の流れ。
 アカウントAでVPCピアリングを作成 この時に接続先としてアカウントBのVPCを選択する 作成したら「承諾の保留中」というステータスになる アカウントAのVPCはリクエスタという扱いになる アカウントBで該当のピアリング接続を選択し「リクエストを承諾」を選択する アカウントAの対象VPCのルートテーブルを更新する ターゲットには「ピアリング接続」を選択し、送信先には接続先VPCのCIDRを指定する アカウントBの対象VPCのルートテーブルを更新する アカウントAでの設定の逆を設定する VPC ピアリング接続のルートテーブルを更新する - Amazon Virtual Private Cloud アカウントBで対象リソースのセキュリティグループを変更する アカウントA側のリソースにアタッチしているセキュリティグループorアカウントAのVPCのCIDR 前者の方が狭く絞れる分、セキュリティ性は高い ちなみに、両方のVPCが同じリージョンにある場合のみ、相手のVPCのセキュリティグループを参照できる アカウントAのVPCのリソースから、アカウントBのリソースへ接続する ルートテーブルに従って、ピアリング接続で接続できる 注意点 複数のVPCピアリング接続はできない(必ず1対1である必要がある/参考) プライベートIPで名前解決を行うので、それぞれのVPCでCIDRが重複してはいけない(参考) 役立つシーン VPC跨ぎのデータ取得や移行など ">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-12-04T19:30:17+09:00">

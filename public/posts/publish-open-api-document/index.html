@@ -107,7 +107,7 @@ jobs:
 OpenAPIで記述されたyamlファイルをredocly(npmパッケージ)でhtmlを生成 gh-pagesブランチにコミット&amp;プッシュするワークフローを作成 前提として、gh-pagesブランチへのコミット&amp;プッシュされることでGitHubPagesにデプロイされる設定をしている
 実装したコード 実装したコードの最終形は以下。
 name: Publish API doc # トリガーは以下の1もしくは2どちらかを有効(コメント解除)する # 1.手動実行のトリガーを設定 on: workflow_dispatch # 2.mainへのmergeとopenapi.ymlの変更があれば実行されるトリガーを設定 # on: # push: # branches: # - main # paths: # - &#39;openapi.yml&#39; jobs: publish-api-docs: runs-on: ubuntu-latest steps: - name: Checkout branch uses: actions/checkout@v4 - name: Setup node uses: actions/setup-node@v4 - name: Generate API doc run: npx @redocly/cli build-docs ./openapi.yml -o docs/api.html - name: Publish API doc run: | git config user.name &#34;github-actions[bot]&#34; git config user.email &#34;github-actions[bot]@users.noreply.github.com&#34; git checkout -b gh-pages git add -f ./docs/api.html git commit -m &#34;publish api doc&#34; git push -f -u origin gh-pages ※本コードを実装したリポジトリ: udemy-github-actions">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-06-16T00:07:56+09:00">
